@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendComics", "src\SendComics\SendComics.csproj", "{550BB0F4-B528-4885-AEC8-C025374BECA7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7341FD8-ACB6-4889-961D-CFEC2A4E0D1A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A58F09D-F10D-433A-BF3B-C42E95AA0002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{267D323F-EDBB-43A9-8D0E-31A906086893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendComics.IntegrationTests", "tests\SendComics.IntegrationTests\SendComics.IntegrationTests.csproj", "{326B2F69-8438-404B-9681-CF19AADE7C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,17 @@ Global
 		{550BB0F4-B528-4885-AEC8-C025374BECA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550BB0F4-B528-4885-AEC8-C025374BECA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550BB0F4-B528-4885-AEC8-C025374BECA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326B2F69-8438-404B-9681-CF19AADE7C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326B2F69-8438-404B-9681-CF19AADE7C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326B2F69-8438-404B-9681-CF19AADE7C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326B2F69-8438-404B-9681-CF19AADE7C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{550BB0F4-B528-4885-AEC8-C025374BECA7} = {8A58F09D-F10D-433A-BF3B-C42E95AA0002}
+		{326B2F69-8438-404B-9681-CF19AADE7C31} = {267D323F-EDBB-43A9-8D0E-31A906086893}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED369CA2-EE5C-4069-95D3-0589BA4C6AB4}

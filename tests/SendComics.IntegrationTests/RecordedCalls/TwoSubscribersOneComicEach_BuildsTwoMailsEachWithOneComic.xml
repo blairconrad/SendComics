@@ -1,0 +1,3220 @@
+<?xml version="1.0"?>
+<ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecordedCall>
+    <Method>System.String GetContent(System.String)</Method>
+    <ReturnValue xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;title&gt;9 Chickweed Lane - 9 Chickweed Lane by Brooke McEldowney for Apr 8, 2018 | Read Comic Strips at GoComics.com&lt;/title&gt;
+    &lt;!--- MOBILE SCALE --&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=1, user-scalable=yes"/&gt;
+	&lt;meta http-equiv="cleartype" content="on" /&gt;
+	&lt;meta http-equiv="Content-type" content="text/html;charset=UTF-8"&gt;
+	&lt;meta name='HandheldFriendly' content='True' /&gt;
+	&lt;meta name='MobileOptimized' content='320' /&gt;
+
+  &lt;meta name="csrf-param" content="authenticity_token" /&gt;
+&lt;meta name="csrf-token" content="zL6sjpDqhZhr1v033k8vdSjvOQm3dWDdrclK0asnIpWJzxz5llHbwVMo1pRqiKN18LgU56kNO2/Wr2IQtsC0aQ==" /&gt;
+
+        &lt;!-- Dynamic General Tags --&gt;
+&lt;!-- &lt;link rel="image_src" href="" /&gt; --&gt;
+&lt;meta name="keywords" content="Comics, editorial cartoons, email comics, comic strips" /&gt;
+&lt;meta name="description" content="9 Chickweed Lane by Brooke McEldowney for Apr 8, 2018 | GoComics.com" /&gt;
+
+&lt;!-- Feature Item Sharing --&gt;
+&lt;!-- Facebook Open Graph Tags --&gt;
+&lt;meta property="og:url" content="http://www.gocomics.com/9chickweedlane/2018/04/08/" /&gt;
+&lt;meta property="og:type" content="article" /&gt;
+&lt;meta property="og:title" content="9 Chickweed Lane by Brooke McEldowney for Apr 8, 2018 | GoComics.com" /&gt;
+&lt;meta property="og:image" content="http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d" /&gt;
+&lt;meta property="og:image:height" content="625" /&gt;
+&lt;meta property="og:image:width" content="900" /&gt;
+&lt;meta property="og:description" content="Apr 8, 2018" /&gt;
+&lt;meta property="og:site_name" content="GoComics" /&gt;
+&lt;meta property="fb:app_id" content="238155399647243" /&gt;
+
+&lt;!-- Dynamic Twitter Card Meta Tags --&gt;
+&lt;meta name="twitter:card" content="photo"&gt;
+&lt;meta name="twitter:site" content="@GoComics"&gt;
+&lt;meta name="twitter:url" content="http://www.gocomics.com/9chickweedlane/2018/04/08/"&gt;
+&lt;meta name="twitter:title" content="9 Chickweed Lane by Brooke McEldowney for Apr 8, 2018 | GoComics.com"&gt;
+&lt;meta name="twitter:description" content="Apr 8, 2018"&gt;
+&lt;meta name="twitter:image" content="http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d"&gt;
+
+&lt;!-- Other OG Tags --&gt;
+&lt;meta property="article:published_time" content="2018-04-08" /&gt;
+&lt;meta property="article:author" content="Brooke McEldowney" /&gt;
+&lt;meta property="article:section" content="comic" /&gt;
+&lt;meta property="article:tag" content="" /&gt;
+
+
+  &lt;!-- Pinterest Verification --&gt;
+  &lt;meta name="p:domain_verify" content="2daa671e72ed57aab721dcad175fc876"/&gt;
+
+  &lt;!-- Webmaster Verification Tag --&gt;
+  &lt;meta name="msvalidate.01" content="CA2B093E89A42FE68A7281E53F12B64D" /&gt;
+  &lt;meta name="google-site-verification" content="iggzxjEv3099Ou5--yot5AOC_AcxqiS1g8kCGLfpSi8" /&gt;
+
+  &lt;!-- Beginning of AMU Marketing Silverpop Tracking --&gt;
+  &lt;meta name="com.silverpop.brandeddomains" content="www.pages02.net,ampkids.com,amureprints.com,andrewsmcmeel.com,calvinandhobbes.com,dilbert.com,epicbignate.com,gocomics.com,puzzlesociety.com,uexpress.com,wonderword.universaluclick.com" /&gt;
+  &lt;meta name="com.silverpop.cothost" content="pod2.ibmmarketingcloud.com" /&gt;
+  &lt;!-- End of AMU Marketing Silverpop Tracking --&gt;
+  	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-57x57.png" sizes="57x57" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-60x60.png" sizes="60x60" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-72x72.png" sizes="72x72" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-76x76.png" sizes="76x76" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-114x114.png" sizes="114x114" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-120x120.png" sizes="120x120" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-144x144.png" sizes="144x144" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-152x152.png" sizes="152x152" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="//assets.gocomics.com/assets/favicons/apple-icon-180x180.png" sizes="180x180" /&gt;
+	&lt;link rel="icon" type="image/png" href="//assets.gocomics.com/assets/favicons/favicon-32x32.png" sizes="32x32" /&gt;
+	&lt;link rel="icon" type="image/png" href="//assets.gocomics.com/assets/favicons/favicon-96x96.png" sizes="96x96" /&gt;
+	&lt;link rel="icon" type="image/png" href="//assets.gocomics.com/assets/favicons/favicon-16x16.png" sizes="16x16" /&gt;
+	&lt;link rel="manifest" href="//assets.gocomics.com/assets/favicons/manifest.json" /&gt;
+	&lt;meta name="msapplication-TileColor" content="#ffffff" /&gt;
+	&lt;meta name="msapplication-TileImage" content="//assets.gocomics.com/assets/favicons/ms-icon-144x144.png" /&gt;
+	&lt;meta name="theme-color" content="#ffffff" /&gt;
+  &lt;link rel="stylesheet" media="all" href="//assets.gocomics.com/assets/application-gc-4133387c02004d123cdb3ae5d402a051d2abece04bee2b12b589b5007bae0d92.css" /&gt;
+  &lt;link rel="stylesheet" media="screen" href="//assets.gocomics.com/assets/application-gc-plugins-62a576335b03b9517140716c19bd5e81e37ec788439bab97c965273921ec3ff9.css" /&gt;
+  &lt;script src="//assets.gocomics.com/assets/application-gc-preload-9582bae266a73a0f6a6f12091d41d1f80765678b69db4938eb38fc6d73928a5a.js"&gt;&lt;/script&gt;
+
+      &lt;script&gt;
+  // Global variable for advertising config
+  var gocomics_ads = gocomics_ads || {};
+
+  // Set ad channel
+  gocomics_ads.adChannel = 'a';
+
+
+  gocomics_ads.getCookie = function (name) {
+      var cookieName = name + '=';
+      var cookieArr = document.cookie.split(';');
+      for(var i = 0; i &lt; cookieArr.length; i++){
+          var curCookie = cookieArr[i];
+          while (curCookie.charAt(0)==' ') curCookie = curCookie.substring(1,curCookie.length);
+          if(curCookie.indexOf(cookieName) == 0){
+              return curCookie.substring(cookieName.length, curCookie.length);
+          }
+      }
+      return "";
+  };
+
+  gocomics_ads.getCookieField = function (cookie, field) {
+      var fieldName = field + '+';
+      var cookieArr = cookie.split('!');
+      for(var i = 0; i &lt; cookieArr.length; i++){
+          var curCookie = cookieArr[i];
+          while (curCookie.charAt(0)==' ') curCookie = curCookie.substring(1,curCookie.length);
+          if(curCookie.indexOf(fieldName) == 0){
+              return curCookie.substring(fieldName.length, curCookie.length);
+          }
+      }
+      return "";
+  };
+
+  gocomics_ads.setCookie = function (name, kvArr, expire) {
+      var value = [];
+      var i;
+      for (i = 0; i &lt; kvArr.length; i++){
+          var fieldName = kvArr[i][0];
+          var fieldValue = kvArr[i][1];
+          value.push(fieldName + '+' + fieldValue);
+      }
+      value.push('expire' + '+' + expire);
+
+      value = value.join('!');
+
+      var cookie = [
+          name + '=' + value,
+          'expires=' + expire,
+          'path=' + '/'
+      ];
+
+      document.cookie = cookie.join(';');
+
+  };
+
+  //Advertising pageview cookie
+  gocomics_ads.setPageviewCookie = function () {
+      var cookieValuePV = gocomics_ads.getCookie('amu-pv');
+      var GPTPageview, expireDatePV;
+
+      if(cookieValuePV.length &lt; 1){
+          expireDatePV = new Date();
+          expireDatePV.setDate(expireDatePV.getDate() + 1);
+          expireDatePV.toUTCString();
+          GPTPageview = 1;
+      } else {
+          expireDatePV = gocomics_ads.getCookieField(cookieValuePV, 'expire');
+          GPTPageview = parseInt(gocomics_ads.getCookieField(cookieValuePV, 'pv'), 10)+1;
+      }
+
+      gocomics_ads.setCookie('amu-pv', [['pv', GPTPageview]], expireDatePV);
+      return GPTPageview;
+  };
+
+
+  //Advertising A/B test cookie
+  gocomics_ads.setChannelCookie = function () {
+      var cookieValueAB = gocomics_ads.getCookie('amu-ab');
+      var GPTChannelAB, expireDateAB, channelNumber;
+
+      if(cookieValueAB.length &lt; 1){
+          expireDateAB = new Date();
+          expireDateAB.setDate(expireDateAB.getDate() + 1);
+          expireDateAB.toUTCString();
+          channelNumber = Math.floor(Math.random() * 100) + 1;
+          if(channelNumber &gt; 20){
+              GPTChannelAB = 'a';
+          } else {
+              GPTChannelAB = 'b';
+          }
+          gocomics_ads.setCookie('amu-ab', [['channel', GPTChannelAB]], expireDateAB);
+      } else {
+          GPTChannelAB = gocomics_ads.getCookieField(cookieValueAB, 'channel');
+      }
+      return GPTChannelAB;
+  };
+
+  gocomics_ads.updatePageview = function () {
+      gocomics_ads.adPageview = gocomics_ads.setPageviewCookie();
+      Object.keys(gocomics_ads.adSlotConfig).forEach(function(key) {
+          console.log(gocomics_ads.adSlotConfig[key]);
+          gocomics_ads.adSlotConfig[key].targeting['pv'] = gocomics_ads.adPageview;
+      });
+  };
+
+  gocomics_ads.getPageview = function () {
+      return gocomics_ads.adPageview;
+  };
+
+  // Set pageview
+  gocomics_ads.adPageview = gocomics_ads.setPageviewCookie();
+
+
+  // Set the ad slot path
+  gocomics_ads.adSlotPath = '/19196947/gocomics.com/comic/cw';
+
+
+
+  // Basic page information
+  gocomics_ads.browserWidth = "CSS1Compat" == window.document.compatMode ? window.document.documentElement.clientWidth : window.document.body.clientWidth;
+  gocomics_ads.browserHeight = "CSS1Compat" == window.document.compatMode ? window.document.documentElement.clientHeight : window.document.body.clientHeight;
+  gocomics_ads.pageDomain = window.location.hostname;
+  gocomics_ads.pagePath = window.location.pathname + location.search + location.hash;
+
+
+/*  gocomics_ads.findAds = function(startingPoint, adSelector){
+      // Starting point
+      var start = document.querySelectorAll(startingPoint);
+
+      // Find all ads after the starting point
+      var ads, adPlaceholders;
+      if(start.length !== 0) {
+          ads = $(start).find(adSelector);
+          adPlaceholders = $(start).find(adSelector+'-placeholder');
+      } else {
+          ads = document.querySelectorAll(adSelector);
+          adPlaceholders = document.querySelectorAll(adSelector+'-placeholder');
+      }
+
+      ads = Array.prototype.slice.call(ads);
+      var visibleAds = ads.filter(gocomics_ads.isVisible);
+
+      var adPlaceholderIds = adPlaceholders.map(gocomics_ads.getPlaceholderInfo);
+      var adIds = visibleAds.map(gocomics_ads.getElementInfo);
+
+      gocomics_ads.adSlots = adIds.concat(adPlaceholderIds);
+      return gocomics_ads.adSlots;
+  };*/
+
+
+  gocomics_ads.findAds = function(className){
+      var ads = $(document).find('.' + className);
+      ads.removeClass(className);
+      ads = Array.prototype.slice.call(ads);
+      var visibleAds = ads.filter(gocomics_ads.isVisible);
+
+      var adPlaceholders = $(document).find('.' + className + '-placeholder');
+      adPlaceholders.removeClass(className+'-placeholder');
+      adPlaceholders = Array.prototype.slice.call(adPlaceholders);
+
+      var adPlaceholderIds = adPlaceholders.map(gocomics_ads.getPlaceholderInfo);
+      var adIds = visibleAds.map(gocomics_ads.getElementInfo);
+
+      gocomics_ads.adSlots = adIds.concat(adPlaceholderIds);
+      return gocomics_ads.adSlots;
+  };
+
+  gocomics_ads.isVisible = function(element){
+      return !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length || element.getAttribute('data-visibility-exception') == 'true');
+  };
+
+  gocomics_ads.getElementId = function(element){
+      return element.id;
+  };
+
+  gocomics_ads.getElementAdType = function(element) {
+      return $(element).data('ad-type');
+  };
+
+  gocomics_ads.getPlaceholderId = function(element){
+      return element.getAttribute('data-ad-id');
+  };
+
+  gocomics_ads.getElementInfo = function(element) {
+      return {id: gocomics_ads.getElementId(element), adType: gocomics_ads.getElementAdType(element)};
+  };
+
+  gocomics_ads.getPlaceholderInfo = function(element) {
+      return {id: gocomics_ads.getPlaceholderId(element), adType: gocomics_ads.getElementAdType(element)};
+  };
+
+  gocomics_ads.getSizeString = function(sizeArray) {
+      return sizeArray[0] + "x" + sizeArray[1];
+  };
+
+  gocomics_ads.findBreakpoint = function(breakpointsArray) {
+      var maxBpt, curBpt;
+      for (var i = 0; i &lt; breakpointsArray.length; i++) {
+          curBpt = breakpointsArray[i];
+          if (gocomics_ads.browserWidth &gt;= curBpt.minWidth &amp;&amp; gocomics_ads.browserHeight &gt;= curBpt.minHeight){
+              if(!maxBpt || (curBpt.minWidth &gt;= maxBpt.minWidth &amp;&amp; curBpt.minHeight &gt;= maxBpt.minHeight)){
+                  maxBpt = curBpt;
+              }
+          }
+      }
+      return maxBpt
+  };
+
+
+  // Ad slot configuration
+  gocomics_ads.adSlotConfig = {};
+  gocomics_ads.adSlotConfig['leaderboard_home'] = {
+      name: 'leaderboard_home',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'top',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 970,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['leaderboard_home'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['leaderboard_home'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['leaderboard_feature_item'] = {
+      name: 'leaderboard_feature_item',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'top',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 1310,
+              minHeight: 850,
+              sizes: [[970, 250], [970, 90], [728, 90]]
+          },
+          {
+              minWidth: 1310,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 992,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 970,
+              minHeight: 850,
+              sizes: [[970, 250], [970, 90], [728, 90]]
+          },
+          {
+              minWidth: 970,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['leaderboard_feature_item'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['leaderboard_feature_item'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['leaderboard_feature_overview'] = {
+      name: 'leaderboard_feature_overview',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'top',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 1310,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 992,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 970,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['leaderboard_feature_overview'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['leaderboard_feature_overview'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['leaderboard'] = {
+      name: 'leaderboard',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'top',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 970,
+              minHeight: 850,
+              sizes: [[970, 250], [970, 90], [728, 90]]
+          },
+          {
+              minWidth: 970,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['leaderboard'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['leaderboard'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['banner_bot'] = {
+      name: 'banner_bot',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'bot',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: []
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['banner_bot'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['banner_bot'].breakpoints);
+
+
+  gocomics_ads.adSlotConfig['banner_explore1'] = {
+      name: 'banner_explore1',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'mid_1',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 1145,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['banner_explore1'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['banner_explore1'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['banner_explore2'] = {
+      name: 'banner_explore2',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'mid_2',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 1145,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['banner_explore2'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['banner_explore2'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['banner1'] = {
+      name: 'banner1',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'mid_1',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 992,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 970,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['banner1'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['banner1'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['banner2'] = {
+      name: 'banner2',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'mid_2',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 992,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 970,
+              minHeight: 0,
+              sizes: [[970, 90], [728, 90]]
+          },
+          {
+              minWidth: 728,
+              minHeight: 0,
+              sizes: [[728, 90]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[320, 50]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['banner2'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['banner2'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['banner_lock'] = {
+      name: 'banner_lock',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'locked',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 768,
+              minHeight: 0,
+              sizes: []
+          },
+          // TODO: Figure out what screen height restriction should be
+          {
+              minWidth: 0,
+              minHeight: 300,
+              sizes: [[320, 50]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: []
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['banner_lock'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['banner_lock'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['rectangle1'] = {
+      name: 'rectangle1',
+      targeting: {
+          'fcode': 'cw',
+          'pos': '1',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[300, 250]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['rectangle1'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['rectangle1'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['rectangle2'] = {
+      name: 'rectangle2',
+      targeting: {
+          'fcode': 'cw',
+          'pos': '2',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[300, 250]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['rectangle2'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['rectangle2'].breakpoints);
+
+  gocomics_ads.adSlotConfig['tower'] = {
+      name: 'tower',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'right',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 992,
+              minHeight: 750,
+              sizes: [[300, 600], [160, 600], [300, 250]]
+          },
+          {
+              minWidth: 992,
+              minHeight: 0,
+              sizes: [[300, 250]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['tower'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['tower'].breakpoints);
+
+
+
+
+  gocomics_ads.adSlotConfig['tower_comments'] = {
+      name: 'tower_comments',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'comments',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 992,
+              minHeight: 700,
+              sizes: [[300, 600], [160, 600], [300, 250]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[300, 250]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['tower_comments'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['tower_comments'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['tower_spotlight'] = {
+      name: 'tower_spotlight',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'right',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[300, 250]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['tower_spotlight'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['tower_spotlight'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['tower_nav'] = {
+      name: 'tower_nav',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'left',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 1100,
+              minHeight: 700,
+              sizes: [[300, 600], [160, 600], [300, 250]],
+              bidders: []
+          },
+          {
+              minWidth: 1100,
+              minHeight: 0,
+              sizes: [[300, 250]],
+              bidders: []
+          },
+          {
+              minWidth: 992,
+              minHeight: 700,
+              sizes: [[160, 600]],
+              bidders: []
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['tower_nav'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['tower_nav'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['tower_explore'] = {
+      name: 'tower_explore',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'right',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 992,
+              minHeight: 700,
+              sizes: [[300, 600], [160, 600], [300, 250]]
+          },
+          {
+              minWidth: 992,
+              minHeight: 0,
+              sizes: [[300, 250]]
+          },
+          {
+              minWidth: 768,
+              minHeight: 700,
+              sizes: [[160, 600]]
+          },
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['tower_explore'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['tower_explore'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['sharethrough_home1'] = {
+      name: 'sharethrough_home1',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'sharethrough1',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel,
+          'strnativekey': 'ToUYV7H9xW7PLXQmvtACxrh1'
+      },
+      breakpoints: [
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[1, 1]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['sharethrough_home1'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['sharethrough_home1'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['sharethrough_home2'] = {
+      name: 'sharethrough_home2',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'sharethrough2',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel,
+          'strnativekey': 'ToUYV7H9xW7PLXQmvtACxrh1'
+      },
+      breakpoints: [
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[1, 1]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['sharethrough_home2'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['sharethrough_home2'].breakpoints);
+
+
+
+  gocomics_ads.adSlotConfig['tynt'] = {
+      name: 'tynt',
+      targeting: {
+          'fcode': 'cw',
+          'pos': 'tynt',
+          'pv': gocomics_ads.getPageview(),
+          'channel': gocomics_ads.adChannel
+      },
+      breakpoints: [
+          {
+              minWidth: 0,
+              minHeight: 0,
+              sizes: [[1, 1]]
+          }
+      ]
+  };
+  gocomics_ads.adSlotConfig['tynt'].breakpoint = gocomics_ads.findBreakpoint(gocomics_ads.adSlotConfig['tynt'].breakpoints);
+
+
+
+  document.addEventListener("DOMContentLoaded", function (event) {
+      gocomics_ads.findAds('js-ad');
+  });
+
+&lt;/script&gt;
+
+&lt;script src="https://plus.addkt.com/gocomics.js"&gt;&lt;/script&gt;
+
+
+  &lt;!-- BEGIN GTM Core Data Layer --&gt;
+&lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'dataLayer-loaded',
+        'language': 'english',
+        'pageType': 'comic strips',
+
+        'featureName': '9 chickweed lane',
+        'featureCode': 'cw',
+        'featureType': 'comic',
+        'featureFormat': 'print',
+
+
+        'advertisingChannel': 'a',
+
+        // User variables
+
+        'visitType': 'new',
+
+        'loginStatus': 'logged out'
+    });
+&lt;/script&gt;
+&lt;!-- END GTM Core Data Layer --&gt;
+  &lt;!-- Google Tag Manager HEAD? --&gt;
+&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-PN7JV4B');&lt;/script&gt;
+&lt;!-- End Google Tag Manager --&gt;
+
+  &lt;script type="text/javascript"&gt;
+    //Set markup and styling here
+    window.cookieconsent_options = {
+        container: '#cookieconsent-container',
+        learnMore: 'More info',
+        link: "/help/privacy",
+        //If you wish to use your own CSS instead, specify the URL of your CSS file. e.g. styles/my_custom_theme.css.
+        //This can be a relative or absolute URL.
+        //To stop Cookie Consent from loading CSS at all, specify false
+        //IE8 Styles need to be duplicated in app specific css overrides /assets/stylesheets/ie/ie8.css
+        theme: false,
+        markup: [
+            '&lt;div&gt;',
+            '&lt;style type="text/css"&gt;.cc_banner-wrapper {height: 70px; } .cc_container {position:static; width:100%; left:0; top:0; right:0; overflow:hidden; background-color:#666; } .cookie-choices-info {margin:0; padding:0; text-align:center; color:#fff; line-height:140%; padding:15px 0; font-family:roboto,Arial } .cookie-choices-info .cookie-choices-text {display:inline-block; vertical-align:middle; font-size:16px; margin:10px; color:#fefefe; max-width:800px; text-align:center } .cookie-choices-info .cookie-choices-buttons {display:inline-block; vertical-align:middle; white-space:nowrap; margin:10px } .cookie-choices-info .cookie-choices-button:hover {color:#fff; background-color:#000 } .cookie-choices-info .cookie-choices-button {background:#444; font-weight:700; text-transform:UPPERCASE; white-space:nowrap; color:#eee; margin-left:8px; padding:10px; border-radius:3px; text-decoration:none } @media screen and (max-width: 851px) {.cc_banner-wrapper {height:110px } } @media screen and (max-width: 588px) {.cc_banner-wrapper {height:140px } } @media screen and (max-width: 327px) {.cc_banner-wrapper {height:160px } } @media print {.cc_banner-wrapper,.cc_container {display:none } }&lt;/style&gt;',
+            '&lt;div class="cc_banner-wrapper {{containerClasses}}"&gt;',
+            '&lt;div class="cc_banner cc_container cc_container--open"&gt;',
+            '&lt;div class="cookie-choices-info"&gt;&lt;div class="cookie-choices-inner"&gt;&lt;span class="cookie-choices-text"&gt;{{options.message}}&lt;/span&gt;&lt;span class="cookie-choices-buttons"&gt; &lt;a data-cc-if="options.link" class="cookie-choices-button" target="_blank" href="{{options.link || "#null"}}"&gt;{{options.learnMore}}&lt;/a&gt; &lt;a id="cookieChoiceDismiss" href="#null" data-cc-event="click:dismiss"  class="cookie-choices-button"&gt;{{options.dismiss}}&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;',
+            '&lt;/div&gt;',
+            '&lt;/div&gt;',
+            '&lt;/div&gt;'
+        ],
+        cookieName: 'gocomics_cookieconsent_dismissed',
+        readystate: 'interactive'
+    };
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body role="document" data-controller="feature_items" data-action="feature-lander" class="js-gc-page-item gc-page-item gc-profile-casual 9chickweedlane"&gt;
+
+&lt;!-- All Server-Side Analytic Values or Markup (No Script Calls or Heavy Client-Side Scripting) --&gt;
+
+&lt;!-- Google Tag Manager (noscript) --&gt;
+&lt;noscript&gt;&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN7JV4B" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;&lt;/noscript&gt;
+&lt;!-- End Google Tag Manager (noscript) --&gt;
+
+
+
+
+
+
+
+&lt;!-- TEST:  --&gt;
+
+
+
+
+&lt;script type="text/javascript"&gt;
+    amuGc.env = "production";
+    amuGc.displayAds = true;
+    amuGc.uaCategoryGroup = 'comic strips';
+    amuGc.uaSubcategoryGroup = '';
+    amuGc.uaTypeGroup = 'print';
+    amuGc.uaClientName = "gocomics";
+    amuGc.uaFeatureName = '9 chickweed lane';
+    amuGc.uaUserType = 'casual';
+    amuGc.uaUserId = '';
+    amuGc.uaUserPromo = '';
+    amuGc.qcLabel = 'comic.9chickweedlane'
+&lt;/script&gt;
+&lt;!-- Google Universal Analytics End --&gt;
+
+&lt;div class="amu-container-global js-amu-container-global"&gt;
+  &lt;nav class='navbar navbar-expand-lg navbar-light gc-nav-primary'&gt;
+
+  &lt;!--GoComics Hamburger - Collapsed State Only --&gt;
+  &lt;button class='navbar-toggler collapsed gc-hamburger' type='button' data-toggle='collapse' data-target='.gc-nav-primary__left-menu' aria-controls='gc-nav-primary__left-menu' aria-expanded='false' aria-label='Toggle navigation'&gt;
+
+    &lt;div class='gc-hamburger__icon'&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+  &lt;/button&gt;
+
+  &lt;!--GoComics Logo--&gt;
+  &lt;a title="GoComics Home" class="navbar-brand gc-logo" data-link-type="header-nav-tier-1" href="http://www.gocomics.com/"&gt;
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" class="gc-logo__default" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="161 314.5 934.6 165.5" style="enable-background:new 161 314.5 934.6 165.5;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"&gt;
+	&lt;path d="M437.5,456.8h-23.6v-7.2c-6.3,5.1-16.6,9.3-30.5,9.3c-37.2,0-62.8-25.4-62.8-63.3c0-34.7,25-63.1,62.8-63.1
+		c25.7,0,41.6,11.1,50.1,24.2l-19,14.1c-5.6-7.6-14.8-15.5-31-15.5c-22,0-37.2,16.6-37.2,40.4c0,24.7,16.2,40.7,38.3,40.7
+		c14.1,0,24-5.5,29.1-10.8v-13.9h-19.9v-20.5h43.9v65.6H437.5z"&gt;&lt;/path&gt;
+	&lt;path class="g-path" d="M497,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C447.8,381.9,468.7,360.9,497,360.9z M497.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C471.5,425.6,482.1,437.1,497.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o-path" d="M659.8,443.1c-9.3,9.2-22.7,16-40.4,16c-39.3,0-64-27.2-64-63.1c0-35.8,25.4-63.5,63.5-63.5c17.5,0,30.9,5.6,40.6,14.3
+		L645,365.2c-5.6-4.9-14.6-9.9-25.9-9.9c-23.6,0-37.9,17.6-37.9,40.6c0,23.1,15.3,40.4,38.3,40.4c12.3,0,21-5.8,26.1-10.2
+		L659.8,443.1z"&gt;&lt;/path&gt;
+	&lt;path class="c-path" d="M708,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C658.8,381.9,679.6,360.9,708,360.9z M708.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C682.4,425.6,693,437.1,708.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o-path" d="M839.9,456.8h-23.6v-59.4c0-9-4.2-15-12.5-15c-8.5,0-12.9,6-12.9,15.3v59.1h-23.6v-94.3h23.6v7.1c2.5-3,8.3-8.1,20.3-8.1
+		c11.1,0,18.2,4.2,22.4,10.2c4.2-4.9,11.3-10.2,23.6-10.2c23.3,0,31.7,15,31.7,33.1v62.2h-23.6v-59.4c0-9.2-4.2-15-12.7-15
+		s-12.7,6.5-12.7,15V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="m-path" d="M902.8,342.6c0-7.9,6.3-14.3,14.1-14.3c7.9,0,14.1,6.3,14.1,14.3c0,7.8-6.2,13.9-14.1,13.9
+		C909.2,356.5,902.8,350.3,902.8,342.6z M928.8,456.8h-23.6v-94.3h23.6V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="i-path" d="M1009.3,429.3l13,15.9c-5.6,6-16.8,13.2-33,13.2c-29.8,0-48.8-21.2-48.8-48.5c0-27.5,20.5-49,48.7-49
+		c17.1,0,27.5,6.9,33.2,12.7l-13.6,16.4c-3.9-3.7-10.1-7.8-19.4-7.8c-15.5,0-25.2,11.8-25.2,27.5c0,16.9,11.8,27.3,25.4,27.3
+		C999.1,437.1,1005.1,432.9,1009.3,429.3z"&gt;&lt;/path&gt;
+	&lt;path class="c2-path" d="M1060.1,396.4c4.2,1.2,8.1,1.9,12.9,3.4c15.2,4.6,22.6,12,22.6,29.1c0,19.2-15.9,29.3-34.4,29.3
+		c-26.1,0-34.2-15.3-33.7-31.7h22.6c0,6.7,2.3,12.7,11.5,12.7c6.2,0,11.1-3,11.1-8.5s-2.8-7.9-9.3-9.7c-5.1-1.4-9.2-2.3-14.3-4.2
+		c-13-4.8-19.6-13.6-19.6-27.9c0-15.9,13.4-27.5,32.3-27.5c19.9,0,31.7,10.1,31.9,29.8H1072c-0.2-7.2-3.5-11.5-10.8-11.5
+		c-5.6,0-9.3,3.2-9.3,7.9C1051.8,392.1,1054.5,394.8,1060.1,396.4z"&gt;&lt;/path&gt;
+	&lt;path class="s-path" d="M161,314.5v95c0,43.5,26.5,70.5,69.1,70.5c41.5,0,69.5-28.4,69.5-70.7v-94.8H161z M244.2,351c5.6,0,10.1,4.5,10.1,10.1
+		s-4.5,10.1-10.1,10.1s-10.1-4.5-10.1-10.1C234.2,355.5,238.7,351,244.2,351z M213.9,352.9c4.5,0,8.1,3.6,8.1,8.1s-3.6,8.1-8.1,8.1
+		s-8.1-3.6-8.1-8.1C205.8,356.6,209.4,352.9,213.9,352.9z M278.9,409.3c0,28.9-16.9,50.1-48.8,50.1c-33.1,0-48.5-19.9-48.5-49.9
+		v-57.2h11.1v57.2c0,12.6,3,22.2,8.9,28.7c6.1,6.7,15.7,10.1,28.5,10.1c24,0,37.8-14.2,37.8-39v-74.2H279v74.2H278.9z"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" class="gc-logo__wink" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="161 314.5 934.6 165.5" style="enable-background:new 161 314.5 934.6 165.5;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"&gt;
+	&lt;path class="face-path" d="M437.5,456.8h-23.6v-7.2c-6.3,5.1-16.6,9.3-30.5,9.3c-37.2,0-62.8-25.4-62.8-63.3c0-34.7,25-63.1,62.8-63.1
+		c25.7,0,41.6,11.1,50.1,24.2l-19,14.1c-5.6-7.6-14.8-15.5-31-15.5c-22,0-37.2,16.6-37.2,40.4c0,24.7,16.2,40.7,38.3,40.7
+		c14.1,0,24-5.5,29.1-10.8v-13.9h-19.9v-20.5h43.9v65.6H437.5z"&gt;&lt;/path&gt;
+	&lt;path class="g-path" d="M497,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C447.8,381.9,468.7,360.9,497,360.9z M497.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C471.5,425.6,482.1,437.1,497.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o-path" d="M659.8,443.1c-9.3,9.2-22.7,16-40.4,16c-39.3,0-64-27.2-64-63.1c0-35.8,25.4-63.5,63.5-63.5c17.5,0,30.9,5.6,40.6,14.3
+		L645,365.2c-5.6-4.9-14.6-9.9-25.9-9.9c-23.6,0-37.9,17.6-37.9,40.6c0,23.1,15.3,40.4,38.3,40.4c12.3,0,21-5.8,26.1-10.2
+		L659.8,443.1z"&gt;&lt;/path&gt;
+	&lt;path class="c-path" d="M708,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C658.8,381.9,679.6,360.9,708,360.9z M708.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C682.4,425.6,693,437.1,708.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o2-path" d="M839.9,456.8h-23.6v-59.4c0-9-4.2-15-12.5-15c-8.5,0-12.9,6-12.9,15.3v59.1h-23.6v-94.3h23.6v7.1c2.5-3,8.3-8.1,20.3-8.1
+		c11.1,0,18.2,4.2,22.4,10.2c4.2-4.9,11.3-10.2,23.6-10.2c23.3,0,31.7,15,31.7,33.1v62.2h-23.6v-59.4c0-9.2-4.2-15-12.7-15
+		s-12.7,6.5-12.7,15V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="m-path" d="M902.8,342.6c0-7.9,6.3-14.3,14.1-14.3c7.9,0,14.1,6.3,14.1,14.3c0,7.8-6.2,13.9-14.1,13.9
+		C909.2,356.5,902.8,350.3,902.8,342.6z M928.8,456.8h-23.6v-94.3h23.6V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="i-path" d="M1009.3,429.3l13,15.9c-5.6,6-16.8,13.2-33,13.2c-29.8,0-48.8-21.2-48.8-48.5c0-27.5,20.5-49,48.7-49
+		c17.1,0,27.5,6.9,33.2,12.7l-13.6,16.4c-3.9-3.7-10.1-7.8-19.4-7.8c-15.5,0-25.2,11.8-25.2,27.5c0,16.9,11.8,27.3,25.4,27.3
+		C999.1,437.1,1005.1,432.9,1009.3,429.3z"&gt;&lt;/path&gt;
+	&lt;path class="c-path" d="M1060.1,396.4c4.2,1.2,8.1,1.9,12.9,3.4c15.2,4.6,22.6,12,22.6,29.1c0,19.2-15.9,29.3-34.4,29.3
+		c-26.1,0-34.2-15.3-33.7-31.7h22.6c0,6.7,2.3,12.7,11.5,12.7c6.2,0,11.1-3,11.1-8.5s-2.8-7.9-9.3-9.7c-5.1-1.4-9.2-2.3-14.3-4.2
+		c-13-4.8-19.6-13.6-19.6-27.9c0-15.9,13.4-27.5,32.3-27.5c19.9,0,31.7,10.1,31.9,29.8H1072c-0.2-7.2-3.5-11.5-10.8-11.5
+		c-5.6,0-9.3,3.2-9.3,7.9C1051.8,392.1,1054.5,394.8,1060.1,396.4z"&gt;&lt;/path&gt;
+	&lt;path class="s-path" d="M161,314.5v95c0,43.5,26.5,70.5,69.1,70.5c41.5,0,69.5-28.4,69.5-70.7v-94.8H161z M213.9,352.9c4.5,0,8.1,3.6,8.1,8.1
+		s-3.6,8.1-8.1,8.1s-8.1-3.6-8.1-8.1C205.8,356.6,209.4,352.9,213.9,352.9z M278.9,409.3c0,28.9-16.9,50.1-48.8,50.1
+		c-33.1,0-48.5-19.9-48.5-49.9v-57.2h11.1v57.2c0,12.6,3,22.2,8.9,28.7c6.1,6.7,15.7,10.1,28.5,10.1c24,0,37.8-14.2,37.8-39v-74.2
+		H279v74.2H278.9z"&gt;&lt;/path&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;path style="fill:#FFFFFF;" d="M250.4,366.3c-0.1,0-0.2,0-0.4,0c-4.3-0.6-8.7-1-13.1-1.1c-0.9,0-1.8-0.5-2.2-1.4
+				c-0.4-0.8-0.4-1.8,0.1-2.6c4.3-6.5,12.2-10.6,20-10.3c1.4,0,2.5,1.2,2.5,2.6c0,1.4-1.2,2.5-2.6,2.5c-4.4-0.1-8.9,1.5-12.3,4.4
+				c2.8,0.2,5.6,0.5,8.4,0.9c1.4,0.2,2.3,1.5,2.1,2.9C252.7,365.4,251.6,366.3,250.4,366.3z"&gt;&lt;/path&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+  &lt;!--GoComics Search Icon - Collapsed State Only --&gt;
+  &lt;button class='navbar-toggler collapsed gc-search js-gc-search-focus' type='button' data-toggle='collapse' data-target='.gc-nav-primary__search--mobile' aria-controls='gc-nav-primary__search' aria-expanded='false' aria-label='Toggle navigation'&gt;
+
+    &lt;div class='gc-search__icon'&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+  &lt;/button&gt;
+
+  &lt;div class="collapse navbar-collapse gc-nav-primary__search gc-nav-primary__search--mobile js-mobile-nav"&gt;
+    &lt;form class="gc-search-form" role="search" autocomplete="off" action="/search/9chickweedlane" accept-charset="UTF-8" method="get"&gt;&lt;input name="utf8" type="hidden" value="&amp;#x2713;" /&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;GoComics.com - Search Form&lt;/legend&gt;
+    &lt;div class="form-group field-xl"&gt;
+      &lt;label class="form-label sr-only" for="search_terms"&gt;Search&lt;/label&gt;
+      &lt;input type="search" name="terms" id="terms" class="form-control gc-search-input" placeholder="Search for Your Favorite Comic..." required="required" tabindex="-1" /&gt;
+      &lt;button name="" type="submit" class="btn gc-search-submit fa fa-search"&gt;&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+  &lt;/div&gt;
+
+
+
+  &lt;!-- Navigation Primary - Collapsible Menu --&gt;
+  &lt;div class='collapse navbar-collapse gc-nav-primary__left-menu js-mobile-nav'&gt;
+    &lt;ul class='navbar-nav'&gt;
+
+      &lt;!--Comics--&gt;
+      &lt;li class="nav-item gc-nav-primary__item dropdown "&gt;
+      &lt;a class="nav-link gc-nav-primary__link dropdown-toggle" data-link-type="banner-nav-tier-1" data-toggle="dropdown" href="http://www.gocomics.com/comics"&gt;Find Comics&lt;/a&gt;
+      &lt;div class="dropdown-menu gc-nav-primary__dropdown-menu "&gt;
+        
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/trending"&gt;Trending&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/political"&gt;Political Cartoons&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/genres"&gt;All Categories&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/popular"&gt;Popular&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/a-to-z"&gt;A-Z Comics by Title&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+
+      &lt;!-- Best Of --&gt;
+      &lt;li class="nav-item gc-nav-primary__item dropdown "&gt;
+      &lt;a class="nav-link gc-nav-primary__link dropdown-toggle" data-link-type="banner-nav-tier-1" data-toggle="dropdown" href="#"&gt;Best Of&lt;/a&gt;
+      &lt;div class="dropdown-menu gc-nav-primary__dropdown-menu "&gt;
+        
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/todays-top-five-comics"&gt;Editor&amp;#39;s Top 5&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/recommended"&gt;GoComics Recommends&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/comics/collections"&gt;Lists&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="http://www.gocomics.com/news"&gt;GoComics Blog&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+
+      &lt;!-- Shop --&gt;
+        &lt;li class="nav-item gc-nav-primary__item dropdown "&gt;
+      &lt;a class="nav-link gc-nav-primary__link dropdown-toggle" data-link-type="banner-nav-tier-1" data-toggle="dropdown" href="https://store.gocomics.com/"&gt;Shop&lt;/a&gt;
+      &lt;div class="dropdown-menu gc-nav-primary__dropdown-menu "&gt;
+        
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/"&gt;Home&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/product-category/books/"&gt;Books&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/product-category/calendars/"&gt;Calendars&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/product-category/popular-print/"&gt;Comic Prints&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/cart/"&gt;Your Cart&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/checkout/"&gt;Checkout&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+
+      &lt;!-- Primary Navigation: Search:  --&gt;
+      &lt;div class="gc-nav-primary__search gc-nav-primary__item--desktop-only"&gt;
+        &lt;form class="gc-search-form" role="search" autocomplete="off" action="/search/9chickweedlane" accept-charset="UTF-8" method="get"&gt;&lt;input name="utf8" type="hidden" value="&amp;#x2713;" /&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;GoComics.com - Search Form&lt;/legend&gt;
+    &lt;div class="form-group field-xl"&gt;
+      &lt;label class="form-label sr-only" for="search_terms"&gt;Search&lt;/label&gt;
+      &lt;input type="search" name="terms" id="terms" class="form-control gc-search-input" placeholder="Search for Your Favorite Comic..." required="required" tabindex="-1" /&gt;
+      &lt;button name="" type="submit" class="btn gc-search-submit fa fa-search"&gt;&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+      &lt;/div&gt;
+
+
+
+      &lt;!-- Primary Navigation: User --&gt;
+
+        &lt;!-- Unauthenticated Users --&gt;
+        &lt;div class="gc-nav-primary__authentication"&gt;
+          &lt;li class="nav-item gc-nav-primary__item "&gt;
+      &lt;a class="nav-link gc-nav-primary__link" role="button" aria-haspopup="true" data-link-type="header-nav-tier-1" href="http://www.gocomics.com/profiles/sign-up/plan"&gt;Sign Up&lt;/a&gt;
+    &lt;/li&gt;
+          &lt;li class="nav-item gc-nav-primary__item "&gt;
+      &lt;a class="nav-link gc-nav-primary__link" role="button" aria-haspopup="true" data-link-type="header-nav-tier-1" href="https://www.gocomics.com/profiles/sign-in"&gt;Sign In&lt;/a&gt;
+    &lt;/li&gt;
+        &lt;/div&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/nav&gt;
+
+  &lt;div id="cookieconsent-container"&gt;&lt;/div&gt;
+  &lt;div role="main" class="amu-container-layout"&gt;
+
+
+
+    
+
+
+&lt;div class='gc-container-fluid gc-container-vertical'&gt;
+  &lt;div class='layout-2col'&gt;
+
+    &lt;div class='layout-2col-sidebar js-gc-lock-parent'&gt;
+      
+&lt;aside class="gc-feature-side"&gt;
+  &lt;div class="gc-fade-bottom"&gt;
+    &lt;picture class="card-img lazyload__padder lazyload__padder--1024x640"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="http://avatar.amuniversal.com/feature_avatars/recommendation_images/features/cw/large_rec-201701251556.jpg 600w, http://avatar.amuniversal.com/feature_avatars/recommendation_images/features/cw/mid_rec-201701251556.jpg 300w, http://avatar.amuniversal.com/feature_avatars/recommendation_images/features/cw/small_rec-201701251556.jpg 150w" sizes="auto" width="100%" alt="#&amp;lt;Feature:0x00007fc7229663d8&amp;gt;" src="http://avatar.amuniversal.com/feature_avatars/recommendation_images/features/cw/large_rec-201701251556.jpg" /&gt;&lt;/picture&gt;
+  &lt;/div&gt;
+  &lt;div class="gc-feature-side__info"&gt;
+    &lt;a class="amu-media-item-link" href="/9chickweedlane"&gt;
+      
+
+
+&lt;div class='amu-media-item media gc-media-object'&gt;
+  &lt;div class='media-left mr-3'&gt;
+    &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png, 72w" class="lazyload" src="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png" alt="Small u 201701251613" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class='media-body'&gt;
+    &lt;h4 class='media-heading'&gt;9 Chickweed Lane&lt;/h4&gt;
+    &lt;h6 class="media-subheading"&gt;By Brooke McEldowney&lt;/h6&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/a&gt;    &lt;div class="gc-feature-follow js-subscription-feature-358"&gt;
+    &lt;a class="btn btn-sm btn-primary" data-toggle="modal" data-tooltip="tooltip" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add comics to your comics page." aria-label="Sign up or sign in to add 9 Chickweed Lane to your Comics I Follow" title="Sign up or sign in to add 9 Chickweed Lane to your Comics I Follow" href=""&gt;
+      Follow
+&lt;/a&gt;&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/aside&gt;
+        &lt;div class='js-gc-lock-target'&gt;
+          &lt;div class="amu-container-ad-wrapper  "&gt;
+	&lt;div class="amu-container-ad ad-tower_nav-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="tower_nav" class="js-ad gc-ad ad-tower_nav " data-ad-type="tower_nav" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("tower_nav");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="tower_nav" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class='layout-2col-content'&gt;
+
+      &lt;div class="gc-feature-header"&gt;
+  &lt;div class="gc-feature-header__info"&gt;
+    &lt;!-- Media Object --&gt;
+    &lt;a class="amu-media-item-link" href="/9chickweedlane"&gt;
+      
+
+
+&lt;div class='amu-media-item media gc-media-object'&gt;
+  &lt;div class='media-left mr-3'&gt;
+    &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png, 72w" class="lazyload" src="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png" alt="Small u 201701251613" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class='media-body'&gt;
+    &lt;h4 class='media-heading'&gt;9 Chickweed Lane&lt;/h4&gt;
+    &lt;h6 class="media-subheading"&gt;By Brooke McEldowney&lt;/h6&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/a&gt;    &lt;!-- Follow Button --&gt;
+    &lt;div class="gc-feature-follow js-subscription-feature-358"&gt;
+    &lt;a class="btn btn-sm btn-primary" data-toggle="modal" data-tooltip="tooltip" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add comics to your comics page." aria-label="Sign up or sign in to add 9 Chickweed Lane to your Comics I Follow" title="Sign up or sign in to add 9 Chickweed Lane to your Comics I Follow" href=""&gt;
+      Follow
+&lt;/a&gt;&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;div class="amu-container-ad-wrapper  "&gt;
+	&lt;div class="amu-container-ad ad-leaderboard_feature_item-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="leaderboard_feature_item" class="js-ad gc-ad ad-leaderboard_feature_item " data-ad-type="leaderboard_feature_item" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("leaderboard_feature_item");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="leaderboard_feature_item" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+      &lt;div class='content-section-padded'&gt;
+
+        &lt;nav class="content-section"&gt;
+  &lt;ul class="nav nav-tabs gc-tab-nav js-tab-nav" style="visibility: hidden;"&gt;
+    &lt;li class="nav-item "&gt;
+      &lt;a class="nav-link" data-link="overview" href="/9chickweedlane"&gt;Overview&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item active"&gt;
+      &lt;a class="nav-link" data-link="comics" href="/9chickweedlane/2018/04/08"&gt;Comics&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item "&gt;
+      &lt;a class="nav-link" data-link="about" href="/9chickweedlane/about"&gt;About&lt;/a&gt;
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+        
+
+&lt;div id='js-item-start' class="comic gc-container js-comic-2482066 js-share-item js-comic-swipe comic--can-buy" data-shareable-type="FeatureItem"
+data-shareable-id="2482066"
+data-id="2482066"
+data-feature-id="358"
+data-feature-name="9 Chickweed Lane"
+data-feature-code="cw"
+data-feature-item-date="2018-04-08"
+data-url="http://www.gocomics.com/9chickweedlane/2018/04/08"
+data-date="Apr 8, 2018"
+data-creator="Brooke McEldowney"
+data-title="9 Chickweed Lane"
+data-tags=""
+data-description="For Apr 8, 2018"
+data-image="http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d"
+itemtype="http://schema.org/CreativeWork"
+accountableperson="Andrews McMeel Universal"
+creator="Brooke McEldowney"&gt;
+
+  &lt;div class='comic__wrapper'&gt;
+
+    
+
+    
+
+    &lt;div class='comic__container'&gt;
+
+
+      &lt;div class="comic__image js-comic-swipe-target"&gt;
+        &lt;div class="swipe-preview swipe-preview__previous js-preview-previous"&gt;
+  &lt;div class='swipe-preview__group'&gt;
+    &lt;h5 class='card-subtitle'&gt;
+        &lt;date&gt;Apr 7, 2018&lt;/date&gt;
+    &lt;/h5&gt;
+    &lt;div class='swipe-preview__ubadge'&gt;
+      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png, 72w" class="lazyload" src="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png" alt="Small u 201701251613" /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+        &lt;a itemprop='image' class="js-item-comic-link" href="/9chickweedlane/2018/04/08" title="9 Chickweed Lane"&gt;
+
+  &lt;picture class="item-comic-image"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d 900w" sizes="
+                       (min-width: 992px) 900px,
+                       (min-width: 768px) 600px,
+                       (min-width: 576px) 300px,
+                       900px" width="100%" src="http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d" /&gt;&lt;/picture&gt;
+&lt;/a&gt;
+&lt;meta itemprop='isFamilyFriendly' content='true'&gt;
+        &lt;div class="swipe-preview swipe-preview__next js-preview-next"&gt;
+  &lt;div class='swipe-preview__group'&gt;
+    &lt;h5 class='card-subtitle'&gt;
+        All caught up!
+    &lt;/h5&gt;
+    &lt;div class='swipe-preview__ubadge'&gt;
+      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png, 72w" class="lazyload" src="http://avatar.amuniversal.com/feature_avatars/ubadge_images/features/cw/small_u-201701251613.png" alt="Small u 201701251613" /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      &lt;/div&gt;
+
+        &lt;nav class="gc-calendar-nav" role="group" aria-label="Date Navigation Controls"&gt;
+    &lt;div class="gc-calendar-nav__previous"&gt;
+      &lt;a role='button' href='/9chickweedlane/1993/07/13' class='fa btn btn-outline-default btn-circle fa fa-backward sm ' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='/9chickweedlane/2018/04/07' class='fa btn btn-outline-default btn-circle fa-caret-left sm js-previous-comic ' title='' &gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="gc-calendar-nav__select"&gt;
+      &lt;div class="gc-calendar-nav__datepicker btn btn-sm btn-outline-default js-calendar-wrapper"
+           data-date="2018/04/08"
+           data-name="/9chickweedlane/"
+           data-year="2018"
+           data-month="04"
+           data-day="08"
+           data-feature="9chickweedlane"
+           data-ct=""
+           data-start="1993/07/13"
+           data-end="2018/04/08"
+           data-open="2018-04-08"&gt;
+          &lt;i class="fa fa-calendar xs"&gt;&lt;/i&gt;
+          &lt;input type="text" name="startDate" placeholder="Apr 8, 2018" readonly="readonly" class="cal off calendar-input date js-calendar-input datepicker js-calendar-input-link"&gt;
+      &lt;/div&gt;
+      &lt;a class="btn btn-sm btn-outline-default" alt="Click to View a Random 9 Chickweed Lane Comic Strip!" href="/random/9chickweedlane"&gt;Random&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="gc-calendar-nav__next"&gt;
+      &lt;a role='button' href='' class='fa btn btn-outline-default btn-circle fa-caret-right sm disabled' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='' class='fa btn btn-outline-default btn-circle fa-forward sm disabled' title='' &gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+
+    &lt;/div&gt;
+
+      &lt;div class="comic__interactions-container js-gc-lock-parent js-item-interactions-container "&gt;
+          &lt;div class="item-interactions js-gc-lock-target js-share-button-container dropdown" id="toolbar_2482066" data-gc-lock-depends="leaderboard_feature_item"&gt;
+    
+    &lt;div class='js-like'&gt;
+    &lt;a class="gc-icon fa fa-heart md" data-toggle="modal" data-target="#js-modal-account-hook" aria-label="Sign in to like this comic" title="Sign in to like this comic" data-tooltip="tooltip" href=""&gt;&lt;/a&gt;
+
+  &lt;span id="interaction_count_likes_2482066"  class="js-interaction-count interaction-count likes"&gt;18&lt;/span&gt;
+&lt;/div&gt;
+    &lt;div class=" js-favorite"&gt;
+    &lt;a class="gc-icon fa fa-thumb-tack md" data-toggle="modal" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add this to your Saved Comic Strips." title="Sign up or sign in to add to your Saved Comic Strips" data-tooltip="tooltip" href="#"&gt;&lt;/a&gt;
+  &lt;span id="interaction_count_favorites_2482066"  class="js-interaction-count interaction-count favorites"&gt;3&lt;/span&gt;
+&lt;/div&gt;
+    
+
+
+&lt;a name="facebook" class="js-facebook js-share-button gc-icon fa fa-facebook md" aria-label="Share on Facebook" title="Share on Facebook" data-tooltip="tooltip" href="#"&gt;
+&lt;/a&gt;&lt;a name="twitter" class="js-twitter js-share-button  gc-icon fa fa-twitter md" aria-label="Share on Twitter" title="Share on Twitter" data-tooltip="tooltip" href="#"&gt;
+&lt;/a&gt;&lt;a role='button' href class='gc-icon fa fa-ellipsis-h md' data-toggle='dropdown' title='More sharing options' aria-label='More sharing options' data-tooltip='tooltip'&gt;&lt;/a&gt;
+&lt;div class='dropdown-menu item-interactions-overflow'&gt;
+  &lt;div class='content-section-sm text-center'&gt;
+    &lt;a name="reddit" class="js-reddit js-share-button gc-icon fa btn fa-reddit md" aria-label="Share on Reddit" title="Share on Reddit" data-tooltip="tooltip" href="#"&gt;
+&lt;/a&gt;    &lt;a name="google-plus" class="js-google-plus js-share-button gc-icon fa btn fa-google-plus md" aria-label="Share on Google+" title="Share on Google+" data-tooltip="tooltip" href="#"&gt;
+&lt;/a&gt;    &lt;a name="tumblr" class="js-tumblr js-share-button gc-icon fa btn fa-tumblr md" aria-label="Share on Tumblr" title="Share on Tumblr" data-tooltip="tooltip" href="#"&gt;
+&lt;/a&gt;    &lt;a name="pinterest" class="js-pinterest js-share-button gc-icon fa btn fa-pinterest md" aria-label="Share on Pinterest" title="Share on Pinterest" data-tooltip="tooltip" href="#"&gt;
+&lt;/a&gt;    &lt;a name="email" aria-label="Share via email" title="Share via email" data-tooltip="tooltip" class="js-email js-share-button gc-icon fa btn fa-envelope md" href="mailto:?body=http%3A%2F%2Fwww.gocomics.com%2F9chickweedlane%2F2018%2F04%2F08&amp;amp;subject=Read%209%20Chickweed%20Lane%20by%20Brooke%20McEldowney%20on%20GoComics.com%20%7C%20Apr%208%2C%202018"&gt;
+&lt;/a&gt;  &lt;/div&gt;
+
+  &lt;div class='gc-container-form text-center'&gt;
+    &lt;form class=''&gt;
+      &lt;fieldset&gt;
+        &lt;legend&gt;Share this - Copy link&lt;/legend&gt;
+        &lt;label class="form-label" aria-label="link-2018-04-08"&gt;&lt;i class='gc-icon fa fa-link md'&gt;&lt;/i&gt;&lt;span&gt;Share Link&lt;/span&gt;&lt;/label&gt;
+        &lt;input class='js-copy-link form-control' name="link-2018-04-08" value="http://www.gocomics.com/9chickweedlane/2018/04/08" aria-label='Get the permalink' data-tooltip='tooltip' title='Get the Permalink'&gt;
+      &lt;/fieldset&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;&lt;!-- End of Item Interactions --&gt;
+
+      &lt;/div&gt;
+
+  &lt;/div&gt;
+
+    &lt;div class="comic__buy-button"&gt;
+      &lt;a class="btn btn-sm btn-primary" data-tooltip="tooltip" aria-label="Buy a Print of This Comic" title="Buy a Print of This Comic" href="https://store.gocomics.com/product/custom-print-order?publish_date=20180408&amp;amp;feature_code=cw&amp;amp;featureName=9 Chickweed Lane&amp;amp;hash=d52e0040ffde01351cbd005056a9545d"&gt;Buy a Print of This Comic&lt;/a&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+      &lt;/div&gt;
+
+      &lt;h3 class='gc-section-title gc-section-title-more text-center content-section-sm'&gt;More From 9 Chickweed Lane&lt;/h3&gt;
+
+      &lt;div class='gc-container'&gt;
+        &lt;div class="gc-widgets "&gt;
+
+              &lt;a class="gc-widgets__item" href="/9chickweedlane/2018/04/08"&gt;
+      &lt;picture class="card-img lazyload__padder lazyload__padder--370x350"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_large_cw_cw_cap_flare_201705121044.jpg 740w, //assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_mid_cw_cw_cap_flare_201705121044.jpg 370w, //assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_small_cw_cw_cap_flare_201705121044.jpg 185w" sizes="auto" width="100%" src="//assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_large_cw_cw_cap_flare_201705121044.jpg" /&gt;&lt;/picture&gt;
+
+
+&lt;/a&gt;
+              &lt;a target="_blank" class="gc-widgets__item" href="http://thecelebritycafe.com/2017/01/interview-9-chickweed-lanepibgorn-comics-creator-brooke-mceldowney/"&gt;
+      &lt;picture class="card-img lazyload__padder lazyload__padder--1024x640"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/features/cw/widgets/link_w_title_large_cw_McEldowney-interview-link-art.jpg 600w, //assets.gocomics.com/uploads/features/cw/widgets/link_w_title_mid_cw_McEldowney-interview-link-art.jpg 300w, //assets.gocomics.com/uploads/features/cw/widgets/link_w_title_small_cw_McEldowney-interview-link-art.jpg 150w" sizes="auto" width="100%" alt="Brooke McEldowney interview" src="//assets.gocomics.com/uploads/features/cw/widgets/link_w_title_large_cw_McEldowney-interview-link-art.jpg" /&gt;&lt;/picture&gt;
+
+  &lt;h5 class='mt-4'&gt;&lt;span class='gc-type-comics'&gt;LINK&lt;/span&gt;&lt;/h5&gt;
+  &lt;h4&gt;Interview with ‘9 Chickweed Lane/Pibgorn’ comics creator Brooke McEldowney&lt;/h4&gt;
+
+&lt;/a&gt;
+              &lt;section class='gc-card gc-card--ad-rectangle group-item-ad'&gt;
+                &lt;div class="amu-container-ad-wrapper  "&gt;
+	&lt;div class="amu-container-ad ad-rectangle-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="rectangle1" class="js-ad gc-ad ad-rectangle " data-ad-type="rectangle1" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("rectangle1");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="rectangle1" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+              &lt;/section&gt;
+              &lt;a target="_blank" class="gc-widgets__item" href="http://chickweedcafe.blogspot.com/"&gt;
+      &lt;picture class="card-img lazyload__padder lazyload__padder--370x350"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_large_cw_cw_blog_740x700.jpg 740w, //assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_mid_cw_cw_blog_740x700.jpg 370w, //assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_small_cw_cw_blog_740x700.jpg 185w" sizes="auto" width="100%" alt="Ephemera and Reckoning" src="//assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_large_cw_cw_blog_740x700.jpg" /&gt;&lt;/picture&gt;
+
+
+&lt;/a&gt;
+              &lt;a target="_blank" class="gc-widgets__item" href="http://pibpress.blogspot.com/"&gt;
+      &lt;picture class="card-img lazyload__padder lazyload__padder--370x350"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_large_cw_cw_allied_spy_740x700.jpg 740w, //assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_mid_cw_cw_allied_spy_740x700.jpg 370w, //assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_small_cw_cw_allied_spy_740x700.jpg 185w" sizes="auto" width="100%" alt="Allied Spy" src="//assets.gocomics.com/uploads/features/cw/widgets/link_wo_title_large_cw_cw_allied_spy_740x700.jpg" /&gt;&lt;/picture&gt;
+
+
+&lt;/a&gt;
+              &lt;a class="gc-widgets__item" href="/news/all/3170/brooke-mceldowney-9-chickweed-lane-pibgorn"&gt;
+    
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--875x535"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/default_images/default_image_large_meet_your_creator_meetyourcreator-generic.jpg 600w, //assets.gocomics.com/uploads/default_images/default_image_mid_meet_your_creator_meetyourcreator-generic.jpg 300w, //assets.gocomics.com/uploads/default_images/default_image_small_meet_your_creator_meetyourcreator-generic.jpg 150w" sizes="auto" width="100%" alt="Brooke McEldowney (9 Chickweed Lane, Pibgorn)" src="//assets.gocomics.com/uploads/default_images/default_image_large_meet_your_creator_meetyourcreator-generic.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;Brooke McEldowney (9 Chickweed Lane, Pibgorn)&lt;/h4&gt;
+
+&lt;h5 class="card-subtitle text-muted"&gt;GoComics&lt;/h5&gt;
+      
+      
+      
+      &lt;p class="card-text text-muted"&gt;Oct 4, 2014&lt;/p&gt;
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/a&gt;
+
+              &lt;section class='gc-card gc-card--ad-rectangle group-item-ad'&gt;
+                &lt;div class="amu-container-ad-wrapper  "&gt;
+	&lt;div class="amu-container-ad ad-rectangle-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="rectangle2" class="js-ad gc-ad ad-rectangle " data-ad-type="rectangle2" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("rectangle2");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="rectangle2" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+              &lt;/section&gt;
+              &lt;a class="gc-widgets__item" href="/news/all/4428/new-blog-1515081572"&gt;
+    
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--875x535"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_4428_10884_9cwl_blog_post_201801041045.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_4428_10884_9cwl_blog_post_201801041045.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_4428_10884_9cwl_blog_post_201801041045.jpg 150w" sizes="auto" width="100%" alt="See No. 10 in GoComics&amp;#39; Top-10 Most-Read for 2017" src="//assets.gocomics.com/uploads/blogs/blog_image_large_4428_10884_9cwl_blog_post_201801041045.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;See No. 10 in GoComics&amp;#39; Top-10 Most-Read for 2017&lt;/h4&gt;
+
+&lt;h5 class="card-subtitle text-muted"&gt;John Glynn&lt;/h5&gt;
+      
+      
+      
+      &lt;p class="card-text text-muted"&gt;Jan 8, 2018&lt;/p&gt;
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/a&gt;
+
+              &lt;a class="gc-widgets__item" href="/news/all/4428/new-blog-1515081572"&gt;
+    
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--875x535"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_4428_10884_9cwl_blog_post_201801041045.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_4428_10884_9cwl_blog_post_201801041045.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_4428_10884_9cwl_blog_post_201801041045.jpg 150w" sizes="auto" width="100%" alt="See No. 10 in GoComics&amp;#39; Top-10 Most-Read for 2017" src="//assets.gocomics.com/uploads/blogs/blog_image_large_4428_10884_9cwl_blog_post_201801041045.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;See No. 10 in GoComics&amp;#39; Top-10 Most-Read for 2017&lt;/h4&gt;
+
+&lt;h5 class="card-subtitle text-muted"&gt;John Glynn&lt;/h5&gt;
+      
+      
+      
+      &lt;p class="card-text text-muted"&gt;Jan 8, 2018&lt;/p&gt;
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id='recommendations_holder' class='js-post-load-init' data-url="/favorites/recommendations.js?short_name=9chickweedlane"&gt;&lt;/div&gt;
+
+&lt;div class="amu-container-ad-wrapper  "&gt;
+	&lt;div class="amu-container-ad ad-tynt-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="tynt" class="js-ad gc-ad ad-tynt " data-ad-type="tynt" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("tynt");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+  &lt;/div&gt;
+
+  &lt;div class="amu-container-ad-wrapper js-destructable fixed-ad-bottom fixed-ad-bottom--banner"&gt;
+	&lt;div class="amu-container-ad ad-banner-lock-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="banner_lock" class="js-ad gc-ad ad-banner-lock " data-ad-type="banner_lock" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("banner_lock");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="banner_lock" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div class="amu-container-ad-wrapper  "&gt;
+	&lt;div class="amu-container-ad ad-banner-bottom-container"&gt;
+	  &lt;h5 class="ad-header"&gt;Advertisement&lt;/h5&gt;
+	  &lt;div id="banner_bot" class="js-ad gc-ad ad-banner-bottom " data-ad-type="banner_bot" data-visibility-exception="false"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("banner_bot");
+      &lt;/script&gt;
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="banner_bot" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;footer class="amu-container-footer"&gt;
+  &lt;div class="footer-nav"&gt;
+      &lt;div class="footer-nav-section"&gt;
+        &lt;h5 class="hdr-muted"&gt;Find Comics&lt;/h5&gt;
+        &lt;ul class="footer-links"&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/comics/trending"&gt;Trending&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/comics/political"&gt;Political Cartoons&lt;/a&gt;&lt;/li&gt;
+          &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/comics/all"&gt;All Categories&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/comics/popular"&gt;Popular&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/comics/a-to-z"&gt;A-Z Comics by Title&lt;/a&gt;&lt;/li&gt;
+          &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
+          &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="footer-nav-section"&gt;
+        &lt;h5 class="hdr-muted"&gt;More GoComics&lt;/h5&gt;
+        &lt;ul class="footer-links"&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/news/all"&gt;GoComics Blog&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="http://www.comicssherpa.com/site/index"&gt;Visit Comics Sherpa&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="http://www.facebook.com/gocomics"&gt;GC on Facebook&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="http://www.twitter.com/gocomics"&gt;GC on Twitter&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="http://www.instagram.com/gocomics"&gt;GC on Instagram&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="https://store.gocomics.com/"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+    &lt;div class="footer-nav-section"&gt;
+      &lt;h5 class="hdr-muted"&gt;Account&lt;/h5&gt;
+      &lt;ul class="footer-links"&gt;
+            &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/sign-up?account_type=free"&gt;Sign up for free&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/sign-up?account_type=premium"&gt;Go Premium&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/gift-subscription"&gt;Gift a Subscription&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/gift-subscription/redeem"&gt;Redeem a Gift&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="footer-nav-section"&gt;
+      &lt;h5 class="hdr-muted"&gt;About&lt;/h5&gt;
+      &lt;ul class="footer-links"&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/help/about"&gt;About GoComics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/help"&gt;Help &amp;amp; FAQ&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/help/advertising"&gt;Advertising&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="http://www.gocomics.com/help/contact"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!-- /.footer-nav --&gt;
+  &lt;div class="footer-copyright"&gt;
+    &lt;p&gt;
+      &amp;copy; Copyright 
+        9 Chickweed Lane,© Brooke McEldowney&lt;br class="d-sm-none" /&gt;
+            2018. All Rights Reserved.
+      &lt;a class="copyright-link" data-link-type="footer-nav" href="http://www.gocomics.com/help/terms"&gt;Terms &amp;amp; Conditions&lt;/a&gt;
+      -
+      &lt;a class="copyright-link" data-link-type="footer-nav" href="http://www.gocomics.com/help/privacy"&gt;Privacy Policy&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;&lt;!-- /.footer-copyright --&gt;
+&lt;/footer&gt;&lt;!-- /.amu-container-footer --&gt;
+&lt;/div&gt;
+
+
+&lt;div class="modal fade" id="js-modal-account-hook" tabindex="-1" role="dialog" aria-labelledby="Join GoComics!" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content bg-info text-white"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h2 class="modal-title"&gt;You must have an account to access this feature&lt;/h2&gt;
+        &lt;a data-dismiss="modal" class="close" href=""&gt;
+          &lt;i class='gc-icon fa fa-close fa-overlay lg'&gt;&lt;/i&gt;
+&lt;/a&gt;      &lt;/div&gt;
+      &lt;div class="modal-body text-center"&gt;
+
+          &lt;a class="btn btn-light gc-button" href="/profiles/sign-in"&gt;Sign in&lt;/a&gt;
+          &lt;a class="btn btn-outline-light gc-button" href="/profiles/sign-up?account_type=free"&gt;Sign up for free&lt;/a&gt;
+          &lt;a class="btn btn-outline-light gc-button" href="/profiles/sign-up?account_type=premium"&gt;Get Premium&lt;/a&gt;
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script src="//assets.gocomics.com/assets/application-gc-postload-ade4840af5aa9f079a9b0270ece488ad050e81cd753f7fbea6d06aa2d59563d1.js"&gt;&lt;/script&gt;
+
+
+&lt;!-- Begin PubNation script --&gt;
+&lt;script&gt;
+  var _pnq = _pnq || [];
+  _pnq.push(['setId', 'pn-1e46a850d3d769b6']);
+  (function() {
+    var pnr = document.createElement('script');
+    pnr.type = 'text/javascript';
+    pnr.async = true;
+    pnr.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'report-ads-to.pubnation.com/dist/pnr.js?t=pn-1e46a850d3d769b6';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(pnr, s);
+  })();
+&lt;/script&gt;
+&lt;!-- End PubNation script --&gt;
+
+&lt;script src="//assets.gocomics.com/assets/apollo-ebf32ed2ad66d0bfcf986c7715ab786480b76efe646a63523fce276ad9264531.js?sampling=100"&gt;&lt;/script&gt;
+&lt;div class="amu-layout-size"&gt;
+	&lt;span class="js-layout-size-xl d-none d-xl-block"&gt;&lt;/span&gt;
+	&lt;span class="js-layout-size-lg d-none d-lg-block d-xl-none"&gt;&lt;/span&gt;
+  &lt;span class="js-layout-size-md d-none d-md-block d-lg-none"&gt;&lt;/span&gt;
+  &lt;span class="js-layout-size-sm d-none d-sm-block d-md-none"&gt;&lt;/span&gt;
+  &lt;span class="js-layout-size-xs d-block d-sm-none"&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="btn btn-secondary btn-sm gc-back-to-top" href="#back-to-top"&gt;&lt;i class='gc-icon gc-icon-fluid fa fa-caret-up md'&gt;&lt;/i&gt; Back To Top&lt;/a&gt;
+
+&lt;!-- Start of Marketing Request: Silverpop tracking installed 2016.06.02 --&gt;
+&lt;script src="https://www.sc.pages02.net/lp/static/js/iMAWebCookie.js?4c864741-1542ec78d7c-df4cba773885eb54dfcebd294a039c37&amp;h=www.pages02.net" type="text/javascript"&gt;&lt;/script&gt;
+&lt;!-- End of Marketing Request: Silverpop tracking installed 2016.06.02 --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</ReturnValue>
+    <OutAndRefValues />
+  </RecordedCall>
+  <RecordedCall>
+    <Method>System.String GetContent(System.String)</Method>
+    <ReturnValue xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Homepage | Dilbert by Scott Adams&lt;/title&gt;
+  &lt;link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'&gt;
+  &lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-57x57-e8da3768e1534934c4b5760e6e5de064.png" sizes="57x57" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-114x114-96d5c6ffa1417cd31561914f4b017aeb.png" sizes="114x114" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-72x72-4036422ba920494bb97d0364e90e2bb8.png" sizes="72x72" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-144x144-629cc8f4393afb2324767053dfba02f4.png" sizes="144x144" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-60x60-e2eb26af9c582fb02552557691328d8d.png" sizes="60x60" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-120x120-17b4144a9c942f7509076229361b6525.png" sizes="120x120" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-76x76-5dcf319407267ea5c39ec2bed017d2d0.png" sizes="76x76" /&gt;
+&lt;link rel="apple-touch-icon" type="image/png" href="http://dilbert.com/assets/favicon/apple-touch-icon-152x152-e0de5390986dae2f59218a00307458b0.png" sizes="152x152" /&gt;
+&lt;link rel="icon" type="image/png" href="http://dilbert.com/favicon/favicon-196x196.png" sizes="196x196" /&gt;
+&lt;link rel="icon" type="image/png" href="http://dilbert.com/assets/favicon/favicon-160x160-7d355fdd1a7b8405d90af6162139ec10.png" sizes="160x160" /&gt;
+&lt;link rel="icon" type="image/png" href="http://dilbert.com/assets/favicon/favicon-96x96-96d3be590cfd10ef824019f7133b7197.png" sizes="96x96" /&gt;
+&lt;link rel="icon" type="image/png" href="http://dilbert.com/assets/favicon/favicon-32x32-a0f2c0c0681530e64cf3ca67e281d7e4.png" sizes="32x32" /&gt;
+&lt;link rel="icon" type="image/png" href="http://dilbert.com/assets/favicon/favicon-16x16-0a83790605f2e88b114c081ea6940eed.png" sizes="16x16" /&gt;
+&lt;link rel="shortcut icon" type="image/x-icon" href="http://dilbert.com/assets/favicon/favicon-9486c8e39a305662fe53ec940f3bd7bd.ico" /&gt;
+&lt;meta name="msapplication-TileColor" content="#ffffff" /&gt;
+&lt;meta name="msapplication-TileImage" content="http://dilbert.com/assets/favicon/mstile-144x144-a8368db0d1705d752bf1daf4c473f8eb.png" /&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta name="keywords" content="official dilbert website, dilbert comic strip, scott adams, Dilbert, Dogbert, Wally, The Pointy Haired Boss, Alice, Asok, Dogberts New Ruling Class, catbert, ratbert, mashups, animation, comics"&gt;
+&lt;meta name="description" content="The Official Dilbert Website featuring Scott Adams Dilbert strips, animation, mashups and more starring Dilbert, Dogbert, Wally, The Pointy Haired Boss, Alice, Asok, Dogberts New Ruling Class and more."&gt;
+&lt;meta name="twitter:creator" content="Dilbert_Daily"&gt;
+&lt;meta name="csrf-param" content="authenticity_token" /&gt;
+&lt;meta name="csrf-token" content="nXd5MCcujlfE04NKZVysBkeaEDvFIV4AU3d+r8oTNQUg0mcsn3l0VztNu2tYFLWX4blhe51Zxx5B/MK2QKhx5Q==" /&gt;
+    &lt;!-- Global Sharing --&gt;
+    &lt;!-- Facebook Open Graph Tags --&gt;
+    &lt;meta property="og:url" content="http://dilbert.com/"/&gt;
+    &lt;meta property="og:type" content="website"/&gt;
+    &lt;meta property="og:title" content="Welcome to Dilbert"/&gt;
+    &lt;!-- &lt;meta property="og:image" content=""/&gt; --&gt;
+    &lt;meta property="og:description" content="The Official Dilbert Website featuring Scott Adams Dilbert strips, animation, mashups and more starring Dilbert, Dogbert, Wally, The Pointy Haired Boss, Alice, Asok, Dogberts New Ruling Class and more."/&gt;
+    &lt;meta property="og:site_name" content="Dilbert"/&gt;
+    &lt;meta property="fb:app_id" content="163128967074041"/&gt;
+
+    &lt;!-- Dynamic Twitter Card Meta Tags --&gt;
+    &lt;meta name="twitter:url" content="http://dilbert.com/"&gt;
+    &lt;meta name="twitter:card" content="summary"&gt;
+    &lt;meta name="twitter:site" content="@Dilbert"&gt;
+    &lt;meta name="twitter:title" content="Welcome to Dilbert"&gt;
+    &lt;meta name="twitter:domain" content="http://dilbert.com/"&gt;
+    &lt;meta name="twitter:description" content="The Official Dilbert Website featuring Scott Adams Dilbert strips, animation, mashups and more starring Dilbert, Dogbert, Wally, The Pointy Haired Boss, Alice, Asok, Dogberts New Ruling Class and more."&gt;
+    &lt;!-- &lt;meta name="twitter:image:src" content=""&gt; --&gt;
+
+&lt;!-- Webmaster Tools Verification --&gt;
+&lt;meta name="google-site-verification" content="iMe_GbOppnxshIHn7KwTW8Eey9Lfzflvc9NrzGPoewI" /&gt;
+  &lt;link rel="stylesheet" media="all" href="/assets/global-icons-727fcd3f2547c03c25d8489c83d3f410.css" /&gt; 
+  &lt;link rel="stylesheet" media="all" href="/assets/application-05b48d4cda7ee2ddf5e3abd18b828731.css" /&gt;
+
+  &lt;!--[if lt IE 9]&gt;
+  &lt;link rel="stylesheet" media="all" href="/assets/application-ie-b19be6311cc86eccd58218b4a2cc2461.css" /&gt;
+  &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
+  &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+  &lt;script src="/assets/application-1a5fd9060e6e930f5b17e6592d3cf705.js"&gt;&lt;/script&gt;
+
+  
+
+  &lt;script type="text/javascript"&gt;
+    var cookieValue;
+    var GPTPageview;
+    var expireDate;
+
+    pageviewCookieInit();
+
+    function pageviewCookieInit(){
+        cookieValue = getCookie('amu-pv');
+        if(cookieValue.length &lt; 1){
+            expireDate = new Date();
+            expireDate.setDate(expireDate.getDate() + 1);
+            expireDate.toUTCString();
+            GPTPageview = 1;
+        } else {
+            expireDate = getCookieField(cookieValue, 'expire');
+            GPTPageview = parseInt(getCookieField(cookieValue, 'pv'), 10)+1;
+        }
+
+        setCookie('amu-pv', [['pv', GPTPageview]], expireDate);
+    }
+
+    function getCookie (name) {
+        var cookieName = name + '=';
+        var cookieArr = document.cookie.split(';');
+        for(var i = 0; i &lt; cookieArr.length; i++){
+            var curCookie = cookieArr[i];
+            while (curCookie.charAt(0)==' ') curCookie = curCookie.substring(1,curCookie.length);
+            if(curCookie.indexOf(cookieName) == 0){
+                return curCookie.substring(cookieName.length, curCookie.length);
+            }
+        }
+        return "";
+    }
+
+    function getCookieField(cookie, field) {
+        var fieldName = field + '+';
+        var cookieArr = cookie.split('!');
+        for(var i = 0; i &lt; cookieArr.length; i++){
+            var curCookie = cookieArr[i];
+            while (curCookie.charAt(0)==' ') curCookie = curCookie.substring(1,curCookie.length);
+            if(curCookie.indexOf(fieldName) == 0){
+                return curCookie.substring(fieldName.length, curCookie.length);
+            }
+        }
+        return "";
+    }
+
+    function setCookie (name, kvArr, expire) {
+        var value = [];
+        var i;
+        for (i = 0; i &lt; kvArr.length; i++){
+            var fieldName = kvArr[i][0];
+            var fieldValue = kvArr[i][1];
+            value.push(fieldName + '+' + fieldValue);
+        }
+        value.push('expire' + '+' + expire);
+
+        value = value.join('!');
+
+        var cookie = [
+            name + '=' + value,
+            'expires=' + expire,
+            'path=' + '/'
+        ];
+
+        document.cookie = cookie.join(';');
+
+    }
+
+&lt;/script&gt;
+
+  &lt;!-- GPT 1 | Setup the GPT namespace and asynchronous command queue. --&gt;
+&lt;script&gt;
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    // Disable requests for ads on page load (ads must be requested with googletag.pubads().refresh()
+    googletag.cmd.push(function() {
+        googletag.pubads().disableInitialLoad();
+    });
+&lt;/script&gt;
+
+&lt;!-- GPT 2 | Load the GPT library asynchronously. --&gt;
+&lt;script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"&gt;&lt;/script&gt;
+
+&lt;script type='text/javascript'&gt;
+    var amznDone = false;
+
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function()
+    {q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore( A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: '3170',
+        adServer: 'googletag'
+    });
+&lt;/script&gt;
+&lt;!-- INDEX 1 | Setup the Index namespace and the asynchronous command queue. --&gt;
+&lt;script type="text/javascript"&gt;
+    var ixDone = false;
+    window.headertag = window.headertag ||  {};
+    window.headertag.cmd = window.headertag.cmd || [];
+&lt;/script&gt;
+
+&lt;!-- INDEX 2 | Load the Index headertag asynchronously. --&gt;
+&lt;script async type="text/javascript" src="//js-sec.indexww.com/ht/p/182735-69676333690493.js"&gt;&lt;/script&gt;
+
+&lt;script type='text/javascript'&gt;
+    // Set ad slot path
+    var adSlotPath = '/19196947/dilbert.com/home';
+
+
+
+    var tower_comments_refresh_count = 0;
+    var tower_comments_interval;
+    var browserWidth = $(window).width();
+    var browserHeight = $(window).height();
+    var interstitial = false;
+
+
+    /* ************************** */
+    /*          Ad Config         */
+    /* ************************** */
+    var adSlotConfig = {};
+    adSlotConfig['leaderboard'] = {
+        name: 'leaderboard',
+        targeting: {'pos': 'top', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 970,
+                minHeight: 850,
+                sizes: [[970, 250], [970, 90], [728, 90]]
+            },
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90], [320, 50]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]]
+            }
+        ]
+    };
+
+    adSlotConfig['banner'] = {
+        name: 'banner',
+        targeting: {'pos': 'bot', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 250], [970, 90], [728, 90]]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90], [320, 50]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]]
+            }
+        ]
+    };
+
+    adSlotConfig['rectangle'] = {
+        name: 'rectangle',
+        targeting: {'pos': 'left', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[300, 250]]
+            }
+        ]
+    };
+
+    adSlotConfig['rectangle_right'] = {
+        name: 'rectangle_right',
+        targeting: {'pos': 'right', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[300, 250]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[]]
+            }
+        ]
+    };
+
+    adSlotConfig['tower_content'] = {
+        name: 'tower_content',
+        targeting: {'pos': 'content', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[300, 600], [160, 600]]
+            },
+            {
+                minWidth: 768,
+                minHeight: 0,
+                sizes: [[160, 600]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[300, 250]]
+            }
+        ]
+    };
+
+    adSlotConfig['tower_comments'] = {
+        name: 'tower_comments',
+        targeting: {'pos': 'comments', 'pv': GPTPageview},
+        refresh: false,
+        intervalSet: false,
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[300, 600], [160, 600]]
+            },
+            {
+                minWidth: 768,
+                minHeight: 0,
+                sizes: [[160, 600]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[]]
+            }
+        ]
+    };
+
+    adSlotConfig['tower_anchored'] = {
+        name: 'tower_anchored',
+        targeting: {'pos': 'anchored', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 1400,
+                minHeight: 620,
+                sizes: [[160, 600]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[]]
+            }
+        ]
+    };
+
+    adSlotConfig['interstitial'] = {
+        name: 'interstitial',
+        targeting: {'pos': 'interstitial', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 588,
+                minHeight: 0,
+                sizes: [[]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[1, 1]]
+            }
+        ]
+    };
+
+    adSlotConfig['tynt'] = {
+        name: 'tynt',
+        targeting: {'pos': 'locked', 'pv': GPTPageview},
+        refresh: false,
+        breakpoints: [
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[]]
+            }
+        ]
+    };
+
+
+    // PLace to store ad slots for refreshing
+    var definedAdSlots = {};
+
+
+
+    /* ********************************** */
+    /*      Helper Functions for Ads      */
+    /* ********************************** */
+
+    var findBreakpoint = function(breakpointsArray) {
+        var maxBpt, curBpt;
+        for (var i = 0; i &lt; breakpointsArray.length; i++) {
+            curBpt = breakpointsArray[i];
+            if (browserWidth &gt;= curBpt.minWidth &amp;&amp; browserHeight &gt;= curBpt.minHeight){
+                if(!maxBpt || (curBpt.minWidth &gt;= maxBpt.minWidth &amp;&amp; curBpt.minHeight &gt;= maxBpt.minHeight)){
+                    maxBpt = curBpt;
+                }
+            }
+        }
+        return maxBpt
+    };
+
+    // Interstitial Cookie Logic
+    function startInterstitial() {
+        var $pc = parseInt($.cookie('page_count'), 10);
+        $pc &gt;= 0 ? $pc++ : $pc = 0;
+        $.cookie('page_count', $pc, {expires: 1, path: '/strip'});
+        if($pc in objectConverter([3, 8, 13, 18, 23, 28, 33])) {
+            $('.ad-interstitial').addClass('js-ad');
+            interstitial = true;
+        }
+    }
+
+    function refresh_tower_comments(){
+        if(tower_comments_refresh_count &lt; 2){
+            // Start header-bidding auction
+            startAuction(1000, $('#tower_comments'), [adSlotConfig['tower_comments'].slot]);
+            // Refresh ad
+            googletag.pubads().refresh([adSlotConfig['tower_comments'].slot]);
+            tower_comments_refresh_count++;
+        } else {
+            clearInterval(tower_comments_interval);
+        }
+    }
+
+
+    function findAds(startPoint, selector) {
+        // Starting point
+        var sp = document.querySelectorAll(startPoint);
+        // Place to store ad slot divs
+        var ads;
+
+        // Find all ads after the starting point
+        if(sp.length !== 0) {
+            ads = $(sp).find(selector);
+        } else {
+            ads = document.querySelectorAll(selector);
+        }
+
+        // Filter out any ads that are hidden
+        var visibleAds = ads.filter(":visible");
+
+        return visibleAds;
+    }
+
+
+    function defineAds(adDivs) {
+        var slots = [];
+        var i, slotType, slot;
+        for (i = 0; i &lt; adDivs.length; i++) {
+            // ID given to ad slot, usually ad type + index
+            slotName = adDivs[i].id;
+
+            // Slot type, stored in data-ad-type
+            slotType = $(adDivs[i]).data('ad-type');
+
+            // Define slot
+            slot = googletag.defineSlot(adSlotPath, adSlotConfig[slotType].breakpoint.sizes, slotName).addService(googletag.pubads());
+
+            // Set slot level targeting
+            for (key in adSlotConfig[slotType].targeting) {
+                slot.setTargeting(key, adSlotConfig[slotType].targeting[key]);
+            }
+
+            slots.push(slot);
+
+            // Store slot for later use (refreshing ads, etc)
+            adSlotConfig[slotType].slot = slot;
+
+        }
+        return slots;
+    }
+
+
+    function displayAds(adDivs) {
+        var adDivsLength = adDivs.length;
+        var slotName;
+
+        if(adDivsLength === 0) {
+            googletag.display();
+        } else {
+            for (var i = adDivsLength-1; i&gt;=0; i--) {
+                slotName = adDivs[i].id;
+                googletag.display(slotName);
+            }
+        }
+
+    }
+
+
+    function refreshAds(adSlots) {
+        for(var i = 0; i &lt; adSlots.length; i++){
+            adSlots[i].setTargeting('pv', GPTPageview);
+        }
+
+        if (adSlots.length === 0) {
+            googletag.pubads().refresh();
+        } else {
+            googletag.pubads().refresh(adSlots);
+        }
+    }
+
+
+
+    function startAuction(bidTimeout, adDivs, slots) {
+        // Define bidders
+        var bidders = ['a9', 'ix'];
+
+        // create a requestManager to keep track of bidder state to determine when to send ad server
+        // request and what apstagSlots to request from the ad server
+        var requestManager = {
+            adServerRequestSent: false
+        };
+        // add the bidders to the request manager:
+        bidders.forEach(function(bidder) {
+            requestManager[bidder] = false;
+        });
+
+        // return true if all bidders have returned
+        function allBiddersDone() {
+            return bidders.filter(function(bidder) {return requestManager[bidder];}).length === bidders.length;
+        }
+
+        // handler for header bidder responses
+        function bidderDone(bidder) {
+            if (requestManager.adServerRequestSent === false ) {
+                // flip the boolean associated with the bidder in the request manager
+                requestManager[bidder] = true;
+
+                // if all bidders are back, send the request to the ad server
+                if (allBiddersDone()) {
+                    sendAdserverRequest(adDivs, slots);
+                }
+            }
+        }
+
+        // actually get ads from DFP
+        function sendAdserverRequest(adDivs, slots) {
+            if (requestManager.adServerRequestSent === false) {
+                requestManager.adServerRequestSent = true;
+                googletag.cmd.push(function() {
+                    // Display ads
+                    displayAds(adDivs);
+                    // Refresh ads
+                    refreshAds(slots);
+
+                    if (adSlotConfig['tower_comments'].intervalSet === false &amp;&amp; adSlotConfig['tower_comments'].slot) {
+                        tower_comments_interval = setInterval(function () {refresh_tower_comments();}, 120000);
+                        adSlotConfig['tower_comments'].intervalSet = true;
+                    }
+                });
+            }
+        }
+
+        function requestBids(bidTimeout, adDivs, slots) {
+            // fetch apstag bids, set bid targting, then call headerBidderBack
+            // to get the ads for the first time
+            // Fetch Amazon bids for slots on page
+            amzn_fetchBids(adDivs, slots);
+
+            // Fetch Index bids for slots on page
+            ix_fetchBids(adDivs, slots);
+
+        }
+
+        /***** Amazon helper functions *****/
+
+        function amzn_buildSlotsArray (adDivs) {
+            var slotsArray = [];
+            var i, slot, slotType;
+            for(i = 0; i &lt; adDivs.length; i++){
+                slot = adDivs[i];
+                slotType = $(slot).data('ad-type');
+                slotsArray.push({
+                    slotID: slot.id,
+                    sizes: adSlotConfig[slotType].breakpoint.sizes
+                });
+            }
+            return slotsArray;
+
+        }
+
+        function amzn_fetchBids (adDivs, slots) {
+            // Fetch Amazon bids for slots on page
+            apstag.fetchBids(
+                {
+                    slots: amzn_buildSlotsArray(adDivs),
+                    timeout: 1000
+                },
+                function(bids) {
+                    googletag.cmd.push(function(){
+                        // Set Amazon bid key-values pairs
+                        try {
+                            apstag.setDisplayBids();
+                        } catch(e) {
+                            //do nothing
+                        }
+                    });
+                    bidderDone('a9', adDivs, slots);
+                }
+            );
+        }
+
+
+        /***** Index helper functions *****/
+
+        function ix_buildSlotsArray (slots) {
+            var slotsArray = [];
+            var i, slot;
+            for(i = 0; i &lt; slots.length; i++){
+                slot = slots[i];
+                slotsArray.push(
+                    {
+                        slot: slot
+                    }
+                );
+            }
+            return slotsArray;
+        }
+
+        function ix_fetchBids (adDivs, slots) {
+            // Fetch Index bids for slots on page
+            window.headertag.cmd.push(function() {
+                googletag.cmd.push(function () {
+                    window.headertag.retrieveAndSetDemand(
+                        ix_buildSlotsArray(slots),
+                        function () {
+                            bidderDone('ix', adDivs, slots);
+                        }
+                    );
+                });
+            });
+        }
+
+        // ask bidders for their bids
+        requestBids(bidTimeout, adDivs, slots);
+        // set timeout to send request to call sendAdserverRequest() after timeout
+        // it all bidders haven't returned before then
+        window.setTimeout(function() {
+            sendAdserverRequest(adDivs, slots);
+        }, bidTimeout);
+    }
+
+
+    // Set all breakpoints
+    adSlotConfig['leaderboard'].breakpoint = findBreakpoint(adSlotConfig['leaderboard'].breakpoints);
+    adSlotConfig['banner'].breakpoint = findBreakpoint(adSlotConfig['banner'].breakpoints);
+    adSlotConfig['rectangle'].breakpoint = findBreakpoint(adSlotConfig['rectangle'].breakpoints);
+    adSlotConfig['rectangle_right'].breakpoint = findBreakpoint(adSlotConfig['rectangle_right'].breakpoints);
+    adSlotConfig['tower_content'].breakpoint = findBreakpoint(adSlotConfig['tower_content'].breakpoints);
+    adSlotConfig['tower_comments'].breakpoint = findBreakpoint(adSlotConfig['tower_comments'].breakpoints);
+    adSlotConfig['tower_anchored'].breakpoint = findBreakpoint(adSlotConfig['tower_anchored'].breakpoints);
+    adSlotConfig['interstitial'].breakpoint = findBreakpoint(adSlotConfig['interstitial'].breakpoints);
+    adSlotConfig['tynt'].breakpoint = findBreakpoint(adSlotConfig['tynt'].breakpoints);
+
+
+
+
+    /* *************************** */
+    /*      Initial Page Load      */
+    /* *************************** */
+    $(document).ready(function() {
+        // Limit the number of time the 33Across units is served
+        if (browserWidth &gt; 728 &amp;&amp; GPTPageview &lt; 8) {
+            $('#tynt').addClass('js-ad');
+        }
+
+        googletag.cmd.push(function () {
+            var curAdDivs = findAds('html', '.js-ad');
+            var curSlots = defineAds(curAdDivs);
+
+            // Enable services on googletag
+            googletag.pubads().disableInitialLoad();
+            googletag.enableServices();
+
+            // Start header-bidding auction
+            startAuction(1000, curAdDivs, curSlots);
+
+            if($('.js-ad-lazy-load').length &gt; 0){
+                var offset = -200;
+                inView.offset(offset);
+
+                // Find all lazy load ads
+                var lazyAdDivs = findAds('html', '.js-ad-lazy-load');
+                var lazyAdSlots, curAd, i;
+                for(i = 0; i &lt; lazyAdDivs.length; i++) {
+                    curAd = lazyAdDivs[i];
+
+                    inView('#' + curAd.id)
+                        .once('enter', function (element) {
+                            // Define the ads
+                            lazyAdSlots = defineAds([element]);
+                            googletag.pubads().disableInitialLoad();
+                            googletag.enableServices();
+                            startAuction(1000, [element], lazyAdSlots);
+                        });
+                }
+            }
+        });
+    });
+
+
+
+&lt;/script&gt;
+
+  &lt;!-- Content Experiment JavaScript API client --&gt;
+&lt;script src="//www.google-analytics.com/cx/api.js?experiment=of4I6R6WTsCKu6PXpqZ_7w"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  // Ask Google Analytics which variation to show the visitor.
+  var chosenVariation = cxApi.chooseVariation();
+
+&lt;/script&gt;
+
+  &lt;script&gt;
+// Wait for the DOM to load, then execute the view for the chosen variation.
+
+uuExperimentInit = function(event) {
+
+  //if(chosenVariation === 0) {
+    // Variation 1 
+    // console.log('Experiment Version: Variation (B)');
+    // console.log('Google Response: ' + chosenVariation);
+    // $('.js-exp-original').addClass('hidden');
+    // $('.js-exp-variation').removeClass('hidden');
+  //} else {
+    // Original Variation
+    //console.log('Experiment Version: Original (A)');
+    //console.log('Google Response: ' + chosenVariation);
+    //$('.js-exp-variation').addClass('hidden');
+    //$('.js-exp-original').removeClass('hidden');
+  //}
+}
+
+$(document).ready(function() {
+  uuExperimentInit();
+});
+&lt;/script&gt;
+
+  &lt;link rel="alternate" type="application/atom+xml" title="ATOM" href="/feed" /&gt;
+  &lt;link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.rss" /&gt;
+
+  &lt;!-- Begin comScore Tag --&gt;
+&lt;script&gt;
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "20519258" });
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;
+  &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=20519258&amp;cv=2.0&amp;cj=1" alt="" /&gt;
+&lt;/noscript&gt;
+&lt;!-- End comScore Tag --&gt;
+
+  &lt;script type="text/javascript"&gt;
+    //Set markup and styling here
+    window.cookieconsent_options = {
+        learnMore: 'More info',
+        link: 'http://dilbert.com/privacy',
+        //If you wish to use your own CSS instead, specify the URL of your CSS file. e.g. styles/my_custom_theme.css.
+        //This can be a relative or absolute URL.
+        //To stop Cookie Consent from loading CSS at all, specify false
+        //IE8 Styles need to be duplicated in app specific css overrides /assets/stylesheets/ie/ie8.css
+        theme: false,
+        markup: [
+            '&lt;div id="js-cookie-consent"&gt;',
+            '&lt;style type="text/css"&gt;.cc_banner-wrapper {height: 70px; } .cc_container {z-index:9001; position:fixed; width:100%; left:0; top:0; right:0; overflow:hidden; background-color:#666; } .cookie-choices-info {margin:0; padding:0; text-align:center; color:#fff; line-height:140%; padding:15px 0; font-family:roboto,Arial } .cookie-choices-info .cookie-choices-text {display:inline-block; vertical-align:middle; font-size:16px; margin:10px; color:#fefefe; max-width:800px; text-align:center } .cookie-choices-info .cookie-choices-buttons {display:inline-block; vertical-align:middle; white-space:nowrap; margin:10px } .cookie-choices-info .cookie-choices-button:hover {color:#fff; background-color:#000 } .cookie-choices-info .cookie-choices-button {background:#444; font-weight:700; text-transform:UPPERCASE; white-space:nowrap; color:#eee; margin-left:8px; padding:10px; border-radius:3px; text-decoration:none } @media screen and (max-width: 851px) {.cc_banner-wrapper {height:110px } } @media screen and (max-width: 588px) {.cc_banner-wrapper {height:140px } } @media screen and (max-width: 327px) {.cc_banner-wrapper {height:160px } } @media print {.cc_banner-wrapper,.cc_container {display:none } }&lt;/style&gt;',
+            '&lt;div class="cc_banner-wrapper {{containerClasses}}"&gt;',
+            '&lt;div class="cc_banner cc_container cc_container--open"&gt;',
+            '&lt;div class="cookie-choices-info"&gt;&lt;div class="cookie-choices-inner"&gt;&lt;span class="cookie-choices-text"&gt;{{options.message}}&lt;/span&gt;&lt;span class="cookie-choices-buttons"&gt; &lt;a data-cc-if="options.link" class="cookie-choices-button" target="_blank" href="{{options.link || "#null"}}"&gt;{{options.learnMore}}&lt;/a&gt; &lt;a id="cookieChoiceDismiss" href="#null" data-cc-event="click:dismiss"  class="cookie-choices-button"&gt;{{options.dismiss}}&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;',
+            '&lt;/div&gt;',
+            '&lt;/div&gt;',
+            '&lt;/div&gt;'
+        ],
+        cookieName: 'dilbert_cookieconsent_dismissed',
+        readystate: 'interactive'
+    };
+&lt;/script&gt;
+  &lt;script src="/assets/uu-cookieconsent-4c2e5caf476b47f16c33b7493d1c49ab.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body class="layout-anchored" role="document"&gt;
+
+    &lt;!-- Google Universal Analytics Start --&gt;
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // UU Tracking Object
+  ga('create', "UA-273330-47", 'auto', {'name': 'trackerUU47'});
+  ga('trackerUU47.require', 'displayfeatures');
+  ga('trackerUU47.require', 'linkid');
+  ga('trackerUU47.require', 'outboundLinkTracker', {
+      shouldTrackOutboundLink: function(link) {
+          // Checks that the link's hostname does not contain "example.com".
+          return link.hostname.indexOf('dilbert.com') &lt; 0;
+      }
+  });
+  ga('trackerUU47.set', 'dimension1', "Dilbert Website");
+  ga('trackerUU47.set', 'dimension2', "Dilbert");
+  //ga(
+  //ga('.set'), 'dimension3', Subscribed to Newsletter);
+  //ga('.set'), 'dimension4', User - Blocking Ads);
+  //ga('.set'), 'dimension5', Pageview - Blocking Ads);
+  //ga('.set'), 'dimension6', Pageview - Ad Count);
+
+  ga('trackerUU47.set', { "page": '/1', "title": "Dilbert - Page 1"});
+  ga('trackerUU47.send', 'pageview');
+
+  // Analytics Time Tracking
+  var trackTimeSpent = function(time) {
+    ga('trackerUU47.send', 'event', "Comics", "Dilbert", "");
+    //completionTime);
+  };
+
+  // Analytics Virtual Pageview Hit - Asynchronous View Change 
+  var trackItemsLoad = function(items) {
+    var currentPage = Math.round(parseInt(items - 1,10) / 3);
+    ga('trackerUU47.set', { "page": '' + currentPage, "title": "Dilbert - Page " + currentPage});
+    ga('trackerUU47.send', 'pageview');
+  };
+  
+  //Analytics Event Tracking - Sharing
+  var trackSharingToggle = function() {
+    ga('trackerUU47.send', 'event', 'social', 'Share - Activated Toggle');
+  };
+
+    var trackSharingToggle = function() {
+    ga('trackerUU47.send', 'event', 'social', 'Share - Activated Toggle');
+  };
+
+  // no longer used
+  var trackSharingCopiedLink = function() {
+    ga('trackerUU47.send', 'event', 'social', 'Share - Shared via Copied Link');
+  };
+
+  var trackSharingNetwork = function(network) {
+    ga('trackerUU47.send', 'event', 'social', 'Share - Shared via ' + network);
+  };
+  
+  var trackRating = function() {
+    ga('trackerUU47.send', 'event', 'social', 'UX - Comic Rated');
+  };
+  
+  var trackUXGeneric = function(trackingLabel) {
+    ga('trackerUU47.send', 'event', 'social', 'UX - ' + trackingLabel);
+  };
+
+  var trackFollow = function(trackingLabel) {
+    ga('trackerUU47.send', 'event', 'social', 'Follow - ' + trackingLabel);
+  };
+
+
+&lt;/script&gt;
+&lt;!-- Google Universal Analytics End --&gt;
+
+&lt;!-- Beginning of AMU Marketing Silverpop Tracking --&gt;
+&lt;meta name="com.silverpop.brandeddomains" content="www.pages02.net,ampkids.com,amureprints.com,andrewsmcmeel.com,calvinandhobbes.com,dilbert.com,epicbignate.com,gocomics.com,puzzlesociety.com,uexpress.com,wonderword.universaluclick.com" /&gt;
+&lt;!-- End of AMU Marketing Silverpop Tracking --&gt;
+    &lt;!-- &lt;div id="interstitial-wrapper" class="ad-interstitial-wrapper hide"&gt; --&gt;
+  &lt;div id="interstitial0" class="ad-interstitial" aria-hidden="true"&gt;
+  &lt;/div&gt;
+  &lt;!-- &lt;a class="js-close-link ad-interstitial-cancel" data-target="#interstitial-wrapper"&gt;Skip Advertisement &lt;i class="fa fa-close"&gt;&lt;/i&gt;&lt;/a&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+
+    &lt;div class="container-fluid"&gt;
+        &lt;!-- HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START HEADER START --&gt;
+
+
+    &lt;div class="site-bg-bar"&gt;&lt;/div&gt;
+    &lt;div class="container-header"&gt;
+      &lt;header class="site-header" role="banner"&gt;
+        &lt;div class="visible-xs-block site-mobile-header"&gt;
+          &lt;a class="btn btn-link site-header-mobile-link pull-left js-toggle-link" href="" data-target=".site-header-nav"&gt;&lt;i class="fa fa-bars fa-lg" aria-hidden="true"&gt;&lt;/i&gt;&lt;i class="fa fa-times fa-lg" aria-hidden="true"&gt;&lt;/i&gt; &lt;span class="sr-only"&gt;Menu&lt;/span&gt;&lt;/a&gt;
+          &lt;a href="" class="btn btn-link pull-right site-header-mobile-link js-toggle-link" data-target=".site-header-mobile-search"&gt;&lt;i class="fa fa-search fa-lg" aria-hidden="true"&gt;&lt;/i&gt;&lt;i class="fa fa-times fa-lg" aria-hidden="true"&gt;&lt;/i&gt; &lt;span class="sr-only"&gt;Search&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="site-header-branding"&gt;
+          &lt;span class="logo-container"&gt;&lt;a class="logo" title="Dilbert Logo" href="http://dilbert.com/"&gt;&lt;img src="/assets/dilbert-logo-4152bd0c31f7de7443b4bc90abd818da.png" alt="Dilbert logo" width="144" height="127" /&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;span class="hidden-xs"&gt;&lt;img class="characters-top" alt="" src="/assets/dilbert_character_top-fc9d6f0400f6291f372728c3162ca835.png" width="169" height="107" /&gt;&lt;/span&gt;
+        &lt;/div&gt;&lt;!-- /.site-header-branding --&gt;
+        &lt;div class="site-header-nav hidden-xs"&gt;
+          &lt;nav role="navigation"&gt;
+            &lt;ul class="nav-main" role="menubar"&gt;
+              &lt;li role="menuitem" class="nav-main-item active"&gt;&lt;a class="nav-main-link" href="http://dilbert.com/"&gt;Comics&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="menuitem" class="nav-main-item "&gt;&lt;a class="nav-main-link" href="http://blog.dilbert.com?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-engagement&amp;amp;utm_content=navigation"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="menuitem" tabindex="-1" class="nav-main-item"&gt;&lt;a class="nav-main-link dropdown-toggle js-follow-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"&gt;Follow&lt;/a&gt;
+                &lt;ul role="menubar" class="dropdown-menu nav-main-dropdown"&gt;
+                  &lt;li role="menuitem" class="nav-sub-item"&gt;&lt;a class="js-follow-facebook" href="https://www.facebook.com/dilbert?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-social&amp;amp;utm_content=navigation" target="_blank"&gt;&lt;i class="fa fa-fw fa-facebook"&gt;&lt;/i&gt; Facebook&lt;/a&gt;&lt;/li&gt;
+                  &lt;li role="menuitem" class="nav-sub-item"&gt;&lt;a class="js-follow-twitter" href="https://twitter.com/Dilbert_Daily?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-social&amp;amp;utm_content=navigation" target="_blank"&gt;&lt;i class="fa fa-fw fa-twitter"&gt;&lt;/i&gt; Twitter&lt;/a&gt;&lt;/li&gt;
+                  &lt;li role="menuitem" class="nav-sub-item"&gt;&lt;a class="js-follow-comic-feed link-blended" target="_blank" href="http://feed.dilbert.com/dilbert/daily_strip"&gt;&lt;i class='fa fa-fw fa-rss'&gt;&lt;/i&gt; Comics&lt;/a&gt;&lt;/li&gt;
+                  &lt;li role="menuitem" class="nav-sub-item"&gt;&lt;a class="js-follow-blog-feed link-blended" href="http://feed.dilbert.com/dilbert/blog"&gt;&lt;i class='fa fa-fw fa-rss'&gt;&lt;/i&gt; Blog&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li role="search" class="nav-main-item "&gt;&lt;a class="nav-main-link" href="/search"&gt;&lt;i class='fa fa-search'&gt;&lt;/i&gt; &lt;span class='sr-only'&gt;Search&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="nav-secondary" role="menubar"&gt;
+              &lt;li role="menuitem" class="nav-secondary-item"&gt;&lt;a class="nav-secondary-link" href="http://blog.dilbert.com/about"&gt;About Dilbert&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="menuitem" class="nav-secondary-item"&gt;&lt;a class="nav-secondary-link" href="http://dilbert.com/privacy"&gt;Privacy&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="menuitem" class="nav-secondary-item"&gt;&lt;a class="nav-secondary-link" href="http://dilbert.com/privacy"&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="menuitem" class="nav-secondary-item"&gt;&lt;a class="nav-secondary-link" href="http://blog.dilbert.com/advertising"&gt;Advertising&lt;/a&gt;&lt;/li&gt;
+              &lt;li role="menuitem" class="nav-secondary-item"&gt;&lt;a class="nav-secondary-link" href="http://blog.dilbert.com/contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/nav&gt;
+        &lt;/div&gt;&lt;!-- /.site-header-nav --&gt;
+        &lt;div class="site-header-mobile-search"&gt;
+          &lt;form action="/search_results" method="get"&gt;
+            &lt;div class="form-group"&gt;
+                &lt;input type="text" name="terms" id="terms" class="form-control input-lg" placeholder="Search by Keyword or Date" /&gt;
+            &lt;/div&gt;
+            &lt;div class="form-group"&gt;
+                      &lt;button name="" type="sumbit" class="btn btn-block btn-primary btn-lg"&gt;
+                    &lt;i class='fa fa-search'&gt;&lt;/i&gt; Search
+&lt;/button&gt;            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;&lt;!-- /.site-header --&gt;
+    &lt;/div&gt;&lt;!-- /.container-header --&gt;
+
+
+
+&lt;!-- HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END HEADER END --&gt;
+
+          &lt;div class="ad-leaderboard" aria-hidden="true"&gt;
+    &lt;div id="leaderboard0" class="ad js-ad" data-ad-type="leaderboard"&gt;
+    &lt;/div&gt;
+    &lt;div class="pubnation" data-target="leaderboard0" style="visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;/div&gt;
+        &lt;div class="page-wrapper" role="main"&gt;
+	        
+&lt;div class="ad-anchored" aria-hidden="true"&gt;
+    &lt;div id="tower_anchored" class="ad js-ad" data-ad-type="tower_anchored"&gt;
+    &lt;/div&gt;
+    &lt;div class="pubnation" data-target="tower_anchored" style="visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 class="hidden" id="hidden-header"&gt;Dilbert.com by Scott Adams&lt;/h1&gt;
+
+&lt;div id="js_comics"&gt;
+    &lt;div class="js_comic_block_7241049"&gt;
+      &lt;div class="comic-item-container js_comic_container_2018-04-08" itemType="http://schema.org/CreativeWork" accountablePerson="Andrews McMeel Syndication" creator="Scott Adams" data-itemtype="" data-id="2018-04-08" data-url="http://dilbert.com/strip/2018-04-08" data-image="http://assets.amuniversal.com/9c0154c0f27a01351756005056a9545d" data-date="April 08, 2018" data-creator="Scott Adams" data-title="Dilbert Comic for 2018-04-08" data-tags="surveillance,spying,technology,lying,caught,busted,guilt,proof" data-description="Dilbert: Why didn&amp;#39;t you answer my email? Boss: I didn&amp;#39;t get it. Dilbert: My lie-detector app detected stress in your voice. I checked your email history on the server, and it confirms you opened my email. Boss: That could have been a hacker with my password. Dilbert: I&amp;#39;m checking the security camera footage for your office at that time. And there you are opening my email. Now will you admit you got my email? Boss: I&amp;#39;m seriously considering it."&gt;
+  &lt;div class="meta-info-container"&gt;
+
+
+    &lt;section class="comic-item"&gt;
+
+      &lt;h1 class="comic-title"&gt;
+        &lt;a class="comic-title-link" href="http://dilbert.com/strip/2018-04-08"&gt;
+        &lt;span itemprop="name" class="comic-date-wrapper"&gt;
+          &lt;date class="comic-title-date" itemProp="datePublished"&gt;
+            &lt;span&gt;Sunday April 08,&lt;/span&gt;
+            &lt;span itemprop="copyrightYear"&gt;2018&lt;/span&gt;
+          &lt;/date&gt;
+        &lt;/span&gt;
+          &lt;span class="comic-title-name"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;span class="star-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"&gt;
+          &lt;div class="star_rating_2018-04-08 js_star_rating star-rating" data-date="2018-04-08"&gt;&lt;/div&gt;&lt;meta itemprop="ratingValue" value="4.5"/&gt;
+      &lt;/span&gt;
+      &lt;/h1&gt;
+      &lt;div class="alert alert-success js_thanks_for_voting"&gt;
+          Thank you for voting.
+      &lt;/div&gt;
+
+      &lt;div class="img-comic-container"&gt;
+        &lt;a itemprop="image" class="img-comic-link" href="http://dilbert.com/strip/2018-04-08" title="Click to see the comic strip "&gt;
+          &lt;img class="img-responsive img-comic" width="900" height="439" alt=" - Dilbert by Scott Adams" src="http://assets.amuniversal.com/9c0154c0f27a01351756005056a9545d" /&gt;
+        &lt;/a&gt;
+        &lt;meta itemprop="isFamilyFriendly" content="true"/&gt;
+
+        &lt;div data-src=".js_comic_container_2018-04-08" class="js-amu-social-section"&gt;
+          &lt;ul class="amu-section-social" role="toolbar"&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="email" class="social-btn social-btn-link js-email" href="mailto:?body=Check%20out%20this%20Dilbert%20Comic.%0D%0A%0D%0Ahttp%3A%2F%2Fwww.dilbert.com%2Fstrip%2F2018-04-08%3Futm_source%3Ddilbert.com%2Fshare-email%26utm_medium%3Demail%26utm_campaign%3Dbrand-loyalty&amp;amp;subject=Dilbert%20by%20Scott%20Adams%2C%202018-04-08"&gt;
+                &lt;i class="fa fa-envelope fa-fw fa-lg"&gt;&lt;/i&gt; &lt;span class="sr-only"&gt;Email Comic&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="facebook" class="social-btn social-btn-facebook js-facebook share-btn" href="#"&gt;
+                &lt;i class="fa fa-facebook fa-fw fa-lg"&gt;&lt;/i&gt;&lt;span class="sr-only"&gt; Share&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="twitter" class="social-btn social-btn-twitter js-twitter share-btn" href="#"&gt;
+                &lt;i class="fa fa-twitter fa-fw fa-lg"&gt;&lt;/i&gt;&lt;span class="sr-only"&gt; Tweet&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;
+              &lt;a href="http://dilbert.com/strip/2018-04-08#comments" class="social-link" title="Join the discussion on  Dilbert Comic Strip"&gt;
+                &lt;span class="social-link-icon"&gt;&lt;i class="fa fa-comments fa-lg fa-fw"&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span class="social-label-stacked"&gt;
+                &lt;span class="social-label-top"&gt;Comments&lt;/span&gt;
+                &lt;span class="social-label-bottom disqus-comment-count" data-disqus-identifier="comic-2018-04-08"&gt;0&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="comic-buy-link amu-social-item"&gt;
+              &lt;a class="social-btn" href="/buy?date=2018-04-08" title="Purchase this strip"&gt;Buy&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+
+
+        &lt;div id="js-toggle-element-2018-04-08" data-id="2018-04-08" class="alert alert-info alert-share js-track-share-toggle"&gt;
+	&lt;button type="button" class="close js-close-link" data-target="#js-toggle-element-2018-04-08"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;span class="sr-only"&gt;Close&lt;/span&gt;&lt;/button&gt;
+	&lt;h4 class="hdr-info"&gt;Share April 08, 2018's comic on:&lt;/h4&gt;
+	&lt;ul class="share-links list list-inline"&gt;
+		&lt;li&gt;&lt;a name="facebook" class="share-btn share-btn-facebook js-facebook" href="#"&gt;&lt;button class="fa fa-facebook fa-fw fa-lg" aria-label="Share on Facebook"&gt;&lt;/button&gt; Facebook&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a name="twitter" class="share-btn share-btn-twitter js-twitter" href="#"&gt;&lt;button class="fa fa-twitter fa-fw fa-lg" aria-label="Share on Twitter"&gt;&lt;/button&gt; Twitter&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a name="reddit" class="share-btn share-btn-reddit js-reddit" href="#"&gt;&lt;button class="fa fa-reddit fa-fw fa-lg" aria-label="Share on Reddit"&gt;&lt;/button&gt; Reddit&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;hr&gt;
+	&lt;form class="form form-inline"&gt;
+		&lt;label class="control-label" for="link-2018-04-08"&gt;Grab the link:&lt;/label&gt;
+		&lt;input class="form-control js-copy-link input-share-link" name="link-2018-04-08" value="http://dilbert.com/strip/2018-04-08"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+
+
+
+&lt;div id="js-toggle-element-2018-04-08-variation" data-id="2018-04-08"  class="alert alert-info alert-share js-track-share-toggle"&gt;	
+	&lt;form class="form form-inline"&gt;
+		&lt;label class="control-label" for="link-2018-04-08"&gt;Grab the link:&lt;/label&gt;
+		&lt;input class="form-control js-copy-link input-share-link" name="link-2018-04-08" value="http://dilbert.com/strip/2018-04-08"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+        &lt;div class="meta-info-container"&gt;
+            &lt;p class="small comic-tags"&gt;
+              &lt;span class="label-sm"&gt;Tags&lt;/span&gt;
+                &lt;a class="link" href="/search_results?terms=surveillance"&gt;#surveillance&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=spying"&gt;#spying&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=technology"&gt;#technology&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=lying"&gt;#lying&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=caught"&gt;#caught&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=busted"&gt;#busted&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=guilt"&gt;#guilt&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=proof"&gt;#proof&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;p class="small"&gt;
+              &lt;a class="js-toggle-link " data-target="#js-toggle-transcript-2018-04-08" href=""&gt;View
+                Transcript&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;div id="js-toggle-transcript-2018-04-08" class="js-toggle-container"&gt;
+            &lt;h4&gt;&lt;span class="label-sm"&gt;Transcript&lt;/span&gt;&lt;/h4&gt;
+            &lt;p&gt;Dilbert: Why didn&amp;#39;t you answer my email? Boss: I didn&amp;#39;t get it. Dilbert: My lie-detector app detected stress in your voice. I checked your email history on the server, and it confirms you opened my email. Boss: That could have been a hacker with my password. Dilbert: I&amp;#39;m checking the security camera footage for your office at that time. And there you are opening my email. Now will you admit you got my email? Boss: I&amp;#39;m seriously considering it.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+
+  &lt;script type="text/javascript"&gt;
+    $(function () {
+      $('.star_rating_2018-04-08').raty({
+        score: 4.5,
+        half: true,
+        precision: false
+      });
+      $('.star_rating_2018-04-08').raty({
+        score: 4.5,
+        half: true,
+        precision: false
+      });
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+
+
+    &lt;div class='shelf-space-container row js_shelf_ads'&gt;
+  &lt;div class="shelf-space-item"&gt;
+    &lt;div class="ad-rectangle" aria-hidden="true"&gt;
+    &lt;div id="rectangle0" class="ad js-ad" data-ad-type="rectangle"&gt;
+    &lt;/div&gt;
+    &lt;div class="pubnation" data-target="rectangle0" style="visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+
+
+
+  &lt;div class="shelf-space-item"&gt;
+    &lt;h3 class="blog-hdr-top"&gt;&lt;a href="http://blog.dilbert.com?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-engagement&amp;amp;utm_content=shelf-space-2-blog"&gt;From Scott Adams&amp;#39; Blog&lt;/a&gt;&lt;/h3&gt;
+    &lt;div class="blog-item-multiple"&gt;
+      &lt;div class="media"&gt;
+        &lt;a class="link-blended" href="http://blog.dilbert.com/2018/04/04/episode-12-youtube-shooter-amazon-com-trade-war-and-overcoming-social-anxiety/?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-engagement&amp;amp;utm_content=shelf-space-0-blog-title" title="Episode 13: YouTube shooter, Amazon.com, trade war, and overcoming social anxiety by Scott Adams"&gt;
+          &lt;div class="media-left"&gt;
+              &lt;img class="media-object" alt="" src="/assets/avatar_scottadams_128-cb771b677d2b7283b91246aaf3d472e2.png" width="64" height="64" /&gt;
+          &lt;/div&gt;
+          &lt;div class="media-body"&gt;
+            &lt;h4 class="media-heading"&gt;Episode 13: YouTube shooter, Amazon.com, trade war, and overcoming social anxiety&lt;/h4&gt;
+            &lt;span class="blog-author"&gt;by Scott Adams&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class="media"&gt;
+        &lt;a class="link-blended" href="http://blog.dilbert.com/2018/04/03/episode-11-the-immigrant-caravan-a-theoretical-daca-deal-and-why-it-is-a-good-week-for-president-trump/?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-engagement&amp;amp;utm_content=shelf-space-0-blog-title" title="Episode 12: The Immigrant Caravan, a Theoretical DACA Deal, and why it is a Good Week for President Trump by Scott Adams"&gt;
+          &lt;div class="media-left"&gt;
+              &lt;img class="media-object" alt="" src="/assets/avatar_scottadams_128-cb771b677d2b7283b91246aaf3d472e2.png" width="64" height="64" /&gt;
+          &lt;/div&gt;
+          &lt;div class="media-body"&gt;
+            &lt;h4 class="media-heading"&gt;Episode 12: The Immigrant Caravan, a Theoretical DACA Deal, and why it is a Good Week for President Trump&lt;/h4&gt;
+            &lt;span class="blog-author"&gt;by Scott Adams&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+
+      
+      &lt;div class="media"&gt;
+        &lt;a class="link-blended" href="http://blog.dilbert.com/2018/04/03/episode-10-the-climate-trial-sinclair-broadcasting-and-presidential-priorities/?utm_source=dilbert.com&amp;amp;utm_medium=site&amp;amp;utm_campaign=brand-engagement&amp;amp;utm_content=shelf-space-0-blog-title" title="Episode 11: The Climate Trial, Sinclair Broadcasting, and presidential priorities by Scott Adams"&gt;
+          &lt;div class="media-left"&gt;
+              &lt;img class="media-object" alt="" src="/assets/avatar_scottadams_128-cb771b677d2b7283b91246aaf3d472e2.png" width="64" height="64" /&gt;
+          &lt;/div&gt;
+          &lt;div class="media-body"&gt;
+            &lt;h4 class="media-heading"&gt;Episode 11: The Climate Trial, Sinclair Broadcasting, and presidential priorities&lt;/h4&gt;
+            &lt;span class="blog-author"&gt;by Scott Adams&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+
+  &lt;div class="shelf-space-item shelf-space-item-right"&gt;
+    &lt;div class="ad-rectangle-right" aria-hidden="true"&gt;
+    &lt;div id="rectangle_right0" class="ad js-ad" data-ad-type="rectangle_right"&gt;
+    &lt;/div&gt;
+    &lt;div class="pubnation" data-target="rectangle_right0" style="visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      &lt;div class="comic-item-container js_comic_container_2018-04-07" itemType="http://schema.org/CreativeWork" accountablePerson="Andrews McMeel Syndication" creator="Scott Adams" data-itemtype="" data-id="2018-04-07" data-url="http://dilbert.com/strip/2018-04-07" data-image="http://assets.amuniversal.com/79941ea00dce013621cf005056a9545d" data-date="April 07, 2018" data-creator="Scott Adams" data-title="Elbonian Interference With Ads" data-tags="hacker,troll,social media,damage,marketing,bot,nonsense" data-description="Dilbert: Our competitors hired an Elbonian troll farm to ruin our brand on social media. Their most viral ad against us so far says, &amp;quot;How ice cream they bicycle art!&amp;quot; Boss: How many views did it get? Dilbert: Seven, including this one."&gt;
+  &lt;div class="meta-info-container"&gt;
+
+
+    &lt;section class="comic-item"&gt;
+
+      &lt;h1 class="comic-title"&gt;
+        &lt;a class="comic-title-link" href="http://dilbert.com/strip/2018-04-07"&gt;
+        &lt;span itemprop="name" class="comic-date-wrapper"&gt;
+          &lt;date class="comic-title-date" itemProp="datePublished"&gt;
+            &lt;span&gt;Saturday April 07,&lt;/span&gt;
+            &lt;span itemprop="copyrightYear"&gt;2018&lt;/span&gt;
+          &lt;/date&gt;
+        &lt;/span&gt;
+          &lt;span class="comic-title-name"&gt;Elbonian Interference With Ads&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;span class="star-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"&gt;
+          &lt;div class="star_rating_2018-04-07 js_star_rating star-rating" data-date="2018-04-07"&gt;&lt;/div&gt;&lt;meta itemprop="ratingValue" value="4.0"/&gt;
+      &lt;/span&gt;
+      &lt;/h1&gt;
+      &lt;div class="alert alert-success js_thanks_for_voting"&gt;
+          Thank you for voting.
+      &lt;/div&gt;
+
+      &lt;div class="img-comic-container"&gt;
+        &lt;a itemprop="image" class="img-comic-link" href="http://dilbert.com/strip/2018-04-07" title="Click to see the comic strip Elbonian Interference With Ads"&gt;
+          &lt;img class="img-responsive img-comic" width="900" height="280" alt="Elbonian Interference With Ads - Dilbert by Scott Adams" src="http://assets.amuniversal.com/79941ea00dce013621cf005056a9545d" /&gt;
+        &lt;/a&gt;
+        &lt;meta itemprop="isFamilyFriendly" content="true"/&gt;
+
+        &lt;div data-src=".js_comic_container_2018-04-07" class="js-amu-social-section"&gt;
+          &lt;ul class="amu-section-social" role="toolbar"&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="email" class="social-btn social-btn-link js-email" href="mailto:?body=Check%20out%20this%20Dilbert%20Comic.%0D%0A%0D%0Ahttp%3A%2F%2Fwww.dilbert.com%2Fstrip%2F2018-04-07%3Futm_source%3Ddilbert.com%2Fshare-email%26utm_medium%3Demail%26utm_campaign%3Dbrand-loyalty&amp;amp;subject=Dilbert%20by%20Scott%20Adams%2C%202018-04-07"&gt;
+                &lt;i class="fa fa-envelope fa-fw fa-lg"&gt;&lt;/i&gt; &lt;span class="sr-only"&gt;Email Comic&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="facebook" class="social-btn social-btn-facebook js-facebook share-btn" href="#"&gt;
+                &lt;i class="fa fa-facebook fa-fw fa-lg"&gt;&lt;/i&gt;&lt;span class="sr-only"&gt; Share&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="twitter" class="social-btn social-btn-twitter js-twitter share-btn" href="#"&gt;
+                &lt;i class="fa fa-twitter fa-fw fa-lg"&gt;&lt;/i&gt;&lt;span class="sr-only"&gt; Tweet&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;
+              &lt;a href="http://dilbert.com/strip/2018-04-07#comments" class="social-link" title="Join the discussion on Elbonian Interference With Ads Dilbert Comic Strip"&gt;
+                &lt;span class="social-link-icon"&gt;&lt;i class="fa fa-comments fa-lg fa-fw"&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span class="social-label-stacked"&gt;
+                &lt;span class="social-label-top"&gt;Comments&lt;/span&gt;
+                &lt;span class="social-label-bottom disqus-comment-count" data-disqus-identifier="comic-2018-04-07"&gt;0&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="comic-buy-link amu-social-item"&gt;
+              &lt;a class="social-btn" href="/buy?date=2018-04-07" title="Purchase this strip"&gt;Buy&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+
+
+        &lt;div id="js-toggle-element-2018-04-07" data-id="2018-04-07" class="alert alert-info alert-share js-track-share-toggle"&gt;
+	&lt;button type="button" class="close js-close-link" data-target="#js-toggle-element-2018-04-07"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;span class="sr-only"&gt;Close&lt;/span&gt;&lt;/button&gt;
+	&lt;h4 class="hdr-info"&gt;Share April 07, 2018's comic on:&lt;/h4&gt;
+	&lt;ul class="share-links list list-inline"&gt;
+		&lt;li&gt;&lt;a name="facebook" class="share-btn share-btn-facebook js-facebook" href="#"&gt;&lt;button class="fa fa-facebook fa-fw fa-lg" aria-label="Share on Facebook"&gt;&lt;/button&gt; Facebook&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a name="twitter" class="share-btn share-btn-twitter js-twitter" href="#"&gt;&lt;button class="fa fa-twitter fa-fw fa-lg" aria-label="Share on Twitter"&gt;&lt;/button&gt; Twitter&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a name="reddit" class="share-btn share-btn-reddit js-reddit" href="#"&gt;&lt;button class="fa fa-reddit fa-fw fa-lg" aria-label="Share on Reddit"&gt;&lt;/button&gt; Reddit&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;hr&gt;
+	&lt;form class="form form-inline"&gt;
+		&lt;label class="control-label" for="link-2018-04-07"&gt;Grab the link:&lt;/label&gt;
+		&lt;input class="form-control js-copy-link input-share-link" name="link-2018-04-07" value="http://dilbert.com/strip/2018-04-07"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+
+
+
+&lt;div id="js-toggle-element-2018-04-07-variation" data-id="2018-04-07"  class="alert alert-info alert-share js-track-share-toggle"&gt;	
+	&lt;form class="form form-inline"&gt;
+		&lt;label class="control-label" for="link-2018-04-07"&gt;Grab the link:&lt;/label&gt;
+		&lt;input class="form-control js-copy-link input-share-link" name="link-2018-04-07" value="http://dilbert.com/strip/2018-04-07"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+        &lt;div class="meta-info-container"&gt;
+            &lt;p class="small comic-tags"&gt;
+              &lt;span class="label-sm"&gt;Tags&lt;/span&gt;
+                &lt;a class="link" href="/search_results?terms=hacker"&gt;#hacker&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=troll"&gt;#troll&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=social+media"&gt;#social media&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=damage"&gt;#damage&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=marketing"&gt;#marketing&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=bot"&gt;#bot&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=nonsense"&gt;#nonsense&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;p class="small"&gt;
+              &lt;a class="js-toggle-link " data-target="#js-toggle-transcript-2018-04-07" href=""&gt;View
+                Transcript&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;div id="js-toggle-transcript-2018-04-07" class="js-toggle-container"&gt;
+            &lt;h4&gt;&lt;span class="label-sm"&gt;Transcript&lt;/span&gt;&lt;/h4&gt;
+            &lt;p&gt;Dilbert: Our competitors hired an Elbonian troll farm to ruin our brand on social media. Their most viral ad against us so far says, &amp;quot;How ice cream they bicycle art!&amp;quot; Boss: How many views did it get? Dilbert: Seven, including this one.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+
+  &lt;script type="text/javascript"&gt;
+    $(function () {
+      $('.star_rating_2018-04-07').raty({
+        score: 4.0,
+        half: true,
+        precision: false
+      });
+      $('.star_rating_2018-04-07').raty({
+        score: 4.0,
+        half: true,
+        precision: false
+      });
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+
+
+
+
+      &lt;div class="comic-item-container js_comic_container_2018-04-06" itemType="http://schema.org/CreativeWork" accountablePerson="Andrews McMeel Syndication" creator="Scott Adams" data-itemtype="" data-id="2018-04-06" data-url="http://dilbert.com/strip/2018-04-06" data-image="http://assets.amuniversal.com/7842a0400dce013621cf005056a9545d" data-date="April 06, 2018" data-creator="Scott Adams" data-title="Elbonian Interference" data-tags="hacker,hacking,trolls,protest,counter-protest,obliviousness,manipulation" data-description="Dilbert: Uh-oh. I think we are being attacked by an Elbonian troll farm. They&amp;#39;re organizing an employee protest against management and... a management counter-protest against employees. Luckily, no one here is stupid enough to... Boss: Down with employees!"&gt;
+  &lt;div class="meta-info-container"&gt;
+
+
+    &lt;section class="comic-item"&gt;
+
+      &lt;h1 class="comic-title"&gt;
+        &lt;a class="comic-title-link" href="http://dilbert.com/strip/2018-04-06"&gt;
+        &lt;span itemprop="name" class="comic-date-wrapper"&gt;
+          &lt;date class="comic-title-date" itemProp="datePublished"&gt;
+            &lt;span&gt;Friday April 06,&lt;/span&gt;
+            &lt;span itemprop="copyrightYear"&gt;2018&lt;/span&gt;
+          &lt;/date&gt;
+        &lt;/span&gt;
+          &lt;span class="comic-title-name"&gt;Elbonian Interference&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;span class="star-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"&gt;
+          &lt;div class="star_rating_2018-04-06 js_star_rating star-rating" data-date="2018-04-06"&gt;&lt;/div&gt;&lt;meta itemprop="ratingValue" value="4.5"/&gt;
+      &lt;/span&gt;
+      &lt;/h1&gt;
+      &lt;div class="alert alert-success js_thanks_for_voting"&gt;
+          Thank you for voting.
+      &lt;/div&gt;
+
+      &lt;div class="img-comic-container"&gt;
+        &lt;a itemprop="image" class="img-comic-link" href="http://dilbert.com/strip/2018-04-06" title="Click to see the comic strip Elbonian Interference"&gt;
+          &lt;img class="img-responsive img-comic" width="900" height="280" alt="Elbonian Interference - Dilbert by Scott Adams" src="http://assets.amuniversal.com/7842a0400dce013621cf005056a9545d" /&gt;
+        &lt;/a&gt;
+        &lt;meta itemprop="isFamilyFriendly" content="true"/&gt;
+
+        &lt;div data-src=".js_comic_container_2018-04-06" class="js-amu-social-section"&gt;
+          &lt;ul class="amu-section-social" role="toolbar"&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="email" class="social-btn social-btn-link js-email" href="mailto:?body=Check%20out%20this%20Dilbert%20Comic.%0D%0A%0D%0Ahttp%3A%2F%2Fwww.dilbert.com%2Fstrip%2F2018-04-06%3Futm_source%3Ddilbert.com%2Fshare-email%26utm_medium%3Demail%26utm_campaign%3Dbrand-loyalty&amp;amp;subject=Dilbert%20by%20Scott%20Adams%2C%202018-04-06"&gt;
+                &lt;i class="fa fa-envelope fa-fw fa-lg"&gt;&lt;/i&gt; &lt;span class="sr-only"&gt;Email Comic&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="facebook" class="social-btn social-btn-facebook js-facebook share-btn" href="#"&gt;
+                &lt;i class="fa fa-facebook fa-fw fa-lg"&gt;&lt;/i&gt;&lt;span class="sr-only"&gt; Share&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;&lt;a name="twitter" class="social-btn social-btn-twitter js-twitter share-btn" href="#"&gt;
+                &lt;i class="fa fa-twitter fa-fw fa-lg"&gt;&lt;/i&gt;&lt;span class="sr-only"&gt; Tweet&lt;/span&gt;
+              &lt;/a&gt;&lt;/li&gt;
+            &lt;li class="amu-social-item"&gt;
+              &lt;a href="http://dilbert.com/strip/2018-04-06#comments" class="social-link" title="Join the discussion on Elbonian Interference Dilbert Comic Strip"&gt;
+                &lt;span class="social-link-icon"&gt;&lt;i class="fa fa-comments fa-lg fa-fw"&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span class="social-label-stacked"&gt;
+                &lt;span class="social-label-top"&gt;Comments&lt;/span&gt;
+                &lt;span class="social-label-bottom disqus-comment-count" data-disqus-identifier="comic-2018-04-06"&gt;0&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="comic-buy-link amu-social-item"&gt;
+              &lt;a class="social-btn" href="/buy?date=2018-04-06" title="Purchase this strip"&gt;Buy&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+
+
+        &lt;div id="js-toggle-element-2018-04-06" data-id="2018-04-06" class="alert alert-info alert-share js-track-share-toggle"&gt;
+	&lt;button type="button" class="close js-close-link" data-target="#js-toggle-element-2018-04-06"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;span class="sr-only"&gt;Close&lt;/span&gt;&lt;/button&gt;
+	&lt;h4 class="hdr-info"&gt;Share April 06, 2018's comic on:&lt;/h4&gt;
+	&lt;ul class="share-links list list-inline"&gt;
+		&lt;li&gt;&lt;a name="facebook" class="share-btn share-btn-facebook js-facebook" href="#"&gt;&lt;button class="fa fa-facebook fa-fw fa-lg" aria-label="Share on Facebook"&gt;&lt;/button&gt; Facebook&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a name="twitter" class="share-btn share-btn-twitter js-twitter" href="#"&gt;&lt;button class="fa fa-twitter fa-fw fa-lg" aria-label="Share on Twitter"&gt;&lt;/button&gt; Twitter&lt;/a&gt;&lt;/li&gt;
+
+		&lt;li&gt;&lt;a name="reddit" class="share-btn share-btn-reddit js-reddit" href="#"&gt;&lt;button class="fa fa-reddit fa-fw fa-lg" aria-label="Share on Reddit"&gt;&lt;/button&gt; Reddit&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;hr&gt;
+	&lt;form class="form form-inline"&gt;
+		&lt;label class="control-label" for="link-2018-04-06"&gt;Grab the link:&lt;/label&gt;
+		&lt;input class="form-control js-copy-link input-share-link" name="link-2018-04-06" value="http://dilbert.com/strip/2018-04-06"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+
+
+
+&lt;div id="js-toggle-element-2018-04-06-variation" data-id="2018-04-06"  class="alert alert-info alert-share js-track-share-toggle"&gt;	
+	&lt;form class="form form-inline"&gt;
+		&lt;label class="control-label" for="link-2018-04-06"&gt;Grab the link:&lt;/label&gt;
+		&lt;input class="form-control js-copy-link input-share-link" name="link-2018-04-06" value="http://dilbert.com/strip/2018-04-06"&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+        &lt;div class="meta-info-container"&gt;
+            &lt;p class="small comic-tags"&gt;
+              &lt;span class="label-sm"&gt;Tags&lt;/span&gt;
+                &lt;a class="link" href="/search_results?terms=hacker"&gt;#hacker&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=hacking"&gt;#hacking&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=trolls"&gt;#trolls&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=protest"&gt;#protest&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=counter-protest"&gt;#counter-protest&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=obliviousness"&gt;#obliviousness&lt;/a&gt;,
+                &lt;a class="link" href="/search_results?terms=manipulation"&gt;#manipulation&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;p class="small"&gt;
+              &lt;a class="js-toggle-link " data-target="#js-toggle-transcript-2018-04-06" href=""&gt;View
+                Transcript&lt;/a&gt;
+            &lt;/p&gt;
+          &lt;div id="js-toggle-transcript-2018-04-06" class="js-toggle-container"&gt;
+            &lt;h4&gt;&lt;span class="label-sm"&gt;Transcript&lt;/span&gt;&lt;/h4&gt;
+            &lt;p&gt;Dilbert: Uh-oh. I think we are being attacked by an Elbonian troll farm. They&amp;#39;re organizing an employee protest against management and... a management counter-protest against employees. Luckily, no one here is stupid enough to... Boss: Down with employees!&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+
+  &lt;script type="text/javascript"&gt;
+    $(function () {
+      $('.star_rating_2018-04-06').raty({
+        score: 4.5,
+        half: true,
+        precision: false
+      });
+      $('.star_rating_2018-04-06').raty({
+        score: 4.5,
+        half: true,
+        precision: false
+      });
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+
+
+    &lt;div class="ad-banner" aria-hidden="true"&gt;
+    &lt;div id="banner0" class="ad js-ad-lazy-load" data-ad-type="banner"&gt;
+    &lt;/div&gt;
+    &lt;div class="pubnation" data-target="banner0" style="visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;div id="infinite-scrolling" class="infinite-scrolling-container"&gt;
+  &lt;a class="js_load_comics pagination" href="/?post_index=3&amp;amp;series_count=0&amp;amp;starting_point=3"&gt;&lt;p&gt;&lt;i class="fa fa-refresh fa-2x"&gt;&lt;/i&gt;&lt;/p&gt;&lt;p class="text-muted js-load-comics-text"&gt;Load More&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;script src="/assets/disqus-fc395c861c8b105ac3a21f4dc49e27e0.js"&gt;&lt;/script&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+    var _pnq = _pnq || [];
+    _pnq.push(['setId', 'pn-1e46a850d3d769b6']);
+    (function() {
+        var pnr = document.createElement('script');
+        pnr.type = 'text/javascript';
+        pnr.async = true;
+        pnr.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'report-ads-to.pubnation.com/dist/pnr.js?t=pn-1e46a850d3d769b6';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(pnr, s);
+    })();
+&lt;/script&gt;
+    &lt;div class="ad-locked" aria-hidden="true"&gt;
+  &lt;div id="tynt" class="ad" data-ad-type="tynt"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    &lt;!-- Quantcast Tag --&gt;
+&lt;script type="text/javascript"&gt;
+    var _qevents = _qevents || [];
+
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+
+    _qevents.push({
+        qacct:"p-5bhew76JBcfq6"
+    });
+&lt;/script&gt;
+
+&lt;noscript&gt;
+  &lt;div style="display:none;"&gt;
+    &lt;img src="//pixel.quantserve.com/pixel/p-5bhew76JBcfq6.gif" border="0" height="1" width="1" alt=""/&gt;
+  &lt;/div&gt;
+&lt;/noscript&gt;
+&lt;!-- End Quantcast tag --&gt;
+
+    &lt;!-- Beginning of AMU Marketing Silverpop Tracking --&gt;
+    &lt;script src="http://contentz.mkt922.com/lp/static/js/iMAWebCookie.js?4c864741-1542ec78d7c-df4cba773885eb54dfcebd294a039c37&amp;h=www.pages02.net" type="text/javascript"&gt;&lt;/script&gt;
+    &lt;!-- End of AMU Marketing Silverpop Tracking --&gt;
+
+    &lt;script src="http://dilbert.com/assets/apollo-c5e8f25294103b34cfe9dc32eea36a4a.js?sampling=2&amp;tracker=trackerUU47"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</ReturnValue>
+    <OutAndRefValues />
+  </RecordedCall>
+</ArrayOfRecordedCall>
