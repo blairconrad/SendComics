@@ -2,6 +2,7 @@ bin/
 obj/
 
 local.settings.json
+*.csproj.user
 
 /.vs
 /src/*/Properties
