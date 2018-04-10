@@ -1,0 +1,1330 @@
+<?xml version="1.0"?>
+<ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecordedCall>
+    <Method>System.String GetContent(System.String)</Method>
+    <ReturnValue xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
+&lt;!--[if IE 6]&gt;
+&lt;html id="ie6" lang="en-US"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;
+&lt;html id="ie7" lang="en-US"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;
+&lt;html id="ie8" lang="en-US"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]&gt;&lt;!--&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" 
+xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"&gt;
+&lt;!--&lt;![endif]--&gt;
+&lt;head&gt;
+&lt;!-- Ensighten bootstrap --&gt;
+&lt;script type="text/javascript"&gt;
+if (document.cookie.indexOf("nsghtn=dev") &gt; -1) {
+document.write("&lt;scr"+"ipt type=\"text/javascript\"src=\"//nexus.ensighten.com/hearst/kfs-dev/Bootstrap.js\"&gt;&lt;/sc"+"ript&gt;");
+} else {
+document.write("&lt;scr"+"ipt type=\"text/javascript\"src=\"//nexus.ensighten.com/hearst/kfs-prod/Bootstrap.js\"&gt;&lt;/sc"+"ript&gt;");
+}
+&lt;/script&gt;
+&lt;link rel="icon" href="http://blondie.com/wp-content/themes/Blondie/favicon.ico" /&gt;
+&lt;meta charset="UTF-8" /&gt;
+&lt;!-- Settings for facebook API --&gt;
+&lt;meta property="og:locale" content="en_US" /&gt;
+&lt;meta property="og:description" content="By Dean Young and John Marshall"/&gt;
+&lt;meta property="og:site_name" content="Blondie"/&gt;
+&lt;meta property="og:image" content="https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm"/&gt;
+&lt;meta property="og:type" content="website"/&gt;
+&lt;meta property="og:url" content="http://blondie.com"/&gt;
+&lt;meta property="og:title" content="Blondie"/&gt;
+&lt;title&gt;Blondie | By Dean Young and John Marshall&lt;/title&gt;
+&lt;link rel="profile" href="http://gmpg.org/xfn/11" /&gt;
+&lt;!-- &lt;link rel="stylesheet" type="text/css" media="all" href="http://blondie.com/wp-content/themes/Blondie/style.css" /&gt; --&gt;
+&lt;!-- &lt;link rel="stylesheet" type="text/css" href="http://blondie.com/wp-content/themes/Blondie/custom.css" /&gt; --&gt;
+&lt;link rel="stylesheet" type="text/css" href="http://blondie.com//blondie.com/wp-content/cache/wpfc-minified/92fc453c032556b88187b39656f83a3b/1513866760index.css;waa0ab5a9aacc3a456" media="all"/&gt;
+&lt;link rel="pingback" href="http://blondie.com/xmlrpc.php" /&gt;
+&lt;link rel="icon" type="image/png" href="http://blondie.com/wp-content/themes/Blondie/img/fav.png" /&gt;
+&lt;!--[if lt IE 9]&gt;
+&lt;script src="http://blondie.com/wp-content/themes/kingfeatures2014/js/html5.js;wa11cd85f0dc09ab74" type="text/javascript"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;link rel='dns-prefetch' href='//code.jquery.com' /&gt;
+&lt;link rel='dns-prefetch' href='//s.w.org' /&gt;
+&lt;link rel="alternate" type="application/rss+xml" title="Blondie &amp;raquo; Feed" href="http://blondie.com/feed/" /&gt;
+&lt;link rel="alternate" type="application/rss+xml" title="Blondie &amp;raquo; Comments Feed" href="http://blondie.com/comments/feed/" /&gt;
+&lt;script type="text/javascript"&gt;
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blondie.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=434abde3e8b34a84deefdf8cfb81c9ff"}};
+!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&amp;&amp;(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&amp;&amp;k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i&lt;j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&amp;&amp;c.supports[j[i]],"flag"!==j[i]&amp;&amp;(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&amp;&amp;c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&amp;&amp;g.twemoji&amp;&amp;(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+&lt;/script&gt;
+&lt;style type="text/css"&gt;
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+&lt;/style&gt;
+&lt;!-- &lt;link rel='stylesheet' id='wp-pagenavi-css'  href='http://blondie.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' /&gt; --&gt;
+&lt;link rel="stylesheet" type="text/css" href="http://blondie.com//blondie.com/wp-content/cache/wpfc-minified/c514a493de54ad3f2311a72cdac12a25/1513866759index.css;wad5342e12bf9a863f" media="all"/&gt;
+&lt;link rel='stylesheet' id='style-name-css'  href='http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css?ver=434abde3e8b34a84deefdf8cfb81c9ff' type='text/css' media='all' /&gt;
+&lt;!-- &lt;link rel='stylesheet' id='addtoany-css'  href='http://blondie.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' /&gt; --&gt;
+&lt;link rel="stylesheet" type="text/css" href="http://blondie.com//blondie.com/wp-content/cache/wpfc-minified/bc8288ca020376814aeb299c9a71e54a/1513866759index.css;wa47d4f23a09ce3e4d" media="all"/&gt;
+&lt;script src='//blondie.com/wp-content/cache/wpfc-minified/91682e8a56e9aed7bea4edcfef350bb3/1513866761index.js' type="text/javascript"&gt;&lt;/script&gt;
+&lt;!-- &lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'&gt;&lt;/script&gt; --&gt;
+&lt;!-- &lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'&gt;&lt;/script&gt; --&gt;
+&lt;!-- &lt;script type='text/javascript' src='http://blondie.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'&gt;&lt;/script&gt; --&gt;
+&lt;link rel='https://api.w.org/' href='http://blondie.com/wp-json/' /&gt;
+&lt;link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blondie.com/xmlrpc.php?rsd" /&gt;
+&lt;link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blondie.com/wp-includes/wlwmanifest.xml" /&gt; 
+&lt;script data-cfasync="false"&gt;
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+&lt;/script&gt;
+&lt;!-- &lt;script type="text/javascript" src="http://cwr.kingfeatures.com/toolbar"&gt;&lt;/script&gt; --&gt;  
+&lt;script type="text/javascript" src="http://cn.kingfeatures.com/cnnet/cwr/index.php?dom=402"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-558db70364ac65fb" async="async"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+(function(url){
+if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+var addEvent = function(evt, handler) {
+if (window.addEventListener) {
+document.addEventListener(evt, handler, false);
+} else if (window.attachEvent) {
+document.attachEvent('on' + evt, handler);
+}
+};
+var removeEvent = function(evt, handler) {
+if (window.removeEventListener) {
+document.removeEventListener(evt, handler, false);
+} else if (window.detachEvent) {
+document.detachEvent('on' + evt, handler);
+}
+};
+var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+var logHuman = function() {
+var wfscr = document.createElement('script');
+wfscr.type = 'text/javascript';
+wfscr.async = true;
+wfscr.src = url + '&amp;r=' + Math.random();
+(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+for (var i = 0; i &lt; evts.length; i++) {
+removeEvent(evts[i], logHuman);
+}
+};
+for (var i = 0; i &lt; evts.length; i++) {
+addEvent(evts[i], logHuman);
+}
+})('//blondie.com/?wordfence_lh=1&amp;hid=7D9FF2A46064BA5348F49BD2CF2E1ED0');
+&lt;/script&gt;
+&lt;!-- Protected by WP-SpamFree :: JS BEGIN --&gt;
+&lt;script type="text/javascript" src="http://blondie.com/wp-content/plugins/wp-spamfree/js/wpsfv2-js.php"&gt;&lt;/script&gt; 
+&lt;!-- Protected by WP-SpamFree :: JS END --&gt;
+&lt;script&gt; var jsonstring=[{"label":"catering","value":"catering"},{"label":"deposit","value":"deposit"},{"label":"reception","value":"reception"},{"label":"luxury","value":"luxury"},{"label":"dinner","value":"dinner"},{"label":"ribs","value":"ribs"},{"label":"car salesman","value":"car salesman"},{"label":"Blondie","value":"Blondie"},{"label":"work","value":"work"},{"label":"event planning","value":"event planning"},{"label":"money down","value":"money down"},{"label":"paid vacation","value":"paid vacation"},{"label":"office","value":"office"},{"label":"Dagwood","value":"Dagwood"},{"label":"donations","value":"donations"},{"label":"expenses","value":"expenses"},{"label":"Julius C. Dithers","value":"Julius C. Dithers"},{"label":"miss","value":"miss"},{"label":"hole","value":"hole"},{"label":"putting","value":"putting"},{"label":"bet","value":"bet"},{"label":"Herb","value":"Herb"},{"label":"golf","value":"golf"}]&lt;/script&gt;&lt;!-- 
+Plugin: Super Simple Google Analytics 
+Plugin URL: Super Simple Google AnalyticsYou've chosen to prevent the tracking code from being inserted on 
+any page. 
+You can enable the insertion of the tracking code by going to 
+Settings &gt; Google Analytics on the Dashboard.
+--&gt;          &lt;script language="javascript"&gt; 
+jQuery(document).ready(function(){
+jQuery('a.displayText').click(function(){
+jQuery(this).parent().children('.toggleText').toggle(); 
+});
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body class="home blog single-author two-column right-sidebar content-sidebar"&gt;
+&lt;div id='above-header'&gt; 			&lt;div class="textwidget"&gt;&lt;center&gt;
+&lt;!-- CWR_RON_ROS_728x90 --&gt;
+&lt;div id='gpt_lb_a' class='gpt-adslot'&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;/div&gt;
+&lt;/div&gt; 
+&lt;div class="pagewrap hfeed"&gt;
+&lt;header id="branding" role="banner"&gt;
+&lt;hgroup&gt;
+&lt;h1 id="site-title"&gt;&lt;span&gt;&lt;a href="http://blondie.com/" title="Blondie" rel="home"&gt;Blondie&lt;/a&gt;&lt;/span&gt;&lt;/h1&gt;
+&lt;h2 id="site-description"&gt;By Dean Young and John Marshall&lt;/h2&gt;
+&lt;/hgroup&gt;
+&lt;div id="headwrap"&gt;
+&lt;!--&lt;div id="socialicons"&gt;
+&lt;a href="http://www.twitter.com/blondie_comic"  target="_blank"&gt;&lt;img src="http://blondie.com/wp-content/themes/Blondie/img/twitter_32.png" alt="twitter" title="twitter"&gt;&lt;/a&gt; &lt;a href="https://www.facebook.com/blondiecomic" target="_blank"&gt;&lt;img src="http://blondie.com/wp-content/themes/Blondie/img/facebook_32.png" alt="facebook" title="facebook"&gt;&lt;/a&gt;
+&lt;/div&gt;--&gt; 
+&lt;a href="http://blondie.com/"&gt;&lt;img src="http://blondie.com/wp-content/themes/Blondie/img/logo.png" alt="Blondie" title="Blondie"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/header&gt;&lt;!-- #branding --&gt;
+&lt;/div&gt;
+&lt;nav id="access" role="navigation"&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blondie.com"&gt;home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blondie.com/the_blondie_story"&gt;the blondie story&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blondie.com/the_artists"&gt;the artists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blondie.com/the_family"&gt;the family&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blondie.com/todays_strip"&gt;today's strip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blondie.com/category/blog"&gt;blondie's blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blondie.com/contact"&gt;contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/nav&gt;&lt;!-- #access --&gt;
+&lt;div class="pagewrap"&gt;
+&lt;div id="mainwrap"&gt;     &lt;div id="comic-wrap"&gt;&lt;!-- top area containg comic and related (tags, comments, navigation etc --&gt;
+&lt;!--Adds the comic's date--&gt;
+&lt;div id="comic-date"&gt;
+April 10, 2018		&lt;/div&gt;
+&lt;div id="comic"&gt; &lt;!-- area containg comic --&gt;
+&lt;div id="comicpanel"&gt; &lt;!--  the comic panel --&gt;
+&lt;form name="safr" action="http://shop.kingfeatures.com/" method="post" target="_blank"&gt;&lt;input type="hidden" name="screenResUri" value="http://safr.kingfeatures.com/idn/cnfeed/zone/dispimg.php?file=L2hvbWUvdmhvc3Qva2ZzL3NhZnIyLmtpbmdmZWF0dXJlcy5jb20vY2FjaGUvQmxvbmRpZS8yMDE4LzA0L0Jsb25kaWUuMjAxODA0MTBfNzIwLmpwZw==" /&gt;&lt;input type="hidden" name="printResUri" value="http://safr.kingfeatures.com/idn/cnfeed/zone/hiresimg.php?file=L2hvbWUvdmhvc3Qva2ZzL3NhZnIyLmtpbmdmZWF0dXJlcy5jb20vcmVwby9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMC5qcGc=" /&gt;&lt;input type="hidden" name="PrintResWidth" value="2225" /&gt;&lt;input type="hidden" name="PrintResHeight" value="804" /&gt;&lt;input type="hidden" name="featureDate" value="20180410" /&gt;&lt;input type="hidden" name="featureName" value="Blondie" /&gt;&lt;img src="https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm" /&gt;&lt;/form&gt;
+&lt;/div&gt; &lt;!-- end of #comicpanel div --&gt;
+&lt;/div&gt; &lt;!-- end of #comic div --&gt;
+&lt;!-- Add to any listing --&gt;
+&lt;div class="addtoany_comic"&gt;
+&lt;div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://blondie.com/comics/april-10-2018/" data-a2a-title="April 10, 2018"&gt;&lt;a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"&gt;&lt;img src="https://static.addtoany.com/buttons/favicon.png" alt="Share"&gt;&lt;/a&gt;&lt;/div&gt;          &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- END OF TOP COMIC POST, BLOG &amp;/OR SIDEBARS START HERE --&gt;
+&lt;div id="primary"&gt;
+&lt;div id="content" role="main"&gt;
+&lt;article id="post-67545" class="post-67545 post type-post status-publish format-standard has-post-thumbnail hentry category-blog"&gt;
+&lt;header class="entry-header"&gt;
+&lt;h1 class="entry-title"&gt;&lt;a href="http://blondie.com/2018/03/01/featured-strip/" title="Permalink to Featured Strip" rel="bookmark"&gt;Featured Strip&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="comments-link"&gt;
+&lt;a href="http://blondie.com/2018/03/01/featured-strip/#respond"&gt;&lt;span class="leave-reply"&gt;Reply&lt;/span&gt;&lt;/a&gt;			&lt;/div&gt;
+&lt;/header&gt;&lt;!-- .entry-header --&gt;
+&lt;div class="entry-content"&gt;
+&lt;h1&gt;&lt;a href="http://blondie.com/wp-content/uploads/2018/03/content-1.gif"&gt;&lt;img class="wp-image-68231 size-full alignnone" src="http://blondie.com/wp-content/uploads/2018/03/content-1.gif" alt="" width="900" height="261" /&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;&lt;!-- .entry-content --&gt;
+&lt;div class="entry-meta"&gt;
+&lt;span class="sep"&gt;Posted on &lt;/span&gt;&lt;a href="http://blondie.com/2018/03/01/featured-strip/" title="12:29 am" rel="bookmark"&gt;&lt;time class="entry-date" datetime="2018-03-01T00:29:54+00:00" pubdate&gt;March 1, 2018&lt;/time&gt;&lt;/a&gt;&lt;span class="by-author"&gt; &lt;span class="sep"&gt; by &lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="http://blondie.com/author/dianne/" title="View all posts by The Bumsteads" rel="author"&gt;The Bumsteads&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;		&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+&lt;footer class="entry-meta"&gt;
+&lt;span class="cat-links"&gt;
+&lt;span class="entry-utility-prep entry-utility-prep-cat-links"&gt;Posted in&lt;/span&gt; &lt;a href="http://blondie.com/category/blog/" rel="category tag"&gt;Blog&lt;/a&gt;			&lt;/span&gt;
+&lt;span class="sep"&gt; | &lt;/span&gt;
+&lt;span class="comments-link"&gt;&lt;a href="http://blondie.com/2018/03/01/featured-strip/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a reply&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/footer&gt;&lt;!-- #entry-meta --&gt;
+&lt;/article&gt;&lt;!-- #post-67545 --&gt;
+&lt;article id="post-67539" class="post-67539 post type-post status-publish format-standard has-post-thumbnail hentry category-blog"&gt;
+&lt;header class="entry-header"&gt;
+&lt;h1 class="entry-title"&gt;&lt;a href="http://blondie.com/2018/03/01/october-strip-of-the-month/" title="Permalink to Seasonal Strip" rel="bookmark"&gt;Seasonal Strip&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="comments-link"&gt;
+&lt;a href="http://blondie.com/2018/03/01/october-strip-of-the-month/#respond"&gt;&lt;span class="leave-reply"&gt;Reply&lt;/span&gt;&lt;/a&gt;			&lt;/div&gt;
+&lt;/header&gt;&lt;!-- .entry-header --&gt;
+&lt;div class="entry-content"&gt;
+&lt;h2 style="text-align: left"&gt;&lt;a href="http://blondie.com/wp-content/uploads/2018/03/content.gif"&gt;&lt;img class="wp-image-68233 size-full alignnone" src="http://blondie.com/wp-content/uploads/2018/03/content.gif" alt="" width="900" height="264" /&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;&lt;!-- .entry-content --&gt;
+&lt;div class="entry-meta"&gt;
+&lt;span class="sep"&gt;Posted on &lt;/span&gt;&lt;a href="http://blondie.com/2018/03/01/october-strip-of-the-month/" title="12:19 am" rel="bookmark"&gt;&lt;time class="entry-date" datetime="2018-03-01T00:19:06+00:00" pubdate&gt;March 1, 2018&lt;/time&gt;&lt;/a&gt;&lt;span class="by-author"&gt; &lt;span class="sep"&gt; by &lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="http://blondie.com/author/dianne/" title="View all posts by The Bumsteads" rel="author"&gt;The Bumsteads&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;		&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+&lt;footer class="entry-meta"&gt;
+&lt;span class="cat-links"&gt;
+&lt;span class="entry-utility-prep entry-utility-prep-cat-links"&gt;Posted in&lt;/span&gt; &lt;a href="http://blondie.com/category/blog/" rel="category tag"&gt;Blog&lt;/a&gt;			&lt;/span&gt;
+&lt;span class="sep"&gt; | &lt;/span&gt;
+&lt;span class="comments-link"&gt;&lt;a href="http://blondie.com/2018/03/01/october-strip-of-the-month/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a reply&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/footer&gt;&lt;!-- #entry-meta --&gt;
+&lt;/article&gt;&lt;!-- #post-67539 --&gt;
+&lt;article id="post-66822" class="post-66822 post type-post status-publish format-standard hentry category-blog"&gt;
+&lt;header class="entry-header"&gt;
+&lt;h1 class="entry-title"&gt;&lt;a href="http://blondie.com/2016/11/18/blondie-daisy-make-an-appearance-in-mother-goose-grimm/" title="Permalink to Blondie &amp;amp; Daisy make an appearance in Mother Goose &amp;amp; Grimm" rel="bookmark"&gt;Blondie &amp;amp; Daisy make an appearance in Mother Goose &amp;amp; Grimm&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="comments-link"&gt;
+&lt;a href="http://blondie.com/2016/11/18/blondie-daisy-make-an-appearance-in-mother-goose-grimm/#respond"&gt;&lt;span class="leave-reply"&gt;Reply&lt;/span&gt;&lt;/a&gt;			&lt;/div&gt;
+&lt;/header&gt;&lt;!-- .entry-header --&gt;
+&lt;div class="entry-content"&gt;
+&lt;div class="addtoany_share_save_container addtoany_content addtoany_content_top"&gt;&lt;div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://blondie.com/2016/11/18/blondie-daisy-make-an-appearance-in-mother-goose-grimm/" data-a2a-title="Blondie &amp; Daisy make an appearance in Mother Goose &amp; Grimm"&gt;&lt;a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"&gt;&lt;img src="https://static.addtoany.com/buttons/favicon.png" alt="Share"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="http://blondie.com/wp-content/uploads/2016/11/MGGColor071116.jpg"&gt;&lt;img class="aligncenter size-large wp-image-66791" src="http://blondie.com/wp-content/uploads/2016/11/MGGColor071116-1024x349.jpg" alt="mggcolor071116" width="1024" height="349" srcset="http://blondie.com/wp-content/uploads/2016/11/MGGColor071116-1024x349.jpg 1024w, http://blondie.com/wp-content/uploads/2016/11/MGGColor071116-300x102.jpg 300w, http://blondie.com/wp-content/uploads/2016/11/MGGColor071116-768x261.jpg 768w, http://blondie.com/wp-content/uploads/2016/11/MGGColor071116-500x170.jpg 500w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- .entry-content --&gt;
+&lt;div class="entry-meta"&gt;
+&lt;span class="sep"&gt;Posted on &lt;/span&gt;&lt;a href="http://blondie.com/2016/11/18/blondie-daisy-make-an-appearance-in-mother-goose-grimm/" title="2:51 pm" rel="bookmark"&gt;&lt;time class="entry-date" datetime="2016-11-18T14:51:21+00:00" pubdate&gt;November 18, 2016&lt;/time&gt;&lt;/a&gt;&lt;span class="by-author"&gt; &lt;span class="sep"&gt; by &lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="http://blondie.com/author/dianne/" title="View all posts by The Bumsteads" rel="author"&gt;The Bumsteads&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;		&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+&lt;footer class="entry-meta"&gt;
+&lt;span class="cat-links"&gt;
+&lt;span class="entry-utility-prep entry-utility-prep-cat-links"&gt;Posted in&lt;/span&gt; &lt;a href="http://blondie.com/category/blog/" rel="category tag"&gt;Blog&lt;/a&gt;			&lt;/span&gt;
+&lt;span class="sep"&gt; | &lt;/span&gt;
+&lt;span class="comments-link"&gt;&lt;a href="http://blondie.com/2016/11/18/blondie-daisy-make-an-appearance-in-mother-goose-grimm/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a reply&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;/footer&gt;&lt;!-- #entry-meta --&gt;
+&lt;/article&gt;&lt;!-- #post-66822 --&gt;
+&lt;div id="prev-next"&gt;
+&lt;div class="nav-previous"&gt;&lt;a href="http://blondie.com/page/2/" &gt;&lt;span class="meta-nav"&gt;&amp;larr;&lt;/span&gt;Older posts&lt;/a&gt;&lt;/div&gt;
+&lt;div class="nav-next"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- #content --&gt;
+&lt;/div&gt;&lt;!-- #primary --&gt;
+&lt;div id="secondary" class="widget-area" role="complementary"&gt;
+&lt;div id="sidetop"&gt;
+&lt;div class="textwidget"&gt;&lt;!-- CWR_RON_ROS-300x250 --&gt;
+&lt;div id='gpt_gal_a' class='gpt-adslot'&gt;
+&lt;/div&gt;
+&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&lt;/div&gt;
+&lt;div class="textwidget"&gt;&lt;script src="http://ads.hearstmags.com/ams/api.js?pos_name=AMS_RON_300X150"&gt;&lt;/script&gt;
+&lt;center&gt;&lt;a href="http://www.comicskingdom.com/?ref=sat_cwr"&gt;Read Blondie comics and all your favorite comic strips at Comics Kingdom&lt;/a&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;form method="get" id="searchform" action="http://blondie.com/"&gt;
+&lt;label for="s" class="assistive-text"&gt;Search&lt;/label&gt;
+&lt;input type="text" class="field" name="s" id="s" placeholder="Search" /&gt;
+&lt;input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" /&gt;
+&lt;/form&gt;
+&lt;div class="textwidget"&gt;&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&lt;/div&gt;
+&lt;h3 class="widget-title"&gt;Blondie&amp;#8217;s Blog&lt;/h3&gt;
+&lt;div class="menu-categories-container"&gt;&lt;ul id="menu-categories" class="menu"&gt;&lt;li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"&gt;&lt;a href="http://blondie.com/category/news/"&gt;News&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;			&lt;div class="textwidget"&gt;&amp;nbsp;
+&lt;!-- CWR_House_300x178 --&gt;
+&lt;div id='gpt_gal_b' class='gpt-adslot'&gt;
+&lt;/div&gt;
+&amp;nbsp;&lt;/div&gt;
+&lt;iframe id="basic_facebook_social_plugins_likebox" src="http://www.facebook.com/plugins/fan.php?id=91692493500&amp;amp;width=300&amp;amp;height=250&amp;amp;connections=8&amp;amp;stream=&amp;amp;header=false" scrolling="no" frameborder="0" allowTransparency="true" style="border-bottom:1px solid #94A3C4; overflow:hidden; width:300px; height:250px"&gt;&lt;/iframe&gt;&lt;h3 class="widget-title"&gt;&lt;a class="rsswidget" href="http://comicskingdom.com/feed/rss"&gt;&lt;img class="rss-widget-icon" style="border:0" width="14" height="14" src="http://blondie.com/wp-includes/images/rss.png" alt="RSS" /&gt;&lt;/a&gt; &lt;a class="rsswidget" href="http://comicskingdom.com/blog"&gt;The Latest News From Comics Kingdom!&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/10/tuesday-s-top-ten-comics-on-shakespeare'&gt;Tuesday&amp;#039;s Top Ten Comics on Shakespeare&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/09/out-of-context-64'&gt;Out of Context&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/06/news-around-the-kingdom-our-mutual-friend-s'&gt;News Around the Kingdom: OUR MUTUAL FRIEND(S)&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/04/ask-a-cartoonist-hope'&gt;Ask A Cartoonist: Hope&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/03/tuesday-s-top-ten-comics-on-meetings'&gt;Tuesday&amp;#039;s Top Ten Comics on Meetings&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;/ul&gt;			&lt;div class="textwidget"&gt;&lt;!-- Outbrain ad code --&gt;
+&lt;div class="OUTBRAIN" data-src="" data-widget-id="TS_1" data-ob-template="KingFeatures" &gt;&lt;/div&gt; 
+&lt;script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="sandwich"&gt;
+&lt;div id="top"&gt;
+&lt;/div&gt;
+&lt;div id="mid"&gt;
+&lt;/div&gt;
+&lt;div id="bot"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- #secondary .widget-area --&gt;
+	
+&lt;/div&gt;&lt;!-- #main --&gt;
+&lt;/div&gt;&lt;!-- #pagewrap --&gt;
+&lt;footer id="colophon" role="contentinfo"&gt;
+&lt;!-- Copyright and PPTOU --&gt;
+&lt;!--
+&lt;div class="wrap"&gt;
+&lt;ul id="legal"&gt;
+&lt;li&gt;&lt;a href="http://www.kingfeatures.com/"&gt;&amp;copy; 2018 King Features Syndicate, Inc. &lt;sup&gt;TM&lt;/sup&gt; Hearst Holdings, Inc.&lt;/a&gt; &lt;a href="http://blondie.com/privacy-policy/"&gt;Privacy Policy and Terms of Use&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+--&gt;
+&lt;div id='sidebar-copyright'&gt; 			&lt;div class="textwidget"&gt;&lt;center&gt;
+&lt;!-- CWR_RON_ROS-728x90-BTF --&gt;
+&lt;div id='gpt_lb_b' class='gpt-adslot'&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;center&gt;© &lt;a href="http://www.kingfeatures.com/"&gt;&amp;copy; &lt;?php echo date("Y") ?&gt; King Features Syndicate, Inc. &lt;sup&gt;TM&lt;/sup&gt; Hearst Holdings, Inc.&lt;/a&gt; | &lt;a href="/privacy-policy/"&gt;Privacy Policy&lt;/a&gt; | &lt;a href="/terms-of-use/"&gt;Terms Of Use&lt;/a&gt;
+&lt;/center&gt;
+&lt;script type='text/javascript' src='http://cn.kingfeatures.com/cnnet/cnfooter/index.php'&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt; 	
+&lt;div id="site-generator"&gt;
+&lt;a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator"&gt;Proudly powered by WordPress&lt;/a&gt;
+&lt;/div&gt;
+&lt;/footer&gt;&lt;!-- #colophon --&gt;
+&lt;/div&gt;&lt;!-- #page --&gt;
+&lt;!-- Google Code for RT - Comics Web Ring Remarketing List --&gt;
+&lt;script type="text/javascript"&gt;
+/* &lt;![CDATA[ */
+var google_conversion_id = 1063341604;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "5jzeCJTR9wEQpJyF-wM";
+var google_conversion_value = 0;
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1063341604/?label=5jzeCJTR9wEQpJyF-wM&amp;guid=ON&amp;script=0"/&gt;
+&lt;/div&gt;
+&lt;/noscript&gt;
+&lt;!-- Site Analytics --&gt;
+&lt;!-- Piwik --&gt;
+&lt;script type="text/javascript"&gt;
+var _paq = _paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+_paq.push(["setCookieDomain", "*.blondie.com"]);
+_paq.push(["setDomains", ["*.blondie.com","*.www.blondie.com","*.blondie.com","*.www.blondie.com"]]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+var u="//analytics.kingfeatures.com/";
+_paq.push(['setTrackerUrl', u+'piwik.php']);
+_paq.push(['setSiteId', '12']);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+&lt;/script&gt;
+&lt;noscript&gt;&lt;p&gt;&lt;img src="//analytics.kingfeatures.com/piwik.php?idsite=12&amp;rec=1" style="border:0;" alt="" /&gt;&lt;/p&gt;&lt;/noscript&gt;
+&lt;!-- End Piwik Code --&gt;
+&lt;!-- CN Campaign Tracker --&gt;
+&lt;!-- Piwik Image Tracker--&gt;
+&lt;img src="https://analytics.kingfeatures.com/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" /&gt;
+&lt;!-- End Piwik --&gt;
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+&lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-822371-70"&gt;&lt;/script&gt;
+&lt;script&gt;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-822371-70');
+&lt;/script&gt;
+&lt;!-- CN Tracker --&gt;
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+&lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-822371-101"&gt;&lt;/script&gt;
+&lt;script&gt;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-822371-101');
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/ui/core.min.js;wa547471e0a54b2da2?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/ui/widget.min.js;wa48aab614674ffe53?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/ui/position.min.js;wa075c1c9d838d1ed4?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/ui/menu.min.js;wa3587573a06865bc0?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/wp-a11y.min.js;wa2ac9a5d5473694d1?ver=434abde3e8b34a84deefdf8cfb81c9ff'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/jquery/ui/autocomplete.min.js;wa64d50cbb3c1a000c?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-content/themes/kingfeatures2014/js/myacsearch.js;waa10a3de79f40cc4f'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://blondie.com/wp-includes/js/wp-embed.min.js;wae16e5ffa20384370?ver=434abde3e8b34a84deefdf8cfb81c9ff'&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://blondie.com/wp-content/themes/Blondie/js/kf.js"&gt;&lt;/script&gt;
+&lt;!-- Less --&gt;
+&lt;script src="http://blondie.com/wp-content/themes/Blondie/js/less.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;&lt;!-- WP Fastest Cache file was created in 1.5906839370728 seconds, on 10-04-18 9:02:07 --&gt;</ReturnValue>
+    <OutAndRefValues />
+  </RecordedCall>
+  <RecordedCall>
+    <Method>System.String GetContent(System.String)</Method>
+    <ReturnValue xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
+&lt;!--[if IE 6]&gt;
+&lt;html id="ie6" lang="en-US"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;
+&lt;html id="ie7" lang="en-US"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;
+&lt;html id="ie8" lang="en-US"&gt;
+&lt;![endif]--&gt;
+&lt;!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]&gt;&lt;!--&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" 
+      xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"&gt;
+
+     &lt;!--&lt;![endif]--&gt;
+     &lt;head&gt;
+
+     	  &lt;!-- Ensighten bootstrap --&gt;
+&lt;!--
+		&lt;script type="text/javascript"&gt;
+        if (document.cookie.indexOf("nsghtn=dev") &gt; -1) {
+               document.write("&lt;scr"+"ipt type=\"text/javascript\"src=\"//nexus.ensighten.com/hearst/kfs-dev/Bootstrap.js\"&gt;&lt;/sc"+"ript&gt;");
+        } else {
+               document.write("&lt;scr"+"ipt type=\"text/javascript\"src=\"//nexus.ensighten.com/hearst/kfs-prod/Bootstrap.js\"&gt;&lt;/sc"+"ript&gt;");
+        }
+		&lt;/script&gt;
+--&gt;
+
+          &lt;meta charset="UTF-8" /&gt;
+          &lt;meta name="viewport" content="width=device-width" /&gt;
+
+          &lt;!-- Settings for facebook API --&gt;
+
+          &lt;meta property="og:locale" content="en_US" /&gt;
+          &lt;meta property="og:description" content="by Hilary Price"/&gt;
+          &lt;meta property="og:site_name" content="Rhymes With Orange"/&gt;
+          &lt;meta property="og:image" content="https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY="/&gt;
+          &lt;meta property="og:type" content="website"/&gt;
+
+                         &lt;meta property="og:url" content="http://rhymeswithorange.com"/&gt;
+               &lt;meta property="og:title" content="Rhymes With Orange"/&gt;
+          
+
+          &lt;title&gt;Rhymes With Orange | by Hilary Price&lt;/title&gt;
+          &lt;link rel="profile" href="http://gmpg.org/xfn/11" /&gt;
+          &lt;link rel="stylesheet" type="text/css" media="all" href="http://rhymeswithorange.com/wp-content/themes/RWO/style.css;wab6ef4da22524bb18" /&gt;
+          &lt;link rel="pingback" href="http://rhymeswithorange.com/xmlrpc.php" /&gt;
+          &lt;!--[if lt IE 9]&gt;
+          &lt;script src="http://rhymeswithorange.com/wp-content/themes/kingfeatures2014/js/html5.js;wa11cd85f0dc09ab74" type="text/javascript"&gt;&lt;/script&gt;
+          &lt;![endif]--&gt;
+          &lt;link rel='dns-prefetch' href='//www.google.com' /&gt;
+&lt;link rel='dns-prefetch' href='//code.jquery.com' /&gt;
+&lt;link rel='dns-prefetch' href='//s.w.org' /&gt;
+&lt;link rel="alternate" type="application/rss+xml" title="Rhymes With Orange &amp;raquo; Feed" href="http://rhymeswithorange.com/feed/" /&gt;
+&lt;link rel="alternate" type="application/rss+xml" title="Rhymes With Orange &amp;raquo; Comments Feed" href="http://rhymeswithorange.com/comments/feed/" /&gt;
+		&lt;script type="text/javascript"&gt;
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/rhymeswithorange.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=8e8df9a29582cc58008cdfcf31f55f47"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&amp;&amp;(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&amp;&amp;k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i&lt;j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&amp;&amp;c.supports[j[i]],"flag"!==j[i]&amp;&amp;(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&amp;&amp;c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&amp;&amp;g.twemoji&amp;&amp;(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		&lt;/script&gt;
+		&lt;style type="text/css"&gt;
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+&lt;/style&gt;
+&lt;link rel='stylesheet' id='ssgs-css'  href='http://rhymeswithorange.com/wp-content/plugins/server-side-google-search/ssgs.css;wa012aa5e9ad3107c0?ver=3' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='gsc_style-css'  href='http://rhymeswithorange.com/wp-content/plugins/google-custom-search/css/smoothness/jquery-ui.theme.min.css;wa988975f924bc22c6?ver=8e8df9a29582cc58008cdfcf31f55f47' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='gsc_style_search_bar-css'  href='http://www.google.com/cse/style/look/minimalist.css?ver=8e8df9a29582cc58008cdfcf31f55f47' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='gsc_style_search_bar_more-css'  href='http://rhymeswithorange.com/wp-content/plugins/google-custom-search/css/gsc.css;waa7fcf43b0bdeab72?ver=8e8df9a29582cc58008cdfcf31f55f47' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='collapseomatic-css-css'  href='http://rhymeswithorange.com/wp-content/plugins/jquery-collapse-o-matic/light_style.css;wa0bb056e970239d1a?ver=1.6' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='wp-polls-css'  href='http://rhymeswithorange.com/wp-content/plugins/wp-polls/polls-css.css;wab3c605dba1f44168?ver=2.73.8' type='text/css' media='all' /&gt;
+&lt;style id='wp-polls-inline-css' type='text/css'&gt;
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://rhymeswithorange.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+&lt;/style&gt;
+&lt;link rel='stylesheet' id='shutter2-0-css'  href='http://rhymeswithorange.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter_reloaded/shutter.min.css;waea83b117c89b4666?ver=2.2.54' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='wp-pagenavi-css'  href='http://rhymeswithorange.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css;waaec9467dde746b63?ver=2.70' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='style-name-css'  href='http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css?ver=8e8df9a29582cc58008cdfcf31f55f47' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='newsletter-subscription-css'  href='http://rhymeswithorange.com/wp-content/plugins/newsletter/subscription/style.css;wae1b899eff4afff10?ver=5.3.3' type='text/css' media='all' /&gt;
+&lt;link rel='stylesheet' id='addtoany-css'  href='http://rhymeswithorange.com/wp-content/plugins/add-to-any/addtoany.min.css;wad24b767343f1b2d4?ver=1.14' type='text/css' media='all' /&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/jquery-migrate.min.js;wa180300b678ec072f?ver=1.4.1'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/google-custom-search/js/gsc.js;wa0ac52e080bcbcec6?ver=8e8df9a29582cc58008cdfcf31f55f47'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://www.google.com/jsapi?ver=8e8df9a29582cc58008cdfcf31f55f47'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/add-to-any/addtoany.min.js;wab576fec870aee7e0?ver=1.0'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+var photocrati_ajax = {"url":"http:\/\/rhymeswithorange.com\/?photocrati_ajax=1","wp_home_url":"http:\/\/rhymeswithorange.com","wp_site_url":"http:\/\/rhymeswithorange.com","wp_root_url":"http:\/\/rhymeswithorange.com","wp_plugins_url":"http:\/\/rhymeswithorange.com\/wp-content\/plugins","wp_content_url":"http:\/\/rhymeswithorange.com\/wp-content","wp_includes_url":"http:\/\/rhymeswithorange.com\/wp-includes\/","ngg_param_slug":"nggallery"};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ajax.min.js;wa550103fad33347da?ver=2.2.54'&gt;&lt;/script&gt;
+&lt;link rel='https://api.w.org/' href='http://rhymeswithorange.com/wp-json/' /&gt;
+&lt;link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://rhymeswithorange.com/xmlrpc.php?rsd" /&gt;
+&lt;link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://rhymeswithorange.com/wp-includes/wlwmanifest.xml" /&gt; 
+
+
+&lt;script data-cfasync="false"&gt;
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+&lt;/script&gt;
+&lt;!-- &lt;script type="text/javascript" src="//cn.kingfeatures.com/cnnet/cwr/index.php?dom=312"&gt;&lt;/script&gt; --&gt;
+
+&lt;script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-558db70364ac65fb" async="async"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&amp;r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i &lt; evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i &lt; evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//rhymeswithorange.com/?wordfence_lh=1&amp;hid=E7EB6F71DA8630126AFAA9A660D28C6B');
+&lt;/script&gt;&lt;!-- &lt;meta name="NextGEN" version="2.2.54" /&gt; --&gt;
+&lt;script&gt; var jsonstring=[{"label":"adult in the room","value":"adult in the room"},{"label":"gathering","value":"gathering"},{"label":"party","value":"party"},{"label":"uniform","value":"uniform"},{"label":"badges","value":"badges"},{"label":"medals","value":"medals"},{"label":"veteran","value":"veteran"},{"label":"soldier","value":"soldier"},{"label":"family","value":"family"},{"label":"tough","value":"tough"},{"label":"missions","value":"missions"},{"label":"seat of power","value":"seat of power"},{"label":"adult","value":"adult"},{"label":"bad dog","value":"bad dog"},{"label":"good dog","value":"good dog"},{"label":"Egypt","value":"Egypt"},{"label":"Anubis","value":"Anubis"},{"label":"dog","value":"dog"},{"label":"mummy","value":"mummy"},{"label":"pyramid","value":"pyramid"},{"label":"walk","value":"walk"},{"label":"animals","value":"animals"},{"label":"bite","value":"bite"},{"label":"carrying","value":"carrying"},{"label":"owner","value":"owner"},{"label":"Egyptian mythology","value":"Egyptian mythology"},{"label":"gods","value":"gods"},{"label":"mother","value":"mother"},{"label":"donor","value":"donor"},{"label":"LGBTQ","value":"LGBTQ"},{"label":"lesbian","value":"lesbian"},{"label":"gay","value":"gay"},{"label":"in vitro","value":"in vitro"},{"label":"fertilization","value":"fertilization"},{"label":"queer","value":"queer"},{"label":"sperm","value":"sperm"},{"label":"bank","value":"bank"},{"label":"clomid","value":"clomid"},{"label":"clomiphene","value":"clomiphene"},{"label":"fertility","value":"fertility"},{"label":"Candyland","value":"Candyland"},{"label":"sugar","value":"sugar"},{"label":"spice","value":"spice"},{"label":"flour","value":"flour"},{"label":"eggs","value":"eggs"},{"label":"park","value":"park"},{"label":"cookies","value":"cookies"},{"label":"gingerbread","value":"gingerbread"},{"label":"mom","value":"mom"},{"label":"dad","value":"dad"},{"label":"dough","value":"dough"},{"label":"pun joke","value":"pun joke"}]&lt;/script&gt;&lt;!-- ## NXS/OG ## --&gt;&lt;!-- ## NXSOGTAGS ## --&gt;&lt;!-- ## NXS/OG ## --&gt;
+          &lt;script language="javascript"&gt; 
+               jQuery(document).ready(function(){
+                    jQuery('a.displayText').click(function(){
+                         jQuery(this).parent().children('.toggleText').toggle(); 
+                       
+                    });
+
+               });
+          &lt;/script&gt;
+
+&lt;!-- ad codes moved into Ensighten --&gt;
+
+&lt;!-- &lt;script src="https://tags.crwdcntrl.net/c/4659/cc_af.js"&gt;&lt;/script&gt; --&gt;
+
+
+          
+     &lt;/head&gt;
+
+     &lt;body class="home blog single-author two-column right-sidebar content-sidebar"&gt;
+          &lt;div id='above-header'&gt; 			&lt;div class="textwidget"&gt;&lt;center&gt;
+&lt;!-- CWR_RON_ROS_728x90 --&gt;
+&lt;div id='gpt_lb_a' class='gpt-adslot'&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;/div&gt;
+		&lt;/div&gt; 
+          &lt;div id="page" class="hfeed"&gt;
+               &lt;header id="branding" role="banner"&gt;
+                    &lt;hgroup&gt;
+                         &lt;h1 id="site-title"&gt;&lt;span&gt;&lt;a href="http://rhymeswithorange.com/" title="Rhymes With Orange" rel="home"&gt;Rhymes With Orange&lt;/a&gt;&lt;/span&gt;&lt;/h1&gt;
+                         &lt;h2 id="site-description"&gt;by Hilary Price&lt;/h2&gt;
+                    &lt;/hgroup&gt;
+
+                    
+                    
+
+               &lt;/header&gt;&lt;!-- #branding --&gt;
+
+               &lt;nav id="access" role="navigation"&gt;
+                    &lt;h3 class="assistive-text"&gt;Main menu&lt;/h3&gt;
+                                        &lt;div class="skip-link"&gt;&lt;a class="assistive-text" href="#content" title="Skip to primary content"&gt;Skip to primary content&lt;/a&gt;&lt;/div&gt;
+                    &lt;div class="skip-link"&gt;&lt;a class="assistive-text" href="#secondary" title="Skip to secondary content"&gt;Skip to secondary content&lt;/a&gt;&lt;/div&gt;
+
+                    &lt;div class="menu-top-nav-menu-container"&gt;&lt;ul id="menu-top-nav-menu" class="menu"&gt;&lt;li id="menu-item-178402" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-178402"&gt;&lt;a href="http://rhymeswithorange.com/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-310732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-310732"&gt;&lt;a href="http://rhymeswithorange.com/category/blog/"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-180452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180452"&gt;&lt;a href="http://rhymeswithorange.com/about/"&gt;About&lt;/a&gt;
+&lt;ul class="sub-menu"&gt;
+	&lt;li id="menu-item-208922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208922"&gt;&lt;a href="http://rhymeswithorange.com/about/"&gt;Bio&lt;/a&gt;&lt;/li&gt;
+	&lt;li id="menu-item-180492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180492"&gt;&lt;a href="http://rhymeswithorange.com/about/tour-the-studio/"&gt;Tour The Studio&lt;/a&gt;&lt;/li&gt;
+	&lt;li id="menu-item-180632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180632"&gt;&lt;a href="http://rhymeswithorange.com/about/faqs/"&gt;FAQs&lt;/a&gt;&lt;/li&gt;
+	&lt;li id="menu-item-180652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180652"&gt;&lt;a href="http://rhymeswithorange.com/about/speeches/"&gt;Speeches&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li id="menu-item-178422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178422"&gt;&lt;a href="http://rhymeswithorange.com/contact/"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-178432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178432"&gt;&lt;a href="http://rhymeswithorange.com/giftshop/"&gt;Gift Shop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+               &lt;/nav&gt;&lt;!-- #access --&gt;
+
+ &lt;div id='menubar'&gt; 			&lt;div class="textwidget"&gt;&lt;div id="tip-jar"&gt;&lt;form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"&gt;
+&lt;input type="hidden" name="cmd" value="_cart"&gt;
+&lt;input type="hidden" name="business" value="hilary@rhymeswithorange.com"&gt;
+&lt;input type="hidden" name="lc" value="US"&gt;
+&lt;input type="hidden" name="item_name" value="Tips!"&gt;
+&lt;input type="hidden" name="amount" value="5.00"&gt;
+&lt;input type="hidden" name="currency_code" value="USD"&gt;
+&lt;input type="hidden" name="button_subtype" value="products"&gt;
+&lt;input type="hidden" name="no_note" value="0"&gt;
+&lt;input type="hidden" name="add" value="1"&gt;
+&lt;input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest"&gt;
+&lt;input type="image" src="/files/tipjar.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"&gt;
+&lt;img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"&gt;
+&lt;/form&gt;&lt;/div&gt;
+&lt;/div&gt;
+		&lt;/div&gt; 
+
+               &lt;div id="main"&gt;     &lt;div id="comic-wrap"&gt;&lt;!-- top area containg comic and related (tags, comments, navigation etc --&gt;
+          &lt;div id='comic-head'&gt; &lt;h3 class="widget-title"&gt;Search&lt;/h3&gt;
+	&lt;form method="get" id="searchform" action="http://rhymeswithorange.com/"&gt;
+		&lt;label for="s" class="assistive-text"&gt;Search&lt;/label&gt;
+		&lt;input type="text" class="field" name="s" id="s" placeholder="Search" /&gt;
+		&lt;input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" /&gt;
+	&lt;/form&gt;
+			&lt;div class="textwidget"&gt;&lt;p&gt;&lt;i&gt;Hint: use one keyword or phrase at a time for best results.  Ex: &amp;#8220;rhymes&amp;#8221; OR &amp;#8220;orange&amp;#8221; OR &amp;#8220;rhymes with orange,&amp;#8221; not &amp;#8220;rhymes orange.&amp;#8221;  &lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;
+		&lt;/div&gt; 
+          
+&lt;!-- Start ComicNav div --&gt;
+&lt;div id="ComicNav"&gt; 
+
+     &lt;ul&gt;
+
+          
+          &lt;!-- 'First' &amp; 'Previous'  button  --&gt;
+          &lt;li id="firstcomic" class="button white"&gt; 
+
+
+               &lt;a href="http://rhymeswithorange.com/comics/june-19-1995/"&gt;oldest&lt;/span&gt; &lt;/a&gt;&lt;/li&gt;&lt;li  id="previouscomic" class="button white"&gt;&lt;a href="http://rhymeswithorange.com/comics/april-9-2018/"&gt;&amp;laquo; previous&lt;/span&gt; &lt;/a&gt;&lt;/li&gt;          &lt;/li&gt;
+
+
+          &lt;!-- 'Random'  button  --&gt;
+          
+          &lt;!-- 'Calendar' button  --&gt;
+          
+               &lt;li  class="comic_cal button white"&gt;&lt;a class="displayText" href="javascript:void(0)"&gt;calendar&lt;/a&gt;
+&lt;div class="toggleText" style="display: none"&gt;&lt;div class="widget widget_smart_calendar_widget"&gt;&lt;h2 class="widgettitle"&gt;Smart Calendar&lt;/h2&gt;			&lt;script type="text/javascript"&gt;
+
+			   function SetDiv(ID,Content) {
+					  document.getElementById(ID).innerHTML = Content;
+						 return;
+				   }
+				 
+				function file(fichier)
+					 {
+					 if(window.XMLHttpRequest) // FIREFOX
+						  xhr_object = new XMLHttpRequest();
+					 else if(window.ActiveXObject) // IE
+						  xhr_object = new ActiveXObject("Microsoft.XMLHTTP");
+					 else
+						  return(false);
+					 xhr_object.open("GET", fichier, false);
+					 xhr_object.send(null);
+					 if(xhr_object.readyState == 4) return(xhr_object.responseText);
+					 else return(false);
+					 }  
+					 
+					function updateCal(thismonth, thisyear){
+					SetDiv('calendar',file('?sm_request=get_calendar&amp;thismonth='+thismonth+'&amp;thisyear='+thisyear));
+					}
+					function updatePost(id){
+					
+					}
+			&lt;/script&gt;
+		&lt;div class="smart-calendar-separator"&gt;&lt;/div&gt;&lt;div class="smart-calendar-content"&gt;&lt;div id="calendar"&gt;&lt;table id="calheader" class="table-caption"&gt;&lt;tr&gt;&lt;td id="prev" name="previous month" label="previous month"&gt;&lt;a onclick="javascript:updateCal(3,2018);return false;" href="?sm_request=get_calendar&amp;thismonth=3&amp;thisyear=2018" title="View posts for March 2018" class="sm_agenda_prev" &gt;&lt;span id="prevarrow" class="calarrow"&gt;&lt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt; &lt;td id='monthname' style='text-align:center'&gt;April&amp;nbsp;&lt;select autocomplete='off' name='year' id='year' onchange='updateCal(04,this.value);return false;' &gt;&lt;option value='1995'&gt;1995&lt;/option&gt;&lt;option value='1996'&gt;1996&lt;/option&gt;&lt;option value='1997'&gt;1997&lt;/option&gt;&lt;option value='1998'&gt;1998&lt;/option&gt;&lt;option value='1999'&gt;1999&lt;/option&gt;&lt;option value='2000'&gt;2000&lt;/option&gt;&lt;option value='2001'&gt;2001&lt;/option&gt;&lt;option value='2002'&gt;2002&lt;/option&gt;&lt;option value='2003'&gt;2003&lt;/option&gt;&lt;option value='2004'&gt;2004&lt;/option&gt;&lt;option value='2005'&gt;2005&lt;/option&gt;&lt;option value='2006'&gt;2006&lt;/option&gt;&lt;option value='2007'&gt;2007&lt;/option&gt;&lt;option value='2008'&gt;2008&lt;/option&gt;&lt;option value='2009'&gt;2009&lt;/option&gt;&lt;option value='2010'&gt;2010&lt;/option&gt;&lt;option value='2011'&gt;2011&lt;/option&gt;&lt;option value='2012'&gt;2012&lt;/option&gt;&lt;option value='2013'&gt;2013&lt;/option&gt;&lt;option value='2014'&gt;2014&lt;/option&gt;&lt;option value='2015'&gt;2015&lt;/option&gt;&lt;option value='2016'&gt;2016&lt;/option&gt;&lt;option value='2017'&gt;2017&lt;/option&gt;&lt;option value='2018' selected&gt;2018&lt;/option&gt;&lt;/select&gt; &lt;/td&gt;&lt;td id="next" name="next month" label="next month"&gt;&lt;a onclick="javascript:updateCal(5,2018);return false;" href="?sm_request=get_calendar&amp;thismonth=5&amp;thisyear=2018"" title="View posts for  2018" class="sm_agenda_next"&gt;&lt;span id="nextarrow" class="calarrow"&gt;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;div class="smart-calendar-table"&gt;&lt;table class="wp-calendar" id="wp-calendar-04"&gt;&lt;thead&gt;&lt;tr&gt;
+		&lt;th scope="col" title="Sunday"&gt;Sun&lt;/th&gt;
+		&lt;th scope="col" title="Monday"&gt;Mon&lt;/th&gt;
+		&lt;th scope="col" title="Tuesday"&gt;Tue&lt;/th&gt;
+		&lt;th scope="col" title="Wednesday"&gt;Wed&lt;/th&gt;
+		&lt;th scope="col" title="Thursday"&gt;Thu&lt;/th&gt;
+		&lt;th scope="col" title="Friday"&gt;Fri&lt;/th&gt;
+		&lt;th scope="col" title="Saturday"&gt;Sat&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;/thead&gt;
+
+	&lt;tfoot&gt;
+	&lt;tr&gt;
+	&lt;/tr&gt;
+	&lt;/tfoot&gt;
+
+	&lt;tbody&gt;
+	&lt;tr&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/01/?post_type=king_comic" title="April 1, 2018"&gt;1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/02/?post_type=king_comic" title="April 2, 2018"&gt;2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/03/?post_type=king_comic" title="April 3, 2018"&gt;3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/04/?post_type=king_comic" title="April 4, 2018"&gt;4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/05/?post_type=king_comic" title="April 5, 2018"&gt;5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/06/?post_type=king_comic" title="April 6, 2018"&gt;6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/07/?post_type=king_comic" title="April 7, 2018"&gt;7&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/08/?post_type=king_comic" title="April 8, 2018"&gt;8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/09/?post_type=king_comic" title="April 9, 2018"&gt;9&lt;/a&gt;&lt;/td&gt;&lt;td id="today"&gt;&lt;a  href="http://rhymeswithorange.com/2018/04/10/?post_type=king_comic" title="April 10, 2018"&gt;10&lt;/a&gt;&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;15&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;22&lt;/td&gt;&lt;td&gt;23&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;29&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;
+		&lt;td class="pad" colspan="5"&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id="smart-calendar-footer"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;
+          &lt;!-- 'Next' &amp; 'Latest'  button  --&gt;
+          &lt;li id="nextcomic" class="button white"&gt;
+               &lt;span class="inactive"&gt;next  &amp;raquo;&lt;/span&gt;&lt;/li&gt;&lt;li id="lastcomic" class="button white"&gt;&lt;span class="inactive"&gt;last &amp;raquo;&lt;/span&gt;          &lt;/li&gt;
+
+
+          &lt;li  id="buycomic" class="button white"&gt;&lt;a href="https://comicskingdom.com/prints/new/ZGF0ZT0yMDE4LTA0LTEwJmZuPTQ2Mg==?ref=sat_rwo" target="_blank"&gt;&lt;span&gt;Buy This Print&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+     &lt;/ul&gt;&lt;/div&gt;&lt;!-- END ComicNav --&gt;          
+          
+           
+
+		&lt;!--Adds the comic's date--&gt;
+		&lt;div id="comic-date"&gt;
+		&lt;!-- March 4, 2018 --&gt;
+		April 10, 2018		&lt;/div&gt;
+
+          &lt;div id="comic"&gt; &lt;!-- area containg comic --&gt;
+               &lt;div id="comicpanel"&gt; &lt;!--  the comic panel --&gt;
+
+                    &lt;form name="safr" action="http://shop.kingfeatures.com/" method="post" target="_blank"&gt;&lt;input type="hidden" name="screenResUri" value="http://safr.kingfeatures.com/idn/cnfeed/zone/dispimg.php?file=L2hvbWUvdmhvc3Qva2ZzL3NhZnIyLmtpbmdmZWF0dXJlcy5jb20vY2FjaGUvUmh5bWVzV2l0aE9yYW5nZS8yMDE4LzA0L1JoeW1lc193aXRoX09yYW5nZS4yMDE4MDQxMF83MjAuanBn" /&gt;&lt;input type="hidden" name="printResUri" value="http://safr.kingfeatures.com/idn/cnfeed/zone/hiresimg.php?file=L2hvbWUvdmhvc3Qva2ZzL3NhZnIyLmtpbmdmZWF0dXJlcy5jb20vcmVwby9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwLmpwZw==" /&gt;&lt;input type="hidden" name="PrintResWidth" value="2175" /&gt;&lt;input type="hidden" name="PrintResHeight" value="837" /&gt;&lt;input type="hidden" name="featureDate" value="20180410" /&gt;&lt;input type="hidden" name="featureName" value="Rhymes With Orange" /&gt;&lt;img src="https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=" /&gt;&lt;/form&gt;
+               &lt;/div&gt; &lt;!-- end of #comicpanel div --&gt;
+          &lt;/div&gt; &lt;!-- end of #comic div --&gt;
+
+           
+
+	&lt;div class="entry-meta"&gt;
+		This entry was tagged: &lt;a href="http://rhymeswithorange.com/comic_tag/adult/" rel="tag"&gt;adult&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/adult-in-the-room/" rel="tag"&gt;adult in the room&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/badges/" rel="tag"&gt;badges&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/family/" rel="tag"&gt;family&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/gathering/" rel="tag"&gt;gathering&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/medals/" rel="tag"&gt;medals&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/missions/" rel="tag"&gt;missions&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/party/" rel="tag"&gt;party&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/seat-of-power/" rel="tag"&gt;seat of power&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/soldier/" rel="tag"&gt;soldier&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/tough/" rel="tag"&gt;tough&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/uniform/" rel="tag"&gt;uniform&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/comic_tag/veteran/" rel="tag"&gt;veteran&lt;/a&gt;.
+
+		
+	&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+          
+                  &lt;!-- Add to any listing --&gt;
+   	       	   &lt;div id="addtoany_comic"&gt;
+   	      
+   	       &lt;div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://rhymeswithorange.com/comics/april-10-2018/" data-a2a-title="April 10, 2018"&gt;&lt;a class="a2a_button_facebook_like addtoany_special_service" data-href="http://rhymeswithorange.com/comics/april-10-2018/"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter_tweet addtoany_special_service" data-url="http://rhymeswithorange.com/comics/april-10-2018/" data-text="April 10, 2018"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plusone addtoany_special_service" data-href="http://rhymeswithorange.com/comics/april-10-2018/"&gt;&lt;/a&gt;&lt;a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Frhymeswithorange.com%2Fcomics%2Fapril-10-2018%2F&amp;amp;linkname=April%2010%2C%202018" title="Facebook" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Frhymeswithorange.com%2Fcomics%2Fapril-10-2018%2F&amp;amp;linkname=April%2010%2C%202018" title="Google+" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Frhymeswithorange.com%2Fcomics%2Fapril-10-2018%2F&amp;amp;linkname=April%2010%2C%202018" title="Pinterest" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Frhymeswithorange.com%2Fcomics%2Fapril-10-2018%2F&amp;amp;linkname=April%2010%2C%202018" title="Reddit" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_stumbleupon" href="https://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Frhymeswithorange.com%2Fcomics%2Fapril-10-2018%2F&amp;amp;linkname=April%2010%2C%202018" title="StumbleUpon" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_tumblr" href="https://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2Frhymeswithorange.com%2Fcomics%2Fapril-10-2018%2F&amp;amp;linkname=April%2010%2C%202018" title="Tumblr" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"&gt;&lt;img src="https://static.addtoany.com/buttons/favicon.png" alt="Share"&gt;&lt;/a&gt;&lt;/div&gt;          &lt;/div&gt;
+          
+   &lt;div id="comments-home"&gt;	&lt;span class="comments-link"&gt;&lt;a href="http://rhymeswithorange.com/comics/april-10-2018/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a comment&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+          
+  
+     &lt;/div&gt;
+
+ 
+&lt;!-- END OF TOP COMIC POST, BLOG &amp;/OR SIDEBARS START HERE --&gt;
+	
+ 	
+
+
+&lt;div id="primary"&gt;
+     &lt;div id="content" role="main"&gt;
+          
+               
+                              
+                    
+	&lt;article id="post-326552" class="post-326552 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-newsletter category-sidebar category-uncategorized tag-cartooning tag-class tag-jen-sorensen tag-library-of-congress tag-purim tag-rina-piccolo tag-san-francisco tag-tcaf tag-toronto"&gt;
+		&lt;header class="entry-header"&gt;
+						&lt;h1 class="entry-title"&gt;&lt;a href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/" title="Permalink to Purim Some Wine: A Charming-Yet-Infrequent Newsletter" rel="bookmark"&gt;Purim Some Wine: A Charming-Yet-Infrequent Newsletter&lt;/a&gt;&lt;/h1&gt;
+			
+						&lt;div class="entry-meta"&gt;
+				&lt;span class="sep"&gt;Posted on &lt;/span&gt;&lt;a href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/" title="1:44 pm" rel="bookmark"&gt;&lt;time class="entry-date" datetime="2018-03-04T13:44:04+00:00" pubdate&gt;March 4, 2018&lt;/time&gt;&lt;/a&gt;&lt;span class="by-author"&gt; &lt;span class="sep"&gt; by &lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="http://rhymeswithorange.com/author/hilaryp/" title="View all posts by HilaryP" rel="author"&gt;HilaryP&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;			&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+			
+						&lt;div class="comments-link"&gt;
+				&lt;a href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/#respond"&gt;&lt;span class="leave-reply"&gt;Reply&lt;/span&gt;&lt;/a&gt;			&lt;/div&gt;
+					&lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+				&lt;div class="entry-content"&gt;
+			&lt;div class="addtoany_share_save_container addtoany_content addtoany_content_top"&gt;&lt;div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/" data-a2a-title="Purim Some Wine: A Charming-Yet-Infrequent Newsletter"&gt;&lt;a class="a2a_button_facebook_like addtoany_special_service" data-href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter_tweet addtoany_special_service" data-url="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/" data-text="Purim Some Wine: A Charming-Yet-Infrequent Newsletter"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plusone addtoany_special_service" data-href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/"&gt;&lt;/a&gt;&lt;a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2018%2F03%2F04%2Fpurim-some-wine-a-charming-yet-infrequent-newsletter%2F&amp;amp;linkname=Purim%20Some%20Wine%3A%20A%20Charming-Yet-Infrequent%20Newsletter" title="Facebook" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2018%2F03%2F04%2Fpurim-some-wine-a-charming-yet-infrequent-newsletter%2F&amp;amp;linkname=Purim%20Some%20Wine%3A%20A%20Charming-Yet-Infrequent%20Newsletter" title="Google+" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2018%2F03%2F04%2Fpurim-some-wine-a-charming-yet-infrequent-newsletter%2F&amp;amp;linkname=Purim%20Some%20Wine%3A%20A%20Charming-Yet-Infrequent%20Newsletter" title="Pinterest" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2018%2F03%2F04%2Fpurim-some-wine-a-charming-yet-infrequent-newsletter%2F&amp;amp;linkname=Purim%20Some%20Wine%3A%20A%20Charming-Yet-Infrequent%20Newsletter" title="Reddit" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_stumbleupon" href="https://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2018%2F03%2F04%2Fpurim-some-wine-a-charming-yet-infrequent-newsletter%2F&amp;amp;linkname=Purim%20Some%20Wine%3A%20A%20Charming-Yet-Infrequent%20Newsletter" title="StumbleUpon" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_tumblr" href="https://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2018%2F03%2F04%2Fpurim-some-wine-a-charming-yet-infrequent-newsletter%2F&amp;amp;linkname=Purim%20Some%20Wine%3A%20A%20Charming-Yet-Infrequent%20Newsletter" title="Tumblr" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"&gt;&lt;img src="https://static.addtoany.com/buttons/favicon.png" alt="Share"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Greetings From My-Knee-Is-In-A-Stupid-Brace-Land,&lt;/p&gt;
+&lt;p&gt;In this newsletter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Purim Tell All&lt;/li&gt;
+&lt;li&gt;Speaking Gig in SF March 14&lt;/li&gt;
+&lt;li&gt;My Dashed Olympic Skiing Career&lt;/li&gt;
+&lt;li&gt;Toronto Comics Arts Fest&lt;/li&gt;
+&lt;li&gt;Two Spring Cartooning Classes&lt;/li&gt;
+&lt;li&gt;The DL On The LOC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;PURIM SOME WINE&lt;/h1&gt;
+&lt;p&gt;A few days ago was Purim, the Jewish holiday where you dress up in your favorite king/queen/bad guy outfit to celebrate a story that reads like a Shakespeare play.  My summary below:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;A queen is killed, a new queen found, the King&amp;#8217;s right hand man wants the King to kill all the Jews because he hates this one guy.  But the new queen is secretly Jewish, and the hated guy is actually her uncle, and she tells the King, who concurrently finds out the hated guy saved the king from a murder plot,  and on the day the hated-but-good guy is supposed to be hanged, the right hand man gets hanged instead.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;My three favorite things about this holiday:&lt;/p&gt;
+&lt;p&gt;1.The Fanfare:  I love kids in costumes.  When I was a kid, you came as one of the characters.  It&amp;#8217;s since expanded.  Meet my friend Ari, as The Purimium Falcon&amp;#8230;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/arifalcon.jpg"&gt;&lt;img class="alignnone size-large wp-image-326588" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/arifalcon-1024x898.jpg" alt="" width="1024" height="898" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/arifalcon-1024x898.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/arifalcon-300x263.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/arifalcon-768x673.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/arifalcon-342x300.jpg 342w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.  The food:  DELICIOUS triangle-shaped cookies called Hamantaschen that my mom (aka The Notorious B.U.Z.) just sent in the mail.  The right hand man&amp;#8217;s name was Haman, and the word &amp;#8220;taschen&amp;#8221; means either ears or pockets, depending on who you ask.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen.jpg"&gt;&lt;img class="alignnone wp-image-326582 " src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen-1024x1008.jpg" alt="" width="502" height="494" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen-1024x1008.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen-300x295.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen-768x756.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen-305x300.jpg 305w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/hamantaschen-45x45.jpg 45w" sizes="(max-width: 502px) 100vw, 502px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3. The Drink:  Purim is a drinking holiday.  While the story&amp;#8217;s read aloud, you swill wine and boo when the bad guy Haman&amp;#8217;s name comes up, and cheer when the good guy&amp;#8217;s name (Mordecai) comes up.  The point is to get so drunk you can&amp;#8217;t tell one from the other.  Actually, that&amp;#8217;s not the point&amp;#8211; the point is to know what it feels like to have such impaired judgement that you can&amp;#8217;t distinguish good leaders from bad.&lt;/p&gt;
+&lt;p&gt;WAIT A SECOND&amp;#8230;was our last election some big terrible Purim party?!&lt;/p&gt;
+&lt;p&gt;Speaking of Purim, I&amp;#8217;ll be talking about cartooning and being Jewish at my&amp;#8230;&lt;/p&gt;
+&lt;h1&gt;TALK AT THE &lt;a href="http://www.jewishlearningworks.org/events/2018/2/6/hanukkomics-cartoons-about-jewish-culture-and-holidays-with-hilary-price"&gt;JEWISH COMMUNITY LIBRARY&lt;/a&gt; IN SF WED MARCH 14&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.jewishlearningworks.org/events/2018/2/6/hanukkomics-cartoons-about-jewish-culture-and-holidays-with-hilary-price"&gt;&lt;img class="alignnone size-large wp-image-326586" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/JCL-Catalog-Spr18-web-10-1024x672.jpg" alt="" width="1024" height="672" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/JCL-Catalog-Spr18-web-10-1024x672.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/JCL-Catalog-Spr18-web-10-300x197.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/JCL-Catalog-Spr18-web-10-768x504.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/JCL-Catalog-Spr18-web-10-457x300.jpg 457w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/JCL-Catalog-Spr18-web-10.jpg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please &lt;a href="http://www.jewishlearningworks.org/events/2018/2/6/hanukkomics-cartoons-about-jewish-culture-and-holidays-with-hilary-price"&gt;come&lt;/a&gt;, and Invite your friends with this Facebook event page:&lt;/p&gt;
+&lt;p&gt;https://www.facebook.com/events/1383934638401264/?active_tab=about&lt;/p&gt;
+&lt;h1&gt;MY DASHED OLYMPIC DEBUT IN FREESTYLE SKIING&lt;/h1&gt;
+&lt;p&gt;Sadly, I didn&amp;#8217;t actually partake in a Purim party.  I was at the sports medicine doctor.&lt;/p&gt;
+&lt;p&gt;Rewind to February school break: Kristin and I went to visit crackerjack political cartoonist &lt;a href="http://jensorensen.com/"&gt;Jen Sorensen&lt;/a&gt; and her spouse in the Rockies.&lt;/p&gt;
+&lt;p&gt;We worked, skied, ate and watched the Olympics.&lt;/p&gt;
+&lt;p&gt;The Parkland School shooting had happened.  Here&amp;#8217;s Jen&amp;#8217;s cartoon for that week. (Used with her permission.)  She was also &lt;a href="http://rhymeswithorange.com/comics/may-15-2011/"&gt;a guest RWO cartoonist back in 2011&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/schoolofglock600jensorensen.png"&gt;&lt;img class="alignnone size-full wp-image-326589" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/schoolofglock600jensorensen.png" alt="" width="600" height="611" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/schoolofglock600jensorensen.png 600w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/schoolofglock600jensorensen-295x300.png 295w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/schoolofglock600jensorensen-45x45.png 45w" sizes="(max-width: 600px) 100vw, 600px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To deal with our sorrow and get some fresh mountain air, I decided to literally go for air while downhill skiing.  Then I landed wrong. And my Pyeongchang Olympic freestyle competition fantasy dreams also landed wrong.  So the knee is in a brace.&lt;/p&gt;
+&lt;p&gt;Fast forward to a few days ago:   I went in for an MRI, except that&amp;#8217;s not what I said to the receptionist.  Instead I said: &amp;#8220;I&amp;#8217;m here to get an IUD for my knee.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IUDknee.jpg"&gt;&lt;img class="alignnone size-large wp-image-326593" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IUDknee-768x1024.jpg" alt="" width="768" height="1024" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IUDknee-768x1024.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IUDknee-225x300.jpg 225w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IUDknee.jpg 1500w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you haven&amp;#8217;t gotten an MRI, the machine looks like a giant toilet paper roll, and you&amp;#8217;re the toilet paper rod inserted into the center of it. You&amp;#8217;re supposed to lie very still while the machine takes pictures while making loud clanging noises, like radiator pipes.    They give you headphones to wear and a choice of music.  That turned out to be the most painful part, because I chose classical, and it was wretched.  Oh, and I did bleed a little&amp;#8230;from my face.  Because my cheek started to itch while I lay motionless, and then when I could finally move, well, there went the scab.&lt;/p&gt;
+&lt;p&gt;Hopefully knee and face will mend quickly.&lt;/p&gt;
+&lt;h1&gt;INVADING CANADA&lt;/h1&gt;
+&lt;p&gt;That&amp;#8217;s my plan for May 12-13 as a guest at the &lt;a href="http://www.torontocomics.com/"&gt;Toronto Festival of Comic Arts!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ll be sharing the stage with my awesome collaborator &lt;a href="https://www.rinapiccolo.com/"&gt;Rina Piccolo&lt;/a&gt; as we discuss our first year together. Fittingly, the paper anniversary! Details to come.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/rinaandhilhands_Final2.jpg"&gt;&lt;img class="alignnone size-full wp-image-326603" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/rinaandhilhands_Final2.jpg" alt="" width="500" height="375" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/rinaandhilhands_Final2.jpg 500w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/rinaandhilhands_Final2-300x225.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/rinaandhilhands_Final2-400x300.jpg 400w" sizes="(max-width: 500px) 100vw, 500px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;MARK YOUR CALENDAR-UPCOMING CARTOONING CLASSES&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Saturday April 14&lt;/strong&gt;: One day workshop in Burlington VT at &lt;a href="http://www.uvm.edu/~fleming/index.php?category=events&amp;amp;page=programs"&gt;Fleming Museum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.19.32-PM.png"&gt;&lt;img class="alignnone size-full wp-image-326591" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.19.32-PM.png" alt="" width="848" height="502" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.19.32-PM.png 848w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.19.32-PM-300x178.png 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.19.32-PM-768x455.png 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.19.32-PM-500x296.png 500w" sizes="(max-width: 848px) 100vw, 848px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday-Thursday June 11-14&lt;/strong&gt;: Four day Workshop in White River Junction VT at &lt;a href="https://www.cartoonstudies.org/summer-workshops-2/single-panel-cartoons/"&gt;The Center For Cartoon Studies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cartoonstudies.org/summer-workshops-2/single-panel-cartoons/"&gt;&lt;img class="alignnone size-large wp-image-326592" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.24.50-PM-1024x709.png" alt="" width="1024" height="709" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.24.50-PM-1024x709.png 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.24.50-PM-300x208.png 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.24.50-PM-768x532.png 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.24.50-PM-433x300.png 433w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/Screen-Shot-2018-03-02-at-9.24.50-PM.png 1312w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;THE DL ON THE LOC&lt;/h1&gt;
+&lt;p&gt;I went to the Library of Congress in DC to see a RWO strip in the current exhibit on &lt;a href="https://www.loc.gov/item/prn-17-165/library-to-open-drawn-to-purpose-american-women-illustrators-and-cartoonists/2017-10-27/"&gt;Women in Illustration&lt;/a&gt;. That was neat.  What was also neat was the nearby exhibition of courtroom artists.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0369.jpg"&gt;&lt;img class="alignnone size-large wp-image-326599" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0369-1024x768.jpg" alt="" width="1024" height="768" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0369-1024x768.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0369-300x225.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0369-768x576.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0369-400x300.jpg 400w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0376.jpg"&gt;&lt;img class="alignnone size-large wp-image-326596" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0376-768x1024.jpg" alt="" width="768" height="1024" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0376-768x1024.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0376-225x300.jpg 225w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;/a&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0377.jpg"&gt;&lt;img class="alignnone size-large wp-image-326595" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0377-1024x570.jpg" alt="" width="1024" height="570" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0377-1024x570.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0377-300x167.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0377-768x427.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0377-500x278.jpg 500w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;  &lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0381.jpg"&gt;&lt;img class="alignnone size-large wp-image-326598" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0381-768x1024.jpg" alt="" width="768" height="1024" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0381-768x1024.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0381-225x300.jpg 225w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2018/03/IMG_0381.jpg 1500w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Get this&amp;#8211; Kristin&amp;#8217;s brother and his pals all pitched in and got their other buddy a courtroom sketch artist for his wedding!&lt;/p&gt;
+&lt;p&gt;So that wraps it up&amp;#8211;thanks for tuning in to the Charming-Yet-Infrequent Newsletter!&lt;/p&gt;
+&lt;p&gt;Hilary&lt;/p&gt;
+&lt;p&gt;March 2018&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+					&lt;/div&gt;&lt;!-- .entry-content --&gt;
+		
+		&lt;footer class="entry-meta"&gt;
+												&lt;span class="cat-links"&gt;
+				&lt;span class="entry-utility-prep entry-utility-prep-cat-links"&gt;Posted in&lt;/span&gt; &lt;a href="http://rhymeswithorange.com/category/blog/" rel="category tag"&gt;Blog&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/newsletter/" rel="category tag"&gt;Newsletter Posts&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/sidebar/" rel="category tag"&gt;Newsletter Sidebar&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/uncategorized/" rel="category tag"&gt;Uncategorized&lt;/a&gt;			&lt;/span&gt;
+									&lt;span class="sep"&gt; | &lt;/span&gt;
+							&lt;span class="tag-links"&gt;
+				&lt;span class="entry-utility-prep entry-utility-prep-tag-links"&gt;Tagged&lt;/span&gt; &lt;a href="http://rhymeswithorange.com/tag/cartooning/" rel="tag"&gt;cartooning&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/class/" rel="tag"&gt;class&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/jen-sorensen/" rel="tag"&gt;jen sorensen&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/library-of-congress/" rel="tag"&gt;library of congress&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/purim/" rel="tag"&gt;Purim&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/rina-piccolo/" rel="tag"&gt;rina piccolo&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/san-francisco/" rel="tag"&gt;San Francisco&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/tcaf/" rel="tag"&gt;TCAF&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/toronto/" rel="tag"&gt;Toronto&lt;/a&gt;			&lt;/span&gt;
+						
+									&lt;span class="sep"&gt; | &lt;/span&gt;
+						&lt;span class="comments-link"&gt;&lt;a href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a reply&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+			
+					&lt;/footer&gt;&lt;!-- #entry-meta --&gt;
+	&lt;/article&gt;&lt;!-- #post-326552 --&gt;
+
+               
+                    
+	&lt;article id="post-326332" class="post-326332 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-newsletter category-sidebar category-uncategorized tag-auction tag-cartoons tag-charity tag-comics tag-hilary-price"&gt;
+		&lt;header class="entry-header"&gt;
+						&lt;h1 class="entry-title"&gt;&lt;a href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/" title="Permalink to Cartoon Art Auction For Hurricane Relief Is On!" rel="bookmark"&gt;Cartoon Art Auction For Hurricane Relief Is On!&lt;/a&gt;&lt;/h1&gt;
+			
+						&lt;div class="entry-meta"&gt;
+				&lt;span class="sep"&gt;Posted on &lt;/span&gt;&lt;a href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/" title="4:04 pm" rel="bookmark"&gt;&lt;time class="entry-date" datetime="2017-11-25T16:04:52+00:00" pubdate&gt;November 25, 2017&lt;/time&gt;&lt;/a&gt;&lt;span class="by-author"&gt; &lt;span class="sep"&gt; by &lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="http://rhymeswithorange.com/author/hilaryp/" title="View all posts by HilaryP" rel="author"&gt;HilaryP&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;			&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+			
+						&lt;div class="comments-link"&gt;
+				&lt;a href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/#respond"&gt;&lt;span class="leave-reply"&gt;Reply&lt;/span&gt;&lt;/a&gt;			&lt;/div&gt;
+					&lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+				&lt;div class="entry-content"&gt;
+			&lt;div class="addtoany_share_save_container addtoany_content addtoany_content_top"&gt;&lt;div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/" data-a2a-title="Cartoon Art Auction For Hurricane Relief Is On!"&gt;&lt;a class="a2a_button_facebook_like addtoany_special_service" data-href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter_tweet addtoany_special_service" data-url="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/" data-text="Cartoon Art Auction For Hurricane Relief Is On!"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plusone addtoany_special_service" data-href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/"&gt;&lt;/a&gt;&lt;a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F25%2Fcartoon-art-auction-for-hurricane-relief-is-on%2F&amp;amp;linkname=Cartoon%20Art%20Auction%20For%20Hurricane%20Relief%20Is%20On%21" title="Facebook" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F25%2Fcartoon-art-auction-for-hurricane-relief-is-on%2F&amp;amp;linkname=Cartoon%20Art%20Auction%20For%20Hurricane%20Relief%20Is%20On%21" title="Google+" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F25%2Fcartoon-art-auction-for-hurricane-relief-is-on%2F&amp;amp;linkname=Cartoon%20Art%20Auction%20For%20Hurricane%20Relief%20Is%20On%21" title="Pinterest" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F25%2Fcartoon-art-auction-for-hurricane-relief-is-on%2F&amp;amp;linkname=Cartoon%20Art%20Auction%20For%20Hurricane%20Relief%20Is%20On%21" title="Reddit" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_stumbleupon" href="https://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F25%2Fcartoon-art-auction-for-hurricane-relief-is-on%2F&amp;amp;linkname=Cartoon%20Art%20Auction%20For%20Hurricane%20Relief%20Is%20On%21" title="StumbleUpon" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_tumblr" href="https://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F25%2Fcartoon-art-auction-for-hurricane-relief-is-on%2F&amp;amp;linkname=Cartoon%20Art%20Auction%20For%20Hurricane%20Relief%20Is%20On%21" title="Tumblr" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"&gt;&lt;img src="https://static.addtoany.com/buttons/favicon.png" alt="Share"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;h1&gt;ORIGINAL ART AUCTION&lt;/h1&gt;
+&lt;p&gt;Want to help hurricane victims AND get original art?&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s a holiday gift you can&amp;#8217;t get from a big box store, and there are going to be some SERIOUS BARGAINS.   Start browsing &lt;a href="https://comics.ha.com/c/search-results.zx?N=52+793+794+791+1893+792+2088+4294947994&amp;amp;ic=Items-OpenAuctions-Open-BrowseViewLots-071713"&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My cartoon, pictured below, is &lt;a href="https://comics.ha.com/itm/original-comic-art/hilary-b-price-rhymes-with-orange-the-birthday-single-panel-comic-feature-dated-8-7-2016/p/121791-11095.s?ic4=GalleryView-ShortDescription-071515"&gt;here&lt;/a&gt;.  There&amp;#8217;s going to be a live auction on Nov 30th.&lt;/p&gt;
+&lt;p&gt;ALL PROCEEDS go to hurricane victims via the charity &lt;a href="https://www.directrelief.org/?gclid=CjwKCAiAxuTQBRBmEiwAAkFF1vpSCmeEnKg8xbc2Z6ikY3fFeMIpd2bGNO6qtCGgV5sGlRZhBDBrqBoCDXoQAvD_BwE"&gt;Direct Relief.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-22-at-2.50.52-PM.png"&gt;&lt;img class="alignnone size-full wp-image-326333" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-22-at-2.50.52-PM.png" alt="" width="832" height="404" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-22-at-2.50.52-PM.png 832w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-22-at-2.50.52-PM-300x146.png 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-22-at-2.50.52-PM-768x373.png 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-22-at-2.50.52-PM-500x243.png 500w" sizes="(max-width: 832px) 100vw, 832px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the press release:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;In the wake of the deadly disasters that have recently devastated communities in the Gulf states of Texas and Florida, Mexico, and especially Puerto Rico, the cartooning community has come together to use their unique gifts and talents to raise money to help the victims.&lt;/p&gt;
+&lt;p&gt;On Thanksgiving Day, Thursday, November 23, The National Cartoonists Society Foundation, the charitable arm of the National Cartoonists Society, in conjunction with King Features Syndicate, Andrews McMeel, Creators Syndicate, and the Washington Post, is staging &amp;#8220;Thanks + Giving,&amp;#8221; a unique auction of original artwork, with all proceeds going to help the victims of these overwhelming disasters.&lt;/p&gt;
+&lt;p&gt;More than 125 internationally-renowned creators have donated original artwork, including Patrick McDonnell (Mutts), Lynn Johnston (For Better or For Worse), Mort Walker (Beetle Bailey), Cathy Guisewite (Cathy), Jeff Keane (The Family Circus), Al Jaffee (MAD Magazine), Jerry Scott and Jim Borgman (Zits), Rick Kirkman (Baby Blues), and many other well-known creators.&lt;/p&gt;
+&lt;p&gt;Vintage comic strips and comic art will also be available to bid on, including work by Dan DeCarlo ((Archie), Mell Lazarus (Momma and Miss Peach), Morrie Turner (Wee Pals), Brad Anderson (Marmaduke), Brant Parker (The Wizard of Id), Chester Gould (Dick Tracy), and more.&lt;/p&gt;
+&lt;p&gt;Many of the strips will appear in papers across the country on Thanksgiving Day with a message directing readers to the auction website where they can bid on the original art for that strip, along with the other unique pieces in the auction.&lt;/p&gt;
+&lt;p&gt;The NCS has enlisted the help of Heritage Auctions, the industry leader in the field of comic and cartoon art, to conduct the auction. The address for the auction is www.HA.com/NCS, and the auction will go live on Thursday, November 23rd and will close the following Thursday the 30th. Lots may be previewed immediately at www.HA.com/NCS,&lt;/p&gt;
+&lt;p&gt;All proceeds from the auction will be sent to Direct Relief, a highly-rated charity that specializes in providing humanitarian aid to victims of natural disasters.&lt;/p&gt;
+&lt;p&gt;This is a rare chance for fans of comics and collectors of comic art to obtain a unique piece of memorabilia, and at the same time give aid and comfort to those who still desperately need help.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;PHOTO FUN&lt;/h2&gt;
+&lt;p&gt;Hope everyone had a good Thanksgiving!  My cousin&amp;#8217;s girlfriend&amp;#8217;s friend cooked up this little number:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/ricekrispieturkey.jpg"&gt;&lt;img class="alignnone size-large wp-image-326344" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/ricekrispieturkey-768x1024.jpg" alt="" width="768" height="1024" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/ricekrispieturkey-768x1024.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/ricekrispieturkey-225x300.jpg 225w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/ricekrispieturkey.jpg 1200w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h1&gt;LIBRARY OF CONGRESS EXHIBIT OPEN!&lt;/h1&gt;
+&lt;h1&gt;&lt;a href="https://www.loc.gov/item/prn-17-165/library-to-open-drawn-to-purpose-american-women-illustrators-and-cartoonists/2017-10-27/"&gt;&amp;#8220;Drawn to Purpose: American Women Illustrators and Cartoonists&amp;#8221;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Tours of highlights beginning the first week of December— other programming will follow! A second rotation of artworks will be installed in May and the exhibit will run until October 20, 2018.&lt;/p&gt;
+&lt;div id="attachment_326347" style="width: 1034px" class="wp-caption alignnone"&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/20171117SM0111.jpg"&gt;&lt;img class="size-large wp-image-326347" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/20171117SM0111-1024x683.jpg" alt="" width="1024" height="683" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/20171117SM0111-1024x683.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/20171117SM0111-300x200.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/20171117SM0111-768x512.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/20171117SM0111-450x300.jpg 450w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;p class="wp-caption-text"&gt;The &amp;#8220;Drawn to Purpose&amp;#8221; exhibition opens in the Graphic Arts Gallery, November 17, 2017. Photo by Shawn Miller.&lt;/p&gt;&lt;/div&gt;
+&lt;h1&gt;THE PERFECT STOCKING STUFFER OR HANUKKAH GIFT&lt;/h1&gt;
+&lt;p&gt;Here they are: again: &lt;a href="http://www.indyplanet.us/product/100030"&gt;Hanukkomics&lt;/a&gt;, &lt;a href="http://www.indyplanet.us/product/130849"&gt;Catacomics &lt;/a&gt;and &lt;a href="http://www.indyplanet.us/product/155674"&gt;Caninecomics! &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.58-PM.png"&gt;&lt;img class="alignnone size-full wp-image-326341" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.58-PM.png" alt="" width="498" height="652" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.58-PM.png 498w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.58-PM-229x300.png 229w" sizes="(max-width: 498px) 100vw, 498px" /&gt;&lt;/a&gt; &lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.01-PM.png"&gt;&lt;img class="alignnone size-full wp-image-326342" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.01-PM.png" alt="" width="500" height="653" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.01-PM.png 500w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.29.01-PM-230x300.png 230w" sizes="(max-width: 500px) 100vw, 500px" /&gt;&lt;/a&gt; &lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.28.28-PM.png"&gt;&lt;img class="alignnone size-large wp-image-326343" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.28.28-PM.png" alt="" width="502" height="673" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.28.28-PM.png 502w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/Screen-shot-2017-11-25-at-3.28.28-PM-224x300.png 224w" sizes="(max-width: 502px) 100vw, 502px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Take care!&lt;br /&gt;
+Hilary&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+					&lt;/div&gt;&lt;!-- .entry-content --&gt;
+		
+		&lt;footer class="entry-meta"&gt;
+												&lt;span class="cat-links"&gt;
+				&lt;span class="entry-utility-prep entry-utility-prep-cat-links"&gt;Posted in&lt;/span&gt; &lt;a href="http://rhymeswithorange.com/category/blog/" rel="category tag"&gt;Blog&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/newsletter/" rel="category tag"&gt;Newsletter Posts&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/sidebar/" rel="category tag"&gt;Newsletter Sidebar&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/uncategorized/" rel="category tag"&gt;Uncategorized&lt;/a&gt;			&lt;/span&gt;
+									&lt;span class="sep"&gt; | &lt;/span&gt;
+							&lt;span class="tag-links"&gt;
+				&lt;span class="entry-utility-prep entry-utility-prep-tag-links"&gt;Tagged&lt;/span&gt; &lt;a href="http://rhymeswithorange.com/tag/auction/" rel="tag"&gt;auction&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/cartoons/" rel="tag"&gt;cartoons&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/charity/" rel="tag"&gt;charity&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/comics/" rel="tag"&gt;comics&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/hilary-price/" rel="tag"&gt;Hilary Price&lt;/a&gt;			&lt;/span&gt;
+						
+									&lt;span class="sep"&gt; | &lt;/span&gt;
+						&lt;span class="comments-link"&gt;&lt;a href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a reply&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+			
+					&lt;/footer&gt;&lt;!-- #entry-meta --&gt;
+	&lt;/article&gt;&lt;!-- #post-326332 --&gt;
+
+               
+                    
+	&lt;article id="post-326269" class="post-326269 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-favorites category-newsletter tag-cartoons tag-hilary-price tag-open-studios tag-rhymes-with-orange"&gt;
+		&lt;header class="entry-header"&gt;
+						&lt;h1 class="entry-title"&gt;&lt;a href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/" title="Permalink to FUNNY NOVEMBER TIDBITS" rel="bookmark"&gt;FUNNY NOVEMBER TIDBITS&lt;/a&gt;&lt;/h1&gt;
+			
+						&lt;div class="entry-meta"&gt;
+				&lt;span class="sep"&gt;Posted on &lt;/span&gt;&lt;a href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/" title="11:28 pm" rel="bookmark"&gt;&lt;time class="entry-date" datetime="2017-11-08T23:28:52+00:00" pubdate&gt;November 8, 2017&lt;/time&gt;&lt;/a&gt;&lt;span class="by-author"&gt; &lt;span class="sep"&gt; by &lt;/span&gt; &lt;span class="author vcard"&gt;&lt;a class="url fn n" href="http://rhymeswithorange.com/author/hilaryp/" title="View all posts by HilaryP" rel="author"&gt;HilaryP&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;			&lt;/div&gt;&lt;!-- .entry-meta --&gt;
+			
+						&lt;div class="comments-link"&gt;
+				&lt;a href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/#respond"&gt;&lt;span class="leave-reply"&gt;Reply&lt;/span&gt;&lt;/a&gt;			&lt;/div&gt;
+					&lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+				&lt;div class="entry-content"&gt;
+			&lt;div class="addtoany_share_save_container addtoany_content addtoany_content_top"&gt;&lt;div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/" data-a2a-title="FUNNY NOVEMBER TIDBITS"&gt;&lt;a class="a2a_button_facebook_like addtoany_special_service" data-href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter_tweet addtoany_special_service" data-url="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/" data-text="FUNNY NOVEMBER TIDBITS"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plusone addtoany_special_service" data-href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/"&gt;&lt;/a&gt;&lt;a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F08%2Ffunny-november-tidbits%2F&amp;amp;linkname=FUNNY%20NOVEMBER%20TIDBITS" title="Facebook" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F08%2Ffunny-november-tidbits%2F&amp;amp;linkname=FUNNY%20NOVEMBER%20TIDBITS" title="Google+" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_pinterest" href="https://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F08%2Ffunny-november-tidbits%2F&amp;amp;linkname=FUNNY%20NOVEMBER%20TIDBITS" title="Pinterest" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F08%2Ffunny-november-tidbits%2F&amp;amp;linkname=FUNNY%20NOVEMBER%20TIDBITS" title="Reddit" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_stumbleupon" href="https://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F08%2Ffunny-november-tidbits%2F&amp;amp;linkname=FUNNY%20NOVEMBER%20TIDBITS" title="StumbleUpon" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_button_tumblr" href="https://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2Frhymeswithorange.com%2F2017%2F11%2F08%2Ffunny-november-tidbits%2F&amp;amp;linkname=FUNNY%20NOVEMBER%20TIDBITS" title="Tumblr" rel="nofollow noopener" target="_blank"&gt;&lt;/a&gt;&lt;a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"&gt;&lt;img src="https://static.addtoany.com/buttons/favicon.png" alt="Share"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;h1&gt;OPEN STUDIOS THIS WEEKEND!&lt;/h1&gt;
+&lt;p&gt;Stop my my studio this weekend! I would love to see you!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.facebook.com/Arts-Industries-Open-Studios-and-Holiday-Sale-in-Florence-MA-171124452898478/"&gt;OPEN STUDIOS&lt;/a&gt; info: NOV. 11 &amp;amp; 12, 10am-5pm.  221 Pine St. Florence, MA 01062&lt;/p&gt;
+&lt;p&gt;I had all sorts of fun with my new rubber stamp!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0107.jpg"&gt;&lt;img class="alignnone size-large wp-image-326271" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0107-1024x732.jpg" alt="" width="1024" height="732" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0107-1024x732.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0107-300x215.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0107-768x549.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0107-420x300.jpg 420w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Speaking of rubber stamps,  here&amp;#8217;s a strip from all the way back in 1998.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzE5OTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlX250Yi4xOTk4MDQyNl85MDAuZ2lm" /&gt;&lt;/p&gt;
+&lt;p&gt;If you live far away but still want to order the special Open Studios CanineComics collection, you can do it&lt;a href="http://www.indyplanet.us/brands/hilaryprice/"&gt; here.&lt;/a&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0116.jpg"&gt;&lt;img class="alignnone size-large wp-image-326277" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0116-1024x950.jpg" alt="" width="1024" height="950" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0116-1024x950.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0116-300x278.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0116-768x713.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0116-323x300.jpg 323w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;MY MOST RECENT TREASURE&lt;/h1&gt;
+&lt;p&gt;One of my favorite things about yard sale board games are the score sheets.  This was a total find.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/gamesheet-2.jpg"&gt;&lt;img class="alignnone size-large wp-image-326283" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/gamesheet-2-1024x863.jpg" alt="" width="1024" height="863" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/gamesheet-2-1024x863.jpg 1024w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/gamesheet-2-300x253.jpg 300w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/gamesheet-2-768x647.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/gamesheet-2-356x300.jpg 356w" sizes="(max-width: 1024px) 100vw, 1024px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;HALLOWEEN IS A FAVORITE HOLIDAY&lt;/h1&gt;
+&lt;p&gt;I went as a Moscow Mule.  My partner went at a Dark and Stormy.   That cup wasn&amp;#8217;t always empty.&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0079.jpg"&gt; &lt;img class="alignnone size-large wp-image-326273" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0079-768x1024.jpg" alt="" width="768" height="1024" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0079-768x1024.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0079-225x300.jpg 225w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0079.jpg 1500w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;/a&gt;&lt;a href="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0082.jpg"&gt;&lt;img class="alignnone size-large wp-image-326274" src="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0082-768x1024.jpg" alt="" width="768" height="1024" srcset="http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0082-768x1024.jpg 768w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0082-225x300.jpg 225w, http://rhymeswithorange.com/wp-content/blogs.dir/122/files/2017/11/IMG_0082.jpg 1500w" sizes="(max-width: 768px) 100vw, 768px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;LIBRARY OF CONGRESS SHOW IN DC&lt;/h1&gt;
+&lt;p&gt;The link for the Women Illustrators and Cartoonists is now&lt;a href="https://www.loc.gov/item/prn-17-165/library-to-open-drawn-to-purpose-american-women-illustrators-and-cartoonists/2017-10-27/"&gt; live.  &lt;/a&gt;I&amp;#8217;ll have few pieces in it.&lt;/p&gt;
+&lt;p&gt;Hope to see everyone this weekend!!&lt;/p&gt;
+&lt;p&gt;Hilary&lt;/p&gt;
+					&lt;/div&gt;&lt;!-- .entry-content --&gt;
+		
+		&lt;footer class="entry-meta"&gt;
+												&lt;span class="cat-links"&gt;
+				&lt;span class="entry-utility-prep entry-utility-prep-cat-links"&gt;Posted in&lt;/span&gt; &lt;a href="http://rhymeswithorange.com/category/blog/" rel="category tag"&gt;Blog&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/favorites/" rel="category tag"&gt;favorites&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/category/newsletter/" rel="category tag"&gt;Newsletter Posts&lt;/a&gt;			&lt;/span&gt;
+									&lt;span class="sep"&gt; | &lt;/span&gt;
+							&lt;span class="tag-links"&gt;
+				&lt;span class="entry-utility-prep entry-utility-prep-tag-links"&gt;Tagged&lt;/span&gt; &lt;a href="http://rhymeswithorange.com/tag/cartoons/" rel="tag"&gt;cartoons&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/hilary-price/" rel="tag"&gt;Hilary Price&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/open-studios/" rel="tag"&gt;Open Studios&lt;/a&gt;, &lt;a href="http://rhymeswithorange.com/tag/rhymes-with-orange/" rel="tag"&gt;rhymes with orange&lt;/a&gt;			&lt;/span&gt;
+						
+									&lt;span class="sep"&gt; | &lt;/span&gt;
+						&lt;span class="comments-link"&gt;&lt;a href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/#respond"&gt;&lt;span class="leave-reply"&gt;Leave a reply&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+			
+					&lt;/footer&gt;&lt;!-- #entry-meta --&gt;
+	&lt;/article&gt;&lt;!-- #post-326269 --&gt;
+
+               
+               
+
+
+	&lt;div id="prev-next"&gt;
+		&lt;div class="nav-previous"&gt;&lt;a href="http://rhymeswithorange.com/page/2/" &gt;&lt;span class="meta-nav"&gt;&amp;larr;&lt;/span&gt;Older posts&lt;/a&gt;&lt;/div&gt;
+		&lt;div class="nav-next"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	
+
+     &lt;/div&gt;&lt;!-- #content --&gt;
+     			 	
+&lt;/div&gt;&lt;!-- #primary --&gt;
+
+		&lt;div id="secondary" class="widget-area" role="complementary"&gt;
+			&lt;h3 class="widget-title"&gt;Sign up for the Charming-Yet-Infrequent Newsletter&lt;/h3&gt;
+			&lt;div class="textwidget"&gt;&lt;!-- Begin MailChimp Signup Form --&gt;
+&lt;link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css"&gt;
+&lt;style type="text/css"&gt;
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:280px;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+&lt;/style&gt;
+&lt;div id="mc_embed_signup"&gt;
+&lt;form action="//rhymeswithorange.us3.list-manage.com/subscribe/post?u=229ff613cb6e35b29b1105dee&amp;amp;id=53d5454ca9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate&gt;
+    &lt;div id="mc_embed_signup_scroll"&gt;
+	
+&lt;div class="indicates-required"&gt;&lt;span class="asterisk"&gt;*&lt;/span&gt; indicates required&lt;/div&gt;
+&lt;div class="mc-field-group"&gt;
+	&lt;label for="mce-EMAIL"&gt;Email Address  &lt;span class="asterisk"&gt;*&lt;/span&gt;
+&lt;/label&gt;
+	&lt;input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"&gt;
+&lt;/div&gt;
+	&lt;div id="mce-responses" class="clear"&gt;
+		&lt;div class="response" id="mce-error-response" style="display:none"&gt;&lt;/div&gt;
+		&lt;div class="response" id="mce-success-response" style="display:none"&gt;&lt;/div&gt;
+	&lt;/div&gt;    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    &lt;div style="position: absolute; left: -5000px;"&gt;&lt;input type="text" name="b_229ff613cb6e35b29b1105dee_53d5454ca9" tabindex="-1" value=""&gt;&lt;/div&gt;
+    &lt;div class="clear"&gt;&lt;input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'&gt;&lt;/script&gt;&lt;script type='text/javascript'&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;
+&lt;!--End mc_embed_signup--&gt;&lt;/div&gt;
+					&lt;div class="textwidget"&gt;&lt;!-- CWR_RON_ROS-300x250 --&gt;
+&lt;div id='gpt_gal_a' class='gpt-adslot'&gt;
+&lt;/div&gt;
+
+&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&lt;/div&gt;
+					&lt;div class="textwidget"&gt;&lt;script src="http://ads.hearstmags.com/ams/api.js?pos_name=AMS_RON_300X150"&gt;&lt;/script&gt;
+
+&lt;br/&gt;&amp;nbsp;&lt;br/&gt;
+
+&lt;!-- CWR_House_300x178 --&gt;
+&lt;div id='gpt_gal_b' class='gpt-adslot'&gt;
+&lt;/div&gt;&lt;/div&gt;
+						&lt;h3 class="widget-title"&gt;Recent Posts&lt;/h3&gt;
+		&lt;ul&gt;
+											&lt;li&gt;
+					&lt;a href="http://rhymeswithorange.com/2018/03/04/purim-some-wine-a-charming-yet-infrequent-newsletter/"&gt;Purim Some Wine: A Charming-Yet-Infrequent Newsletter&lt;/a&gt;
+									&lt;/li&gt;
+											&lt;li&gt;
+					&lt;a href="http://rhymeswithorange.com/2017/11/25/cartoon-art-auction-for-hurricane-relief-is-on/"&gt;Cartoon Art Auction For Hurricane Relief Is On!&lt;/a&gt;
+									&lt;/li&gt;
+											&lt;li&gt;
+					&lt;a href="http://rhymeswithorange.com/2017/11/08/funny-november-tidbits/"&gt;FUNNY NOVEMBER TIDBITS&lt;/a&gt;
+									&lt;/li&gt;
+											&lt;li&gt;
+					&lt;a href="http://rhymeswithorange.com/2017/10/19/the-charming-yet-infrequent-newsletter-so-much-to-tell/"&gt;The Charming-Yet-Infrequent Newsletter&amp;#8211; So Much To Tell&lt;/a&gt;
+									&lt;/li&gt;
+											&lt;li&gt;
+					&lt;a href="http://rhymeswithorange.com/2017/05/08/the-charming-yet-infrequent-newsletter-big-happenings/"&gt;The Charming-Yet-Infrequent Newsletter: Big Happenings!&lt;/a&gt;
+									&lt;/li&gt;
+					&lt;/ul&gt;
+		&lt;h3 class="widget-title"&gt;Archives&lt;/h3&gt;
+		&lt;label class="screen-reader-text" for="archives-dropdown-2"&gt;Archives&lt;/label&gt;
+		&lt;select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'&gt;
+			
+			&lt;option value=""&gt;Select Month&lt;/option&gt;
+				&lt;option value='http://rhymeswithorange.com/2018/03/'&gt; March 2018 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2017/11/'&gt; November 2017 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2017/10/'&gt; October 2017 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2017/05/'&gt; May 2017 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2017/02/'&gt; February 2017 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/12/'&gt; December 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/11/'&gt; November 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/09/'&gt; September 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/08/'&gt; August 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/07/'&gt; July 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/05/'&gt; May 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/04/'&gt; April 2016 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2016/01/'&gt; January 2016 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/12/'&gt; December 2015 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/11/'&gt; November 2015 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/10/'&gt; October 2015 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/09/'&gt; September 2015 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/07/'&gt; July 2015 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/06/'&gt; June 2015 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/05/'&gt; May 2015 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/04/'&gt; April 2015 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2015/01/'&gt; January 2015 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/11/'&gt; November 2014 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/10/'&gt; October 2014 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/09/'&gt; September 2014 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/08/'&gt; August 2014 &amp;nbsp;(6)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/07/'&gt; July 2014 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/06/'&gt; June 2014 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/05/'&gt; May 2014 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/04/'&gt; April 2014 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/03/'&gt; March 2014 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2014/01/'&gt; January 2014 &amp;nbsp;(5)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/12/'&gt; December 2013 &amp;nbsp;(6)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/11/'&gt; November 2013 &amp;nbsp;(6)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/10/'&gt; October 2013 &amp;nbsp;(5)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/09/'&gt; September 2013 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/07/'&gt; July 2013 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/06/'&gt; June 2013 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/05/'&gt; May 2013 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2013/01/'&gt; January 2013 &amp;nbsp;(6)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/12/'&gt; December 2012 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/11/'&gt; November 2012 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/10/'&gt; October 2012 &amp;nbsp;(6)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/05/'&gt; May 2012 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/04/'&gt; April 2012 &amp;nbsp;(5)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/03/'&gt; March 2012 &amp;nbsp;(4)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/02/'&gt; February 2012 &amp;nbsp;(4)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2012/01/'&gt; January 2012 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/12/'&gt; December 2011 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/11/'&gt; November 2011 &amp;nbsp;(7)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/10/'&gt; October 2011 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/09/'&gt; September 2011 &amp;nbsp;(6)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/07/'&gt; July 2011 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/06/'&gt; June 2011 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/05/'&gt; May 2011 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/03/'&gt; March 2011 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/02/'&gt; February 2011 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2011/01/'&gt; January 2011 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/12/'&gt; December 2010 &amp;nbsp;(9)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/11/'&gt; November 2010 &amp;nbsp;(5)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/09/'&gt; September 2010 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/08/'&gt; August 2010 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/07/'&gt; July 2010 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/06/'&gt; June 2010 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/05/'&gt; May 2010 &amp;nbsp;(4)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/04/'&gt; April 2010 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/02/'&gt; February 2010 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2010/01/'&gt; January 2010 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/12/'&gt; December 2009 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/11/'&gt; November 2009 &amp;nbsp;(4)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/10/'&gt; October 2009 &amp;nbsp;(2)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/09/'&gt; September 2009 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/08/'&gt; August 2009 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/07/'&gt; July 2009 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/04/'&gt; April 2009 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/03/'&gt; March 2009 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2009/02/'&gt; February 2009 &amp;nbsp;(3)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2008/10/'&gt; October 2008 &amp;nbsp;(1)&lt;/option&gt;
+	&lt;option value='http://rhymeswithorange.com/2008/09/'&gt; September 2008 &amp;nbsp;(2)&lt;/option&gt;
+
+		&lt;/select&gt;
+		&lt;h3 class="widget-title"&gt;Follow Me!&lt;/h3&gt;
+			&lt;div class="textwidget"&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;center&gt;&lt;a href="https://twitter.com/Hilary_Price"&gt;&lt;img src="http://rhymeswithorange.com/wp-content/themes/RWO/images/follow_twitter.jpg"&gt;&lt;br/&gt;&amp;nbsp;twitter&amp;nbsp;&lt;/a&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;a href="http://www.facebook.com/RhymesComic?ref=ts"&gt;&lt;img src="http://rhymeswithorange.com/wp-content/themes/RWO/images/follow_fb.jpg"&gt;&lt;br/&gt;&amp;nbsp;facebook&amp;nbsp;&lt;/a&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;a href="http://rhymeswithorange.com/comics/feed/"&gt;&lt;img src="http://rhymeswithorange.com/wp-content/themes/RWO/images/follow_rss.jpg"&gt;&lt;br/&gt;&amp;nbsp;rss&amp;nbsp;&lt;/a&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&lt;/div&gt;
+		&lt;h3 class="widget-title"&gt;&lt;a class="rsswidget" href="http://comicskingdom.com/feed/rss"&gt;&lt;img class="rss-widget-icon" style="border:0" width="14" height="14" src="http://rhymeswithorange.com/wp-includes/images/rss.png" alt="RSS" /&gt;&lt;/a&gt; &lt;a class="rsswidget" href="http://comicskingdom.com/blog"&gt;The Latest News From Comics Kingdom!&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/10/tuesday-s-top-ten-comics-on-shakespeare'&gt;Tuesday&amp;#039;s Top Ten Comics on Shakespeare&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/09/out-of-context-64'&gt;Out of Context&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/06/news-around-the-kingdom-our-mutual-friend-s'&gt;News Around the Kingdom: OUR MUTUAL FRIEND(S)&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/04/ask-a-cartoonist-hope'&gt;Ask A Cartoonist: Hope&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;li&gt;&lt;a class='rsswidget' href='http://comicskingdom.com/blog/2018/04/03/tuesday-s-top-ten-comics-on-meetings'&gt;Tuesday&amp;#039;s Top Ten Comics on Meetings&lt;/a&gt; &lt;cite&gt;&lt;/cite&gt;&lt;/li&gt;&lt;/ul&gt;			&lt;div class="textwidget"&gt;&lt;!-- Outbrain ad code --&gt;
+&lt;div class="OUTBRAIN" data-src="" data-widget-id="TS_1" data-ob-template="KingFeatures" &gt;&lt;/div&gt; 
+&lt;script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"&gt;&lt;/script&gt;&lt;/div&gt;
+					
+&lt;/div&gt;&lt;!-- #secondary .widget-area --&gt;
+	&lt;!-- Add our .extra-sidebar are for three column layouts --&gt;
+&lt;div id="extra-sidebar" class="widget-area" role="complementary"&gt;
+        &lt;/div&gt;&lt;!-- .extra-sidebar .widget-area --&gt;
+
+	&lt;/div&gt;&lt;!-- #main --&gt;
+
+	&lt;footer id="colophon" role="contentinfo"&gt;
+
+			
+&lt;div id='sidebar-copyright'&gt; 			&lt;div class="textwidget"&gt;&lt;center&gt;
+&lt;!-- CWR_RON_ROS-728x90-BTF --&gt;
+&lt;div id='gpt_lb_b' class='gpt-adslot'&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;!--
+&lt;p&gt;&lt;center&gt;&lt;a href="https://comicskingdom.com/comics?ref=sat_cwr" target="_blank"&gt;Free Comic Strips&lt;/a&gt; | &lt;a href="https://comicskingdom.com/editorial?ref=sat_cwr" target="_blank"&gt;Editorial Cartoons&lt;/a&gt; | &lt;a href="https://comicskingdom.com/vintage?ref=sat_cwr" target="_blank"&gt;Classic Sunday Funnies&lt;/a&gt; | &lt;a href="https://comicskingdom.com/puzzles-games?ref=sat_cwr" target="_blank"&gt;Online Crosswords &amp;amp; Sudoku&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+--&gt;
+
+&lt;script type='text/javascript' src='http://cn.kingfeatures.com/cnnet/cnfooter/index.php'&gt;&lt;/script&gt;
+
+Rhymes With Orange ©Hilary Price.  Distributed by &lt;a href="http://www.kingfeatures.com"&gt;King Features Syndicate&lt;/a&gt;.  &lt;!--&lt;a href="/privacy-policy-and-terms-of-use/"&gt;Privacy Policy and Terms of Use&lt;/a&gt;--&gt;&lt;a href="/privacy-policy/"&gt;Privacy Policy&lt;/a&gt; and &lt;a href="/terms-of-use/"&gt;Terms Of Use&lt;/a&gt;
+&lt;/div&gt;
+		&lt;/div&gt; 	
+			&lt;div id="site-generator"&gt;
+								&lt;a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator"&gt;Proudly powered by WordPress&lt;/a&gt;
+			&lt;/div&gt;
+	&lt;/footer&gt;&lt;!-- #colophon --&gt;
+&lt;/div&gt;&lt;!-- #page --&gt;
+
+&lt;!-- &lt;script type="text/javascript" src="http://cwr.kingfeatures.com/toolbar"&gt;&lt;/script&gt; --&gt;
+&lt;!-- ngg_resource_manager_marker --&gt;&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/core.min.js;wa547471e0a54b2da2?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/widget.min.js;wa48aab614674ffe53?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/mouse.min.js;wa681a7aa9ed9d1dc0?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/resizable.min.js;wacd6e58d68265a29d?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/draggable.min.js;wa82540746c8a4c0e7?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/button.min.js;wa9a8e424fbc12d528?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/position.min.js;wa075c1c9d838d1ed4?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/dialog.min.js;wad7d21abe823c78ee?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js;wabe349b9676c34973?ver=1.6.14'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/rhymeswithorange.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/wp-polls/polls-js.js;wa17c68747f8d2d3f8?ver=2.73.8'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+
+var nextgen_lightbox_settings = {"static_path":"http:\/\/rhymeswithorange.com\/wp-content\/plugins\/nextgen-gallery\/products\/photocrati_nextgen\/modules\/lightbox\/static","context":"nextgen_and_wp_images"};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/common.min.js?ver=2.2.54'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+
+var nextgen_shutter2_i18n = ["Previous","Next","Close","Full Size","Fit to Screen","Image","of","Loading..."];
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/lightbox_context.min.js;wa8420f6bc428611de?ver=2.2.54'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter_reloaded/shutter.min.js;wa51d6bf87cbb72c84?ver=2.2.54'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter_reloaded/nextgen_shutter_reloaded.min.js;wa4c196280ab541f9a?ver=2.2.54'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/menu.min.js;wa3587573a06865bc0?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/wp-a11y.min.js;wa2ac9a5d5473694d1?ver=8e8df9a29582cc58008cdfcf31f55f47'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/jquery/ui/autocomplete.min.js;wa64d50cbb3c1a000c?ver=1.11.4'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/themes/kingfeatures2014/js/myacsearch.js;waa10a3de79f40cc4f'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+var newsletter = {"messages":{"email_error":"The email is not correct","name_error":"The name is not correct","surname_error":"The last name is not correct","privacy_error":"You must accept the privacy statement"},"profile_max":"20"};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-content/plugins/newsletter/subscription/validate.js;wa104c39214ca5939c?ver=5.3.3'&gt;&lt;/script&gt;
+&lt;script type='text/javascript' src='http://rhymeswithorange.com/wp-includes/js/wp-embed.min.js;wae16e5ffa20384370?ver=8e8df9a29582cc58008cdfcf31f55f47'&gt;&lt;/script&gt;
+&lt;!-- Piwik --&gt;
+&lt;script type="text/javascript"&gt;
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.rhymeswithorange.com"]);
+  _paq.push(["setDomains", ["*.rhymeswithorange.com","*.www.rhymeswithorange.com","*.rhymeswithorange.com","*.www.rhymeswithorange.com"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.kingfeatures.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '14']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+&lt;/script&gt;
+&lt;noscript&gt;&lt;p&gt;&lt;img src="//analytics.kingfeatures.com/piwik.php?idsite=14&amp;rec=1" style="border:0;" alt="" /&gt;&lt;/p&gt;&lt;/noscript&gt;
+&lt;!-- End Piwik Code --&gt;
+
+&lt;!-- CN Campaign Tracker --&gt;
+&lt;!-- Piwik Image Tracker--&gt;
+&lt;img src="https://analytics.kingfeatures.com/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" /&gt;
+&lt;!-- End Piwik --&gt;
+
+
+&lt;!-- Google Code for RT - Comics Web Ring Remarketing List --&gt;
+&lt;script type="text/javascript"&gt;
+/* &lt;![CDATA[ */
+var google_conversion_id = 1063341604;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "5jzeCJTR9wEQpJyF-wM";
+var google_conversion_value = 0;
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1063341604/?label=5jzeCJTR9wEQpJyF-wM&amp;guid=ON&amp;script=0"/&gt;
+&lt;/div&gt;
+&lt;/noscript&gt;
+
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+&lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-822371-22"&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-822371-22');
+&lt;/script&gt;
+
+&lt;!-- CN Tracker --&gt;
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+&lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-822371-101"&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-822371-101');
+&lt;/script&gt;
+
+&lt;script type='text/javascript'&gt;
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+var colomatpauseInit = '';
+var colomattouchstart = '';
+&lt;/script&gt;			&lt;script type="text/javascript"&gt;
+				jQuery(document).ready(function(){
+					var wpfcWpfcAjaxCall = function(polls){
+						if(polls.length &gt; 0){
+							poll_id = polls.last().attr('id').match(/\d+/)[0];
+
+							jQuery.ajax({
+								type: 'POST', 
+								url: pollsL10n.ajax_url,
+								dataType : "json",
+								data : {"action": "wpfc_wppolls_ajax_request", "poll_id": poll_id, "nonce" : "a8391c3d03"},
+								cache: false, 
+								success: function(data){
+									if(data === true){
+										poll_result(poll_id);
+									}else if(data === false){
+										poll_booth(poll_id);
+									}
+									polls.length = polls.length - 1;
+
+									setTimeout(function(){
+										wpfcWpfcAjaxCall(polls);
+									}, 1000);
+								}
+							});
+						}
+					};
+
+					var polls = jQuery('div[id^=\"polls-\"][id$=\"-loading\"]');
+					wpfcWpfcAjaxCall(polls);
+				});
+			&lt;/script&gt;
+&lt;!-- kingfeatures javascript for footer scrolling banner --&gt;
+
+
+
+&lt;!-- Google Code for RT - Comics Web Ring Remarketing List --&gt;
+&lt;!--  Moved to  plugin
+&lt;script type="text/javascript"&gt;
+/* &lt;![CDATA[ */
+var google_conversion_id = 1063341604;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "5jzeCJTR9wEQpJyF-wM";
+var google_conversion_value = 0;
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1063341604/?label=5jzeCJTR9wEQpJyF-wM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+&lt;/div&gt;
+&lt;/noscript&gt;
+ --&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</ReturnValue>
+    <OutAndRefValues />
+  </RecordedCall>
+</ArrayOfRecordedCall>
