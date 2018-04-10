@@ -11,6 +11,8 @@
     {
         private const string DilbertImageUrl = "http://assets.amuniversal.com/9c0154c0f27a01351756005056a9545d";
         private const string ChickweedLaneUrl = "http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d";
+        private const string BlondieUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm";
+        private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=";
 
         [Fact]
         public void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -61,6 +63,28 @@
                 mails[1].Contents[0].Value.Should().Contain(DilbertImageUrl);
                 mails[1].Personalization[0].Tos.Should().HaveCount(1);
                 mails[1].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
+            }
+        }
+
+        [Fact]
+        public void SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics()
+        {
+            using (var fakeComicFetcher = SelfInitializingFake.For<IComicFetcher>(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
+            {
+                var target = new ComicMailBuilder(
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: blondie, rhymeswithorange"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                var mails = target.CreateMailMessage().ToList();
+
+                mails.Should().HaveCount(1);
+
+                mails[0].Contents[0].Value.Should()
+                    .Contain(BlondieUrl, "it should have Blondie").And
+                    .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
             }
         }
     }
