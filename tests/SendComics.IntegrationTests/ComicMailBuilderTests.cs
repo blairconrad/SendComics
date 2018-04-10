@@ -29,7 +29,6 @@
                 mails.Should().HaveCount(1);
 
                 mails[0].From.Address.Should().Be("comics@blairconrad.com");
-                mails[0].Subject.Should().Be("comics 08 April 2018");
                 mails[0].Personalization[0].Tos.Should().HaveCount(1);
                 mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
                 mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
