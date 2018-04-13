@@ -17,7 +17,7 @@
         [Fact]
         public void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
         {
-            using (var fakeComicFetcher = SelfInitializingFake.For<IComicFetcher>(
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/OneSubscriberTwoComics_BuildsOneMailWithBothComics.xml")))
             {
@@ -41,7 +41,7 @@
         [Fact]
         public void TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic()
         {
-            using (var fakeComicFetcher = SelfInitializingFake.For<IComicFetcher>(
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic.xml")))
             {
@@ -69,7 +69,7 @@
         [Fact]
         public void SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics()
         {
-            using (var fakeComicFetcher = SelfInitializingFake.For<IComicFetcher>(
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
             {
