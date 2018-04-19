@@ -5,4 +5,7 @@ local.settings.json
 *.csproj.user
 
 /.vs
+/artifacts
 /src/*/Properties
+/tools/NuGet.exe
+/tools/packages
