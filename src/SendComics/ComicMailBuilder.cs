@@ -9,16 +9,19 @@
 
     public class ComicMailBuilder
     {
+        private readonly DateTime now;
         private readonly IConfigurationSource configurationSource;
         private readonly IComicFetcher comicFetcher;
         private readonly ILogger log;
         private readonly ComicFactory comicFactory;
 
         public ComicMailBuilder(
+            DateTime now,
             IConfigurationSource configurationSource,
             IComicFetcher comicFetcher,
             ILogger log)
         {
+            this.now = now;
             this.configurationSource = configurationSource;
             this.comicFetcher = comicFetcher;
             this.log = log;
@@ -28,7 +31,7 @@
         public IEnumerable<Mail> CreateMailMessage()
         {
             var fromEmail = new Email("comics@blairconrad.com", "Blair Conrad");
-            var mailSubject = "comics " + DateTime.Now.Date.ToString("dd MMMM yyyy");
+            var mailSubject = "comics " + this.now.ToString("dd MMMM yyyy");
 
             var configuration = this.configurationSource.GetConfiguration();
 
@@ -60,7 +63,7 @@
         private string GetComicUrl(string comicName)
         {
             log.Info($"Getting image URL for {comicName}…");
-            var comic = this.comicFactory.GetComic(comicName);
+            var comic = this.comicFactory.GetComic(comicName, this.now);
             var comicContent = this.comicFetcher.GetContent(comic.Url);
             log.Info($"Got     image URL for {comicName}");
             return comic.GetImageUrl(comicContent);

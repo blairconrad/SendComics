@@ -4,7 +4,7 @@
 
     internal class ComicFactory
     {
-        public Comic GetComic(string name)
+        public Comic GetComic(string name, DateTime now)
         {
             if (name == "dilbert")
             {
@@ -15,7 +15,7 @@
                 return new KingFeatureComic(name);
             }
 
-            return new GoComic(name, DateTime.Now);
+            return new GoComic(name, now);
 		}
 	}
 }

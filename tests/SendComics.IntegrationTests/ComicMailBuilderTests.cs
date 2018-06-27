@@ -1,5 +1,6 @@
 ﻿namespace SendComics.IntegrationTests
 {
+    using System;
     using System.Linq;
     using FakeItEasy;
     using FluentAssertions;
@@ -22,6 +23,7 @@
                 new XmlFileRecordedCallRepository("../../RecordedCalls/OneSubscriberTwoComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
+                    DateTime.Now,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -46,6 +48,7 @@
                 new XmlFileRecordedCallRepository("../../RecordedCalls/TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic.xml")))
             {
                 var target = new ComicMailBuilder(
+                    DateTime.Now,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: 9chickweedlane; anyone@mail.org: dilbert"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -74,6 +77,7 @@
                 new XmlFileRecordedCallRepository("../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
+                    DateTime.Now,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: blondie, rhymeswithorange"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -97,6 +101,7 @@
 		    var fakeComicFetcher = A.Fake<IComicFetcher>();
 
 		    var target = new ComicMailBuilder(
+				new DateTime(2018, 6, 27), 
 			    new SimpleConfigurationParser($"blair.conrad@gmail.com: {comic}"),
 			    fakeComicFetcher,
 			    A.Dummy<ILogger>());
