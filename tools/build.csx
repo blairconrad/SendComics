@@ -3,18 +3,12 @@
 using System.Runtime.CompilerServices;
 using static SimpleTargets;
 
-var solutionName = "SendComics";
-
-var solution = "./" + solutionName + ".sln";
-var versionInfoFile = "./src/VersionInfo.cs";
-var repoUrl = "https://github.com/FakeItEasy/FakeItEasy";
+var solution = "./SendComics.sln";
 
 // tool locations
-
 static var toolsPackagesDirectory = Path.Combine(GetCurrentScriptDirectory(), "packages");
 var vswhere = $"{toolsPackagesDirectory}/vswhere.2.4.1/tools/vswhere.exe";
 var msBuild = $"{GetVSLocation()}/MSBuild/15.0/Bin/MSBuild.exe";
-var nuget = $"{GetCurrentScriptDirectory()}/NuGet.exe";
 var xunit = $"{toolsPackagesDirectory}/xunit.runner.console.2.0.0/tools/xunit.console.exe";
 
 // artifact locations
