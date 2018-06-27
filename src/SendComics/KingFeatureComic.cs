@@ -4,7 +4,7 @@
 
     internal class KingFeatureComic : Comic
     {
-        public KingFeatureComic(string url) : base(url)
+        public KingFeatureComic(string name) : base("http://" + name + ".com/")
         {
         }
 

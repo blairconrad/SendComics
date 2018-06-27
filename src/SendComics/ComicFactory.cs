@@ -8,15 +8,14 @@
         {
             if (name == "dilbert")
             {
-                return new DilbertComic("http://www.dilbert.com/");
+                return new DilbertComic();
             }
             else if (name == "blondie" || name == "rhymeswithorange")
             {
-                return new KingFeatureComic("http://" + name + ".com/");
+                return new KingFeatureComic(name);
             }
 
-            var dateString = DateTime.Now.ToString("yyyy'/'MM'/'dd");
-            return new GoComic($"http://www.gocomics.com/{name}/{dateString}/");
-        }
-    }
+            return new GoComic(name, DateTime.Now);
+		}
+	}
 }

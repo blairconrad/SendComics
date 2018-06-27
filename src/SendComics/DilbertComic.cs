@@ -1,10 +1,11 @@
 ﻿namespace SendComics
 {
+    using System;
     using System.Text.RegularExpressions;
 
-    internal class DilbertComic: Comic
+    internal class DilbertComic : Comic
     {
-        public DilbertComic(string url) : base(url)
+        public DilbertComic() : base("http://www.dilbert.com/")
         {
         }
 

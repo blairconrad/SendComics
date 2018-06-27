@@ -1,10 +1,12 @@
 ﻿namespace SendComics
 {
+    using System;
     using System.Text.RegularExpressions;
 
-    internal class GoComic: Comic
+    internal class GoComic : Comic
     {
-        public GoComic(string url) : base(url)
+        public GoComic(string name, DateTime now)
+            : base($"http://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd")}/")
         {
         }
 
