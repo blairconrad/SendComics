@@ -87,5 +87,24 @@
                     .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
             }
         }
-    }
+
+	    [Theory]
+		[InlineData("dilbert", "http://www.dilbert.com/")]
+		[InlineData("blondie", "http://blondie.com/")]
+		[InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2018/06/27/")]
+	    public void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedUrl)
+	    {
+		    var fakeComicFetcher = A.Fake<IComicFetcher>();
+
+		    var target = new ComicMailBuilder(
+			    new SimpleConfigurationParser($"blair.conrad@gmail.com: {comic}"),
+			    fakeComicFetcher,
+			    A.Dummy<ILogger>());
+
+		    target.CreateMailMessage().ToList();
+
+		    A.CallTo(() => fakeComicFetcher.GetContent(expectedUrl)).MustHaveHappened();
+	    }
+
+	}
 }
