@@ -1,0 +1,2961 @@
+<?xml version="1.0"?>
+<ArrayOfRecordedCall xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecordedCall>
+    <Method>System.String GetContent(System.String)</Method>
+    <ReturnValue xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  
+   &lt;title&gt;Dinosaur Comics by Ryan North for Jun 27, 2018 - GoComics&lt;/title&gt;  
+    &lt;!--- MOBILE SCALE --&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=1, user-scalable=yes"/&gt;
+	&lt;meta http-equiv="cleartype" content="on" /&gt;
+	&lt;meta http-equiv="Content-type" content="text/html;charset=UTF-8"&gt;
+	&lt;meta name='HandheldFriendly' content='True' /&gt;
+	&lt;meta name='MobileOptimized' content='320' /&gt;
+
+  &lt;meta name="csrf-param" content="authenticity_token" /&gt;
+&lt;meta name="csrf-token" content="uiECA2LP7I9F/LOYz+ZFcyjz5ZF2ZisYQ+ZTDGfHj5wYquQbk49WzqzOG6vcn7zO7gg7doa+EPyeOJFjsYdGFw==" /&gt;
+
+        &lt;!-- Dynamic General Tags --&gt;
+&lt;!-- &lt;link rel="image_src" href="" /&gt; --&gt;
+&lt;meta name="keywords" content="Dinosaur Comics Jun 27, 2018, Comic Strip for Dinosaur Comics, Dinosaur Comics, Cartoonist Ryan North, Dinosaur Comics GoComics, Comics, editorial cartoons, email comics, daily comic strips" /&gt;
+&lt;meta name="description" content="View the daily comic strip for Dinosaur Comics by cartoonist Ryan North created Jun 27, 2018 available on GoComics.com" /&gt;
+
+&lt;!-- Feature Item Sharing --&gt;
+&lt;!-- Facebook Open Graph Tags --&gt;
+&lt;meta property="og:url" content="https://www.gocomics.com/dinosaur-comics/2018/06/27/" /&gt;
+&lt;meta property="og:type" content="article" /&gt;
+&lt;meta property="og:title" content="Dinosaur Comics by Ryan North for Jun 27, 2018 | GoComics.com" /&gt;
+&lt;meta property="og:image" content="https://assets.amuniversal.com/47a944d079e70135eb2b005056a9545d" /&gt;
+&lt;meta property="og:image:height" content="598" /&gt;
+&lt;meta property="og:image:width" content="900" /&gt;
+&lt;meta property="og:description" content="Jun 27, 2018" /&gt;
+&lt;meta property="og:site_name" content="GoComics" /&gt;
+&lt;meta property="fb:app_id" content="238155399647243" /&gt;
+
+&lt;!-- Dynamic Twitter Card Meta Tags --&gt;
+&lt;meta name="twitter:card" content="photo"&gt;
+&lt;meta name="twitter:site" content="@GoComics"&gt;
+&lt;meta name="twitter:url" content="https://www.gocomics.com/dinosaur-comics/2018/06/27/"&gt;
+&lt;meta name="twitter:title" content="Dinosaur Comics by Ryan North for Jun 27, 2018 | GoComics.com"&gt;
+&lt;meta name="twitter:description" content="Jun 27, 2018"&gt;
+&lt;meta name="twitter:image" content="https://assets.amuniversal.com/47a944d079e70135eb2b005056a9545d"&gt;
+
+&lt;!-- Other OG Tags --&gt;
+&lt;meta property="article:published_time" content="2018-06-27" /&gt;
+&lt;meta property="article:author" content="Ryan North" /&gt;
+&lt;meta property="article:section" content="comic" /&gt;
+&lt;meta property="article:tag" content="" /&gt;
+
+
+  &lt;!-- Pinterest Verification --&gt;
+  &lt;meta name="p:domain_verify" content="2daa671e72ed57aab721dcad175fc876"/&gt;
+
+  &lt;!-- Webmaster Verification Tag --&gt;
+  &lt;meta name="msvalidate.01" content="CA2B093E89A42FE68A7281E53F12B64D" /&gt;
+  &lt;meta name="google-site-verification" content="iggzxjEv3099Ou5--yot5AOC_AcxqiS1g8kCGLfpSi8" /&gt;
+
+  &lt;!-- Beginning of AMU Marketing Silverpop Tracking --&gt;
+  &lt;meta name="com.silverpop.brandeddomains" content="www.pages02.net,ampkids.com,amureprints.com,andrewsmcmeel.com,calvinandhobbes.com,dilbert.com,epicbignate.com,gocomics.com,puzzlesociety.com,uexpress.com,wonderword.universaluclick.com" /&gt;
+  &lt;meta name="com.silverpop.cothost" content="pod2.ibmmarketingcloud.com" /&gt;
+  &lt;!-- End of AMU Marketing Silverpop Tracking --&gt;
+  	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-57x57.png" sizes="57x57" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-60x60.png" sizes="60x60" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-72x72.png" sizes="72x72" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-76x76.png" sizes="76x76" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-114x114.png" sizes="114x114" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-120x120.png" sizes="120x120" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-144x144.png" sizes="144x144" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-152x152.png" sizes="152x152" /&gt;
+	&lt;link rel="apple-icon" type="image/png" href="https://www.gocomics.com/assets/favicons/apple-icon-180x180.png" sizes="180x180" /&gt;
+	&lt;link rel="icon" type="image/png" href="https://www.gocomics.com/assets/favicons/favicon-32x32.png" sizes="32x32" /&gt;
+	&lt;link rel="icon" type="image/png" href="https://www.gocomics.com/assets/favicons/favicon-96x96.png" sizes="96x96" /&gt;
+	&lt;link rel="icon" type="image/png" href="https://www.gocomics.com/assets/favicons/favicon-16x16.png" sizes="16x16" /&gt;
+	&lt;link rel="manifest" href="https://www.gocomics.com/assets/favicons/manifest.json" /&gt;
+	&lt;meta name="msapplication-TileColor" content="#ffffff" /&gt;
+	&lt;meta name="msapplication-TileImage" content="https://www.gocomics.com/assets/favicons/ms-icon-144x144.png" /&gt;
+	&lt;meta name="theme-color" content="#ffffff" /&gt;
+  &lt;link rel="stylesheet" media="all" href="/assets/application-gc-221e76ac034a01ec79c640faf7b8c9bfead123edf7d207a3f0ab60dc666141f9.css" /&gt;
+  &lt;link rel="stylesheet" media="screen" href="/assets/application-gc-plugins-640ef3099a044f3e1775e305c8b5904ddbb125e4af8bc772c8c94e09994465b2.css" /&gt;
+  &lt;script src="/assets/application-gc-preload-31693f382ae74576cd157ea3d5ac20ac460cac75d7d8d05adc003607b48ddec3.js"&gt;&lt;/script&gt;
+
+  &lt;!-- Venatus Market Ad-Manager (gocomics.com) --&gt;
+&lt;script&gt;
+    (function(){document.write('&lt;div id="vmv3-ad-manager" style="display:none"&gt;&lt;/div&gt;');document.getElementById("vmv3-ad-manager").innerHTML='&lt;iframe id="vmv3-frm" src="javascript:\'&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\'" width="0" height="0" data-mode="scan" data-site-id="5b04343a46e0fb0001162107"&gt;&lt;/iframe&gt;';var a=document.getElementById("vmv3-frm");a=a.contentWindow?a.contentWindow:a.contentDocument;a.document.open();a.document.write('&lt;script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" async&gt;'+'&lt;/scr'+'ipt&gt;');a.document.close()})();
+&lt;/script&gt;
+&lt;!-- / Venatus Market Ad-Manager (gocomics.com) --&gt;
+      &lt;script&gt;
+    /***** Helper functions for ads *****/
+    var storeQueryString = function(){
+        var queryString = window.location.search.substring(1).split('&amp;');
+        for(var i=0; i&lt;queryString.length; i++){
+            var pair = queryString[i].split('=');
+            if(pair.length === 2){
+                gocomics_ads.query_string[pair[0]] = pair[1];
+            }
+        }
+    };
+
+    var findAds = function(className){
+        var ads = $(document).find('.' + className);
+        ads.removeClass(className);
+        ads = Array.prototype.slice.call(ads);
+
+        var adIds = ads.map(getElementInfo);
+        adIds = adIds.filter(adSlotConfigExists).filter(servesAtBreakpoint);
+
+        return adIds;
+    };
+
+    var isVisible = function(element){
+        return !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length);
+    };
+
+    var adSlotConfigExists = function(slotInfo){
+        return typeof gocomics_ads.adSlotConfig[slotInfo.adType] !== 'undefined';
+    };
+
+    var servesAtBreakpoint = function(slotInfo){
+        var curBpt = gocomics_ads.adSlotConfig[slotInfo.adType].breakpoint;
+        return curBpt.sizes.length &gt; 0;
+    };
+
+    var getElementId = function(element){
+        return element.id;
+    };
+
+    var getElementAdType = function(element){
+        return $(element).data('ad-type');
+    };
+
+    var getElementInfo = function(element){
+        return {id: getElementId(element), adType: getElementAdType(element)};
+    };
+
+    var findBreakpoint = function(breakpointsArray){
+        var maxBpt, curBpt;
+        for (var i = 0; i &lt; breakpointsArray.length; i++) {
+            curBpt = breakpointsArray[i];
+            if (gocomics_ads.browserWidth &gt;= curBpt.minWidth &amp;&amp; gocomics_ads.browserHeight &gt;= curBpt.minHeight){
+                if(!maxBpt || (curBpt.minWidth &gt;= maxBpt.minWidth &amp;&amp; curBpt.minHeight &gt;= maxBpt.minHeight)){
+                    maxBpt = curBpt;
+                }
+            }
+        }
+        return maxBpt
+    };
+
+
+    var updatePageviewTargeting = function() {
+        var adPageview = getPageviewFromCookie();
+        Object.keys(gocomics_ads.adSlotConfig).forEach(function(key) {
+            gocomics_ads.adSlotConfig[key].targeting['pv'] = adPageview;
+        });
+    };
+&lt;/script&gt;
+
+
+&lt;script&gt;
+    // Global variable for advertising config
+    var gocomics_ads = gocomics_ads || {};
+
+    // Query string for changing ad slot path and ad channel
+    gocomics_ads.query_string = gocomics_ads.query_string || {};
+
+    // Browser and page info
+    gocomics_ads.browserWidth = "CSS1Compat" == window.document.compatMode ? window.document.documentElement.clientWidth : window.document.body.clientWidth;
+    gocomics_ads.browserHeight = "CSS1Compat" == window.document.compatMode ? window.document.documentElement.clientHeight : window.document.body.clientHeight;
+    gocomics_ads.pageDomain = window.location.hostname;
+    gocomics_ads.pagePath = window.location.pathname + location.search + location.hash;
+
+    // Ad channel (a or b)
+    gocomics_ads.adChannel = 'a';
+
+    // Current page view number (based on cookie)
+    gocomics_ads.adPageview = setPageviewCookie();
+
+    // Ad unit path
+    gocomics_ads.adSlotPath = '/19196947/gocomics.com/comic/dco';
+
+&lt;/script&gt;
+
+&lt;script&gt;
+    /***** Bidder config *****/
+    // AppNexus tag config
+    gocomics_ads.appnexusTags = {
+
+        /***** Leaderboards and banners *****/
+        // 970x250, 970x90, 728x90, 320x50
+        'top': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337721,
+                keywords: {
+                    pos: ['top'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        'mid_1': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337722,
+                keywords: {
+                    pos: ['mid_1'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        'mid_2': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337723,
+                keywords: {
+                    pos: ['mid_2'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 320x50
+        'locked': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337724,
+                keywords: {
+                    pos: ['locked'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 728x90
+        'bot': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337725,
+                keywords: {
+                    pos: ['bot'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+
+        /***** Rectangles *****/
+        // 300x250
+        '1': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337716,
+                keywords: {
+                    pos: ['1'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 300x250
+        '2': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337720,
+                keywords: {
+                    pos: ['2'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+
+
+        /***** Towers *****/
+        // 300x250, 160x600, 300x600
+        'right': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337717,
+                keywords: {
+                    pos: ['right'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        'left': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337718,
+                keywords: {
+                    pos: ['left'],
+                    channel: [gocomics_ads.adChannel]
+                }
+
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        'comments': {
+            bidder: 'appnexus',
+            params: {
+                placementId: 13337719,
+                keywords: {
+                    pos: ['comments'],
+                    channel: [gocomics_ads.adChannel]
+                }
+            }
+        }
+    };
+
+
+    // Index tag config
+    gocomics_ads.ixTags = {
+
+        /***** Leaderboards and banners *****/
+        // 970x250, 970x90, 728x90, 320x50
+        '970x250_top': {
+            bidder: 'ix',
+            params: {
+                siteId: '267537',
+                size: [970,250]
+            }
+        },
+        '970x90_top': {
+            bidder: 'ix',
+            params: {
+                siteId: '267537',
+                size: [970,90]
+            }
+        },
+        '728x90_top': {
+            bidder: 'ix',
+            params: {
+                siteId: '267537',
+                size: [728,90]
+            }
+        },
+        '320x50_top': {
+            bidder: 'ix',
+            params: {
+                siteId: '267537',
+                size: [320,50]
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        '970x90_mid_1': {
+            bidder: 'ix',
+            params: {
+                siteId: '267538',
+                size: [970,90]
+            }
+        },
+        '728x90_mid_1': {
+            bidder: 'ix',
+            params: {
+                siteId: '267538',
+                size: [728,90]
+            }
+        },
+        '320x50_mid_1': {
+            bidder: 'ix',
+            params: {
+                siteId: '267538',
+                size: [320,50]
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        '970x90_mid_2': {
+            bidder: 'ix',
+            params: {
+                siteId: '267539',
+                size: [970,90]
+            }
+        },
+        '728x90_mid_2': {
+            bidder: 'ix',
+            params: {
+                siteId: '267539',
+                size: [728,90]
+            }
+        },
+        '320x50_mid_2': {
+            bidder: 'ix',
+            params: {
+                siteId: '267539',
+                size: [320,50]
+            }
+        },
+
+        // 320x50
+        '320x50_locked': {
+            bidder: 'ix',
+            params: {
+                siteId: '267540',
+                size: [320,50]
+            }
+        },
+
+        // 728x90
+        '728x90_bot': {
+            bidder: 'ix',
+            params: {
+                siteId: '267541',
+                size: [728,90]
+            }
+        },
+
+
+        /***** Rectangles *****/
+        // 300x250
+        '300x250_1': {
+            bidder: 'ix',
+            params: {
+                siteId: '267532',
+                size: [300,250]
+            }
+        },
+
+        // 300x250
+        '300x250_2': {
+            bidder: 'ix',
+            params: {
+                siteId: '267536',
+                size: [300,250]
+            }
+        },
+
+
+        /***** Towers *****/
+        // 300x250, 160x600, 300x600
+        '300x250_right': {
+            bidder: 'ix',
+            params: {
+                siteId: '267533',
+                size: [300,250]
+            }
+        },
+        '160x600_right': {
+            bidder: 'ix',
+            params: {
+                siteId: '267533',
+                size: [160,600]
+            }
+        },
+        '300x600_right': {
+            bidder: 'ix',
+            params: {
+                siteId: '267533',
+                size: [300,600]
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        '300x250_left': {
+            bidder: 'ix',
+            params: {
+                siteId: '267534',
+                size: [300,250]
+            }
+        },
+        '160x600_left': {
+            bidder: 'ix',
+            params: {
+                siteId: '267534',
+                size: [160,600]
+            }
+        },
+        '300x600_left': {
+            bidder: 'ix',
+            params: {
+                siteId: '267534',
+                size: [300,600]
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        '300x250_comments': {
+            bidder: 'ix',
+            params: {
+                siteId: '267535',
+                size: [300,250]
+            }
+        },
+        '160x600_comments': {
+            bidder: 'ix',
+            params: {
+                siteId: '267535',
+                size: [160,600]
+            }
+        },
+        '300x600_comments': {
+            bidder: 'ix',
+            params: {
+                siteId: '267535',
+                size: [300,600]
+            }
+        }
+    };
+
+    // OpenX tag config
+    gocomics_ads.openxTags = {
+
+        /***** Leaderboards and banners *****/
+        // 970x250, 970x90, 728x90, 320x50
+        'top': {
+            bidder: 'openx',
+            params: {
+                unit: 540023521,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'top',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        'mid_1': {
+            bidder: 'openx',
+            params: {
+                unit: 540023523,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'mid_1',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        'mid_2': {
+            bidder: 'openx',
+            params: {
+                unit: 540023535,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'mid_2',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 320x50
+        'locked': {
+            bidder: 'openx',
+            params: {
+                unit: 540023537,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'locked',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 728x90
+        'bot': {
+            bidder: 'openx',
+            params: {
+                unit: 540023544,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'bot',
+                    channel:
+                    gocomics_ads.adChannel
+                }
+            }
+        },
+
+
+        /***** Rectangles *****/
+        // 300x250
+        '1': {
+            bidder: 'openx',
+            params: {
+                unit: 540023496,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: '1',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 300x250
+        '2': {
+            bidder: 'openx',
+            params: {
+                unit: 540023512,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: '2',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+
+
+        /***** Towers *****/
+        // 300x250, 160x600, 300x600
+        'right': {
+            bidder: 'openx',
+            params: {
+                unit: 540023499,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'right',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        'left': {
+            bidder: 'openx',
+            params: {
+                unit: 540023507,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'left',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        'comments': {
+            bidder: 'openx',
+            params: {
+                unit: 540023510,
+                delDomain: 'amu-d.openx.net',
+                customParams: {
+                    pos: 'comments',
+                    channel: gocomics_ads.adChannel
+                }
+            }
+        }
+    };
+
+    // Rubicon tag config
+    gocomics_ads.rubiconTags = {
+
+        /***** Leaderboards and banners *****/
+        // 970x250, 970x90, 728x90, 320x50
+        'top': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935870,
+                visitor: {
+                    'pos': ['top'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        'mid_1': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935874,
+                visitor: {
+                    'pos': ['mid_1'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 970x90, 728x90, 320x50
+        'mid_2': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935876,
+                visitor: {
+                    'pos': ['mid_2'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 320x50
+        'locked': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935880,
+                visitor: {
+                    'pos': ['locked'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 728x90
+        'bot': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935884,
+                visitor: {
+                    'pos': ['bot'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+
+        /***** Rectangles *****/
+        // 300x250
+        '1': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935850,
+                visitor: {
+                    'pos': ['1'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 300x250
+        '2': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935864,
+                visitor: {
+                    'pos': ['2'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+
+
+        /***** Towers *****/
+        // 300x250, 160x600, 300x600
+        'right': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935854,
+                visitor: {
+                    'pos': ['right'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        'left': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935878,
+                visitor: {
+                    'pos': ['left'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        },
+
+        // 300x250, 160x600, 300x600
+        'comments': {
+            bidder: 'rubicon',
+            params: {
+                accountId: 14256,
+                siteId: 192270,
+                zoneId: 935860,
+                visitor: {
+                    'pos': ['comments'],
+                    'channel': [gocomics_ads.adChannel]
+                }
+            }
+        }
+    };
+
+
+    // Sovrn tag config
+    gocomics_ads.sovrnTags = {
+        /***** Leaderboards and banners *****/
+        '970x250_top': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564744'
+            }
+        },
+        '728x90_top': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564745'
+            }
+        },
+        '320x50_top': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564746'
+            }
+        },
+
+        '728x90_mid_1': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564747'
+            }
+        },
+
+        '320x50_mid_1': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564748'
+            }
+        },
+
+        '728x90_mid_2': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564749'
+            }
+        },
+        '320x50_mid_2': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564750'
+            }
+        },
+
+        '320x50_locked': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564751'
+            }
+        },
+
+        '728x90_bot': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564752'
+            }
+        },
+
+
+        /***** Rectangles *****/
+        '300x250_1': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564733'
+            }
+        },
+
+        '300x250_2': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564743'
+            }
+        },
+
+
+        /***** Towers *****/
+        '300x250_right': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564734'
+            }
+        },
+        '160x600_right': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564735'
+            }
+        },
+        '300x600_right': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564736'
+            }
+        },
+
+
+        '300x250_left': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564737'
+            }
+        },
+        '160x600_left': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564738'
+            }
+        },
+        '300x600_left': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564739'
+            }
+        },
+
+
+        '300x250_comments': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564740'
+            }
+        },
+        '160x600_comments': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564741'
+            }
+        },
+        '300x600_comments': {
+            bidder: 'sovrn',
+            params: {
+                tagid: '564742'
+            }
+        }
+
+    };
+
+
+
+    /***** Ad config *****/
+    gocomics_ads.adSlotConfig = {};
+    gocomics_ads.adSlotConfig['leaderboard_home'] = {
+        name: 'leaderboard_home',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'top',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['320x50_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['320x50_top']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['leaderboard_home'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['leaderboard_home'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['leaderboard_feature_item'] = {
+        name: 'leaderboard_feature_item',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'top',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 1310,
+                minHeight: 850,
+                sizes: [[970, 250], [970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x250_top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['970x250_top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 1310,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 970,
+                minHeight: 850,
+                sizes: [[970, 250], [970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x250_top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['970x250_top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['320x50_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['320x50_top']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['leaderboard_feature_item'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['leaderboard_feature_item'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['leaderboard_feature_overview'] = {
+        name: 'leaderboard_feature_overview',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'top',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 1310,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['320x50_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['320x50_top']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['leaderboard_feature_overview'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['leaderboard_feature_overview'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['leaderboard'] = {
+        name: 'leaderboard',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'top',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 970,
+                minHeight: 850,
+                sizes: [[970, 250], [970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x250_top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['970x250_top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['970x90_top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['728x90_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['728x90_top']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['top'],
+                    gocomics_ads.ixTags['320x50_top'],
+                    gocomics_ads.openxTags['top'],
+                    gocomics_ads.rubiconTags['top'],
+                    gocomics_ads.sovrnTags['320x50_top']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['leaderboard'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['leaderboard'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['banner_bot'] = {
+        name: 'banner_bot',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'bot',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['bot'],
+                    gocomics_ads.ixTags['728x90_bot'],
+                    gocomics_ads.openxTags['bot'],
+                    gocomics_ads.rubiconTags['bot'],
+                    gocomics_ads.sovrnTags['728x90_bot']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['banner_bot'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['banner_bot'].breakpoints);
+
+
+    gocomics_ads.adSlotConfig['banner_explore1'] = {
+        name: 'banner_explore1',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'mid_1',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 1145,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_1'],
+                    gocomics_ads.ixTags['728x90_mid_1'],
+                    gocomics_ads.openxTags['mid_1'],
+                    gocomics_ads.rubiconTags['mid_1'],
+                    gocomics_ads.sovrnTags['728x90_mid_1']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_1'],
+                    gocomics_ads.ixTags['320x50_mid_1'],
+                    gocomics_ads.openxTags['mid_1'],
+                    gocomics_ads.rubiconTags['mid_1'],
+                    gocomics_ads.sovrnTags['320x50_mid_1']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['banner_explore1'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['banner_explore1'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['banner_explore2'] = {
+        name: 'banner_explore2',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'mid_2',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 1145,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_2'],
+                    gocomics_ads.ixTags['728x90_mid_2'],
+                    gocomics_ads.openxTags['mid_2'],
+                    gocomics_ads.rubiconTags['mid_2'],
+                    gocomics_ads.sovrnTags['728x90_mid_2']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_2'],
+                    gocomics_ads.ixTags['320x50_mid_2'],
+                    gocomics_ads.openxTags['mid_2'],
+                    gocomics_ads.rubiconTags['mid_2'],
+                    gocomics_ads.sovrnTags['320x50_mid_2']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['banner_explore2'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['banner_explore2'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['banner1'] = {
+        name: 'banner1',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'mid_1',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_1'],
+                    gocomics_ads.ixTags['728x90_mid_1'],
+                    gocomics_ads.openxTags['mid_1'],
+                    gocomics_ads.rubiconTags['mid_1'],
+                    gocomics_ads.sovrnTags['728x90_mid_1']
+                ]
+            },
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_1'],
+                    gocomics_ads.ixTags['970x90_mid_1'],
+                    gocomics_ads.ixTags['728x90_mid_1'],
+                    gocomics_ads.openxTags['mid_1'],
+                    gocomics_ads.rubiconTags['mid_1'],
+                    gocomics_ads.sovrnTags['728x90_mid_1']
+                ]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_1'],
+                    gocomics_ads.ixTags['728x90_mid_1'],
+                    gocomics_ads.openxTags['mid_1'],
+                    gocomics_ads.rubiconTags['mid_1'],
+                    gocomics_ads.sovrnTags['728x90_mid_1']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_1'],
+                    gocomics_ads.ixTags['320x50_mid_1'],
+                    gocomics_ads.openxTags['mid_1'],
+                    gocomics_ads.rubiconTags['mid_1'],
+                    gocomics_ads.sovrnTags['320x50_mid_1']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['banner1'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['banner1'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['banner2'] = {
+        name: 'banner2',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'mid_2',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_2'],
+                    gocomics_ads.ixTags['728x90_mid_2'],
+                    gocomics_ads.openxTags['mid_2'],
+                    gocomics_ads.rubiconTags['mid_2'],
+                    gocomics_ads.sovrnTags['728x90_mid_2']
+                ]
+            },
+            {
+                minWidth: 970,
+                minHeight: 0,
+                sizes: [[970, 90], [728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_2'],
+                    gocomics_ads.ixTags['970x90_mid_2'],
+                    gocomics_ads.ixTags['728x90_mid_2'],
+                    gocomics_ads.openxTags['mid_2'],
+                    gocomics_ads.rubiconTags['mid_2'],
+                    gocomics_ads.sovrnTags['728x90_mid_2']
+                ]
+            },
+            {
+                minWidth: 728,
+                minHeight: 0,
+                sizes: [[728, 90]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_2'],
+                    gocomics_ads.ixTags['728x90_mid_2'],
+                    gocomics_ads.openxTags['mid_2'],
+                    gocomics_ads.rubiconTags['mid_2'],
+                    gocomics_ads.sovrnTags['728x90_mid_2']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['mid_2'],
+                    gocomics_ads.ixTags['320x50_mid_2'],
+                    gocomics_ads.openxTags['mid_2'],
+                    gocomics_ads.rubiconTags['mid_2'],
+                    gocomics_ads.sovrnTags['320x50_mid_2']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['banner2'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['banner2'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['banner_lock'] = {
+        name: 'banner_lock',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'locked',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 768,
+                minHeight: 0,
+                sizes: [],
+                bids: []
+            },
+            {
+                minWidth: 0,
+                minHeight: 300,
+                sizes: [[320, 50]],
+                bids: [
+                    gocomics_ads.appnexusTags['locked'],
+                    gocomics_ads.ixTags['320x50_locked'],
+                    gocomics_ads.openxTags['locked'],
+                    gocomics_ads.rubiconTags['locked'],
+                    gocomics_ads.sovrnTags['320x50_locked']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['banner_lock'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['banner_lock'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['rectangle1'] = {
+        name: 'rectangle1',
+        targeting: {
+            'fcode': 'dco',
+            'pos': '1',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['1'],
+                    gocomics_ads.ixTags['300x250_1'],
+                    gocomics_ads.openxTags['1'],
+                    gocomics_ads.rubiconTags['1'],
+                    gocomics_ads.sovrnTags['300x250_1']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['rectangle1'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['rectangle1'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['rectangle2'] = {
+        name: 'rectangle2',
+        targeting: {
+            'fcode': 'dco',
+            'pos': '2',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['2'],
+                    gocomics_ads.ixTags['300x250_2'],
+                    gocomics_ads.openxTags['2'],
+                    gocomics_ads.rubiconTags['2'],
+                    gocomics_ads.sovrnTags['300x250_2']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['rectangle2'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['rectangle2'].breakpoints);
+
+
+    gocomics_ads.adSlotConfig['tower'] = {
+        name: 'tower',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'right',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 750,
+                sizes: [[300, 600], [160, 600], [300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['right'],
+                    gocomics_ads.ixTags['300x600_right'],
+                    gocomics_ads.ixTags['160x600_right'],
+                    gocomics_ads.ixTags['300x250_right'],
+                    gocomics_ads.openxTags['right'],
+                    gocomics_ads.rubiconTags['right'],
+                    gocomics_ads.sovrnTags['300x600_right'],
+                    gocomics_ads.sovrnTags['160x600_right'],
+                    gocomics_ads.sovrnTags['300x250_right']
+                ]
+            },
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['right'],
+                    gocomics_ads.ixTags['300x250_right'],
+                    gocomics_ads.openxTags['right'],
+                    gocomics_ads.rubiconTags['right'],
+                    gocomics_ads.sovrnTags['300x250_right']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['tower'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['tower'].breakpoints);
+
+
+
+
+    gocomics_ads.adSlotConfig['tower_comments'] = {
+        name: 'tower_comments',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'comments',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 700,
+                sizes: [[300, 600], [160, 600], [300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['comments'],
+                    gocomics_ads.ixTags['300x600_comments'],
+                    gocomics_ads.ixTags['160x600_comments'],
+                    gocomics_ads.ixTags['300x250_comments'],
+                    gocomics_ads.openxTags['comments'],
+                    gocomics_ads.rubiconTags['comments'],
+                    gocomics_ads.sovrnTags['300x600_comments'],
+                    gocomics_ads.sovrnTags['160x600_comments'],
+                    gocomics_ads.sovrnTags['300x250_comments']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['comments'],
+                    gocomics_ads.ixTags['300x250_comments'],
+                    gocomics_ads.openxTags['comments'],
+                    gocomics_ads.rubiconTags['comments'],
+                    gocomics_ads.sovrnTags['300x250_comments']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['tower_comments'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['tower_comments'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['tower_spotlight'] = {
+        name: 'tower_spotlight',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'right',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['right'],
+                    gocomics_ads.ixTags['300x250_right'],
+                    gocomics_ads.openxTags['right'],
+                    gocomics_ads.rubiconTags['right'],
+                    gocomics_ads.sovrnTags['300x250_right']
+                ]
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['tower_spotlight'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['tower_spotlight'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['tower_nav'] = {
+        name: 'tower_nav',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'left',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 1100,
+                minHeight: 700,
+                sizes: [[300, 600], [160, 600], [300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['left'],
+                    gocomics_ads.ixTags['300x600_left'],
+                    gocomics_ads.ixTags['160x600_left'],
+                    gocomics_ads.ixTags['300x250_left'],
+                    gocomics_ads.openxTags['left'],
+                    gocomics_ads.rubiconTags['left'],
+                    gocomics_ads.sovrnTags['300x600_left'],
+                    gocomics_ads.sovrnTags['160x600_left'],
+                    gocomics_ads.sovrnTags['300x250_left']
+                ]
+            },
+            {
+                minWidth: 1100,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['left'],
+                    gocomics_ads.ixTags['300x250_left'],
+                    gocomics_ads.openxTags['left'],
+                    gocomics_ads.rubiconTags['left'],
+                    gocomics_ads.sovrnTags['300x250_left']
+                ]
+            },
+            {
+                minWidth: 992,
+                minHeight: 700,
+                sizes: [[160, 600]],
+                bids: [
+                    gocomics_ads.appnexusTags['left'],
+                    gocomics_ads.ixTags['160x600_left'],
+                    gocomics_ads.openxTags['left'],
+                    gocomics_ads.rubiconTags['left'],
+                    gocomics_ads.sovrnTags['160x600_left']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['tower_nav'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['tower_nav'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['tower_explore'] = {
+        name: 'tower_explore',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'right',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 992,
+                minHeight: 700,
+                sizes: [[300, 600], [160, 600], [300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['right'],
+                    gocomics_ads.ixTags['300x600_right'],
+                    gocomics_ads.ixTags['160x600_right'],
+                    gocomics_ads.ixTags['300x250_right'],
+                    gocomics_ads.openxTags['right'],
+                    gocomics_ads.rubiconTags['right'],
+                    gocomics_ads.sovrnTags['300x600_right'],
+                    gocomics_ads.sovrnTags['160x600_right'],
+                    gocomics_ads.sovrnTags['300x250_right']
+                ]
+            },
+            {
+                minWidth: 992,
+                minHeight: 0,
+                sizes: [[300, 250]],
+                bids: [
+                    gocomics_ads.appnexusTags['right'],
+                    gocomics_ads.ixTags['300x250_right'],
+                    gocomics_ads.openxTags['right'],
+                    gocomics_ads.rubiconTags['right'],
+                    gocomics_ads.sovrnTags['300x250_right']
+                ]
+            },
+            {
+                minWidth: 768,
+                minHeight: 700,
+                sizes: [[160, 600]],
+                bids: [
+                    gocomics_ads.appnexusTags['right'],
+                    gocomics_ads.ixTags['160x600_right'],
+                    gocomics_ads.openxTags['right'],
+                    gocomics_ads.rubiconTags['right'],
+                    gocomics_ads.sovrnTags['160x600_right']
+                ]
+            },
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['tower_explore'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['tower_explore'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['sharethrough_home1'] = {
+        name: 'sharethrough_home1',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'sharethrough1',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel,
+            'strnativekey': 'ToUYV7H9xW7PLXQmvtACxrh1'
+        },
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[1, 1]],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['sharethrough_home1'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['sharethrough_home1'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['sharethrough_home2'] = {
+        name: 'sharethrough_home2',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'sharethrough2',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel,
+            'strnativekey': 'ToUYV7H9xW7PLXQmvtACxrh1'
+        },
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[1, 1]],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['sharethrough_home2'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['sharethrough_home2'].breakpoints);
+
+
+
+    gocomics_ads.adSlotConfig['tynt'] = {
+        name: 'tynt',
+        targeting: {
+            'fcode': 'dco',
+            'pos': 'tynt',
+            'pv': gocomics_ads.adPageview,
+            'channel': gocomics_ads.adChannel
+        },
+        breakpoints: [
+            {
+                minWidth: 0,
+                minHeight: 0,
+                sizes: [[1, 1]],
+                bids: []
+            }
+        ]
+    };
+    gocomics_ads.adSlotConfig['tynt'].breakpoint = findBreakpoint(gocomics_ads.adSlotConfig['tynt'].breakpoints);
+&lt;/script&gt;
+
+&lt;script src="https://plus.addkt.com/gocomics.js"&gt;&lt;/script&gt;
+
+
+
+  &lt;!-- BEGIN GTM Core Data Layer --&gt;
+&lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'dataLayer-loaded',
+        'language': 'english',
+        'pageType': 'comic strips',
+
+        'featureName': 'dinosaur comics',
+        'featureCode': 'dco',
+        'featureType': 'comic',
+        'featureFormat': 'digital',
+
+
+        'advertisingChannel': 'a',
+
+        // User variables
+
+        'visitType': 'new',
+
+        'loginStatus': 'logged out'
+    });
+&lt;/script&gt;
+&lt;!-- END GTM Core Data Layer --&gt;
+  &lt;!-- Google Tag Manager HEAD? --&gt;
+&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-PN7JV4B');&lt;/script&gt;
+&lt;!-- End Google Tag Manager --&gt;
+
+  &lt;script type="text/javascript"&gt;
+    //Set markup and styling here
+    window.cookieconsent_options = {
+        container: '#cookieconsent-container',
+        learnMore: 'More info',
+        link: "/help/privacy",
+        //If you wish to use your own CSS instead, specify the URL of your CSS file. e.g. styles/my_custom_theme.css.
+        //This can be a relative or absolute URL.
+        //To stop Cookie Consent from loading CSS at all, specify false
+        //IE8 Styles need to be duplicated in app specific css overrides /assets/stylesheets/ie/ie8.css
+        theme: false,
+        markup: [
+            '&lt;div&gt;',
+            '&lt;style type="text/css"&gt;.cc_banner-wrapper {height: 70px; } .cc_container {position:static; width:100%; left:0; top:0; right:0; overflow:hidden; background-color:#666; } .cookie-choices-info {margin:0; padding:0; text-align:center; color:#fff; line-height:140%; padding:15px 0; font-family:roboto,Arial } .cookie-choices-info .cookie-choices-text {display:inline-block; vertical-align:middle; font-size:16px; margin:10px; color:#fefefe; max-width:800px; text-align:center } .cookie-choices-info .cookie-choices-buttons {display:inline-block; vertical-align:middle; white-space:nowrap; margin:10px } .cookie-choices-info .cookie-choices-button:hover {color:#fff; background-color:#000 } .cookie-choices-info .cookie-choices-button {background:#444; font-weight:700; text-transform:UPPERCASE; white-space:nowrap; color:#eee; margin-left:8px; padding:10px; border-radius:3px; text-decoration:none } @media screen and (max-width: 851px) {.cc_banner-wrapper {height:110px } } @media screen and (max-width: 588px) {.cc_banner-wrapper {height:140px } } @media screen and (max-width: 327px) {.cc_banner-wrapper {height:160px } } @media print {.cc_banner-wrapper,.cc_container {display:none } }&lt;/style&gt;',
+            '&lt;div class="cc_banner-wrapper {{containerClasses}}"&gt;',
+            '&lt;div class="cc_banner cc_container cc_container--open"&gt;',
+            '&lt;div class="cookie-choices-info"&gt;&lt;div class="cookie-choices-inner"&gt;&lt;span class="cookie-choices-text"&gt;{{options.message}}&lt;/span&gt;&lt;span class="cookie-choices-buttons"&gt; &lt;a data-cc-if="options.link" class="cookie-choices-button" target="_blank" href="{{options.link || "#null"}}"&gt;{{options.learnMore}}&lt;/a&gt; &lt;a id="cookieChoiceDismiss" href="#null" data-cc-event="click:dismiss"  class="cookie-choices-button"&gt;{{options.dismiss}}&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;',
+            '&lt;/div&gt;',
+            '&lt;/div&gt;',
+            '&lt;/div&gt;'
+        ],
+        cookieName: 'gocomics_cookieconsent_dismissed',
+        readystate: 'interactive'
+    };
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body role="document" data-controller="feature_items" data-action="feature-lander" class="js-gc-page-item gc-page-item gc-profile-casual dinosaur-comics"&gt;
+
+&lt;!-- All Server-Side Analytic Values or Markup (No Script Calls or Heavy Client-Side Scripting) --&gt;
+
+&lt;!-- Google Tag Manager (noscript) --&gt;
+&lt;noscript&gt;&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN7JV4B" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;&lt;/noscript&gt;
+&lt;!-- End Google Tag Manager (noscript) --&gt;
+
+
+
+
+
+
+
+&lt;!-- TEST:  --&gt;
+
+
+
+
+&lt;script type="text/javascript"&gt;
+    amuGc.env = "production";
+    amuGc.displayAds = true;
+    amuGc.uaCategoryGroup = 'comic strips';
+    amuGc.uaSubcategoryGroup = '';
+    amuGc.uaTypeGroup = 'digital';
+    amuGc.uaClientName = "gocomics";
+    amuGc.uaFeatureName = 'dinosaur comics';
+    amuGc.uaUserType = 'casual';
+    amuGc.uaUserId = '';
+    amuGc.uaUserPromo = '';
+    amuGc.qcLabel = 'comic.dinosaur-comics'
+&lt;/script&gt;
+&lt;!-- Google Universal Analytics End --&gt;
+
+&lt;div class="amu-container-global js-amu-container-global"&gt;
+  &lt;nav class='navbar navbar-expand-lg navbar-light gc-nav-primary'&gt;
+
+  &lt;!--GoComics Hamburger - Collapsed State Only --&gt;
+  &lt;button class='navbar-toggler collapsed gc-hamburger' type='button' data-toggle='collapse' data-target='.gc-nav-primary__left-menu' aria-controls='gc-nav-primary__left-menu' aria-expanded='false' aria-label='Toggle navigation'&gt;
+
+    &lt;div class='gc-hamburger__icon'&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+  &lt;/button&gt;
+
+  &lt;!--GoComics Logo--&gt;
+  &lt;a title="GoComics Home" class="navbar-brand gc-logo" data-link-type="header-nav-tier-1" href="https://www.gocomics.com/"&gt;
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" class="gc-logo__default" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="161 314.5 934.6 165.5" style="enable-background:new 161 314.5 934.6 165.5;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"&gt;
+	&lt;path d="M437.5,456.8h-23.6v-7.2c-6.3,5.1-16.6,9.3-30.5,9.3c-37.2,0-62.8-25.4-62.8-63.3c0-34.7,25-63.1,62.8-63.1
+		c25.7,0,41.6,11.1,50.1,24.2l-19,14.1c-5.6-7.6-14.8-15.5-31-15.5c-22,0-37.2,16.6-37.2,40.4c0,24.7,16.2,40.7,38.3,40.7
+		c14.1,0,24-5.5,29.1-10.8v-13.9h-19.9v-20.5h43.9v65.6H437.5z"&gt;&lt;/path&gt;
+	&lt;path class="g-path" d="M497,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C447.8,381.9,468.7,360.9,497,360.9z M497.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C471.5,425.6,482.1,437.1,497.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o-path" d="M659.8,443.1c-9.3,9.2-22.7,16-40.4,16c-39.3,0-64-27.2-64-63.1c0-35.8,25.4-63.5,63.5-63.5c17.5,0,30.9,5.6,40.6,14.3
+		L645,365.2c-5.6-4.9-14.6-9.9-25.9-9.9c-23.6,0-37.9,17.6-37.9,40.6c0,23.1,15.3,40.4,38.3,40.4c12.3,0,21-5.8,26.1-10.2
+		L659.8,443.1z"&gt;&lt;/path&gt;
+	&lt;path class="c-path" d="M708,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C658.8,381.9,679.6,360.9,708,360.9z M708.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C682.4,425.6,693,437.1,708.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o-path" d="M839.9,456.8h-23.6v-59.4c0-9-4.2-15-12.5-15c-8.5,0-12.9,6-12.9,15.3v59.1h-23.6v-94.3h23.6v7.1c2.5-3,8.3-8.1,20.3-8.1
+		c11.1,0,18.2,4.2,22.4,10.2c4.2-4.9,11.3-10.2,23.6-10.2c23.3,0,31.7,15,31.7,33.1v62.2h-23.6v-59.4c0-9.2-4.2-15-12.7-15
+		s-12.7,6.5-12.7,15V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="m-path" d="M902.8,342.6c0-7.9,6.3-14.3,14.1-14.3c7.9,0,14.1,6.3,14.1,14.3c0,7.8-6.2,13.9-14.1,13.9
+		C909.2,356.5,902.8,350.3,902.8,342.6z M928.8,456.8h-23.6v-94.3h23.6V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="i-path" d="M1009.3,429.3l13,15.9c-5.6,6-16.8,13.2-33,13.2c-29.8,0-48.8-21.2-48.8-48.5c0-27.5,20.5-49,48.7-49
+		c17.1,0,27.5,6.9,33.2,12.7l-13.6,16.4c-3.9-3.7-10.1-7.8-19.4-7.8c-15.5,0-25.2,11.8-25.2,27.5c0,16.9,11.8,27.3,25.4,27.3
+		C999.1,437.1,1005.1,432.9,1009.3,429.3z"&gt;&lt;/path&gt;
+	&lt;path class="c2-path" d="M1060.1,396.4c4.2,1.2,8.1,1.9,12.9,3.4c15.2,4.6,22.6,12,22.6,29.1c0,19.2-15.9,29.3-34.4,29.3
+		c-26.1,0-34.2-15.3-33.7-31.7h22.6c0,6.7,2.3,12.7,11.5,12.7c6.2,0,11.1-3,11.1-8.5s-2.8-7.9-9.3-9.7c-5.1-1.4-9.2-2.3-14.3-4.2
+		c-13-4.8-19.6-13.6-19.6-27.9c0-15.9,13.4-27.5,32.3-27.5c19.9,0,31.7,10.1,31.9,29.8H1072c-0.2-7.2-3.5-11.5-10.8-11.5
+		c-5.6,0-9.3,3.2-9.3,7.9C1051.8,392.1,1054.5,394.8,1060.1,396.4z"&gt;&lt;/path&gt;
+	&lt;path class="s-path" d="M161,314.5v95c0,43.5,26.5,70.5,69.1,70.5c41.5,0,69.5-28.4,69.5-70.7v-94.8H161z M244.2,351c5.6,0,10.1,4.5,10.1,10.1
+		s-4.5,10.1-10.1,10.1s-10.1-4.5-10.1-10.1C234.2,355.5,238.7,351,244.2,351z M213.9,352.9c4.5,0,8.1,3.6,8.1,8.1s-3.6,8.1-8.1,8.1
+		s-8.1-3.6-8.1-8.1C205.8,356.6,209.4,352.9,213.9,352.9z M278.9,409.3c0,28.9-16.9,50.1-48.8,50.1c-33.1,0-48.5-19.9-48.5-49.9
+		v-57.2h11.1v57.2c0,12.6,3,22.2,8.9,28.7c6.1,6.7,15.7,10.1,28.5,10.1c24,0,37.8-14.2,37.8-39v-74.2H279v74.2H278.9z"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --&gt;
+&lt;svg version="1.1" class="gc-logo__wink" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="161 314.5 934.6 165.5" style="enable-background:new 161 314.5 934.6 165.5;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"&gt;
+	&lt;path class="face-path" d="M437.5,456.8h-23.6v-7.2c-6.3,5.1-16.6,9.3-30.5,9.3c-37.2,0-62.8-25.4-62.8-63.3c0-34.7,25-63.1,62.8-63.1
+		c25.7,0,41.6,11.1,50.1,24.2l-19,14.1c-5.6-7.6-14.8-15.5-31-15.5c-22,0-37.2,16.6-37.2,40.4c0,24.7,16.2,40.7,38.3,40.7
+		c14.1,0,24-5.5,29.1-10.8v-13.9h-19.9v-20.5h43.9v65.6H437.5z"&gt;&lt;/path&gt;
+	&lt;path class="g-path" d="M497,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C447.8,381.9,468.7,360.9,497,360.9z M497.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C471.5,425.6,482.1,437.1,497.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o-path" d="M659.8,443.1c-9.3,9.2-22.7,16-40.4,16c-39.3,0-64-27.2-64-63.1c0-35.8,25.4-63.5,63.5-63.5c17.5,0,30.9,5.6,40.6,14.3
+		L645,365.2c-5.6-4.9-14.6-9.9-25.9-9.9c-23.6,0-37.9,17.6-37.9,40.6c0,23.1,15.3,40.4,38.3,40.4c12.3,0,21-5.8,26.1-10.2
+		L659.8,443.1z"&gt;&lt;/path&gt;
+	&lt;path class="c-path" d="M708,360.9c29.8,0,49.4,20.8,49.4,48.7c0,27.7-20.3,48.8-49.4,48.8c-29.4,0-49.2-20.6-49.2-48.5
+		C658.8,381.9,679.6,360.9,708,360.9z M708.2,437.1c15.5,0,25.6-11.6,25.6-27.3c0-15.7-10.6-27.5-25.8-27.5
+		c-15.5,0-25.6,11.6-25.6,27.5C682.4,425.6,693,437.1,708.2,437.1z"&gt;&lt;/path&gt;
+	&lt;path class="o2-path" d="M839.9,456.8h-23.6v-59.4c0-9-4.2-15-12.5-15c-8.5,0-12.9,6-12.9,15.3v59.1h-23.6v-94.3h23.6v7.1c2.5-3,8.3-8.1,20.3-8.1
+		c11.1,0,18.2,4.2,22.4,10.2c4.2-4.9,11.3-10.2,23.6-10.2c23.3,0,31.7,15,31.7,33.1v62.2h-23.6v-59.4c0-9.2-4.2-15-12.7-15
+		s-12.7,6.5-12.7,15V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="m-path" d="M902.8,342.6c0-7.9,6.3-14.3,14.1-14.3c7.9,0,14.1,6.3,14.1,14.3c0,7.8-6.2,13.9-14.1,13.9
+		C909.2,356.5,902.8,350.3,902.8,342.6z M928.8,456.8h-23.6v-94.3h23.6V456.8z"&gt;&lt;/path&gt;
+	&lt;path class="i-path" d="M1009.3,429.3l13,15.9c-5.6,6-16.8,13.2-33,13.2c-29.8,0-48.8-21.2-48.8-48.5c0-27.5,20.5-49,48.7-49
+		c17.1,0,27.5,6.9,33.2,12.7l-13.6,16.4c-3.9-3.7-10.1-7.8-19.4-7.8c-15.5,0-25.2,11.8-25.2,27.5c0,16.9,11.8,27.3,25.4,27.3
+		C999.1,437.1,1005.1,432.9,1009.3,429.3z"&gt;&lt;/path&gt;
+	&lt;path class="c-path" d="M1060.1,396.4c4.2,1.2,8.1,1.9,12.9,3.4c15.2,4.6,22.6,12,22.6,29.1c0,19.2-15.9,29.3-34.4,29.3
+		c-26.1,0-34.2-15.3-33.7-31.7h22.6c0,6.7,2.3,12.7,11.5,12.7c6.2,0,11.1-3,11.1-8.5s-2.8-7.9-9.3-9.7c-5.1-1.4-9.2-2.3-14.3-4.2
+		c-13-4.8-19.6-13.6-19.6-27.9c0-15.9,13.4-27.5,32.3-27.5c19.9,0,31.7,10.1,31.9,29.8H1072c-0.2-7.2-3.5-11.5-10.8-11.5
+		c-5.6,0-9.3,3.2-9.3,7.9C1051.8,392.1,1054.5,394.8,1060.1,396.4z"&gt;&lt;/path&gt;
+	&lt;path class="s-path" d="M161,314.5v95c0,43.5,26.5,70.5,69.1,70.5c41.5,0,69.5-28.4,69.5-70.7v-94.8H161z M213.9,352.9c4.5,0,8.1,3.6,8.1,8.1
+		s-3.6,8.1-8.1,8.1s-8.1-3.6-8.1-8.1C205.8,356.6,209.4,352.9,213.9,352.9z M278.9,409.3c0,28.9-16.9,50.1-48.8,50.1
+		c-33.1,0-48.5-19.9-48.5-49.9v-57.2h11.1v57.2c0,12.6,3,22.2,8.9,28.7c6.1,6.7,15.7,10.1,28.5,10.1c24,0,37.8-14.2,37.8-39v-74.2
+		H279v74.2H278.9z"&gt;&lt;/path&gt;
+	&lt;g&gt;
+		&lt;g&gt;
+			&lt;path style="fill:#FFFFFF;" d="M250.4,366.3c-0.1,0-0.2,0-0.4,0c-4.3-0.6-8.7-1-13.1-1.1c-0.9,0-1.8-0.5-2.2-1.4
+				c-0.4-0.8-0.4-1.8,0.1-2.6c4.3-6.5,12.2-10.6,20-10.3c1.4,0,2.5,1.2,2.5,2.6c0,1.4-1.2,2.5-2.6,2.5c-4.4-0.1-8.9,1.5-12.3,4.4
+				c2.8,0.2,5.6,0.5,8.4,0.9c1.4,0.2,2.3,1.5,2.1,2.9C252.7,365.4,251.6,366.3,250.4,366.3z"&gt;&lt;/path&gt;
+		&lt;/g&gt;
+	&lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+  &lt;!--GoComics Search Icon - Collapsed State Only --&gt;
+  &lt;button class='navbar-toggler collapsed gc-search js-gc-search-focus' type='button' data-toggle='collapse' data-target='.gc-nav-primary__search--mobile' aria-controls='gc-nav-primary__search' aria-expanded='false' aria-label='Toggle navigation'&gt;
+
+    &lt;div class='gc-search__icon'&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+  &lt;/button&gt;
+
+  &lt;div class="collapse navbar-collapse gc-nav-primary__search gc-nav-primary__search--mobile js-mobile-nav"&gt;
+    &lt;form class="gc-search-form js-search-form" role="search" autocomplete="off" action="/search/dinosaur-comics" accept-charset="UTF-8" method="get"&gt;&lt;input name="utf8" type="hidden" value="&amp;#x2713;" /&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;GoComics.com - Search Form&lt;/legend&gt;
+    &lt;div class="form-group field-xl"&gt;
+      &lt;label class="form-label sr-only" for="search_terms"&gt;Search&lt;/label&gt;
+      &lt;input type="search" name="terms" id="terms" class="form-control gc-search-input" placeholder="Search for Your Favorite Comic..." required="required" tabindex="-1" /&gt;
+      &lt;button name="" type="submit" class="btn gc-search-submit fa fa-search"&gt;&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+  &lt;/div&gt;
+
+
+
+  &lt;!-- Navigation Primary - Collapsible Menu --&gt;
+  &lt;div class='collapse navbar-collapse gc-nav-primary__left-menu js-mobile-nav'&gt;
+    &lt;ul class='navbar-nav'&gt;
+
+      &lt;!--Comics--&gt;
+      &lt;li class="nav-item gc-nav-primary__item dropdown "&gt;
+      &lt;a class="nav-link gc-nav-primary__link dropdown-toggle" data-link-type="banner-nav-tier-1" data-toggle="dropdown" href="https://www.gocomics.com/comics"&gt;Find Comics&lt;/a&gt;
+      &lt;div class="dropdown-menu gc-nav-primary__dropdown-menu "&gt;
+        
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/trending"&gt;Trending Comics&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/political"&gt;Political Cartoons&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/web-comics"&gt;Web Comics&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/categories"&gt;All Categories&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/popular"&gt;Popular Comics&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/a-to-z"&gt;A-Z Comics by Title&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+
+      &lt;!-- Best Of --&gt;
+      &lt;li class="nav-item gc-nav-primary__item dropdown "&gt;
+      &lt;a class="nav-link gc-nav-primary__link dropdown-toggle" data-link-type="banner-nav-tier-1" data-toggle="dropdown" href="#"&gt;Best Of&lt;/a&gt;
+      &lt;div class="dropdown-menu gc-nav-primary__dropdown-menu "&gt;
+        
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/editors-top-five"&gt;Editor&amp;#39;s Top 5&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/recommended"&gt;Recommended Comics&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/comics/lists"&gt;Comic Lists&lt;/a&gt;
+        &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://www.gocomics.com/blog"&gt;Blog&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+
+      &lt;!-- Shop --&gt;
+        &lt;li class="nav-item gc-nav-primary__item dropdown "&gt;
+      &lt;a class="nav-link gc-nav-primary__link dropdown-toggle" data-link-type="banner-nav-tier-1" data-toggle="dropdown" href="https://store.gocomics.com/"&gt;Shop&lt;/a&gt;
+      &lt;div class="dropdown-menu gc-nav-primary__dropdown-menu "&gt;
+        
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/"&gt;Home&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/product-category/books/"&gt;Books&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/product-category/calendars/"&gt;Calendars&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/product-category/popular-print/"&gt;Comic Prints&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/cart/"&gt;Your Cart&lt;/a&gt;
+          &lt;a class="dropdown-item gc-nav-primary__dropdown-link text-truncate " data-link-type="header-nav-tier-2" href="https://store.gocomics.com/checkout/"&gt;Checkout&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/li&gt;
+
+
+      &lt;!-- Primary Navigation: Search:  --&gt;
+      &lt;div class="gc-nav-primary__search gc-nav-primary__item--desktop-only"&gt;
+        &lt;form class="gc-search-form js-search-form" role="search" autocomplete="off" action="/search/dinosaur-comics" accept-charset="UTF-8" method="get"&gt;&lt;input name="utf8" type="hidden" value="&amp;#x2713;" /&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;GoComics.com - Search Form&lt;/legend&gt;
+    &lt;div class="form-group field-xl"&gt;
+      &lt;label class="form-label sr-only" for="search_terms"&gt;Search&lt;/label&gt;
+      &lt;input type="search" name="terms" id="terms" class="form-control gc-search-input" placeholder="Search for Your Favorite Comic..." required="required" tabindex="-1" /&gt;
+      &lt;button name="" type="submit" class="btn gc-search-submit fa fa-search"&gt;&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+      &lt;/div&gt;
+
+
+
+      &lt;!-- Primary Navigation: User --&gt;
+
+        &lt;!-- Unauthenticated Users --&gt;
+        &lt;div class="gc-nav-primary__authentication"&gt;
+          &lt;li class="nav-item gc-nav-primary__item "&gt;
+      &lt;a rel="nofollow" class="nav-link gc-nav-primary__link" role="button" aria-haspopup="true" data-link-type="header-nav-tier-1" href="https://www.gocomics.com/profiles/sign-up/plan"&gt;Sign Up&lt;/a&gt;
+    &lt;/li&gt;
+          &lt;li class="nav-item gc-nav-primary__item "&gt;
+      &lt;a rel="nofollow" class="nav-link gc-nav-primary__link" role="button" aria-haspopup="true" data-link-type="header-nav-tier-1" href="https://www.gocomics.com/profiles/sign-in"&gt;Sign In&lt;/a&gt;
+    &lt;/li&gt;
+        &lt;/div&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/nav&gt;
+
+  &lt;div id="cookieconsent-container"&gt;&lt;/div&gt;
+  &lt;div role="main" class="amu-container-layout"&gt;
+
+
+
+    
+
+&lt;div class='gc-container-fluid gc-container-vertical'&gt;
+  &lt;div class='layout-2col'&gt;
+
+    &lt;div class='layout-2col-sidebar js-gc-lock-parent'&gt;
+      &lt;aside class="gc-feature-side"&gt;
+  &lt;div class="gc-fade-bottom"&gt;
+    &lt;picture class="card-img lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/dco/large_rec-201701251558.jpg 600w, https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/dco/mid_rec-201701251558.jpg 300w, https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/dco/small_rec-201701251558.jpg 150w" sizes="auto" width="100%" alt="#&amp;lt;Feature:0x0000000003f8b170&amp;gt;" src="https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/dco/large_rec-201701251558.jpg" /&gt;&lt;/picture&gt;
+  &lt;/div&gt;
+  &lt;div class="gc-feature-side__info"&gt;
+    &lt;a class="amu-media-item-link" href="/dinosaur-comics"&gt;
+      
+
+&lt;div class='amu-media-item media gc-media-object'&gt;
+  &lt;div class='media-left mr-3'&gt;
+    &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png, 72w" class="lazyload" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png" alt="Small u 201701251615" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class='media-body'&gt;
+    &lt;h2 class='h4 media-heading'&gt;Dinosaur Comics&lt;/h2&gt;
+    &lt;h6 class="media-subheading"&gt;By Ryan North&lt;/h6&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/a&gt;    &lt;div class="gc-feature-follow js-subscription-feature-1322"&gt;
+    &lt;a class="btn btn-sm btn-primary" data-toggle="modal" data-tooltip="tooltip" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add comics to your comics page." aria-label="Sign up or sign in to add Dinosaur Comics to your Comics I Follow" title="Sign up or sign in to add Dinosaur Comics to your Comics I Follow" rel="nofollow" href=""&gt;
+      Follow
+&lt;/a&gt;&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/aside&gt;
+        &lt;div class='js-gc-lock-target'&gt;
+          &lt;div class="amu-container-ad-wrapper   "&gt;
+	&lt;div class="amu-container-ad ad-tower_nav-container"&gt;
+    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
+	  &lt;div id="tower_nav" class="js-ad gc-ad ad-tower_nav " data-ad-type="tower_nav"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("tower_nav");
+      &lt;/script&gt;
+
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="tower_nav" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class='layout-2col-content'&gt;
+
+      &lt;div class="gc-feature-header"&gt;
+  &lt;div class="gc-feature-header__info"&gt;
+    &lt;!-- Media Object --&gt;
+    &lt;a class="amu-media-item-link" href="/dinosaur-comics"&gt;
+      
+
+&lt;div class='amu-media-item media gc-media-object'&gt;
+  &lt;div class='media-left mr-3'&gt;
+    &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png, 72w" class="lazyload" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png" alt="Small u 201701251615" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class='media-body'&gt;
+    &lt;h4 class='h4 media-heading'&gt;Dinosaur Comics&lt;/h4&gt;
+    &lt;h6 class="media-subheading"&gt;By Ryan North&lt;/h6&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/a&gt;    &lt;!-- Follow Button --&gt;
+    &lt;div class="gc-feature-follow js-subscription-feature-1322"&gt;
+    &lt;a class="btn btn-sm btn-primary" data-toggle="modal" data-tooltip="tooltip" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add comics to your comics page." aria-label="Sign up or sign in to add Dinosaur Comics to your Comics I Follow" title="Sign up or sign in to add Dinosaur Comics to your Comics I Follow" rel="nofollow" href=""&gt;
+      Follow
+&lt;/a&gt;&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;div class="amu-container-ad-wrapper   "&gt;
+	&lt;div class="amu-container-ad ad-leaderboard_feature_item-container"&gt;
+    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
+	  &lt;div id="leaderboard_feature_item" class="js-ad gc-ad ad-leaderboard_feature_item " data-ad-type="leaderboard_feature_item"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("leaderboard_feature_item");
+      &lt;/script&gt;
+
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="leaderboard_feature_item" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+      &lt;div class='content-section-padded'&gt;
+
+        &lt;nav class="content-section"&gt;
+  &lt;ul class="nav nav-tabs gc-tab-nav js-tab-nav" style="visibility: hidden;"&gt;
+    &lt;li class="nav-item "&gt;
+      &lt;a class="nav-link" data-link="overview" href="/dinosaur-comics"&gt;Overview&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item active"&gt;
+      &lt;a class="nav-link" data-link="comics" href="/dinosaur-comics/2018/06/28"&gt;Comics&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item "&gt;
+      &lt;a class="nav-link" data-link="about" href="/dinosaur-comics/about"&gt;About&lt;/a&gt;
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+        
+
+&lt;h1 class="m-0 text-hide"&gt;Dinosaur Comics for Jun 27, 2018&lt;/h1&gt;
+
+&lt;div id='js-item-start' class="comic gc-container js-comic-2384668 js-share-item js-comic-swipe " data-shareable-type="FeatureItem"
+data-shareable-id="2384668"
+data-id="2384668"
+data-feature-id="1322"
+data-feature-name="Dinosaur Comics"
+data-feature-code="dco"
+data-feature-item-date="2018-06-27"
+data-url="https://www.gocomics.com/dinosaur-comics/2018/06/27"
+data-date="Jun 27, 2018"
+data-creator="Ryan North"
+data-title="Dinosaur Comics"
+data-tags=""
+data-description="For Jun 27, 2018"
+data-image="https://assets.amuniversal.com/47a944d079e70135eb2b005056a9545d"
+itemtype="http://schema.org/CreativeWork"
+accountableperson="Andrews McMeel Universal"
+creator="Ryan North"&gt;
+
+  &lt;div class='comic__wrapper'&gt;
+
+    
+
+    
+
+    &lt;div class='comic__container'&gt;
+
+
+
+      &lt;div class="comic__image js-comic-swipe-target"&gt;
+        &lt;div class="swipe-preview swipe-preview__previous js-preview-previous"&gt;
+  &lt;div class='swipe-preview__group'&gt;
+    &lt;h5 class='card-subtitle'&gt;
+        &lt;date&gt;Jun 26, 2018&lt;/date&gt;
+    &lt;/h5&gt;
+    &lt;div class='swipe-preview__ubadge'&gt;
+      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png, 72w" class="lazyload" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png" alt="Small u 201701251615" /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+        &lt;a itemprop='image' class="js-item-comic-link" href="/dinosaur-comics/2018/06/27" title="Dinosaur Comics"&gt;
+
+  &lt;picture class="item-comic-image"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="https://assets.amuniversal.com/47a944d079e70135eb2b005056a9545d 900w" sizes="
+                       (min-width: 992px) 900px,
+                       (min-width: 768px) 600px,
+                       (min-width: 576px) 300px,
+                       900px" width="100%" alt="Dinosaur Comics for Jun 27, 2018 Comic Strip" src="https://assets.amuniversal.com/47a944d079e70135eb2b005056a9545d" /&gt;&lt;/picture&gt;
+&lt;/a&gt;
+&lt;meta itemprop='isFamilyFriendly' content='true'&gt;
+        &lt;div class="swipe-preview swipe-preview__next js-preview-next"&gt;
+  &lt;div class='swipe-preview__group'&gt;
+    &lt;h5 class='card-subtitle'&gt;
+        &lt;date&gt;Jun 28, 2018&lt;/date&gt;
+    &lt;/h5&gt;
+    &lt;div class='swipe-preview__ubadge'&gt;
+      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="/assets/transparent.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png, 72w" class="lazyload" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/dco/small_u-201701251615.png" alt="Small u 201701251615" /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      &lt;/div&gt;
+
+        &lt;nav class="gc-calendar-nav" role="group" aria-label="Date Navigation Controls"&gt;
+    &lt;div class="gc-calendar-nav__previous"&gt;
+      &lt;a role='button' href='/dinosaur-comics/2014/08/04' class='fa btn btn-outline-default btn-circle fa fa-backward sm ' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='/dinosaur-comics/2018/06/26' class='fa btn btn-outline-default btn-circle fa-caret-left sm js-previous-comic ' title='' &gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="gc-calendar-nav__select"&gt;
+      &lt;div class="gc-calendar-nav__datepicker btn btn-sm btn-outline-default js-calendar-wrapper"
+           data-date="2018/06/27"
+           data-name="/dinosaur-comics/"
+           data-year="2018"
+           data-month="06"
+           data-day="27"
+           data-feature="dinosaur-comics"
+           data-ct=""
+           data-start="2014/08/04"
+           data-end="2018/06/28"
+           data-open="2018-06-27"&gt;
+          &lt;i class="fa fa-calendar xs"&gt;&lt;/i&gt;
+          &lt;input type="text" name="startDate" placeholder="Jun 27, 2018" readonly="readonly" class="cal off calendar-input date js-calendar-input datepicker js-calendar-input-link"&gt;
+      &lt;/div&gt;
+      &lt;a class="btn btn-sm btn-outline-default" alt="Click to View a Random Dinosaur Comics Comic Strip!" href="/random/dinosaur-comics"&gt;Random&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="gc-calendar-nav__next"&gt;
+      &lt;a role='button' href='/dinosaur-comics/2018/06/28' class='fa btn btn-outline-default btn-circle fa-caret-right sm ' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='/dinosaur-comics/2018/06/28' class='fa btn btn-outline-default btn-circle fa-forward sm ' title='' &gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+
+    &lt;/div&gt;
+
+      &lt;div class="comic__interactions-container js-gc-lock-parent js-item-interactions-container "&gt;
+          &lt;div class="item-interactions js-gc-lock-target js-share-button-container dropdown" id="toolbar_2384668" data-gc-lock-depends="leaderboard_feature_item"&gt;
+    &lt;div class=''&gt;
+    &lt;a role="button" class="gc-icon fa fa-comment md js-comment-toggle" aria-label="View the comments" title="View the comments" data-tooltip="tooltip" data-remote="true" href="/comments/show/feature_item/2384668"&gt;&lt;/a&gt;
+  &lt;span id="interaction_count_comments_2384668"  class="js-interaction-count interaction-count comments"&gt;2&lt;/span&gt;
+&lt;/div&gt;
+    &lt;div class='js-like'&gt;
+    &lt;a class="gc-icon fa fa-heart md" data-toggle="modal" data-target="#js-modal-account-hook" aria-label="Sign in to like this comic" title="Sign in to like this comic" data-tooltip="tooltip" rel="nofollow" href=""&gt;&lt;/a&gt;
+
+  &lt;span id="interaction_count_likes_2384668"  class="js-interaction-count interaction-count likes"&gt;5&lt;/span&gt;
+&lt;/div&gt;
+    &lt;div class=" js-favorite"&gt;
+    &lt;a class="gc-icon fa fa-thumb-tack md" data-toggle="modal" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add this to your Saved Comic Strips." title="Sign up or sign in to add to your Saved Comic Strips" data-tooltip="tooltip" rel="nofollow" href="#"&gt;&lt;/a&gt;
+  &lt;span id="interaction_count_favorites_2384668"  class="js-interaction-count interaction-count favorites"&gt;2&lt;/span&gt;
+&lt;/div&gt;
+    
+
+
+&lt;a name="facebook" class="js-facebook js-share-button gc-icon fa fa-facebook md" aria-label="Share on Facebook" title="Share on Facebook" data-tooltip="tooltip" rel="nofollow" href="#"&gt;
+&lt;/a&gt;&lt;a name="twitter" class="js-twitter js-share-button  gc-icon fa fa-twitter md" aria-label="Share on Twitter" title="Share on Twitter" data-tooltip="tooltip" rel="nofollow" href="#"&gt;
+&lt;/a&gt;&lt;a role='button' href class='gc-icon fa fa-ellipsis-h md' data-toggle='dropdown' title='More sharing options' aria-label='More sharing options' data-tooltip='tooltip'&gt;&lt;/a&gt;
+&lt;div class='dropdown-menu item-interactions-overflow'&gt;
+  &lt;div class='content-section-sm text-center'&gt;
+    &lt;a name="reddit" class="js-reddit js-share-button gc-icon fa btn fa-reddit md" aria-label="Share on Reddit" title="Share on Reddit" data-tooltip="tooltip" rel="nofollow" href="#"&gt;
+&lt;/a&gt;    &lt;a name="google-plus" class="js-google-plus js-share-button gc-icon fa btn fa-google-plus md" aria-label="Share on Google+" title="Share on Google+" data-tooltip="tooltip" rel="nofollow" href="#"&gt;
+&lt;/a&gt;    &lt;a name="tumblr" class="js-tumblr js-share-button gc-icon fa btn fa-tumblr md" aria-label="Share on Tumblr" title="Share on Tumblr" data-tooltip="tooltip" rel="nofollow" href="#"&gt;
+&lt;/a&gt;    &lt;a name="pinterest" class="js-pinterest js-share-button gc-icon fa btn fa-pinterest md" aria-label="Share on Pinterest" title="Share on Pinterest" data-tooltip="tooltip" rel="nofollow" href="#"&gt;
+&lt;/a&gt;    &lt;a name="email" aria-label="Share via email" title="Share via email" data-tooltip="tooltip" class="js-email js-share-button gc-icon fa btn fa-envelope md" rel="nofollow" href="mailto:?body=https%3A%2F%2Fwww.gocomics.com%2Fdinosaur-comics%2F2018%2F06%2F27&amp;amp;subject=Read%20Dinosaur%20Comics%20by%20Ryan%20North%20on%20GoComics.com%20%7C%20Jun%2027%2C%202018"&gt;
+&lt;/a&gt;  &lt;/div&gt;
+
+  &lt;div class='gc-container-form text-center'&gt;
+    &lt;form class=''&gt;
+      &lt;fieldset&gt;
+        &lt;legend&gt;Share this - Copy link&lt;/legend&gt;
+        &lt;label class="form-label" aria-label="link-2018-06-27"&gt;&lt;i class='gc-icon fa fa-link md'&gt;&lt;/i&gt;&lt;span&gt;Share Link&lt;/span&gt;&lt;/label&gt;
+        &lt;input class='js-copy-link form-control' name="link-2018-06-27" value="https://www.gocomics.com/dinosaur-comics/2018/06/27" aria-label='Get the permalink' data-tooltip='tooltip' title='Get the Permalink'&gt;
+      &lt;/fieldset&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;&lt;!-- End of Item Interactions --&gt;
+
+      &lt;/div&gt;
+
+  &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+          &lt;a name='comments' class='gc-link-anchor'&gt;&lt;/a&gt;
+          &lt;div class='js-comments-thread-container'&gt;
+              &lt;div class="gc-container js-comment-featured-container comments-featured" id="2384668"
+     data-comment-id="24694916"
+     data-show-comments="true"
+     data-show-comments-url="/comments/show/feature_item/2384668"&gt;
+  &lt;div class="layout-2col"&gt;
+    &lt;div class="layout-2col-content"&gt;
+      &lt;section class="section-comments-showcase"&gt;
+        &lt;div class="control-group-display gc-controls-header"&gt;
+          &lt;h4 class="gc-controls-title"&gt;&lt;i class='gc-icon fa gc-icon-fluid fa-comment md'&gt;&lt;/i&gt;Featured Comment&lt;/h4&gt;
+          &lt;a role="button" class="js-comment-toggle controls-title-link" aria-label="Show All Comments" title="Show All Comments" data-remote="true" href="/comments/show/feature_item/2384668"&gt;Show All Comments &lt;i class='gc-icon fa gc-icon-fluid fa fa-caret-down sm'&gt;&lt;/i&gt;
+&lt;/a&gt;        &lt;/div&gt;
+        &lt;ol class="list-comments"&gt;
+          &lt;div class="js-comment-featured-content"&gt;
+            
+&lt;li id="comment_24694916" class="media comment-item js-comment-24694916 "&gt;
+  &lt;a name="comment_24694916" class="gc-link-anchor"&gt;&lt;/a&gt;
+  &lt;div class="media-left align-self-start mr-3"&gt;
+    &lt;a class="" title="View PoodleGroomer&amp;#39;s Profile" href="/profile/1444390"&gt;&lt;div class="gc-avatar sm js-gc-avatar-refresh"&gt;&lt;img src="https://avatar.amuniversal.com/user_avatars/avatars_gocomicsver3/missing/missing_large.jpg" alt="Missing large" /&gt;&lt;/div&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="media-body"&gt;
+    &lt;div class="media-wrapper"&gt;
+      &lt;h5 class="media-heading"&gt;&lt;a class="link-blended" href="/profile/1444390"&gt;PoodleGroomer&lt;/a&gt;&amp;nbsp;
+        &lt;span class="comment-meta"&gt;1 day ago&lt;/span&gt;
+      &lt;/h5&gt;
+
+      &lt;div class="comment-body"&gt;
+        &lt;p&gt;T-Rex and the Geico Gecko still wish they could trade jobs.&lt;/p&gt;
+      &lt;/div&gt;&lt;!-- /.comment-body --&gt;
+
+      &lt;div class="comment-actions"&gt;
+          
+
+
+
+        &lt;div id="comment-like-24694916" class="js-comment-like-24694916"&gt;
+      &lt;div class="js-comment-like"&gt;
+      &lt;a class="" data-toggle="modal" data-target="#js-modal-account-hook" aria-label="Sign in to like this comment" title="Sign in to like this comment" data-tooltip="tooltip" href=""&gt;Like&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+        &lt;span class="text-muted"&gt;&amp;nbsp;&amp;bull;&amp;nbsp;&lt;/span&gt;
+
+         &lt;a class="js-comment-reply-link-24694916" data-remote="true" href="/comments/show/comment/24694916"&gt;Reply&lt;/a&gt;
+
+        &lt;span class="text-muted js-comment-like-count-bullet-24694916 hidden"&gt;&amp;nbsp;&amp;bull;&amp;nbsp;&lt;/span&gt;
+
+        &lt;div id="comment-like-count-24694916" class="js-comment-like-count-24694916"&gt;
+
+
+&lt;/div&gt;
+
+      &lt;/div&gt;
+
+      &lt;div id="reply-thread_24694916" class="js-reply-thread-24694916"&gt;
+      &lt;a data-remote="true" href="/comments/show/comment/24694916"&gt;
+          &lt;i class='gc-icon gc-icon-fluid fa gc-icon fa fa-reply md'&gt;&lt;/i&gt;Reply
+&lt;/a&gt;&lt;/div&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+          &lt;/div&gt;
+        &lt;/ol&gt;
+      &lt;/section&gt;
+      &lt;a role="button" class="js-comment-toggle btn btn-sm btn-primary" aria-label="Show All Comments" title="Show All Comments" data-remote="true" href="/comments/show/feature_item/2384668"&gt;Show All Comments &lt;i class='gc-icon fa gc-icon-fluid fa fa-overlay fa-caret-down sm'&gt;&lt;/i&gt;
+&lt;/a&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+              &lt;div class="gc-container js-comment-placeholder js-form-field-autoheight"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+
+      &lt;h3 class='gc-section-title gc-section-title-more text-center content-section-sm'&gt;More From Dinosaur Comics&lt;/h3&gt;
+
+        &lt;div class="container"&gt;
+        
+
+&lt;div class='row'&gt;
+
+
+
+
+
+
+        &lt;div class=" gc-deck--has-ads gc-deck gc-deck--third"&gt;
+            &lt;a class="" href=""&gt;
+              
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;Explore Dinosaur Comics&lt;/h4&gt;
+
+
+      
+      &lt;hr/&gt;
+&lt;div class="gc-widget-tag-cloud"&gt;
+  &lt;div class="module-tag-cloud"&gt;
+    &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=dinosaurs"&gt;#dinosaurs&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=speech"&gt;#speech&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=crazy"&gt;#crazy&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=time"&gt;#time&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=comics"&gt;#comics&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=reading"&gt;#reading&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=story"&gt;#story&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=home"&gt;#home&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=time+travel"&gt;#time travel&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=science"&gt;#science&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=life"&gt;#life&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=funny"&gt;#funny&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=search"&gt;#search&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=sinister"&gt;#sinister&lt;/a&gt;, &lt;a class="tag-cloud-item" href="/search/full_results?category=comic&amp;amp;short_name=dinosaur-comics&amp;amp;terms=fresh+prince"&gt;#fresh prince&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      
+      
+
+
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+              
+&lt;/a&gt;        &lt;/div&gt;
+
+
+
+
+
+
+
+        &lt;div class=" gc-deck--has-ads gc-deck gc-deck--third"&gt;
+            
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;&lt;a href='//twitter.com/dinosaurcomics' target='_blank'&gt;Latest Tweet&lt;/a&gt;&lt;/h4&gt;
+
+
+      
+      &lt;hr/&gt;
+&lt;div class='gc-twitter-feed'&gt;
+  &lt;a class='twitter-timeline' data-width='100%' data-height='320' data-theme='light' data-tweet-limit='1' data-chrome='noheader noborders transparent' href="//twitter.com/dinosaurcomics"&gt;&lt;/a&gt;
+  &lt;script async src='//platform.twitter.com/widgets.js' charset='utf-8'&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+      
+      
+
+
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+        &lt;/div&gt;
+          &lt;div class="gc-deck gc-deck--third gc-deck--is-ad"&gt;
+            &lt;section class='card gc-card gc-card--ad-rectangle group-item-ad'&gt;
+              &lt;div class="amu-container-ad-wrapper   "&gt;
+	&lt;div class="amu-container-ad ad-rectangle-container"&gt;
+    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
+	  &lt;div id="rectangle1" class="js-ad gc-ad ad-rectangle " data-ad-type="rectangle1"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("rectangle1");
+      &lt;/script&gt;
+
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="rectangle1" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+            &lt;/section&gt;
+          &lt;/div&gt;
+
+
+
+
+
+
+
+        &lt;div class=" gc-deck--has-ads gc-deck gc-deck--third"&gt;
+            &lt;a class="" target="_blank" href="http://bit.ly/1qM6Swi"&gt;
+              
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/features/dco/widgets/link_wo_title_large_dco_dinosaurcomics-store-370x350.jpg 600w, //assets.gocomics.com/uploads/features/dco/widgets/link_wo_title_mid_dco_dinosaurcomics-store-370x350.jpg 300w, //assets.gocomics.com/uploads/features/dco/widgets/link_wo_title_small_dco_dinosaurcomics-store-370x350.jpg 150w" sizes="auto" width="100%" alt="" src="//assets.gocomics.com/uploads/features/dco/widgets/link_wo_title_large_dco_dinosaurcomics-store-370x350.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+
+&lt;/div&gt;
+              
+&lt;/a&gt;        &lt;/div&gt;
+
+
+
+
+
+
+      &lt;div class=" gc-deck--has-ads gc-deck gc-deck--third"&gt;
+          &lt;a class="" href="/blog/3104/ryan-north-dinosaur-comics"&gt;
+            
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_3104_1299_link_w_title_large_dco_DinosaurComics-MYC-370x220.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_3104_1299_link_w_title_large_dco_DinosaurComics-MYC-370x220.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_3104_1299_link_w_title_large_dco_DinosaurComics-MYC-370x220.jpg 150w" sizes="auto" width="100%" alt="Ryan North (Dinosaur Comics)" src="//assets.gocomics.com/uploads/blogs/blog_image_large_3104_1299_link_w_title_large_dco_DinosaurComics-MYC-370x220.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;Ryan North (Dinosaur Comics)&lt;/h4&gt;
+
+&lt;h5 class="card-subtitle text-muted"&gt;GoComics&lt;/h5&gt;
+      
+      
+      
+      &lt;p class="card-text text-muted"&gt;Jan 10, 2015&lt;/p&gt;
+
+
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+            
+&lt;/a&gt;      &lt;/div&gt;
+
+
+
+
+
+
+      &lt;div class=" gc-deck--has-ads gc-deck gc-deck--third"&gt;
+          &lt;a class="" href="/blog/4027/gc-series-included-in-new-library-of-congress-webcomics-archive"&gt;
+            
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_4027_7147_Library_of_Congress_Webcomics_Archive_201706131427.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_4027_7147_Library_of_Congress_Webcomics_Archive_201706131427.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_4027_7147_Library_of_Congress_Webcomics_Archive_201706131427.jpg 150w" sizes="auto" width="100%" alt="GC Series Included In New Library Of Congress Webcomics Archive" src="//assets.gocomics.com/uploads/blogs/blog_image_large_4027_7147_Library_of_Congress_Webcomics_Archive_201706131427.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;GC Series Included In New Library Of Congress Webcomics Archive&lt;/h4&gt;
+
+&lt;h5 class="card-subtitle text-muted"&gt;The GoComics Team&lt;/h5&gt;
+      
+      
+      
+      &lt;p class="card-text text-muted"&gt;Jun 13, 2017&lt;/p&gt;
+
+
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+            
+&lt;/a&gt;      &lt;/div&gt;
+
+
+
+
+
+
+      &lt;div class=" gc-deck--has-ads gc-deck gc-deck--third"&gt;
+          &lt;a class="" href="/blog/4321/garfield-creator-jim-davis-pens-galactus-story-for-marvel-comics"&gt;
+            
+&lt;div class="card gc-card gc-card--on-hover"&gt;
+
+
+    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
+
+      
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="/assets/transparent.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_4321_9715_Jim_Davis_Galactus_Comic_201710161347.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_4321_9715_Jim_Davis_Galactus_Comic_201710161347.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_4321_9715_Jim_Davis_Galactus_Comic_201710161347.jpg 150w" sizes="auto" width="100%" alt="&amp;#39;Garfield&amp;#39; Creator Jim Davis Pens Galactus Story For Marvel Comics" src="//assets.gocomics.com/uploads/blogs/blog_image_large_4321_9715_Jim_Davis_Galactus_Comic_201710161347.jpg" /&gt;&lt;/picture&gt;
+
+
+
+      &lt;div class='gc-card__image-overlay'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class="card-body gc-card__body"&gt;
+      
+
+&lt;h4 class="card-title"&gt;'Garfield' Creator Jim Davis Pens Galactus Story For Marvel Comics&lt;/h4&gt;
+
+&lt;h5 class="card-subtitle text-muted"&gt;Caleb Goellner&lt;/h5&gt;
+      
+      
+      
+      &lt;p class="card-text text-muted"&gt;Oct 16, 2017&lt;/p&gt;
+
+
+
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+            
+&lt;/a&gt;      &lt;/div&gt;
+
+&lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id='recommendations_holder' class='js-post-load-init' data-url="/favorites/recommendations.js?short_name=dinosaur-comics"&gt;&lt;/div&gt;
+
+&lt;div class="amu-container-ad-wrapper   "&gt;
+	&lt;div class="amu-container-ad ad-tynt-container"&gt;
+    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
+	  &lt;div id="tynt" class="js-ad gc-ad ad-tynt " data-ad-type="tynt"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("tynt");
+      &lt;/script&gt;
+
+	  &lt;/div&gt;
+	  
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+  &lt;/div&gt;
+
+  &lt;div class="amu-container-ad-wrapper js-destructable fixed-ad-bottom fixed-ad-bottom--banner js-ad-banner-lock-wrapper ad-hidden"&gt;
+	&lt;div class="amu-container-ad ad-banner-lock-container"&gt;
+    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
+	  &lt;div id="banner_lock" class="js-ad gc-ad ad-banner-lock " data-ad-type="banner_lock"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("banner_lock");
+      &lt;/script&gt;
+
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="banner_lock" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div class="amu-container-ad-wrapper   "&gt;
+	&lt;div class="amu-container-ad ad-banner-bottom-container"&gt;
+    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
+	  &lt;div id="banner_bot" class="js-ad gc-ad ad-banner-bottom " data-ad-type="banner_bot"&gt;
+
+      &lt;script type='text/javascript'&gt;
+        AddktHeader.displayGPTSlot("banner_bot");
+      &lt;/script&gt;
+
+	  &lt;/div&gt;
+	  &lt;!-- Begin PubNation div --&gt;
+&lt;div class="pubnation" data-target="banner_bot" style="font-size: 11px !important;
+ text-align: center !important; cursor: pointer !important; display: block !important; width:200px; margin:0 auto !important; visibility: hidden;"&gt;Report this ad&lt;/div&gt;
+&lt;!-- End PubNation div --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;footer class="amu-container-footer"&gt;
+  &lt;div class="footer-nav"&gt;
+      &lt;div class="footer-nav-section"&gt;
+        &lt;h5 class="hdr-muted"&gt;Find Comics&lt;/h5&gt;
+        &lt;ul class="footer-links"&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/comics/trending"&gt;Trending&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/comics/political"&gt;Political Cartoons&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/comics/web-comics"&gt;Web Comics&lt;/a&gt;&lt;/li&gt;
+          &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="/comics/categories"&gt;All Categories&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/comics/popular"&gt;Popular Comics&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/comics/a-to-z"&gt;A-Z Comics by Title&lt;/a&gt;&lt;/li&gt;
+          &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
+          &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="footer-nav-section"&gt;
+        &lt;h5 class="hdr-muted"&gt;More GoComics&lt;/h5&gt;
+        &lt;ul class="footer-links"&gt;
+          &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/blog"&gt;GoComics Blog&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="http://www.comicssherpa.com/site/index"&gt;Visit Comics Sherpa&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="//www.facebook.com/gocomics"&gt;GC on Facebook&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="//www.twitter.com/gocomics"&gt;GC on Twitter&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="//www.instagram.com/gocomics"&gt;GC on Instagram&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" target="_blank" data-link-type="footer-nav" href="https://store.gocomics.com/"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+    &lt;div class="footer-nav-section"&gt;
+      &lt;h5 class="hdr-muted"&gt;Account&lt;/h5&gt;
+      &lt;ul class="footer-links"&gt;
+            &lt;li&gt;&lt;a class="footer-link" rel="nofollow" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/sign-up?account_type=free"&gt;Sign up for free&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a class="footer-link" rel="nofollow" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/sign-up?account_type=premium"&gt;Go Premium&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" rel="nofollow" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/gift-subscription"&gt;Gift a Subscription&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" rel="nofollow" data-link-type="footer-nav" href="https://www.gocomics.com/profiles/gift-subscription/redeem"&gt;Redeem a Gift&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="footer-nav-section"&gt;
+      &lt;h5 class="hdr-muted"&gt;About&lt;/h5&gt;
+      &lt;ul class="footer-links"&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/help/about"&gt;About GoComics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/help"&gt;Help &amp;amp; FAQ&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/help/advertising"&gt;Advertising&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class="footer-link" data-link-type="footer-nav" href="https://www.gocomics.com/help/contact"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!-- /.footer-nav --&gt;
+  &lt;div class="footer-copyright"&gt;
+    &lt;p&gt;
+      &amp;copy; Copyright
+        Dinosaur Comics,© Ryan North&lt;br class="d-sm-none" /&gt;
+            2018. All Rights Reserved.
+      &lt;a class="copyright-link" data-link-type="footer-nav" href="https://www.gocomics.com/help/terms"&gt;Terms &amp;amp; Conditions&lt;/a&gt;
+      -
+      &lt;a target="_blank" class="copyright-link" data-link-type="footer-nav" href="//www.andrewsmcmeel.com/privacy-policy"&gt;Privacy Policy&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;&lt;!-- /.footer-copyright --&gt;
+&lt;/footer&gt;&lt;!-- /.amu-container-footer --&gt;
+&lt;/div&gt;
+
+
+&lt;div class="modal fade" id="js-modal-account-hook" tabindex="-1" role="dialog" aria-labelledby="Join GoComics!" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content bg-info text-white"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h2 class="modal-title"&gt;You must have an account to access this feature&lt;/h2&gt;
+        &lt;a data-dismiss="modal" class="close" href=""&gt;
+          &lt;i class='gc-icon fa fa-close fa-overlay lg'&gt;&lt;/i&gt;
+&lt;/a&gt;      &lt;/div&gt;
+      &lt;div class="modal-body text-center"&gt;
+
+          &lt;a class="btn btn-light gc-button" href="/profiles/sign-in"&gt;Sign in&lt;/a&gt;
+          &lt;a class="btn btn-outline-light gc-button" href="/profiles/sign-up?account_type=free"&gt;Sign up for free&lt;/a&gt;
+          &lt;a class="btn btn-outline-light gc-button" href="/profiles/sign-up?account_type=premium"&gt;Get Premium&lt;/a&gt;
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script src="/assets/application-gc-postload-dc69eac3007b2ac4b89259206d8abe7790393343a2ca94387208179dfde36a39.js"&gt;&lt;/script&gt;
+
+
+&lt;!-- Begin PubNation script --&gt;
+&lt;script&gt;
+  var _pnq = _pnq || [];
+  _pnq.push(['setId', 'pn-1e46a850d3d769b6']);
+  (function() {
+    var pnr = document.createElement('script');
+    pnr.type = 'text/javascript';
+    pnr.async = true;
+    pnr.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'report-ads-to.pubnation.com/dist/pnr.js?t=pn-1e46a850d3d769b6';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(pnr, s);
+  })();
+&lt;/script&gt;
+&lt;!-- End PubNation script --&gt;
+
+&lt;script src="/assets/apollo-ebf32ed2ad66d0bfcf986c7715ab786480b76efe646a63523fce276ad9264531.js?sampling=100"&gt;&lt;/script&gt;
+
+&lt;div class="amu-layout-size"&gt;
+	&lt;span class="js-layout-size-xl d-none d-xl-block"&gt;&lt;/span&gt;
+	&lt;span class="js-layout-size-lg d-none d-lg-block d-xl-none"&gt;&lt;/span&gt;
+  &lt;span class="js-layout-size-md d-none d-md-block d-lg-none"&gt;&lt;/span&gt;
+  &lt;span class="js-layout-size-sm d-none d-sm-block d-md-none"&gt;&lt;/span&gt;
+  &lt;span class="js-layout-size-xs d-block d-sm-none"&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="btn btn-secondary btn-sm gc-back-to-top" href="#back-to-top"&gt;&lt;i class='gc-icon gc-icon-fluid fa fa-caret-up md'&gt;&lt;/i&gt; Back To Top&lt;/a&gt;
+
+&lt;!-- Start of Marketing Request: Silverpop tracking installed 2016.06.02 --&gt;
+&lt;script src="//www.sc.pages02.net/lp/static/js/iMAWebCookie.js?4c864741-1542ec78d7c-df4cba773885eb54dfcebd294a039c37&amp;h=www.pages02.net" type="text/javascript"&gt;&lt;/script&gt;
+&lt;!-- End of Marketing Request: Silverpop tracking installed 2016.06.02 --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</ReturnValue>
+    <OutAndRefValues />
+  </RecordedCall>
+</ArrayOfRecordedCall>
