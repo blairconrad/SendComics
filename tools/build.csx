@@ -1,7 +1,8 @@
-#load "packages/simple-targets-csx.6.0.0/contentFiles/csx/any/simple-targets.csx"
+#r "../tools/packages/Bullseye.1.0.0-rc.4/lib/netstandard2.0/Bullseye.dll"
 
 using System.Runtime.CompilerServices;
-using static SimpleTargets;
+using Bullseye;
+using static Bullseye.Targets;
 
 var solution = "./SendComics.sln";
 
@@ -16,26 +17,24 @@ var logsDirectory = "./artifacts/logs";
 static var testsDirectory = "./artifacts/tests";
 
 // targets
-var targets = new TargetDictionary();
+Targets.Add("default", DependsOn("test"));
 
-targets.Add("default", DependsOn("test"));
+Targets.Add("logsDirectory", () => Directory.CreateDirectory(logsDirectory));
 
-targets.Add("logsDirectory", () => Directory.CreateDirectory(logsDirectory));
+Targets.Add("testsDirectory", () => Directory.CreateDirectory(testsDirectory));
 
-targets.Add("testsDirectory", () => Directory.CreateDirectory(testsDirectory));
+Targets.Add("build", DependsOn("clean", "restore"), () => RunMsBuild("Build"));
 
-targets.Add("build", DependsOn("clean", "restore"), () => RunMsBuild("Build"));
+Targets.Add("clean", DependsOn("logsDirectory"), () => RunMsBuild("Clean"));
 
-targets.Add("clean", DependsOn("logsDirectory"), () => RunMsBuild("Clean"));
+Targets.Add("restore", () => Cmd("dotnet", "restore"));
 
-targets.Add("restore", () => Cmd("dotnet", "restore"));
-
-targets.Add(
+Targets.Add(
     "test",
     DependsOn("build", "testsDirectory"),
     () => RunTests("tests/SendComics.IntegrationTests/bin/Release/SendComics.UnitTests.dll"));
 
-Run(Args, targets);
+Targets.Run(Args);
 
 // helpers
 public static void Cmd(string fileName, string args)
