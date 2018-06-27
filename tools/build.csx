@@ -1,8 +1,10 @@
 #r "../tools/packages/Bullseye.1.0.0-rc.4/lib/netstandard2.0/Bullseye.dll"
+#r "../tools/packages/SimpleExec.2.2.0/lib/netstandard2.0/SimpleExec.dll"
 
 using System.Runtime.CompilerServices;
 using Bullseye;
 using static Bullseye.Targets;
+using static SimpleExec.Command;
 
 var solution = "./SendComics.sln";
 
@@ -27,7 +29,7 @@ Targets.Add("build", DependsOn("clean", "restore"), () => RunMsBuild("Build"));
 
 Targets.Add("clean", DependsOn("logsDirectory"), () => RunMsBuild("Clean"));
 
-Targets.Add("restore", () => Cmd("dotnet", "restore"));
+Targets.Add("restore", () => Run("dotnet", "restore"));
 
 Targets.Add(
     "test",
@@ -37,63 +39,9 @@ Targets.Add(
 Targets.Run(Args);
 
 // helpers
-public static void Cmd(string fileName, string args)
-{
-    Cmd(".", fileName, args);
-}
-
-public static void Cmd(string workingDirectory, string fileName, string args)
-{
-    using (var process = new Process())
-    {
-        process.StartInfo = new ProcessStartInfo
-        {
-            FileName = $"\"{fileName}\"",
-            Arguments = args,
-            WorkingDirectory = workingDirectory,
-            UseShellExecute = false,
-        };
-
-        var workingDirectoryMessage = workingDirectory == "." ? "" : $" in '{process.StartInfo.WorkingDirectory}'";
-        Console.WriteLine($"Running '{process.StartInfo.FileName} {process.StartInfo.Arguments}'{workingDirectoryMessage}...");
-        process.Start();
-        process.WaitForExit();
-        if (process.ExitCode != 0)
-        {
-            throw new InvalidOperationException($"The {fileName} command exited with code {process.ExitCode}.");
-        }
-    }
-}
-
-public string ReadCmdOutput(string workingDirectory, string fileName, string args)
-{
-    using (var process = new Process())
-    {
-        process.StartInfo = new ProcessStartInfo
-        {
-            FileName = fileName,
-            Arguments = args,
-            WorkingDirectory = workingDirectory,
-            UseShellExecute = false,
-            RedirectStandardOutput = true
-        };
-
-        var workingDirectoryMessage = workingDirectory == "." ? "" : $" in '{process.StartInfo.WorkingDirectory}'";
-        Console.WriteLine($"Running '{process.StartInfo.FileName} {process.StartInfo.Arguments}'{workingDirectoryMessage}...");
-        process.Start();
-        process.WaitForExit();
-        if (process.ExitCode != 0)
-        {
-            throw new InvalidOperationException($"The {fileName} command exited with code {process.ExitCode}.");
-        }
-
-        return process.StandardOutput.ReadToEnd().Trim();
-    }
-}
-
 public void RunMsBuild(string target)
 {
-    Cmd(
+    Run(
         msBuild,
         $"{solution} /target:{target} /p:configuration=Release /maxcpucount /nr:false /verbosity:minimal /nologo /bl:artifacts/logs/{target}.binlog");
 }
@@ -102,18 +50,18 @@ public void RunTests(string testAssembly)
 {
     var xml = Path.GetFullPath(Path.Combine(testsDirectory, Path.GetFileNameWithoutExtension(testAssembly) + ".TestResults.xml"));
     var html = Path.GetFullPath(Path.Combine(testsDirectory, Path.GetFileNameWithoutExtension(testAssembly) + ".TestResults.html"));
-    Cmd(xunit, $"{testAssembly} -nologo -notrait \"explicit=yes\" -xml {xml} -html {html}");
+    Run(xunit, $"{testAssembly} -nologo -notrait \"explicit=yes\" -xml {xml} -html {html}");
 }
 
 public string GetVSLocation()
 {
-    var installationPath = ReadCmdOutput(".", $"\"{vswhere}\"", "-nologo -latest -property installationPath -requires Microsoft.Component.MSBuild -version [15,16)");
+    var installationPath = Read($"\"{vswhere}\"", "-nologo -latest -property installationPath -requires Microsoft.Component.MSBuild -version [15,16)");
     if (string.IsNullOrEmpty(installationPath))
     {
         throw new InvalidOperationException("Visual Studio 2017 was not found");
     }
 
-    return installationPath;
+    return installationPath.Trim();
 }
 
 public static string GetCurrentScriptDirectory([CallerFilePath] string path = null) => Path.GetDirectoryName(path);
