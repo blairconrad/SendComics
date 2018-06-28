@@ -10,7 +10,7 @@ namespace SendComics
     {
         [FunctionName("SendComics")]
         public static void Run(
-            [TimerTrigger("0 0 5 * * *")] TimerInfo myTimer,
+            [TimerTrigger("0 30 6 * * *")] TimerInfo myTimer,
             TraceWriter tracer,
             [SendGrid(ApiKey = "SendGridApiKey")] IAsyncCollector<Mail> mails)
         {
