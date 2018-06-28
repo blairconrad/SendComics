@@ -1,4 +1,4 @@
-namespace SendComics
+namespace SendComics.Comics
 {
     using System;
     using System.Text.RegularExpressions;

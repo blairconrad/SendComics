@@ -1,16 +1,16 @@
-﻿namespace SendComics
+namespace SendComics.Comics
 {
     using System.Text.RegularExpressions;
 
-    internal class KingFeatureComic : Comic
+    internal class DilbertComic : Comic
     {
-        public KingFeatureComic(string name) : base("http://" + name + ".com/")
+        public DilbertComic() : base("http://www.dilbert.com/")
         {
         }
 
         public override ComicLocation GetLocation(string comicContent)
         {
-            var match = Regex.Match(comicContent, @"property=""og:image"" content=""([^""]+)""");
+            var match = Regex.Match(comicContent, @"img-comic"".* src=""([^""]+)""");
             return match.Success
                 ? ComicLocation.FoundAt(match.Groups[1].Value)
                 : ComicLocation.NotFound;

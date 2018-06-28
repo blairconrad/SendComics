@@ -1,4 +1,4 @@
-﻿namespace SendComics
+namespace SendComics.Comics
 {
     internal abstract class Comic
     {

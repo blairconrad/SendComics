@@ -1,6 +1,7 @@
 ﻿namespace SendComics
 {
     using System;
+    using Comics;
 
     internal class ComicFactory
     {
