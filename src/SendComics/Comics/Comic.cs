@@ -1,14 +1,19 @@
 namespace SendComics.Comics
 {
+    using System;
+    using Services;
+
     internal abstract class Comic
     {
-        protected Comic(string url)
+        private readonly IComicFetcher comicFetcher;
+
+        protected Comic(IComicFetcher comicFetcher)
         {
-            Url = url;
+            this.comicFetcher = comicFetcher;
         }
 
-        public string Url { get; }
+        protected string GetContent(string url) => this.comicFetcher.GetContent(url);
 
-        public abstract ComicLocation GetLocation(string comicContent);
+        public abstract ComicLocation GetLocation(DateTime now);
     }
 }

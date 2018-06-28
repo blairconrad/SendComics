@@ -1,4 +1,4 @@
-﻿namespace SendComics
+namespace SendComics
 {
     using System;
     using System.Collections.Generic;
@@ -63,10 +63,8 @@
         private ComicLocation GetComicLocation(string comicName)
         {
             log.Info($"Getting image URL for {comicName}…");
-            var comic = this.comicFactory.GetComic(comicName, this.now);
-            var comicContent = this.comicFetcher.GetContent(comic.Url);
-            log.Info($"Got     image URL for {comicName}");
-            return comic.GetLocation(comicContent);
+            var comic = this.comicFactory.GetComic(comicName, this.now, this.comicFetcher);
+            return comic.GetLocation(this.now);
         }
 
         private void WriteImage(StringBuilder sink, string comicName, ComicLocation comicLocation)

@@ -2,16 +2,21 @@ namespace SendComics.Comics
 {
     using System;
     using System.Text.RegularExpressions;
+    using Services;
 
     internal class GoComic : Comic
     {
-        public GoComic(string name, DateTime now)
-            : base($"http://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd")}/")
+        private readonly string name;
+
+        public GoComic(string name, IComicFetcher comicFetcher) : base(comicFetcher)
         {
+            this.name = name;
         }
 
-        public override ComicLocation GetLocation(string comicContent)
+        public override ComicLocation GetLocation(DateTime now)
         {
+            var comicContent = this.GetContent($"http://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd")}/");
+
             var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from");
             if (isWrongDay)
             {
