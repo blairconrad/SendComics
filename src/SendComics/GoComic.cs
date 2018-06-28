@@ -1,4 +1,4 @@
-﻿namespace SendComics
+namespace SendComics
 {
     using System;
     using System.Text.RegularExpressions;
@@ -10,10 +10,18 @@
         {
         }
 
-        public override string GetImageUrl(string comicContent)
+        public override ComicLocation GetLocation(string comicContent)
         {
-            var match = Regex.Match(comicContent, @"item-comic-image"".* data-srcset=""([^ ]+) ");
-            return match.Success ? match.Groups[1].Value : null;
+            var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from");
+            if (isWrongDay)
+            {
+                return ComicLocation.NotPublished;
+            }
+
+            var imageMatch = Regex.Match(comicContent, @"item-comic-image"".* data-srcset=""([^ ]+) ");
+            return imageMatch.Success
+                ? ComicLocation.FoundAt(imageMatch.Groups[1].Value)
+                : ComicLocation.NotFound;
         }
     }
 }

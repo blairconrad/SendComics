@@ -7,8 +7,8 @@
             Url = url;
         }
 
-        public string Url {get;}
+        public string Url { get; }
 
-        public abstract string GetImageUrl(string comicContent);
+        public abstract ComicLocation GetLocation(string comicContent);
     }
 }

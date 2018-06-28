@@ -35,7 +35,7 @@
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicUrls = configuration.GetAllComics().ToDictionary(c => c, GetComicUrl);
+            var comicLocations = configuration.GetAllComics().ToDictionary(c => c, GetComicLocation);
 
             foreach (var subscriber in configuration.Subscribers)
             {
@@ -45,7 +45,7 @@
                 foreach (var comicName in subscriber.Comics)
                 {
                     log.Info($"  Adding {comicName}…");
-                    WriteImage(mailContent, comicName, comicUrls[comicName]);
+                    WriteImage(mailContent, comicName, comicLocations[comicName]);
                     log.Info($"  Added  {comicName}");
                 }
 
@@ -60,24 +60,28 @@
             }
         }
 
-        private string GetComicUrl(string comicName)
+        private ComicLocation GetComicLocation(string comicName)
         {
             log.Info($"Getting image URL for {comicName}…");
             var comic = this.comicFactory.GetComic(comicName, this.now);
             var comicContent = this.comicFetcher.GetContent(comic.Url);
             log.Info($"Got     image URL for {comicName}");
-            return comic.GetImageUrl(comicContent);
+            return comic.GetLocation(comicContent);
         }
 
-        private void WriteImage(StringBuilder sink, string comicName, string imageUrl)
+        private void WriteImage(StringBuilder sink, string comicName, ComicLocation comicLocation)
         {
-            if (imageUrl == null)
+            if (!comicLocation.IsPublished)
+            {
+                sink.AppendFormat("  Comic {0} wasn't published today.<br>\r\n", comicName);
+            }
+            else if (!comicLocation.WasFound)
             {
                 sink.AppendFormat("  Couldn't find comic for {0}.<br>\r\n", comicName);
             }
             else
             {
-                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", comicName, imageUrl);
+                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", comicName, comicLocation.Url);
             }
         }
     }

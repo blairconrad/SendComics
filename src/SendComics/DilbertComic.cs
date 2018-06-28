@@ -9,10 +9,12 @@
         {
         }
 
-        public override string GetImageUrl(string comicContent)
+        public override ComicLocation GetLocation(string comicContent)
         {
             var match = Regex.Match(comicContent, @"img-comic"".* src=""([^""]+)""");
-            return match.Success ? match.Groups[1].Value : null;
+            return match.Success
+                ? ComicLocation.FoundAt(match.Groups[1].Value)
+                : ComicLocation.NotFound;
         }
     }
 }
