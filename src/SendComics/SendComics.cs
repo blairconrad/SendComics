@@ -10,7 +10,7 @@ namespace SendComics
     {
         [FunctionName("SendComics")]
         public static void Run(
-            [TimerTrigger("0 0 5 * * *")] TimerInfo myTimer,
+            [TimerTrigger("0 30 6 * * *")] TimerInfo myTimer,
             TraceWriter tracer,
             [SendGrid(ApiKey = "SendGridApiKey")] IAsyncCollector<Mail> mails)
         {
@@ -18,6 +18,7 @@ namespace SendComics
             log.Info("Beginning execution");
 
             var comicMailBuilder = new ComicMailBuilder(
+                DateTime.Now,
                 new SimpleConfigurationParser(Environment.GetEnvironmentVariable("SubscriberConfiguration")),
                 new WebComicFetcher(),
                 log);

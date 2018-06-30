@@ -1,22 +1,24 @@
 ﻿namespace SendComics
 {
     using System;
+    using Comics;
+    using Services;
 
     internal class ComicFactory
     {
-        public Comic GetComic(string name)
+        public Comic GetComic(string name, DateTime now, IComicFetcher comicFetcher)
         {
             if (name == "dilbert")
             {
-                return new DilbertComic("http://www.dilbert.com/");
-            }
-            else if (name == "blondie" || name == "rhymeswithorange")
-            {
-                return new KingFeatureComic("http://" + name + ".com/");
+                return new DilbertComic(comicFetcher);
             }
 
-            var dateString = DateTime.Now.ToString("yyyy'/'MM'/'dd");
-            return new GoComic($"http://www.gocomics.com/{name}/{dateString}/");
+            if (name == "blondie" || name == "rhymeswithorange")
+            {
+                return new KingFeatureComic(name, comicFetcher);
+            }
+
+            return new GoComic(name, comicFetcher);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace SendComics
+namespace SendComics
 {
     using System;
     using System.Collections.Generic;
@@ -9,16 +9,19 @@
 
     public class ComicMailBuilder
     {
+        private readonly DateTime now;
         private readonly IConfigurationSource configurationSource;
         private readonly IComicFetcher comicFetcher;
         private readonly ILogger log;
         private readonly ComicFactory comicFactory;
 
         public ComicMailBuilder(
+            DateTime now,
             IConfigurationSource configurationSource,
             IComicFetcher comicFetcher,
             ILogger log)
         {
+            this.now = now;
             this.configurationSource = configurationSource;
             this.comicFetcher = comicFetcher;
             this.log = log;
@@ -28,11 +31,11 @@
         public IEnumerable<Mail> CreateMailMessage()
         {
             var fromEmail = new Email("comics@blairconrad.com", "Blair Conrad");
-            var mailSubject = "comics " + DateTime.Now.Date.ToString("dd MMMM yyyy");
+            var mailSubject = "comics " + this.now.ToString("dd MMMM yyyy");
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicUrls = configuration.GetAllComics().ToDictionary(c => c, GetComicUrl);
+            var comicLocations = configuration.GetAllComics().ToDictionary(c => c, GetComicLocation);
 
             foreach (var subscriber in configuration.Subscribers)
             {
@@ -42,7 +45,7 @@
                 foreach (var comicName in subscriber.Comics)
                 {
                     log.Info($"  Adding {comicName}…");
-                    WriteImage(mailContent, comicName, comicUrls[comicName]);
+                    WriteImage(mailContent, comicName, comicLocations[comicName]);
                     log.Info($"  Added  {comicName}");
                 }
 
@@ -57,24 +60,26 @@
             }
         }
 
-        private string GetComicUrl(string comicName)
+        private ComicLocation GetComicLocation(string comicName)
         {
             log.Info($"Getting image URL for {comicName}…");
-            var comic = this.comicFactory.GetComic(comicName);
-            var comicContent = this.comicFetcher.GetContent(comic.Url);
-            log.Info($"Got     image URL for {comicName}");
-            return comic.GetImageUrl(comicContent);
+            var comic = this.comicFactory.GetComic(comicName, this.now, this.comicFetcher);
+            return comic.GetLocation(this.now);
         }
 
-        private void WriteImage(StringBuilder sink, string comicName, string imageUrl)
+        private void WriteImage(StringBuilder sink, string comicName, ComicLocation comicLocation)
         {
-            if (imageUrl == null)
+            if (!comicLocation.IsPublished)
+            {
+                sink.AppendFormat("  Comic {0} wasn't published today.<br>\r\n", comicName);
+            }
+            else if (!comicLocation.WasFound)
             {
                 sink.AppendFormat("  Couldn't find comic for {0}.<br>\r\n", comicName);
             }
             else
             {
-                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", comicName, imageUrl);
+                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", comicName, comicLocation.Url);
             }
         }
     }

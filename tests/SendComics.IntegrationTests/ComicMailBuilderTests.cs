@@ -1,5 +1,6 @@
-﻿namespace SendComics.IntegrationTests
+namespace SendComics.IntegrationTests
 {
+    using System;
     using System.Linq;
     using FakeItEasy;
     using FluentAssertions;
@@ -22,6 +23,7 @@
                 new XmlFileRecordedCallRepository("../../RecordedCalls/OneSubscriberTwoComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
+                    DateTime.Now,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -46,6 +48,7 @@
                 new XmlFileRecordedCallRepository("../../RecordedCalls/TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic.xml")))
             {
                 var target = new ComicMailBuilder(
+                    DateTime.Now,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: 9chickweedlane; anyone@mail.org: dilbert"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -74,6 +77,7 @@
                 new XmlFileRecordedCallRepository("../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
+                    DateTime.Now,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: blondie, rhymeswithorange"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -86,6 +90,146 @@
                     .Contain(BlondieUrl, "it should have Blondie").And
                     .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
             }
+        }
+
+        [Theory]
+        [InlineData("dilbert", "http://www.dilbert.com/")]
+        [InlineData("blondie", "http://blondie.com/")]
+        [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2018/06/27/")]
+        public void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedUrl)
+        {
+            var fakeComicFetcher = A.Fake<IComicFetcher>();
+
+            var target = new ComicMailBuilder(
+                new DateTime(2018, 6, 27),
+                new SimpleConfigurationParser($"blair.conrad@gmail.com: {comic}"),
+                fakeComicFetcher,
+                A.Dummy<ILogger>());
+
+            target.CreateMailMessage().ToList();
+
+            A.CallTo(() => fakeComicFetcher.GetContent(expectedUrl)).MustHaveHappened();
+        }
+
+        [Theory]
+        [InlineData(DayOfWeek.Saturday)]
+        [InlineData(DayOfWeek.Sunday)]
+        public void DinosaurComicOnAWeekend_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
+        {
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
+            {
+                var dateToCheck = MostRecent(dayOfWeek);
+                var target = new ComicMailBuilder(
+                    dateToCheck,
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                var mails = target.CreateMailMessage().ToList();
+
+                mails.Should().HaveCount(1);
+
+                mails[0].Contents[0].Value.Should()
+                    .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
+                    .Contain("Comic dinosaur-comics wasn't published today.", "it should tell the reader why there's no comic");
+            }
+        }
+
+        [Theory]
+        [InlineData(DayOfWeek.Monday)]
+        [InlineData(DayOfWeek.Tuesday)]
+        [InlineData(DayOfWeek.Wednesday)]
+        [InlineData(DayOfWeek.Thursday)]
+        [InlineData(DayOfWeek.Friday)]
+        public void DinosaurComicOnAWeekday_MailIncludesComic(DayOfWeek dayOfWeek)
+        {
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
+            {
+                var dateToCheck = MostRecent(dayOfWeek);
+                var target = new ComicMailBuilder(
+                    dateToCheck,
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                var mails = target.CreateMailMessage().ToList();
+
+                mails.Should().HaveCount(1);
+
+                mails[0].Contents[0].Value.Should()
+                    .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
+                    .NotContain("Comic dinosaur-comics wasn't published today.", "it should have found the comic");
+            }
+        }
+
+        [Theory]
+        [InlineData(DayOfWeek.Monday)]
+        [InlineData(DayOfWeek.Tuesday)]
+        [InlineData(DayOfWeek.Wednesday)]
+        [InlineData(DayOfWeek.Thursday)]
+        [InlineData(DayOfWeek.Friday)]
+        [InlineData(DayOfWeek.Saturday)]
+        public void FoxtrotOnAnythingButSunday_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
+        {
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../RecordedCalls/FoxTrotOn" + dayOfWeek + ".xml")))
+            {
+                var dateToCheck = MostRecent(dayOfWeek);
+                var target = new ComicMailBuilder(
+                    dateToCheck,
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: foxtrot"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                var mails = target.CreateMailMessage().ToList();
+
+                mails.Should().HaveCount(1);
+
+                mails[0].Contents[0].Value.Should()
+                    .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
+                    .Contain("Comic foxtrot wasn't published today.", "it should tell the reader why there's no comic");
+            }
+        }
+
+        [Fact]
+        public void FoxtrotOnSunday_MailIncludesComic()
+        {
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../RecordedCalls/FoxTrotOnSunday.xml")))
+            {
+                var dateToCheck = MostRecent(DayOfWeek.Sunday);
+                var target = new ComicMailBuilder(
+                    dateToCheck,
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: foxtrot"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                var mails = target.CreateMailMessage().ToList();
+
+                mails.Should().HaveCount(1);
+
+                mails[0].Contents[0].Value.Should()
+                    .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
+                    .NotContain("Comic foxtrot wasn't published today.", "it should have found the comic");
+            }
+        }
+
+        private static DateTime MostRecent(DayOfWeek dayOfWeek)
+        {
+            var now = DateTime.Now;
+            var offset = (int)dayOfWeek - (int)now.DayOfWeek;
+            if (offset > 0)
+            {
+                offset -= 7;
+            }
+
+            return now.AddDays(offset);
         }
     }
 }
