@@ -14,6 +14,7 @@ namespace SendComics.IntegrationTests
         private const string ChickweedLaneUrl = "http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d";
         private const string BlondieUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm";
         private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=";
+        private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/65839a905f980136408e005056a9545d";
 
         [Fact]
         public void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -217,6 +218,30 @@ namespace SendComics.IntegrationTests
                 mails[0].Contents[0].Value.Should()
                     .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
                     .NotContain("Comic foxtrot wasn't published today.", "it should have found the comic");
+            }
+        }
+
+        [Fact]
+        public void CalvinAndHobbesOnSunday_MailIncludesComic()
+        {
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../RecordedCalls/CalvinAndHobbesOnSunday.xml")))
+            {
+                var dateToCheck = MostRecent(DayOfWeek.Sunday);
+                var target = new ComicMailBuilder(
+                    dateToCheck,
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                var mails = target.CreateMailMessage().ToList();
+
+                mails.Should().HaveCount(1);
+
+                mails[0].Contents[0].Value.Should()
+                    .NotContain("Couldn't find comic for calvinandhobbes.", "it should not have looked for the comic").And
+                    .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
             }
         }
 
