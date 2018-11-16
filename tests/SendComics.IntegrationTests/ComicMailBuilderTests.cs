@@ -12,8 +12,8 @@ namespace SendComics.IntegrationTests
 
     public class ComicMailBuilderTests
     {
-        private const string DilbertImageUrl = "http://assets.amuniversal.com/9c0154c0f27a01351756005056a9545d";
-        private const string ChickweedLaneUrl = "http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d";
+        private const string DilbertImageUrl = "https://assets.amuniversal.com/cfa39b00b39601365f19005056a9545d";
+        private const string ChickweedLaneUrl = "https://assets.amuniversal.com/e2a3c500c015013663ff005056a9545d";
         private const string BlondieUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm";
         private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=";
         private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/65839a905f980136408e005056a9545d";
