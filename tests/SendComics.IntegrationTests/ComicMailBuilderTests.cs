@@ -25,7 +25,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/OneSubscriberTwoComics_BuildsOneMailWithBothComics.xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/OneSubscriberTwoComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
@@ -52,7 +52,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic.xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic.xml")))
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
@@ -83,7 +83,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
@@ -129,7 +129,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
             {
                 var dateToCheck = MostRecent(dayOfWeek);
                 var target = new ComicMailBuilder(
@@ -160,7 +160,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
             {
                 var dateToCheck = MostRecent(dayOfWeek);
                 var target = new ComicMailBuilder(
@@ -192,7 +192,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/FoxTrotOn" + dayOfWeek + ".xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/FoxTrotOn" + dayOfWeek + ".xml")))
             {
                 var dateToCheck = MostRecent(dayOfWeek);
                 var target = new ComicMailBuilder(
@@ -218,7 +218,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/FoxTrotOnSunday.xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/FoxTrotOnSunday.xml")))
             {
                 var dateToCheck = MostRecent(DayOfWeek.Sunday);
                 var target = new ComicMailBuilder(
@@ -244,7 +244,7 @@ namespace SendComics.IntegrationTests
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../RecordedCalls/CalvinAndHobbesOnSunday.xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/CalvinAndHobbesOnSunday.xml")))
             {
                 var dateToCheck = MostRecent(DayOfWeek.Sunday);
                 var target = new ComicMailBuilder(
