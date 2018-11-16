@@ -15,7 +15,7 @@ namespace SendComics.Comics
             var comicContent = this.GetContent("http://www.dilbert.com/");
             var match = Regex.Match(comicContent, @"img-comic"".* src=""([^""]+)""");
             return match.Success
-                ? ComicLocation.FoundAt(match.Groups[1].Value)
+                ? ComicLocation.FoundAt("https:" + match.Groups[1].Value)
                 : ComicLocation.NotFound;
         }
     }
