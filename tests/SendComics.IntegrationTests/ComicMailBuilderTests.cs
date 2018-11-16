@@ -1,17 +1,19 @@
 namespace SendComics.IntegrationTests
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using FakeItEasy;
     using FluentAssertions;
-    using global::SendComics.Services;
     using SelfInitializingFakes;
+    using global::SendComics.Services;
+    using SendGrid.Helpers.Mail;
     using Xunit;
 
     public class ComicMailBuilderTests
     {
-        private const string DilbertImageUrl = "http://assets.amuniversal.com/9c0154c0f27a01351756005056a9545d";
-        private const string ChickweedLaneUrl = "http://assets.amuniversal.com/d52e0040ffde01351cbd005056a9545d";
+        private const string DilbertImageUrl = "https://assets.amuniversal.com/cfa39b00b39601365f19005056a9545d";
+        private const string ChickweedLaneUrl = "https://assets.amuniversal.com/e2a3c500c015013663ff005056a9545d";
         private const string BlondieUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm";
         private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=";
         private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/65839a905f980136408e005056a9545d";
@@ -19,6 +21,8 @@ namespace SendComics.IntegrationTests
         [Fact]
         public void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/OneSubscriberTwoComics_BuildsOneMailWithBothComics.xml")))
@@ -28,22 +32,24 @@ namespace SendComics.IntegrationTests
                     new SimpleConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
+            
+                mails = target.CreateMailMessage().ToList();
+             }
 
-                var mails = target.CreateMailMessage().ToList();
+            mails.Should().HaveCount(1);
 
-                mails.Should().HaveCount(1);
-
-                mails[0].From.Address.Should().Be("comics@blairconrad.com");
-                mails[0].Personalization[0].Tos.Should().HaveCount(1);
-                mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-                mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
-                mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
-            }
+            mails[0].From.Address.Should().Be("comics@blairconrad.com");
+            mails[0].Personalization[0].Tos.Should().HaveCount(1);
+            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
+            mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
+            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
         }
 
         [Fact]
         public void TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic()
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic.xml")))
@@ -54,25 +60,27 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(2);
-
-                mails[0].From.Address.Should().Be("comics@blairconrad.com");
-                mails[0].Personalization[0].Tos.Should().HaveCount(1);
-                mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-                mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
-
-                mails[1].From.Address.Should().Be("comics@blairconrad.com");
-                mails[1].Contents[0].Value.Should().Contain(DilbertImageUrl);
-                mails[1].Personalization[0].Tos.Should().HaveCount(1);
-                mails[1].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(2);
+
+            mails[0].From.Address.Should().Be("comics@blairconrad.com");
+            mails[0].Personalization[0].Tos.Should().HaveCount(1);
+            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
+            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+
+            mails[1].From.Address.Should().Be("comics@blairconrad.com");
+            mails[1].Contents[0].Value.Should().Contain(DilbertImageUrl);
+            mails[1].Personalization[0].Tos.Should().HaveCount(1);
+            mails[1].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
         }
 
         [Fact]
         public void SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics()
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
@@ -83,14 +91,14 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(1);
-
-                mails[0].Contents[0].Value.Should()
-                    .Contain(BlondieUrl, "it should have Blondie").And
-                    .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should()
+                .Contain(BlondieUrl, "it should have Blondie").And
+                .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
         }
 
         [Theory]
@@ -117,6 +125,8 @@ namespace SendComics.IntegrationTests
         [InlineData(DayOfWeek.Sunday)]
         public void DinosaurComicOnAWeekend_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
@@ -128,14 +138,14 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(1);
-
-                mails[0].Contents[0].Value.Should()
-                    .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
-                    .Contain("Comic dinosaur-comics wasn't published today.", "it should tell the reader why there's no comic");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should()
+                .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
+                .Contain("Comic dinosaur-comics wasn't published today.", "it should tell the reader why there's no comic");
         }
 
         [Theory]
@@ -146,6 +156,8 @@ namespace SendComics.IntegrationTests
         [InlineData(DayOfWeek.Friday)]
         public void DinosaurComicOnAWeekday_MailIncludesComic(DayOfWeek dayOfWeek)
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
@@ -157,14 +169,14 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(1);
-
-                mails[0].Contents[0].Value.Should()
-                    .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
-                    .NotContain("Comic dinosaur-comics wasn't published today.", "it should have found the comic");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should()
+                .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
+                .NotContain("Comic dinosaur-comics wasn't published today.", "it should have found the comic");
         }
 
         [Theory]
@@ -176,6 +188,8 @@ namespace SendComics.IntegrationTests
         [InlineData(DayOfWeek.Saturday)]
         public void FoxtrotOnAnythingButSunday_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/FoxTrotOn" + dayOfWeek + ".xml")))
@@ -187,19 +201,21 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(1);
-
-                mails[0].Contents[0].Value.Should()
-                    .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
-                    .Contain("Comic foxtrot wasn't published today.", "it should tell the reader why there's no comic");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should()
+                .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
+                .Contain("Comic foxtrot wasn't published today.", "it should tell the reader why there's no comic");
         }
 
         [Fact]
         public void FoxtrotOnSunday_MailIncludesComic()
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/FoxTrotOnSunday.xml")))
@@ -211,19 +227,21 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(1);
-
-                mails[0].Contents[0].Value.Should()
-                    .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
-                    .NotContain("Comic foxtrot wasn't published today.", "it should have found the comic");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should()
+                .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
+                .NotContain("Comic foxtrot wasn't published today.", "it should have found the comic");
         }
 
         [Fact]
         public void CalvinAndHobbesOnSunday_MailIncludesComic()
         {
+            IList<Mail> mails = null;
+
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../RecordedCalls/CalvinAndHobbesOnSunday.xml")))
@@ -235,14 +253,14 @@ namespace SendComics.IntegrationTests
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
-                var mails = target.CreateMailMessage().ToList();
-
-                mails.Should().HaveCount(1);
-
-                mails[0].Contents[0].Value.Should()
-                    .NotContain("Couldn't find comic for calvinandhobbes.", "it should not have looked for the comic").And
-                    .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
+                mails = target.CreateMailMessage().ToList();
             }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should()
+                .NotContain("Couldn't find comic for calvinandhobbes.", "it should not have looked for the comic").And
+                .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
         }
 
         private static DateTime MostRecent(DayOfWeek dayOfWeek)
