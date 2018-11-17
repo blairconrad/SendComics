@@ -1,0 +1,9 @@
+pool:
+  vmImage: 'VS2017-Win2016'
+
+trigger:
+- master
+
+steps:
+- script: .\build.cmd
+  displayName: 'Build the project'
