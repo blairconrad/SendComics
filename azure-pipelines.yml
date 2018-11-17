@@ -5,5 +5,5 @@ trigger:
 - master
 
 steps:
-- script: .\build.cmd
+- script: .\build.cmd --verbose
   displayName: 'Build the project'
