@@ -71,7 +71,7 @@ namespace SendComics
         {
             if (!comicLocation.IsPublished)
             {
-                sink.AppendFormat("  Comic {0} wasn't published today.<br>\r\n", comicName);
+                sink.AppendFormat("  Comic {0} wasn't published on {1}.<br>\r\n", comicName, now.ToString("dd MMMM yyyy"));
             }
             else if (!comicLocation.WasFound)
             {
