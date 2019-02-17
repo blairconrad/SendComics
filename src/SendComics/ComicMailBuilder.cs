@@ -42,7 +42,7 @@ namespace SendComics
                 log.Info($"Building mail for {subscriber.Email}…");
                 var mailContent = new StringBuilder("<html>\r\n<body>\r\n");
 
-                foreach (var comicName in subscriber.Comics)
+                foreach (var comicName in subscriber.Subscriptions)
                 {
                     log.Info($"  Adding {comicName}…");
                     WriteImage(mailContent, comicName, comicLocations[comicName]);

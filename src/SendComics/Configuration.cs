@@ -14,7 +14,7 @@
 
         public IEnumerable<string> GetAllComics()
         {
-            return Subscribers.SelectMany(s => s.Comics).Distinct();
+            return Subscribers.SelectMany(s => s.Subscriptions).Distinct();
         }
     }
 }

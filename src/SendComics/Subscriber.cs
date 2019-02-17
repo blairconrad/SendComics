@@ -4,13 +4,13 @@
 
     public class Subscriber
     {
-        public Subscriber(string email, params string[] comics)
+        public Subscriber(string email, params string[] subscriptions)
         {
             Email = email;
-            Comics = comics;
+            Subscriptions = subscriptions;
         }
 
         public string Email { get; }
-        public IEnumerable<string> Comics { get; }
+        public IEnumerable<string> Subscriptions { get; }
     }
 }
