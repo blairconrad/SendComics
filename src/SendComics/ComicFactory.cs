@@ -6,7 +6,7 @@
 
     internal class ComicFactory
     {
-        public Comic GetComic(string name, DateTime now, IComicFetcher comicFetcher)
+        public Comic GetComic(string name, IComicFetcher comicFetcher)
         {
             if (name == "dilbert")
             {

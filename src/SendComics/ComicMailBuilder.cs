@@ -63,7 +63,7 @@ namespace SendComics
         private ComicLocation GetComicLocation(string comicName)
         {
             log.Info($"Getting image URL for {comicName}…");
-            var comic = this.comicFactory.GetComic(comicName, this.now, this.comicFetcher);
+            var comic = this.comicFactory.GetComic(comicName, this.comicFetcher);
             return comic.GetLocation(this.now);
         }
 
