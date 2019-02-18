@@ -12,7 +12,7 @@
 
         public IEnumerable<Subscriber> Subscribers { get; }
 
-        public IEnumerable<string> GetAllComics()
+        public IEnumerable<Subscription> GetAllSubscriptions()
         {
             return Subscribers.SelectMany(s => s.Subscriptions).Distinct();
         }

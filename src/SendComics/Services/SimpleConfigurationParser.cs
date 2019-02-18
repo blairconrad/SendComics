@@ -2,13 +2,14 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text.RegularExpressions;
 
     /// <summary>
     /// Parses a configuration string of the form
     /// emailaddress1: comic1a, comic1b; emailaddress2: comic2a, comic2b, comic2c, …
     /// </summary>
-    public class SimpleConfigurationParser: IConfigurationSource
+    public class SimpleConfigurationParser : IConfigurationSource
     {
         private readonly string simpleConfiguration;
 
@@ -29,7 +30,11 @@
                 var colonIndex = subscriberString.IndexOf(": ", StringComparison.Ordinal);
                 var email = subscriberString.Substring(0, colonIndex);
                 var comics = subscriberString.Substring(colonIndex + 2);
-                subscribers.Add(new Subscriber(email, commaSplitter.Split(comics)));
+                subscribers.Add(new Subscriber(
+                    email,
+                    commaSplitter.Split(comics)
+                        .Select(c => new Subscription(c))
+                        .ToArray()));
             }
 
             return new Configuration(subscribers.ToArray());

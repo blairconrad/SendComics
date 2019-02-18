@@ -35,18 +35,18 @@ namespace SendComics
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicLocations = configuration.GetAllComics().ToDictionary(c => c, GetComicLocation);
+            var comicLocations = configuration.GetAllSubscriptions().ToDictionary(s => s, s => GetComicLocation(s.ComicName));
 
             foreach (var subscriber in configuration.Subscribers)
             {
                 log.Info($"Building mail for {subscriber.Email}…");
                 var mailContent = new StringBuilder("<html>\r\n<body>\r\n");
 
-                foreach (var comicName in subscriber.Subscriptions)
+                foreach (var subscription in subscriber.Subscriptions)
                 {
-                    log.Info($"  Adding {comicName}…");
-                    WriteImage(mailContent, comicName, comicLocations[comicName]);
-                    log.Info($"  Added  {comicName}");
+                    log.Info($"  Adding {subscription.ComicName}…");
+                    WriteImage(mailContent, subscription.ComicName, comicLocations[subscription]);
+                    log.Info($"  Added  {subscription.ComicName}");
                 }
 
                 mailContent.Append("</body>\r\n</html>\r\n");
