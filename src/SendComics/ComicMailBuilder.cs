@@ -35,18 +35,18 @@ namespace SendComics
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicLocations = configuration.GetAllSubscriptions().ToDictionary(s => s, s => GetComicLocation(s.ComicName));
+            var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, e => GetComicLocation(e));
 
             foreach (var subscriber in configuration.Subscribers)
             {
                 log.Info($"Building mail for {subscriber.Email}…");
                 var mailContent = new StringBuilder("<html>\r\n<body>\r\n");
 
-                foreach (var subscription in subscriber.Subscriptions)
+                foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
-                    log.Info($"  Adding {subscription.ComicName}…");
-                    WriteImage(mailContent, subscription.ComicName, comicLocations[subscription]);
-                    log.Info($"  Added  {subscription.ComicName}");
+                    log.Info($"  Adding {episode.ComicName}…");
+                    WriteImage(mailContent, episode.ComicName, comicLocations[episode]);
+                    log.Info($"  Added  {episode.ComicName}");
                 }
 
                 mailContent.Append("</body>\r\n</html>\r\n");
@@ -60,11 +60,11 @@ namespace SendComics
             }
         }
 
-        private ComicLocation GetComicLocation(string comicName)
+        private ComicLocation GetComicLocation(Episode episode)
         {
-            log.Info($"Getting image URL for {comicName}…");
-            var comic = this.comicFactory.GetComic(comicName, this.comicFetcher);
-            return comic.GetLocation(this.now);
+            log.Info($"Getting image URL for {episode.ComicName}…");
+            var comic = this.comicFactory.GetComic(episode.ComicName, this.comicFetcher);
+            return comic.GetLocation(episode.Date);
         }
 
         private void WriteImage(StringBuilder sink, string comicName, ComicLocation comicLocation)
