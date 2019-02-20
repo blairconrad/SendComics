@@ -17,6 +17,6 @@
         public string Email { get; }
 
         internal IEnumerable<Episode> GetEpisodesFor(DateTime today) =>
-            this.subscriptions.Select(s => new Episode(s.ComicName, today));
+            this.subscriptions.SelectMany(s => s.GetEpisodesFor(today));
     }
 }

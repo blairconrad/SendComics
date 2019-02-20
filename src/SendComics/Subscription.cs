@@ -1,12 +1,18 @@
 namespace SendComics
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Subscription
     {
-        public string ComicName { get; }
+        private string comicName;
 
         public Subscription(string comicName)
         {
-            this.ComicName = comicName;
+            this.comicName = comicName;
         }
+
+        internal IEnumerable<Episode> GetEpisodesFor(DateTime today) =>
+            new[] { new Episode(this.comicName, today) };
     }
 }
