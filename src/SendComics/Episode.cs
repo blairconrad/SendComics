@@ -13,6 +13,11 @@ namespace SendComics
             this.Date = date;
         }
 
+        public override string ToString()
+        {
+            return this.ComicName + " on " + this.Date.ToString("dd MMMM yyyy");
+        }
+
         public override bool Equals(object otherObject) =>
             otherObject is Episode otherEpisode &&
                 this.ComicName == otherEpisode.ComicName &&

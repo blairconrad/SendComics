@@ -35,7 +35,7 @@ namespace SendComics
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, e => GetComicLocation(e));
+            var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, GetComicLocation);
 
             foreach (var subscriber in configuration.Subscribers)
             {
@@ -44,9 +44,9 @@ namespace SendComics
 
                 foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
-                    log.Info($"  Adding {episode.ComicName}…");
-                    WriteImage(mailContent, episode.ComicName, comicLocations[episode]);
-                    log.Info($"  Added  {episode.ComicName}");
+                    log.Info($"  Adding {episode}…");
+                    WriteImage(mailContent, episode, comicLocations[episode]);
+                    log.Info($"  Added  {episode}");
                 }
 
                 mailContent.Append("</body>\r\n</html>\r\n");
@@ -62,24 +62,24 @@ namespace SendComics
 
         private ComicLocation GetComicLocation(Episode episode)
         {
-            log.Info($"Getting image URL for {episode.ComicName}…");
+            log.Info($"Getting image URL for {episode}…");
             var comic = this.comicFactory.GetComic(episode.ComicName, this.comicFetcher);
             return comic.GetLocation(episode.Date);
         }
 
-        private void WriteImage(StringBuilder sink, string comicName, ComicLocation comicLocation)
+        private void WriteImage(StringBuilder sink, Episode episode, ComicLocation comicLocation)
         {
             if (!comicLocation.IsPublished)
             {
-                sink.AppendFormat("  Comic {0} wasn't published on {1}.<br>\r\n", comicName, now.ToString("dd MMMM yyyy"));
+                sink.AppendFormat("  No published comic for {0}.<br>\r\n", episode);
             }
             else if (!comicLocation.WasFound)
             {
-                sink.AppendFormat("  Couldn't find comic for {0}.<br>\r\n", comicName);
+                sink.AppendFormat("  Couldn't find comic for {0}.<br>\r\n", episode);
             }
             else
             {
-                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", comicName, comicLocation.Url);
+                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", episode, comicLocation.Url);
             }
         }
     }
