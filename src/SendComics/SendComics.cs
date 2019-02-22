@@ -18,7 +18,7 @@ namespace SendComics
             log.Info("Beginning execution");
 
             var comicMailBuilder = new ComicMailBuilder(
-                DateTime.Now,
+                DateTime.Now.Date,
                 new SimpleConfigurationParser(Environment.GetEnvironmentVariable("SubscriberConfiguration")),
                 new WebComicFetcher(),
                 log);

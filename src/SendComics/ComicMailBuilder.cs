@@ -35,18 +35,18 @@ namespace SendComics
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicLocations = configuration.GetAllComics().ToDictionary(c => c, GetComicLocation);
+            var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, GetComicLocation);
 
             foreach (var subscriber in configuration.Subscribers)
             {
                 log.Info($"Building mail for {subscriber.Email}…");
                 var mailContent = new StringBuilder("<html>\r\n<body>\r\n");
 
-                foreach (var comicName in subscriber.Comics)
+                foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
-                    log.Info($"  Adding {comicName}…");
-                    WriteImage(mailContent, comicName, comicLocations[comicName]);
-                    log.Info($"  Added  {comicName}");
+                    log.Info($"  Adding {episode}…");
+                    WriteImage(mailContent, episode, comicLocations[episode]);
+                    log.Info($"  Added  {episode}");
                 }
 
                 mailContent.Append("</body>\r\n</html>\r\n");
@@ -60,26 +60,26 @@ namespace SendComics
             }
         }
 
-        private ComicLocation GetComicLocation(string comicName)
+        private ComicLocation GetComicLocation(Episode episode)
         {
-            log.Info($"Getting image URL for {comicName}…");
-            var comic = this.comicFactory.GetComic(comicName, this.now, this.comicFetcher);
-            return comic.GetLocation(this.now);
+            log.Info($"Getting image URL for {episode}…");
+            var comic = this.comicFactory.GetComic(episode.ComicName, this.comicFetcher);
+            return comic.GetLocation(episode.Date);
         }
 
-        private void WriteImage(StringBuilder sink, string comicName, ComicLocation comicLocation)
+        private void WriteImage(StringBuilder sink, Episode episode, ComicLocation comicLocation)
         {
             if (!comicLocation.IsPublished)
             {
-                sink.AppendFormat("  Comic {0} wasn't published today.<br>\r\n", comicName);
+                sink.AppendFormat("  No published comic for {0}.<br>\r\n", episode);
             }
             else if (!comicLocation.WasFound)
             {
-                sink.AppendFormat("  Couldn't find comic for {0}.<br>\r\n", comicName);
+                sink.AppendFormat("  Couldn't find comic for {0}.<br>\r\n", episode);
             }
             else
             {
-                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", comicName, comicLocation.Url);
+                sink.AppendFormat("  <img alt='{0}' src='{1}'><br>\r\n", episode, comicLocation.Url);
             }
         }
     }

@@ -1,16 +1,22 @@
 ﻿namespace SendComics
 {
+    using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class Subscriber
     {
-        public Subscriber(string email, params string[] comics)
+        private IEnumerable<Subscription> subscriptions;
+
+        public Subscriber(string email, Subscription[] subscriptions)
         {
-            Email = email;
-            Comics = comics;
+            this.Email = email;
+            this.subscriptions = subscriptions;
         }
 
         public string Email { get; }
-        public IEnumerable<string> Comics { get; }
+
+        internal IEnumerable<Episode> GetEpisodesFor(DateTime today) =>
+            this.subscriptions.SelectMany(s => s.GetEpisodesFor(today));
     }
 }

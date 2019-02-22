@@ -1,5 +1,6 @@
 ﻿namespace SendComics
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
 
@@ -12,9 +13,9 @@
 
         public IEnumerable<Subscriber> Subscribers { get; }
 
-        public IEnumerable<string> GetAllComics()
+        public IEnumerable<Episode> GetAllEpisodes(DateTime today)
         {
-            return Subscribers.SelectMany(s => s.Comics).Distinct();
+            return Subscribers.SelectMany(s => s.GetEpisodesFor(today)).Distinct();
         }
     }
 }

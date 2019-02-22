@@ -17,6 +17,8 @@ namespace SendComics.IntegrationTests
         private const string BlondieUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm";
         private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=";
         private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/65839a905f980136408e005056a9545d";
+        private const string BreakingCatNews20170327ImageUrl = "https://assets.amuniversal.com/680049a0e683013465c3005056a9545d";
+        private const string BreakingCatNews20170328ImageUrl = "https://assets.amuniversal.com/69ee7590e683013465c3005056a9545d";
 
         [Fact]
         public void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -32,9 +34,9 @@ namespace SendComics.IntegrationTests
                     new SimpleConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
-            
+
                 mails = target.CreateMailMessage().ToList();
-             }
+            }
 
             mails.Should().HaveCount(1);
 
@@ -43,6 +45,53 @@ namespace SendComics.IntegrationTests
             mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
             mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
             mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+        }
+
+        [Fact]
+        public void OneSubscriberOneComicTwiceAsFast_BuildsOneMailWithBothEpisodes()
+        {
+            IList<Mail> mails = null;
+
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/OneSubscriberOneComicTwiceAsFast_BuildsOneMailWithBothEpisodes.xml")))
+            {
+                var now = DateTime.Now;
+                var target = new ComicMailBuilder(
+                    now,
+                    new SimpleConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*2-20170327-{now.ToString("yyyyMMdd")}"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                mails = target.CreateMailMessage().ToList();
+            }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].From.Address.Should().Be("comics@blairconrad.com");
+            mails[0].Personalization[0].Tos.Should().HaveCount(1);
+            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
+            mails[0].Contents[0].Value.Should().Contain(BreakingCatNews20170327ImageUrl);
+            mails[0].Contents[0].Value.Should().Contain("alt='breaking-cat-news on 27 March 2017'");
+            mails[0].Contents[0].Value.Should().Contain(BreakingCatNews20170328ImageUrl);
+            mails[0].Contents[0].Value.Should().Contain("alt='breaking-cat-news on 28 March 2017'");
+        }
+
+        [Fact]
+        public void OneSubscriberOneComicFiveTimesAsFastOnlyThreeNewComicsLeft_OnlyRequestsThreeComics()
+        {
+            var today = new DateTime(2019, 2, 19);
+
+            var fakeComicFetcher = A.Fake<IComicFetcher>();
+            var target = new ComicMailBuilder(
+                today,
+                new SimpleConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*5-20190217-20190219"),
+                fakeComicFetcher,
+                A.Dummy<ILogger>());
+
+            target.CreateMailMessage().ToList();
+
+            A.CallTo(() => fakeComicFetcher.GetContent(A<string>._)).MustHaveHappened(3, Times.Exactly);
         }
 
         [Fact]
@@ -127,11 +176,11 @@ namespace SendComics.IntegrationTests
         {
             IList<Mail> mails = null;
 
+            var dateToCheck = MostRecent(dayOfWeek);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
             {
-                var dateToCheck = MostRecent(dayOfWeek);
                 var target = new ComicMailBuilder(
                     dateToCheck,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
@@ -144,8 +193,8 @@ namespace SendComics.IntegrationTests
             mails.Should().HaveCount(1);
 
             mails[0].Contents[0].Value.Should()
-                .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
-                .Contain("Comic dinosaur-comics wasn't published today.", "it should tell the reader why there's no comic");
+                .NotContain("Couldn't find comic for dinosaur-comics", "it should not have looked for the comic").And
+                .Contain($"No published comic for dinosaur-comics on {dateToCheck.ToString("dd MMMM yyyy")}.", "it should tell the reader why there's no comic");
         }
 
         [Theory]
@@ -158,11 +207,11 @@ namespace SendComics.IntegrationTests
         {
             IList<Mail> mails = null;
 
+            var dateToCheck = MostRecent(dayOfWeek);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
             {
-                var dateToCheck = MostRecent(dayOfWeek);
                 var target = new ComicMailBuilder(
                     dateToCheck,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
@@ -175,8 +224,8 @@ namespace SendComics.IntegrationTests
             mails.Should().HaveCount(1);
 
             mails[0].Contents[0].Value.Should()
-                .NotContain("Couldn't find comic for dinosaur-comics.", "it should not have looked for the comic").And
-                .NotContain("Comic dinosaur-comics wasn't published today.", "it should have found the comic");
+                .NotContain("Couldn't find comic for dinosaur-comics", "it should not have looked for the comic").And
+                .NotContain($"Comic dinosaur-comics wasn't published on {dateToCheck.ToString("dd MMMM yyyy")}.", "it should have found the comic");
         }
 
         [Theory]
@@ -190,11 +239,11 @@ namespace SendComics.IntegrationTests
         {
             IList<Mail> mails = null;
 
+            var dateToCheck = MostRecent(dayOfWeek);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../../RecordedCalls/FoxTrotOn" + dayOfWeek + ".xml")))
             {
-                var dateToCheck = MostRecent(dayOfWeek);
                 var target = new ComicMailBuilder(
                     dateToCheck,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: foxtrot"),
@@ -207,8 +256,8 @@ namespace SendComics.IntegrationTests
             mails.Should().HaveCount(1);
 
             mails[0].Contents[0].Value.Should()
-                .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
-                .Contain("Comic foxtrot wasn't published today.", "it should tell the reader why there's no comic");
+                .NotContain("Couldn't find comic for foxtrot", "it should not have looked for the comic").And
+                .Contain($"No published comic for foxtrot on {dateToCheck.ToString("dd MMMM yyyy")}.", "it should tell the reader why there's no comic");
         }
 
         [Fact]
@@ -216,11 +265,11 @@ namespace SendComics.IntegrationTests
         {
             IList<Mail> mails = null;
 
+            var dateToCheck = MostRecent(DayOfWeek.Sunday);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
                 new XmlFileRecordedCallRepository("../../../RecordedCalls/FoxTrotOnSunday.xml")))
             {
-                var dateToCheck = MostRecent(DayOfWeek.Sunday);
                 var target = new ComicMailBuilder(
                     dateToCheck,
                     new SimpleConfigurationParser("blair.conrad@gmail.com: foxtrot"),
@@ -233,8 +282,8 @@ namespace SendComics.IntegrationTests
             mails.Should().HaveCount(1);
 
             mails[0].Contents[0].Value.Should()
-                .NotContain("Couldn't find comic for foxtrot.", "it should not have looked for the comic").And
-                .NotContain("Comic foxtrot wasn't published today.", "it should have found the comic");
+                .NotContain("Couldn't find comic for foxtrot", "it should not have looked for the comic").And
+                .NotContain($"Comic foxtrot wasn't published on {dateToCheck.ToString("dd MMMM yyyy")}.", "it should have found the comic");
         }
 
         [Fact]
@@ -259,7 +308,7 @@ namespace SendComics.IntegrationTests
             mails.Should().HaveCount(1);
 
             mails[0].Contents[0].Value.Should()
-                .NotContain("Couldn't find comic for calvinandhobbes.", "it should not have looked for the comic").And
+                .NotContain("Couldn't find comic for calvinandhobbes", "it should not have looked for the comic").And
                 .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
         }
 
