@@ -3,6 +3,7 @@ namespace SendComics.IntegrationTests
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Net;
     using FakeItEasy;
     using FluentAssertions;
     using SelfInitializingFakes;
@@ -310,6 +311,31 @@ namespace SendComics.IntegrationTests
             mails[0].Contents[0].Value.Should()
                 .NotContain("Couldn't find comic for calvinandhobbes", "it should not have looked for the comic").And
                 .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
+        }
+
+        [Fact]
+        public void TwoComicsOneThrowsWhenFetched_BuildsOneMailWithOneComicOneError()
+        {
+            IList<Mail> mails = null;
+
+            var fakeComicFetcher = A.Fake<IComicFetcher>();
+            A.CallTo(() => fakeComicFetcher.GetContent("http://rhymeswithorange.com/"))
+                .Throws(new WebException("Bad Request"));
+            A.CallTo(() => fakeComicFetcher.GetContent("http://www.dilbert.com/"))
+                .Returns(@"<img class=""img-responsive img-comic"" src=""//assets.amuniversal.com/cfa39b00b39601365f19005056a9545d"" />");
+
+            var target = new ComicMailBuilder(
+                DateTime.Now,
+                new SimpleConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, dilbert"),
+                fakeComicFetcher,
+                A.Dummy<ILogger>());
+
+            mails = target.CreateMailMessage().ToList();
+
+            mails.Should().HaveCount(1);
+
+            mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
+            mails[0].Contents[0].Value.Should().Contain("Couldn't find comic for rhymeswithorange");
         }
 
         private static DateTime MostRecent(DayOfWeek dayOfWeek)
