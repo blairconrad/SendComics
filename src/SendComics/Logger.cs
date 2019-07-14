@@ -1,4 +1,4 @@
-﻿namespace SendComics
+namespace SendComics
 {
     using System;
     using Microsoft.Azure.WebJobs.Host;
@@ -15,6 +15,11 @@
         public void Info(string message)
         {
             tracer.Info(GetTimestamp() + ' ' + message);
+        }
+
+        public void Error(string message)
+        {
+            tracer.Error(GetTimestamp() + ' ' + message);
         }
 
         private static string GetTimestamp()

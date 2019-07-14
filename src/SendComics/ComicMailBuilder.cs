@@ -63,8 +63,16 @@ namespace SendComics
         private ComicLocation GetComicLocation(Episode episode)
         {
             log.Info($"Getting image URL for {episode}…");
-            var comic = this.comicFactory.GetComic(episode.ComicName, this.comicFetcher);
-            return comic.GetLocation(episode.Date);
+            try
+            {
+                var comic = this.comicFactory.GetComic(episode.ComicName, this.comicFetcher);
+                return comic.GetLocation(episode.Date);
+            }
+            catch (Exception e)
+            {
+                log.Error($"Caught error getting image URL for {episode}: {e}");
+                return ComicLocation.NotFound;
+            }
         }
 
         private void WriteImage(StringBuilder sink, Episode episode, ComicLocation comicLocation)
