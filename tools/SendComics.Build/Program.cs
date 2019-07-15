@@ -25,7 +25,7 @@ namespace FakeItEasy.Build
 
             Target("test", DependsOn("build"), () => RunTests(TestProject));
 
-            RunTargets(args);
+            RunTargetsAndExit(args);
         }
 
         private static void RunTests(string testDirectory) =>
