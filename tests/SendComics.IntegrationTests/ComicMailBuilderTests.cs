@@ -15,8 +15,8 @@ namespace SendComics.IntegrationTests
     {
         private const string DilbertImageUrl = "https://assets.amuniversal.com/cfa39b00b39601365f19005056a9545d";
         private const string ChickweedLaneUrl = "https://assets.amuniversal.com/e2a3c500c015013663ff005056a9545d";
-        private const string BlondieUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CbG9uZGllLzIwMTgvMDQvQmxvbmRpZS4yMDE4MDQxMF85MDAuZ2lm";
-        private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/idn/cnfeed/zone/js/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTgvMDQvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTgwNDEwXzkwMC5naWY=";
+        private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=png&s=c&file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=";
+        private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/api/img.php?e=png&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=";
         private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/65839a905f980136408e005056a9545d";
         private const string BreakingCatNews20170327ImageUrl = "https://assets.amuniversal.com/680049a0e683013465c3005056a9545d";
         private const string BreakingCatNews20170328ImageUrl = "https://assets.amuniversal.com/69ee7590e683013465c3005056a9545d";
@@ -127,17 +127,17 @@ namespace SendComics.IntegrationTests
         }
 
         [Fact]
-        public void SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics()
+        public void SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics()
         {
             IList<Mail> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
-                new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToKingsFeatureComics_BuildsOneMailWithBothComics.xml")))
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
-                    DateTime.Now,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: blondie, rhymeswithorange"),
+                    new DateTime(2019, 7, 14), 
+                    new SimpleConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -153,7 +153,7 @@ namespace SendComics.IntegrationTests
 
         [Theory]
         [InlineData("dilbert", "http://www.dilbert.com/")]
-        [InlineData("blondie", "http://blondie.com/")]
+        [InlineData("blondie", "https://www.comicskingdom.com/blondie/2018-06-27/")]
         [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2018/06/27/")]
         public void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedUrl)
         {

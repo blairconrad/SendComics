@@ -1,4 +1,4 @@
-﻿namespace SendComics
+namespace SendComics
 {
     using System;
     using Comics;
@@ -13,9 +13,9 @@
                 return new DilbertComic(comicFetcher);
             }
 
-            if (name == "blondie" || name == "rhymeswithorange")
+            if (name == "blondie" || name == "rhymes-with-orange")
             {
-                return new KingFeatureComic(name, comicFetcher);
+                return new ComicsKingdomComic(name, comicFetcher);
             }
 
             return new GoComic(name, comicFetcher);
