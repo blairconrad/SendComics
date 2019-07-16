@@ -12,8 +12,8 @@ namespace SendComics.Comics
             this.comicFetcher = comicFetcher;
         }
 
-        protected string GetContent(string url) => this.comicFetcher.GetContent(url);
-
         public abstract ComicLocation GetLocation(DateTime now);
+
+        protected string GetContent(Uri url) => this.comicFetcher.GetContent(url);
     }
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SendComics" ToolsVersion="11.0">
+  <Include Path="allrules.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CS1591" Action="None" /> <!-- Missing XML comment for publicly visible type or member -->
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1124" Action="Warning" />
+    <Rule Id="SA1600" Action="None" /> <!-- Elements should be documented -->
+    <Rule Id="SA1628" Action="Warning" />
+    <Rule Id="SA1629" Action="Warning" />
+    <Rule Id="SA1633" Action="None" /> <!-- The file header is missing or not located at the top of the file. -->
+  </Rules>
+</RuleSet>

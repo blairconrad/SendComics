@@ -1,7 +1,9 @@
 namespace SendComics.Services
 {
+    using System;
+
     public interface IComicFetcher
     {
-        string GetContent(string url);
+        string GetContent(Uri url);
     }
 }

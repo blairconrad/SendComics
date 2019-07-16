@@ -51,7 +51,7 @@ namespace SendComics.Services
             }
 
             var speedFirstComicDateAndSubscriptionStart = nameAndAcceleration[1].Split('-');
-            var speed = Int32.Parse(speedFirstComicDateAndSubscriptionStart[0]);
+            var speed = int.Parse(speedFirstComicDateAndSubscriptionStart[0], CultureInfo.InvariantCulture);
             var firstComicDate = ParseDate(speedFirstComicDateAndSubscriptionStart[1]);
             var subscriptionStart = ParseDate(speedFirstComicDateAndSubscriptionStart[2]);
 

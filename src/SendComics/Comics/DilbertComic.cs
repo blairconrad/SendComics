@@ -6,13 +6,14 @@ namespace SendComics.Comics
 
     internal class DilbertComic : Comic
     {
-        public DilbertComic(IComicFetcher comicFetcher) : base(comicFetcher)
+        public DilbertComic(IComicFetcher comicFetcher)
+            : base(comicFetcher)
         {
         }
 
         public override ComicLocation GetLocation(DateTime now)
         {
-            var comicContent = this.GetContent("http://www.dilbert.com/");
+            var comicContent = this.GetContent(new Uri("http://www.dilbert.com/"));
             var match = Regex.Match(comicContent, @"img-comic"".* src=""([^""]+)""");
             return match.Success
                 ? ComicLocation.FoundAt("https:" + match.Groups[1].Value)
