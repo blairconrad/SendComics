@@ -97,6 +97,23 @@ namespace SendComics.IntegrationTests
         }
 
         [Fact]
+        public static void OneSubscriberOneComicThreeTimesAsFastWellAfterWeCaughtUp_OnlyRequestsOneComic()
+        {
+            var today = new DateTime(2020, 4, 10);
+
+            var fakeComicFetcher = A.Fake<IComicFetcher>();
+            var target = new ComicMailBuilder(
+                today,
+                new SimpleConfigurationParser("blair.conrad@gmail.com: breaking-cat-news*3-20170327-20190328"),
+                fakeComicFetcher,
+                A.Dummy<ILogger>());
+
+            target.CreateMailMessage().ToList();
+
+            A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._)).MustHaveHappened(1, Times.Exactly);
+        }
+
+        [Fact]
         public static void TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic()
         {
             IList<Mail> mails = null;

@@ -30,7 +30,7 @@ namespace SendComics
             var firstComicToDeliver = this.firstComicDate ?? today;
             firstComicToDeliver = firstComicToDeliver.AddDays(this.comicsToDeliverPerDay * (today - effectiveSubscriptionStart).Days);
 
-            DateTime episodeDate = firstComicToDeliver;
+            DateTime episodeDate = firstComicToDeliver > today ? today : firstComicToDeliver;
             for (int i = 0; i < this.comicsToDeliverPerDay && episodeDate <= today; ++i)
             {
                 yield return new Episode(this.comicName, episodeDate);
