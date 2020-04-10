@@ -4,9 +4,9 @@ namespace SendComics
     using Comics;
     using Services;
 
-    internal class ComicFactory
+    internal static class ComicFactory
     {
-        public Comic GetComic(string name, IComicFetcher comicFetcher)
+        public static Comic GetComic(string name, IComicFetcher comicFetcher)
         {
             if (name == "dilbert")
             {

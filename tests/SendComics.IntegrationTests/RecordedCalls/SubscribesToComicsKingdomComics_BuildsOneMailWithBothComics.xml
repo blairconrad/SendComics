@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ArrayOfRecordedCall xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <RecordedCall>
-    <Method>System.String GetContent(System.String)</Method>
+    <Method>System.String GetContent(System.Uri)</Method>
     <ReturnValue xsi:type="xsd:string">
 &lt;!DOCTYPE html&gt;
 &lt;html class="h-100"&gt;
@@ -225,7 +225,7 @@ INIT_GLOBAL_HEADER();
 &lt;/div&gt;
                     
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug=""&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug="2019-07-15"&gt;
 &lt;div class="arrow-next next" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
                 &lt;/div&gt;
@@ -278,7 +278,7 @@ INIT_GLOBAL_HEADER();
 &lt;/slider-image&gt;
             
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug=""&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug="2019-07-15"&gt;
 &lt;div class="arrow arrow-right" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
         &lt;/div&gt;
@@ -363,7 +363,7 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 
     &lt;img class="buy-print-image" src="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=" alt=""&gt;
-    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Jul 15, 2019 edition of &amp;quot;Blondie&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
+    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Jul 16, 2019 edition of &amp;quot;Blondie&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
 &lt;/div&gt;
                 
 
@@ -408,55 +408,55 @@ INIT_GLOBAL_HEADER();
                 &lt;a href="/zits" data-ref="recommendation-299"&gt;&lt;img src="http://api.kingdigital.com/img/features/642/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/pros-cons" data-ref="recommendation-340"&gt;&lt;img src="http://api.kingdigital.com/img/features/272/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/safe-havens" data-ref="recommendation-351"&gt;&lt;img src="http://api.kingdigital.com/img/features/472/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/arctic-circle" data-ref="recommendation-296"&gt;&lt;img src="http://api.kingdigital.com/img/features/2/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/crankshaft" data-ref="recommendation-334"&gt;&lt;img src="http://api.kingdigital.com/img/features/122/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/beetle-bailey-1" data-ref="recommendation-328"&gt;&lt;img src="http://api.kingdigital.com/img/features/42/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/between-friends" data-ref="recommendation-329"&gt;&lt;img src="http://api.kingdigital.com/img/features/52/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/marvin" data-ref="recommendation-346"&gt;&lt;img src="http://api.kingdigital.com/img/features/342/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/Intelligent" data-ref="recommendation-319"&gt;&lt;img src="http://api.kingdigital.com/img/features/3662/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/take-it-from-the-tinkersons" data-ref="recommendation-318"&gt;&lt;img src="http://api.kingdigital.com/img/features/3142/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/on-the-fastrack" data-ref="recommendation-306"&gt;&lt;img src="http://api.kingdigital.com/img/features/1212/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/dustin" data-ref="recommendation-316"&gt;&lt;img src="http://api.kingdigital.com/img/features/2162/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
+                &lt;a href="/moose-and-molly" data-ref="recommendation-315"&gt;&lt;img src="http://api.kingdigital.com/img/features/1942/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/pajama-diaries" data-ref="recommendation-311"&gt;&lt;img src="http://api.kingdigital.com/img/features/1662/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/slylock-fox-and-comics-for-kids" data-ref="recommendation-333"&gt;&lt;img src="http://api.kingdigital.com/img/features/112/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/pros-cons" data-ref="recommendation-340"&gt;&lt;img src="http://api.kingdigital.com/img/features/272/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/beetle-bailey-1" data-ref="recommendation-328"&gt;&lt;img src="http://api.kingdigital.com/img/features/42/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/take-it-from-the-tinkersons" data-ref="recommendation-318"&gt;&lt;img src="http://api.kingdigital.com/img/features/3142/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/curtis" data-ref="recommendation-335"&gt;&lt;img src="http://api.kingdigital.com/img/features/132/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/kevin-and-kell" data-ref="recommendation-320"&gt;&lt;img src="http://api.kingdigital.com/img/features/3892/headers/original.png"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/funky-winkerbean" data-ref="recommendation-305"&gt;&lt;img src="http://api.kingdigital.com/img/features/1182/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/hi-and-lois" data-ref="recommendation-352"&gt;&lt;img src="http://api.kingdigital.com/img/features/242/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
                 &lt;a href="/tiger" data-ref="recommendation-322"&gt;&lt;img src="http://api.kingdigital.com/img/features/562/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/mutts" data-ref="recommendation-310"&gt;&lt;img src="http://api.kingdigital.com/img/features/1572/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/retail" data-ref="recommendation-337"&gt;&lt;img src="http://api.kingdigital.com/img/features/172/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/macanudo-spanish" data-ref="recommendation-488"&gt;&lt;img src="http://api.kingdigital.com/img/features/4282/icon.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/sherman-s-lagoon" data-ref="recommendation-309"&gt;&lt;img src="http://api.kingdigital.com/img/features/1442/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/shoe" data-ref="recommendation-313"&gt;&lt;img src="http://api.kingdigital.com/img/features/1852/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/daddy-daze" data-ref="recommendation-338"&gt;&lt;img src="http://api.kingdigital.com/img/features/4232/ddaze-header.png"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/crankshaft" data-ref="recommendation-334"&gt;&lt;img src="http://api.kingdigital.com/img/features/122/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="slide tc w-90"&gt;
@@ -731,7 +731,7 @@ INIT_GLOBAL_HEADER();
     <OutAndRefValues />
   </RecordedCall>
   <RecordedCall>
-    <Method>System.String GetContent(System.String)</Method>
+    <Method>System.String GetContent(System.Uri)</Method>
     <ReturnValue xsi:type="xsd:string">
 &lt;!DOCTYPE html&gt;
 &lt;html class="h-100"&gt;
@@ -955,7 +955,7 @@ INIT_GLOBAL_HEADER();
 &lt;/div&gt;
                     
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug=""&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug="2019-07-15"&gt;
 &lt;div class="arrow-next next" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
                 &lt;/div&gt;
@@ -1008,7 +1008,7 @@ INIT_GLOBAL_HEADER();
 &lt;/slider-image&gt;
             
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug=""&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug="2019-07-15"&gt;
 &lt;div class="arrow arrow-right" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
         &lt;/div&gt;
@@ -1093,7 +1093,7 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 
     &lt;img class="buy-print-image" src="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=" alt=""&gt;
-    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Jul 15, 2019 edition of &amp;quot;Rhymes%20with%20Orange&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
+    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Jul 16, 2019 edition of &amp;quot;Rhymes%20with%20Orange&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
 &lt;/div&gt;
                 
 
@@ -1138,22 +1138,13 @@ INIT_GLOBAL_HEADER();
                 &lt;a href="/macanudo-spanish" data-ref="recommendation-488"&gt;&lt;img src="http://api.kingdigital.com/img/features/4282/icon.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/bizarro" data-ref="recommendation-331"&gt;&lt;img src="http://api.kingdigital.com/img/features/72/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/Intelligent" data-ref="recommendation-319"&gt;&lt;img src="http://api.kingdigital.com/img/features/3662/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
+                &lt;a href="/kevin-and-kell" data-ref="recommendation-320"&gt;&lt;img src="http://api.kingdigital.com/img/features/3892/headers/original.png"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/carpe-diem" data-ref="recommendation-321"&gt;&lt;img src="http://api.kingdigital.com/img/features/3922/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/pardon-my-planet" data-ref="recommendation-348"&gt;&lt;img src="http://api.kingdigital.com/img/features/422/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/mallard-fillmore" data-ref="recommendation-343"&gt;&lt;img src="http://api.kingdigital.com/img/features/312/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/shoe" data-ref="recommendation-313"&gt;&lt;img src="http://api.kingdigital.com/img/features/1852/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/pros-cons" data-ref="recommendation-340"&gt;&lt;img src="http://api.kingdigital.com/img/features/272/headers/original.jpg"&gt;&lt;/a&gt;
@@ -1162,25 +1153,34 @@ INIT_GLOBAL_HEADER();
                 &lt;a href="/mother-goose-grimm" data-ref="recommendation-307"&gt;&lt;img src="http://api.kingdigital.com/img/features/1292/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/shoe" data-ref="recommendation-313"&gt;&lt;img src="http://api.kingdigital.com/img/features/1852/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/arctic-circle" data-ref="recommendation-296"&gt;&lt;img src="http://api.kingdigital.com/img/features/2/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/kevin-and-kell" data-ref="recommendation-320"&gt;&lt;img src="http://api.kingdigital.com/img/features/3892/headers/original.png"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/Intelligent" data-ref="recommendation-319"&gt;&lt;img src="http://api.kingdigital.com/img/features/3662/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/zippy-the-pinhead" data-ref="recommendation-298"&gt;&lt;img src="http://api.kingdigital.com/img/features/632/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/Macanudo" data-ref="recommendation-353"&gt;&lt;img src="http://api.kingdigital.com/img/features/4262/icon.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/sherman-s-lagoon" data-ref="recommendation-309"&gt;&lt;img src="http://api.kingdigital.com/img/features/1442/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/Macanudo" data-ref="recommendation-353"&gt;&lt;img src="http://api.kingdigital.com/img/features/4262/icon.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/arctic-circle" data-ref="recommendation-296"&gt;&lt;img src="http://api.kingdigital.com/img/features/2/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/pardon-my-planet" data-ref="recommendation-348"&gt;&lt;img src="http://api.kingdigital.com/img/features/422/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/bizarro" data-ref="recommendation-331"&gt;&lt;img src="http://api.kingdigital.com/img/features/72/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/mallard-fillmore" data-ref="recommendation-343"&gt;&lt;img src="http://api.kingdigital.com/img/features/312/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/carpe-diem" data-ref="recommendation-321"&gt;&lt;img src="http://api.kingdigital.com/img/features/3922/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/zippy-the-pinhead" data-ref="recommendation-298"&gt;&lt;img src="http://api.kingdigital.com/img/features/632/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="slide tc w-90"&gt;

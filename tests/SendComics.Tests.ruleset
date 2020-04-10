@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SendComics Tests" ToolsVersion="14.0">
+  <Include Path="..\SendComics.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1707" Action="None" /> <!-- Remove the underscores from member name -->
+  </Rules>
+</RuleSet>

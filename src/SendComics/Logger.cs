@@ -1,6 +1,7 @@
 namespace SendComics
 {
     using System;
+    using System.Globalization;
     using Microsoft.Azure.WebJobs.Host;
 
     public class Logger : ILogger
@@ -14,17 +15,17 @@ namespace SendComics
 
         public void Info(string message)
         {
-            tracer.Info(GetTimestamp() + ' ' + message);
+            this.tracer.Info(GetTimestamp() + ' ' + message);
         }
 
         public void Error(string message)
         {
-            tracer.Error(GetTimestamp() + ' ' + message);
+            this.tracer.Error(GetTimestamp() + ' ' + message);
         }
 
         private static string GetTimestamp()
         {
-            return DateTime.UtcNow.ToString("O");
+            return DateTime.UtcNow.ToString("O", CultureInfo.InvariantCulture);
         }
     }
 }
