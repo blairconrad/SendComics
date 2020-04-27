@@ -208,6 +208,35 @@ blair.conrad@gmail.com: 9chickweedlane
         }
 
         [Fact]
+        public static void TwoSubscribersOneEmphatic_BuildsOneMailForEmphatic()
+        {
+            IList<Mail> mails = null;
+
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/TwoSubscribersOneEmphatic_BuildsOneMailForEmphatic.xml")))
+            {
+                var target = new ComicMailBuilder(
+                    DateTime.Now,
+                    new ConfigurationParser(@"
+blair.conrad@gmail.com: 9chickweedlane
+! anyone@mail.org: dilbert
+".TrimStart()),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                mails = target.CreateMailMessage().ToList();
+            }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].From.Address.Should().Be("comics@blairconrad.com");
+            mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
+            mails[0].Personalization[0].Tos.Should().HaveCount(1);
+            mails[0].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
+        }
+
+        [Fact]
         public static void SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics()
         {
             IList<Mail> mails = null;

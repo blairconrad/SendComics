@@ -14,7 +14,9 @@
     ///   emailaddress2: comic2a, comic2b, comic2c
     ///   …
     /// which is preferred.
-    /// In the multi-line format, lines beginning with # are comments and are ignored.
+    /// In the multi-line format,
+    ///   - lines beginning with # are comments and are ignored, and
+    ///   - lines beginning with ! are "emphatic" - if any of these are present, other !-less subscribers are skipped
     /// </summary>
     public class ConfigurationParser : IConfigurationSource
     {
@@ -29,12 +31,22 @@
         {
             var comicSplitter = new Regex(", *");
             var subscriberSplitter = new Regex(@"; *|[\r\n]+");
+            var emphaticPattern = new Regex("^! *");
 
-            var subscribers = new List<Subscriber>();
-            var subscriberStrings = subscriberSplitter
+            IEnumerable<string> subscriberStrings = subscriberSplitter
                 .Split(this.configurationString)
                 .Where(s => !string.IsNullOrWhiteSpace(s))
-                .Where(s => !s.StartsWith("#", StringComparison.InvariantCulture));
+                .Where(s => !s.StartsWith("#", StringComparison.InvariantCulture))
+                .ToList();
+
+            if (subscriberStrings.Any(emphaticPattern.IsMatch))
+            {
+                subscriberStrings = subscriberStrings
+                    .Where(s => emphaticPattern.IsMatch(s))
+                    .Select(s => emphaticPattern.Replace(s, string.Empty));
+            }
+
+            var subscribers = new List<Subscriber>();
             foreach (var subscriberString in subscriberStrings)
             {
                 var colonIndex = subscriberString.IndexOf(": ", StringComparison.Ordinal);
