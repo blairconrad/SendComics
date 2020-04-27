@@ -22,7 +22,7 @@ namespace SendComics
 
             var comicMailBuilder = new ComicMailBuilder(
                 DateTime.Now.Date,
-                new SimpleConfigurationParser(
+                new ConfigurationParser(
                     Environment.GetEnvironmentVariable("TestSubscriberConfiguration") ??
                     Environment.GetEnvironmentVariable("SubscriberConfiguration")),
                 new WebComicFetcher(),

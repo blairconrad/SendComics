@@ -33,7 +33,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
+                    new ConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -61,7 +61,7 @@ namespace SendComics.IntegrationTests
                 var now = DateTime.Now;
                 var target = new ComicMailBuilder(
                     now,
-                    new SimpleConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*2-20170327-{now.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}"),
+                    new ConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*2-20170327-{now.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -87,7 +87,7 @@ namespace SendComics.IntegrationTests
             var fakeComicFetcher = A.Fake<IComicFetcher>();
             var target = new ComicMailBuilder(
                 today,
-                new SimpleConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*5-20190217-20190219"),
+                new ConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*5-20190217-20190219"),
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
@@ -104,7 +104,7 @@ namespace SendComics.IntegrationTests
             var fakeComicFetcher = A.Fake<IComicFetcher>();
             var target = new ComicMailBuilder(
                 today,
-                new SimpleConfigurationParser("blair.conrad@gmail.com: breaking-cat-news*3-20170327-20190328"),
+                new ConfigurationParser("blair.conrad@gmail.com: breaking-cat-news*3-20170327-20190328"),
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
@@ -124,7 +124,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: 9chickweedlane; anyone@mail.org: dilbert"),
+                    new ConfigurationParser("blair.conrad@gmail.com: 9chickweedlane; anyone@mail.org: dilbert"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -155,7 +155,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     new DateTime(2019, 7, 14),
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
+                    new ConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -179,7 +179,7 @@ namespace SendComics.IntegrationTests
 
             var target = new ComicMailBuilder(
                 new DateTime(2018, 6, 27),
-                new SimpleConfigurationParser($"blair.conrad@gmail.com: {comic}"),
+                new ConfigurationParser($"blair.conrad@gmail.com: {comic}"),
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
@@ -202,7 +202,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     dateToCheck,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
+                    new ConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -233,7 +233,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     dateToCheck,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
+                    new ConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -265,7 +265,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     dateToCheck,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: foxtrot"),
+                    new ConfigurationParser("blair.conrad@gmail.com: foxtrot"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -291,7 +291,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     dateToCheck,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: foxtrot"),
+                    new ConfigurationParser("blair.conrad@gmail.com: foxtrot"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -317,7 +317,7 @@ namespace SendComics.IntegrationTests
                 var dateToCheck = MostRecent(DayOfWeek.Sunday);
                 var target = new ComicMailBuilder(
                     dateToCheck,
-                    new SimpleConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
+                    new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -344,7 +344,7 @@ namespace SendComics.IntegrationTests
 
             var target = new ComicMailBuilder(
                 DateTime.Now,
-                new SimpleConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, dilbert"),
+                new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, dilbert"),
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
