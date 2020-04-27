@@ -179,6 +179,35 @@ anyone@mail.org: dilbert
         }
 
         [Fact]
+        public static void TwoSubscribersOneCommentedOut_BuildsOneMailForNonCommented()
+        {
+            IList<Mail> mails = null;
+
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/TwoSubscribersOneCommentedOut_BuildsOneMailForNonCommented.xml")))
+            {
+                var target = new ComicMailBuilder(
+                    DateTime.Now,
+                    new ConfigurationParser(@"
+blair.conrad@gmail.com: 9chickweedlane
+# anyone@mail.org: dilbert
+".TrimStart()),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                mails = target.CreateMailMessage().ToList();
+            }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].From.Address.Should().Be("comics@blairconrad.com");
+            mails[0].Personalization[0].Tos.Should().HaveCount(1);
+            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
+            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+        }
+
+        [Fact]
         public static void SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics()
         {
             IList<Mail> mails = null;

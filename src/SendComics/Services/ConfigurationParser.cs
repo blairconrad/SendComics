@@ -14,6 +14,7 @@
     ///   emailaddress2: comic2a, comic2b, comic2c
     ///   …
     /// which is preferred.
+    /// In the multi-line format, lines beginning with # are comments and are ignored.
     /// </summary>
     public class ConfigurationParser : IConfigurationSource
     {
@@ -32,7 +33,8 @@
             var subscribers = new List<Subscriber>();
             var subscriberStrings = subscriberSplitter
                 .Split(this.configurationString)
-                .Where(s => !string.IsNullOrWhiteSpace(s));
+                .Where(s => !string.IsNullOrWhiteSpace(s))
+                .Where(s => !s.StartsWith("#", StringComparison.InvariantCulture));
             foreach (var subscriberString in subscriberStrings)
             {
                 var colonIndex = subscriberString.IndexOf(": ", StringComparison.Ordinal);
