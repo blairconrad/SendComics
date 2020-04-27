@@ -8,7 +8,12 @@
 
     /// <summary>
     /// Parses a configuration string of the form
-    /// emailaddress1: comic1a, comic1b, comic1c*2-20190101-20190430; emailaddress2: comic2a, comic2b, comic2c, …
+    ///   emailaddress1: comic1a, comic1b, comic1c*2-20190101-20190430; emailaddress2: comic2a, comic2b, comic2c, …
+    /// or the multi-line variant
+    ///   emailaddress1: comic1a, comic1b, comic1c*2-20190101-20190430
+    ///   emailaddress2: comic2a, comic2b, comic2c
+    ///   …
+    /// which is preferred.
     /// </summary>
     public class ConfigurationParser : IConfigurationSource
     {
@@ -22,10 +27,12 @@
         public Configuration GetConfiguration()
         {
             var comicSplitter = new Regex(", *");
-            var subscriberSplitter = new Regex("; *");
+            var subscriberSplitter = new Regex(@"; *|[\r\n]+");
 
             var subscribers = new List<Subscriber>();
-            var subscriberStrings = subscriberSplitter.Split(this.configurationString);
+            var subscriberStrings = subscriberSplitter
+                .Split(this.configurationString)
+                .Where(s => !string.IsNullOrWhiteSpace(s));
             foreach (var subscriberString in subscriberStrings)
             {
                 var colonIndex = subscriberString.IndexOf(": ", StringComparison.Ordinal);
