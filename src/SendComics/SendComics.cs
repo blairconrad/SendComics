@@ -2,6 +2,7 @@ namespace SendComics
 {
     using System;
     using System.Diagnostics.CodeAnalysis;
+    using System.Net;
     using global::SendComics.Services;
     using Microsoft.Azure.WebJobs;
     using Microsoft.Azure.WebJobs.Host;
@@ -20,11 +21,10 @@ namespace SendComics
             var log = new Logger(tracer);
             log.Info("Beginning execution");
 
+            var configurationString = new WebClient().DownloadString(Environment.GetEnvironmentVariable("SubscriberConfigurationLocation"));
             var comicMailBuilder = new ComicMailBuilder(
                 DateTime.Now.Date,
-                new ConfigurationParser(
-                    Environment.GetEnvironmentVariable("TestSubscriberConfiguration") ??
-                    Environment.GetEnvironmentVariable("SubscriberConfiguration")),
+                new ConfigurationParser(configurationString),
                 new WebComicFetcher(),
                 log);
 
