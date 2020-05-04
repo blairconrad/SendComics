@@ -1,4 +1,4 @@
-namespace SendComics.Services
+﻿namespace SendComics.Services
 {
     using System;
     using System.Collections.Generic;
@@ -8,29 +8,50 @@ namespace SendComics.Services
 
     /// <summary>
     /// Parses a configuration string of the form
-    /// emailaddress1: comic1a, comic1b, comic1c*2-20190101-20190430; emailaddress2: comic2a, comic2b, comic2c, …
+    ///   emailaddress1: comic1a, comic1b, comic1c*2-20190101-20190430; emailaddress2: comic2a, comic2b, comic2c, …
+    /// or the multi-line variant
+    ///   emailaddress1: comic1a, comic1b, comic1c*2-20190101-20190430
+    ///   emailaddress2: comic2a, comic2b, comic2c
+    ///   …
+    /// which is preferred.
+    /// In the multi-line format,
+    ///   - lines beginning with # are comments and are ignored, and
+    ///   - lines beginning with ! are "emphatic" - if any of these are present, other !-less subscribers are skipped
     /// </summary>
-    public class SimpleConfigurationParser : IConfigurationSource
+    public class ConfigurationParser : IConfigurationSource
     {
-        private readonly string simpleConfiguration;
+        private readonly string configurationString;
 
-        public SimpleConfigurationParser(string simpleConfiguration)
+        public ConfigurationParser(string configurationString)
         {
-            this.simpleConfiguration = simpleConfiguration;
+            this.configurationString = configurationString;
         }
 
         public Configuration GetConfiguration()
         {
-            var commaSplitter = new Regex(", *");
-            var semicolonSplitter = new Regex("; *");
+            var comicSplitter = new Regex(", *");
+            var subscriberSplitter = new Regex(@"; *|[\r\n]+");
+            var emphaticPattern = new Regex("^! *");
+
+            IEnumerable<string> subscriberStrings = subscriberSplitter
+                .Split(this.configurationString)
+                .Where(s => !string.IsNullOrWhiteSpace(s))
+                .Where(s => !s.StartsWith("#", StringComparison.InvariantCulture))
+                .ToList();
+
+            if (subscriberStrings.Any(emphaticPattern.IsMatch))
+            {
+                subscriberStrings = subscriberStrings
+                    .Where(s => emphaticPattern.IsMatch(s))
+                    .Select(s => emphaticPattern.Replace(s, string.Empty));
+            }
 
             var subscribers = new List<Subscriber>();
-            var subscriberStrings = semicolonSplitter.Split(this.simpleConfiguration);
             foreach (var subscriberString in subscriberStrings)
             {
                 var colonIndex = subscriberString.IndexOf(": ", StringComparison.Ordinal);
                 var email = subscriberString.Substring(0, colonIndex);
-                var subscriptions = commaSplitter
+                var subscriptions = comicSplitter
                     .Split(subscriberString.Substring(colonIndex + 2))
                     .Select(CreateSubscription)
                     .ToArray();
