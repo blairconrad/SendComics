@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
-<ArrayOfRecordedCall xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RecordedCall>
     <Method>System.String GetContent(System.Uri)</Method>
     <ReturnValue xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
+&lt;html lang="en"
+  data-ad-slot-path="/19196947/gocomics.com/comic/ch"
+  data-ad-channel="a"&gt;
   &lt;head&gt;
-      &lt;title&gt;Calvin and Hobbes by Bill Watterson for July 14, 2019 - GoComics&lt;/title&gt;
+      &lt;title&gt;Calvin and Hobbes by Bill Watterson for September 06, 2020 - GoComics&lt;/title&gt;
 
       &lt;!--- MOBILE SCALE --&gt;
   &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=1, user-scalable=yes"/&gt;
@@ -15,19 +17,19 @@
 	&lt;meta name='MobileOptimized' content='320' /&gt;
   
   &lt;meta name="csrf-param" content="authenticity_token" /&gt;
-&lt;meta name="csrf-token" content="kR07XH3z9Au+rSuFj+RTe47viVb17ocgZSmWf6tS2/Yblnyvsbi+9sw1jFSo6qN843Z9T0BLVf2RgezwL35Npw==" /&gt;
+&lt;meta name="csrf-token" content="DcuI6yuG97LIyrMEOkLWyUOVFCmCpoyyv+tHxZUaN/OeYnWxNO0aNYtlyxjLwAZQoli8VZVu9PYrm4ixRotv9w==" /&gt;
 
-      &lt;link rel="canonical" href="https://www.gocomics.com/calvinandhobbes/2019/07/14"&gt;    &lt;!-- Dynamic General Tags --&gt;
+      &lt;link rel="canonical" href="https://www.gocomics.com/calvinandhobbes/2020/09/06"&gt;    &lt;!-- Dynamic General Tags --&gt;
 &lt;!-- &lt;link rel="image_src" href="" /&gt; --&gt;
-&lt;meta name="keywords" content="Calvin and Hobbes July 14, 2019, Comic Strip for Calvin and Hobbes, Calvin and Hobbes, Cartoonist Bill Watterson, Calvin and Hobbes GoComics, Comics, editorial cartoons, email comics, comic strips" /&gt;
-&lt;meta name="description" content="View the comic strip for Calvin and Hobbes by cartoonist Bill Watterson created July 14, 2019 available on GoComics.com" /&gt;
+&lt;meta name="keywords" content="Calvin and Hobbes September 06, 2020, Comic Strip for Calvin and Hobbes, Calvin and Hobbes, Cartoonist Bill Watterson, Calvin and Hobbes GoComics, Comics, editorial cartoons, email comics, comic strips" /&gt;
+&lt;meta name="description" content="View the comic strip for Calvin and Hobbes by cartoonist Bill Watterson created September 06, 2020 available on GoComics.com" /&gt;
 
 &lt;!-- Feature Item Sharing --&gt;
 &lt;!-- Facebook Open Graph Tags --&gt;
-&lt;meta property="og:url" content="https://www.gocomics.com/calvinandhobbes/2019/07/14" /&gt;
+&lt;meta property="og:url" content="https://www.gocomics.com/calvinandhobbes/2020/09/06" /&gt;
 &lt;meta property="og:type" content="article" /&gt;
-&lt;meta property="og:title" content="Calvin and Hobbes by Bill Watterson for July 14, 2019 | GoComics.com" /&gt;
-&lt;meta property="og:image" content="https://assets.amuniversal.com/32ae40405a9b01379c16005056a9545d" /&gt;
+&lt;meta property="og:title" content="Calvin and Hobbes by Bill Watterson for September 06, 2020 | GoComics.com" /&gt;
+&lt;meta property="og:image" content="https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d" /&gt;
 &lt;meta property="og:image:height" content="632" /&gt;
 &lt;meta property="og:image:width" content="900" /&gt;
 &lt;meta property="og:description" content="" /&gt;
@@ -37,13 +39,13 @@
 &lt;!-- Dynamic Twitter Card Meta Tags --&gt;
 &lt;meta name="twitter:card" content="photo"&gt;
 &lt;meta name="twitter:site" content="@GoComics"&gt;
-&lt;meta name="twitter:url" content="https://www.gocomics.com/calvinandhobbes/2019/07/14"&gt;
-&lt;meta name="twitter:title" content="Calvin and Hobbes by Bill Watterson for July 14, 2019 | GoComics.com"&gt;
-&lt;meta name="twitter:description" content="July 14, 2019"&gt;
-&lt;meta name="twitter:image" content="https://assets.amuniversal.com/32ae40405a9b01379c16005056a9545d"&gt;
+&lt;meta name="twitter:url" content="https://www.gocomics.com/calvinandhobbes/2020/09/06"&gt;
+&lt;meta name="twitter:title" content="Calvin and Hobbes by Bill Watterson for September 06, 2020 | GoComics.com"&gt;
+&lt;meta name="twitter:description" content="September 06, 2020"&gt;
+&lt;meta name="twitter:image" content="https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d"&gt;
 
 &lt;!-- Other OG Tags --&gt;
-&lt;meta property="article:published_time" content="2019-07-14" /&gt;
+&lt;meta property="article:published_time" content="2020-09-06" /&gt;
 &lt;meta property="article:author" content="Bill Watterson" /&gt;
 &lt;meta property="article:section" content="comic" /&gt;
 &lt;meta property="article:tag" content="" /&gt;
@@ -71,2868 +73,47 @@
 	&lt;meta name="msapplication-TileColor" content="#ffffff" /&gt;
 	&lt;meta name="msapplication-TileImage" content="https://assets.gocomics.com/assets/favicons/ms-icon-144x144-5a7d4892325d4c929dc8b809c95d36ed2bfde766956e33f4afb73074bf6edfdb.png" /&gt;
 	&lt;meta name="theme-color" content="#ffffff" /&gt;
-    &lt;link rel="stylesheet" media="all" href="https://assets.gocomics.com/assets/application-gc-1d140142105c4833d80f665b09c6c6817b3304d00e6d48853069008a417036be.css" /&gt;
-    &lt;script src="https://assets.gocomics.com/assets/application-gc-preload-590b2dbef8d985bc4f074211bf82ace762630acac84c3bf0809b8d58017d64fa.js"&gt;&lt;/script&gt;
-
-    &lt;!-- Confiant --&gt;
-&lt;script async="" src="https://confiant-integrations.global.ssl.fastly.net/URCY_lYNAEeMRZShS4CoaDXuIew/gpt_and_prebid/config.js"&gt;&lt;/script&gt;
-
-&lt;!-- Prebid Wrapper --&gt;
-&lt;script src="https://assets.gocomics.com/assets/ad-dependencies-bac6f666726b60bf0d10ac1a15b24a0faab86db58c7dbc154274d8868c767982.js"&gt;&lt;/script&gt;
-
-&lt;!-- Venatus Market Ad-Manager (gocomics.com) --&gt;
-&lt;script&gt;
-    (function(){document.write('&lt;div id="vmv3-ad-manager" style="display:none"&gt;&lt;/div&gt;');document.getElementById("vmv3-ad-manager").innerHTML='&lt;iframe id="vmv3-frm" src="javascript:\'&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\'" width="0" height="0" data-mode="scan" data-site-id="5b04343a46e0fb0001162107"&gt;&lt;/iframe&gt;';var a=document.getElementById("vmv3-frm");a=a.contentWindow?a.contentWindow:a.contentDocument;a.document.open();a.document.write('&lt;script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" async&gt;'+'&lt;/scr'+'ipt&gt;');a.document.close()})();
-&lt;/script&gt;
-&lt;!-- / Venatus Market Ad-Manager (gocomics.com) --&gt;
-
-&lt;!-- GPT --&gt;
-&lt;script async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"&gt;&lt;/script&gt;
-
-&lt;!-- Amazon --&gt;
-&lt;script&gt;
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","////c.amazon-adsystem.com/aax2/apstag.js");
-&lt;/script&gt;
-
-&lt;script&gt;
-    /***** Helper functions for ads *****/
-    var storeQueryString = function(){
-        var queryString = window.location.search.substring(1).split('&amp;');
-        for(var i=0; i&lt;queryString.length; i++){
-            var pair = queryString[i].split('=');
-            if(pair.length === 2){
-                amu_ads.query_string[pair[0]] = pair[1];
-            }
-        }
-    };
-
-    var findAds = function(className) {
-        var ads = document.getElementsByClassName(className);
-        ads = Array.prototype.slice.call(ads);
-        ads.map(function(element) {element.classList.remove(className);});
-
-        return ads
-    };
-
-    var getAdInfo = function (adElements) {
-        var adIds = adElements.map(getElementInfo);
-        adIds = adIds.filter(adSlotConfigExists).filter(servesAtBreakpoint);
-
-        return adIds;
-    };
-
-    var getAdSlot = function (slotInfo) {
-        return amu_ads.adSlots[slotInfo.id];
-    };
-
-    var adSlotConfigExists = function(slotInfo){
-        return typeof amu_ads.adSlotConfig[slotInfo.adType] !== 'undefined';
-    };
-
-    var servesAtBreakpoint = function(slotInfo){
-        var curBpt = amu_ads.adSlotConfig[slotInfo.adType].breakpoint;
-        return curBpt.sizes.length &gt; 0;
-    };
-
-    var getElementId = function(element){
-        return element.id;
-    };
-
-    var getElementAdType = function(element){
-        return element.getAttribute('data-ad-type');
-    };
-
-    var getElementInfo = function(element){
-        return {id: getElementId(element), adType: getElementAdType(element)};
-    };
-
-    var findBreakpoint = function(breakpointsArray){
-        var maxBpt, curBpt;
-        for (var i = 0; i &lt; breakpointsArray.length; i++) {
-            curBpt = breakpointsArray[i];
-            if (amu_ads.browserWidth &gt;= curBpt.minWidth &amp;&amp; amu_ads.browserHeight &gt;= curBpt.minHeight){
-                if(!maxBpt || (curBpt.minWidth &gt;= maxBpt.minWidth &amp;&amp; curBpt.minHeight &gt;= maxBpt.minHeight)){
-                    maxBpt = curBpt;
-                }
-            }
-        }
-        return maxBpt
-    };
-
-
-    var updatePageviewTargeting = function() {
-        var adPageview = getPageviewFromCookie();
-        Object.keys(amu_ads.adSlotConfig).forEach(function(key) {
-            amu_ads.adSlotConfig[key].targeting['pv'] = adPageview;
-        });
-    };
-
-    var adLazyLoaderInit = function (className) {
-        var adElements = Array.prototype.slice.call(document.getElementsByClassName(className));
-
-        adElements.forEach(function(element) {
-            element.classList.remove(className);
-            amu_ads.adLazyLoader.observe(element);
-        });
-    };
-
-    var adRefresherInit = function (className) {
-        if(!isEU){
-            var adElements = Array.prototype.slice.call(document.getElementsByClassName(className));
-
-            adElements.forEach(function(element) {
-                element.classList.remove(className);
-                amu_ads.adRefresher.observe(element);
-            });
-
-            if(typeof(amu_ads.adRefreshInterval) === 'undefined') {
-                amu_ads.adRefreshInterval = window.setInterval(handleAdRefreshInterval, amu_ads.adRefreshRate);
-            }
-        }
-    };
-
-    var handleAdLazyLoad = function (entries, observer) {
-        entries.forEach(function(entry) {
-            if(entry.isIntersecting){
-                // run auction on these elements
-                var adInfo = getAdInfo([entry.target]);
-                auctionInit(adInfo, false);
-                amu_ads.adLazyLoader.unobserve(entry.target);
-            }
-        });
-    };
-
-    var handleAdRefresh = function (entries, observer) {
-        var curAdId, curAdElement;
-        entries.forEach(function(entry) {
-            curAdElement = entry.target;
-            curAdId = curAdElement.id;
-            if(entry.intersectionRatio &gt;= 0.50) {
-                if(amu_ads.adSlots[curAdId]){
-                    amu_ads.inViewAds[curAdId] = curAdElement;
-                }
-            } else {
-                delete amu_ads.inViewAds[curAdId];
-            }
-        });
-    };
-
-    var handleAdRefreshInterval = function () {
-        if(amu_ads.adRefreshCount &lt; amu_ads.adRefreshMax) {
-            if(!document.hidden){
-
-                // Refresh in view ads
-                var adInfo = getAdInfo(Object.values(amu_ads.inViewAds));
-                auctionInit(adInfo, true);
-                // Update refresh count and clear inViewAds
-                amu_ads.adRefreshCount += 1;
-            }
-        } else {
-
-            // Stop refreshing
-            clearInterval(amu_ads.adRefreshInterval)
-        }
-    }
-
-&lt;/script&gt;
-&lt;script&gt;
-    // Global variable for advertising config
-    var amu_ads = amu_ads || {};
-
-    // Query string for changing ad slot path and ad channel
-    amu_ads.query_string = amu_ads.query_string || {};
-
-    // Browser and page info
-    amu_ads.browserWidth = "CSS1Compat" == window.document.compatMode ? window.document.documentElement.clientWidth : window.document.body.clientWidth;
-    amu_ads.browserHeight = "CSS1Compat" == window.document.compatMode ? window.document.documentElement.clientHeight : window.document.body.clientHeight;
-    amu_ads.pageDomain = window.location.hostname;
-    amu_ads.pagePath = window.location.pathname + location.search + location.hash;
-
-    // Ad channel (a or b)
-    amu_ads.adChannel = 'a';
-
-    // Current page view number (based on cookie)
-    amu_ads.adPageview = setPageviewCookie();
-
-    // Ad unit path
-    amu_ads.adSlotPath = '/19196947/gocomics.com/comic/ch';
-
-
-    // Intersection observer for lazy loading ads
-    amu_ads.adLazyLoadOptions = {
-        rootMargin: amu_ads.browserWidth &gt;= 992 ? '300px' : '200px',
-        threshold: 0
-    };
-    amu_ads.adLazyLoader = new IntersectionObserver(handleAdLazyLoad, amu_ads.adLazyLoadOptions);
-
-
-    // Intersection observer for refreshing in view ads
-    amu_ads.adRefreshOptions = {
-        threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
-    };
-    amu_ads.adRefresher = new IntersectionObserver(handleAdRefresh, amu_ads.adRefreshOptions);
-    amu_ads.inViewAds = {};
-    amu_ads.adRefreshCount = 0;
-    amu_ads.adRefreshMax = 5;
-    amu_ads.adRefreshRate = 30000;
-
-    // Place to store DFP ad slots (needed in order to refresh ads)
-    amu_ads.adSlots = {};
-
-
-
-    /***** Bidder config *****/
-    // AppNexus tag config
-    amu_ads.appnexusTags = {
-
-        /***** Leaderboards and banners *****/
-        // 970x250, 970x90, 728x90, 320x50
-        'top': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337721,
-                keywords: {
-                    pos: ['top'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_1': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337722,
-                keywords: {
-                    pos: ['mid_1'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_2': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337723,
-                keywords: {
-                    pos: ['mid_2'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 320x50
-        'locked': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337724,
-                keywords: {
-                    pos: ['locked'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 728x90
-        'bot': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337725,
-                keywords: {
-                    pos: ['bot'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '1': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337716,
-                keywords: {
-                    pos: ['1'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 300x250
-        '2': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337720,
-                keywords: {
-                    pos: ['2'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        'right': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337717,
-                keywords: {
-                    pos: ['right'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'left': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337718,
-                keywords: {
-                    pos: ['left'],
-                    channel: [amu_ads.adChannel]
-                }
-
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'comments': {
-            bidder: 'appnexus',
-            params: {
-                placementId: 13337719,
-                keywords: {
-                    pos: ['comments'],
-                    channel: [amu_ads.adChannel]
-                }
-            }
-        }
-    };
-
-    // Index tag config
-    amu_ads.ixTags = {
-
-        /***** Leaderboards and banners *****/
-        // 970x250, 970x90, 728x90, 320x50
-        '970x250_top': {
-            bidder: 'ix',
-            params: {
-                siteId: '267537',
-                size: [970,250]
-            }
-        },
-        '970x90_top': {
-            bidder: 'ix',
-            params: {
-                siteId: '267537',
-                size: [970,90]
-            }
-        },
-        '728x90_top': {
-            bidder: 'ix',
-            params: {
-                siteId: '267537',
-                size: [728,90]
-            }
-        },
-        '320x50_top': {
-            bidder: 'ix',
-            params: {
-                siteId: '267537',
-                size: [320,50]
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        '970x90_mid_1': {
-            bidder: 'ix',
-            params: {
-                siteId: '267538',
-                size: [970,90]
-            }
-        },
-        '728x90_mid_1': {
-            bidder: 'ix',
-            params: {
-                siteId: '267538',
-                size: [728,90]
-            }
-        },
-        '320x50_mid_1': {
-            bidder: 'ix',
-            params: {
-                siteId: '267538',
-                size: [320,50]
-            }
-        },
-        '300x250_mid_1': {
-            bidder: 'ix',
-            params: {
-                siteId: '267538',
-                size: [300,250]
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        '970x90_mid_2': {
-            bidder: 'ix',
-            params: {
-                siteId: '267539',
-                size: [970,90]
-            }
-        },
-        '728x90_mid_2': {
-            bidder: 'ix',
-            params: {
-                siteId: '267539',
-                size: [728,90]
-            }
-        },
-        '320x50_mid_2': {
-            bidder: 'ix',
-            params: {
-                siteId: '267539',
-                size: [320,50]
-            }
-        },
-        '300x250_mid_2': {
-            bidder: 'ix',
-            params: {
-                siteId: '267539',
-                size: [300,250]
-            }
-        },
-
-        // 320x50
-        '320x50_locked': {
-            bidder: 'ix',
-            params: {
-                siteId: '267540',
-                size: [320,50]
-            }
-        },
-
-        // 728x90
-        '728x90_bot': {
-            bidder: 'ix',
-            params: {
-                siteId: '267541',
-                size: [728,90]
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '300x250_1': {
-            bidder: 'ix',
-            params: {
-                siteId: '267532',
-                size: [300,250]
-            }
-        },
-
-        // 300x250
-        '300x250_2': {
-            bidder: 'ix',
-            params: {
-                siteId: '267536',
-                size: [300,250]
-            }
-        },
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        '300x250_right': {
-            bidder: 'ix',
-            params: {
-                siteId: '267533',
-                size: [300,250]
-            }
-        },
-        '160x600_right': {
-            bidder: 'ix',
-            params: {
-                siteId: '267533',
-                size: [160,600]
-            }
-        },
-        '300x600_right': {
-            bidder: 'ix',
-            params: {
-                siteId: '267533',
-                size: [300,600]
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        '300x250_left': {
-            bidder: 'ix',
-            params: {
-                siteId: '267534',
-                size: [300,250]
-            }
-        },
-        '160x600_left': {
-            bidder: 'ix',
-            params: {
-                siteId: '267534',
-                size: [160,600]
-            }
-        },
-        '300x600_left': {
-            bidder: 'ix',
-            params: {
-                siteId: '267534',
-                size: [300,600]
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        '300x250_comments': {
-            bidder: 'ix',
-            params: {
-                siteId: '267535',
-                size: [300,250]
-            }
-        },
-        '160x600_comments': {
-            bidder: 'ix',
-            params: {
-                siteId: '267535',
-                size: [160,600]
-            }
-        },
-        '300x600_comments': {
-            bidder: 'ix',
-            params: {
-                siteId: '267535',
-                size: [300,600]
-            }
-        }
-    };
-
-    // OpenX tag config
-    amu_ads.openxTags = {
-
-        /***** Leaderboards and banners *****/
-        // 970x250, 970x90, 728x90, 320x50
-        'top': {
-            bidder: 'openx',
-            params: {
-                unit: 540023521,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'top',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_1': {
-            bidder: 'openx',
-            params: {
-                unit: 540023523,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'mid_1',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_2': {
-            bidder: 'openx',
-            params: {
-                unit: 540023535,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'mid_2',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 320x50
-        'locked': {
-            bidder: 'openx',
-            params: {
-                unit: 540023537,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'locked',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 728x90
-        'bot': {
-            bidder: 'openx',
-            params: {
-                unit: 540023544,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'bot',
-                    channel:
-                    amu_ads.adChannel
-                }
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '1': {
-            bidder: 'openx',
-            params: {
-                unit: 540023496,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: '1',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 300x250
-        '2': {
-            bidder: 'openx',
-            params: {
-                unit: 540023512,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: '2',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        'right': {
-            bidder: 'openx',
-            params: {
-                unit: 540023499,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'right',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'left': {
-            bidder: 'openx',
-            params: {
-                unit: 540023507,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'left',
-                    channel: amu_ads.adChannel
-                }
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'comments': {
-            bidder: 'openx',
-            params: {
-                unit: 540023510,
-                delDomain: 'amu-d.openx.net',
-                customParams: {
-                    pos: 'comments',
-                    channel: amu_ads.adChannel
-                }
-            }
-        }
-    };
-
-    // PubMatic tag config
-    amu_ads.pubmaticTags = {
-
-        /***** Leaderboards and banners *****/
-        // 970x250, 970x90, 728x90, 320x50
-        'top': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090029'
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_1': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090030'
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_2': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090031'
-            }
-        },
-
-        // 320x50
-        'locked': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090032'
-            }
-        },
-
-        // 728x90
-        'bot': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090033'
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '1': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090024'
-            }
-        },
-
-        // 300x250
-        '2': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090028'
-            }
-        },
-
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        'right': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090025'
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'left': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090026'
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'comments': {
-            bidder: 'pubmatic',
-            params: {
-                publisherId: '157912',
-                adSlot: '2090027'
-            }
-        }
-    };
-
-    // Rubicon tag config
-    amu_ads.rubiconTags = {
-
-        /***** Leaderboards and banners *****/
-        // 970x250, 970x90, 728x90, 320x50
-        'top': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935870,
-                visitor: {
-                    'pos': ['top'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_1': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935874,
-                visitor: {
-                    'pos': ['mid_1'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 970x90, 728x90, 320x50, 300x250
-        'mid_2': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935876,
-                visitor: {
-                    'pos': ['mid_2'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 320x50
-        'locked': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935880,
-                visitor: {
-                    'pos': ['locked'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 728x90
-        'bot': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935884,
-                visitor: {
-                    'pos': ['bot'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '1': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935850,
-                visitor: {
-                    'pos': ['1'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 300x250
-        '2': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935864,
-                visitor: {
-                    'pos': ['2'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        'right': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935854,
-                visitor: {
-                    'pos': ['right'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'left': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935878,
-                visitor: {
-                    'pos': ['left'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'comments': {
-            bidder: 'rubicon',
-            params: {
-                accountId: 14256,
-                siteId: 192270,
-                zoneId: 935860,
-                visitor: {
-                    'pos': ['comments'],
-                    'channel': [amu_ads.adChannel]
-                }
-            }
-        }
-    };
-
-    // Sovrn tag config
-    amu_ads.sovrnTags = {
-        /***** Leaderboards and banners *****/
-        // 970x250, 728x90, 320x50
-        '970x250_top': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564744'
-            }
-        },
-        '728x90_top': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564745'
-            }
-        },
-        '320x50_top': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564746'
-            }
-        },
-
-        // 728x90, 320x50, 300x250
-        '728x90_mid_1': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564747'
-            }
-        },
-        '320x50_mid_1': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564748'
-            }
-        },
-        '300x250_mid_1': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '578781'
-            }
-        },
-
-        // 728x90, 320x50, 300x250
-        '728x90_mid_2': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564749'
-            }
-        },
-        '320x50_mid_2': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564750'
-            }
-        },
-        '300x250_mid_2': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '578782'
-            }
-        },
-
-        // 320x50
-        '320x50_locked': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564751'
-            }
-        },
-
-        // 728x90
-        '728x90_bot': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564752'
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '300x250_1': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564733'
-            }
-        },
-
-        // 300x250
-        '300x250_2': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564743'
-            }
-        },
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        '300x250_right': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564734'
-            }
-        },
-        '160x600_right': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564735'
-            }
-        },
-        '300x600_right': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564736'
-            }
-        },
-
-
-        // 300x250, 160x600, 300x600
-        '300x250_left': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564737'
-            }
-        },
-        '160x600_left': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564738'
-            }
-        },
-        '300x600_left': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564739'
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        '300x250_comments': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564740'
-            }
-        },
-        '160x600_comments': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564741'
-            }
-        },
-        '300x600_comments': {
-            bidder: 'sovrn',
-            params: {
-                tagid: '564742'
-            }
-        }
-
-    };
-
-    // AppNexus tag config
-    amu_ads.tripleliftTags = {
-
-        /***** Leaderboards and banners *****/
-        // 970x250, 970x90, 728x90, 320x50
-        'top': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_top_multisize',
-            }
-        },
-
-        // 728x90, 320x50, 300x250
-        'mid_1': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_mid_1_multisize',
-            }
-        },
-
-        // 728x90, 320x50, 300x250
-        'mid_2': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_mid_2_multisize',
-            }
-        },
-
-        // 320x50
-        'locked': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_locked_320x50_hdx',
-            }
-        },
-
-        // 728x90
-        'bot': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_bot_728x90',
-            }
-        },
-
-
-        /***** Rectangles *****/
-        // 300x250
-        '1': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_rectangle1_300x250',
-            }
-        },
-
-        // 300x250
-        '2': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_rectangle2_300x250',
-            }
-        },
-
-
-
-        /***** Towers *****/
-        // 300x250, 160x600, 300x600
-        'right': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_right_multisize_hdx',
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'left': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_left_multisize_hdx',
-
-            }
-        },
-
-        // 300x250, 160x600, 300x600
-        'comments': {
-            bidder: 'triplelift',
-            params: {
-                inventoryCode: 'gocomics_comments_multisize_hdx',
-            }
-        }
-    };
-
-
-
-    /***** Ad config *****/
-    // TODO: refactor/consolidate ad slot configs when layouts are more consistent
-    amu_ads.adSlotConfig = {};
-    amu_ads.adSlotConfig['leaderboard'] = {
-        name: 'leaderboard',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'top',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 970,
-                minHeight: 850,
-                sizes: [[970, 90], [970, 250], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x250_top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['970x250_top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 970,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['320x50_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['320x50_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['leaderboard'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['leaderboard'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['leaderboard_home'] = {
-        name: 'leaderboard_home',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'top',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 970,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['320x50_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['320x50_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['leaderboard_home'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['leaderboard_home'].breakpoints);
-
-
-    // When setting leaderboard breakpoints remember to set the shortest size first in the sizes array to avoid screen bounce.
-    amu_ads.adSlotConfig['leaderboard_feature_item'] = {
-        name: 'leaderboard_feature_item',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'top',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 1310,
-                minHeight: 850,
-                sizes: [[970, 90], [970, 250], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x250_top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['970x250_top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 1310,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 970,
-                minHeight: 850,
-                sizes: [[970, 90], [970, 250], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x250_top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['970x250_top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 970,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['320x50_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['320x50_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['leaderboard_feature_item'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['leaderboard_feature_item'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['leaderboard_feature_overview'] = {
-        name: 'leaderboard_feature_overview',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'top',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 1310,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 970,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['970x90_top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['728x90_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['728x90_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50]],
-                bids: [
-                    amu_ads.appnexusTags['top'],
-                    amu_ads.ixTags['320x50_top'],
-                    amu_ads.openxTags['top'],
-                    amu_ads.pubmaticTags['top'],
-                    amu_ads.rubiconTags['top'],
-                    amu_ads.sovrnTags['320x50_top'],
-                    amu_ads.tripleliftTags['top']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['leaderboard_feature_overview'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['leaderboard_feature_overview'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['banner1'] = {
-        name: 'banner1',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'mid_1',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_1'],
-                    amu_ads.ixTags['728x90_mid_1'],
-                    amu_ads.ixTags['300x250_mid_1'],
-                    amu_ads.openxTags['mid_1'],
-                    amu_ads.pubmaticTags['mid_1'],
-                    amu_ads.rubiconTags['mid_1'],
-                    amu_ads.sovrnTags['728x90_mid_1'],
-                    amu_ads.sovrnTags['300x250_mid_1'],
-                    amu_ads.tripleliftTags['mid_1']
-                ]
-            },
-            {
-                minWidth: 970,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_1'],
-                    amu_ads.ixTags['970x90_mid_1'],
-                    amu_ads.ixTags['728x90_mid_1'],
-                    amu_ads.ixTags['300x250_mid_1'],
-                    amu_ads.openxTags['mid_1'],
-                    amu_ads.pubmaticTags['mid_1'],
-                    amu_ads.rubiconTags['mid_1'],
-                    amu_ads.sovrnTags['728x90_mid_1'],
-                    amu_ads.sovrnTags['300x250_mid_1']
-                ]
-            },
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_1'],
-                    amu_ads.ixTags['728x90_mid_1'],
-                    amu_ads.ixTags['300x250_mid_1'],
-                    amu_ads.openxTags['mid_1'],
-                    amu_ads.pubmaticTags['mid_1'],
-                    amu_ads.rubiconTags['mid_1'],
-                    amu_ads.sovrnTags['728x90_mid_1'],
-                    amu_ads.sovrnTags['300x250_mid_1'],
-                    amu_ads.tripleliftTags['mid_1']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_1'],
-                    amu_ads.ixTags['320x50_mid_1'],
-                    amu_ads.ixTags['300x250_mid_1'],
-                    amu_ads.openxTags['mid_1'],
-                    amu_ads.pubmaticTags['mid_1'],
-                    amu_ads.rubiconTags['mid_1'],
-                    amu_ads.sovrnTags['320x50_mid_1'],
-                    amu_ads.sovrnTags['300x250_mid_1'],
-                    amu_ads.tripleliftTags['mid_1']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['banner1'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['banner1'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['banner2'] = {
-        name: 'banner2',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'mid_2',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_2'],
-                    amu_ads.ixTags['728x90_mid_2'],
-                    amu_ads.ixTags['300x250_mid_2'],
-                    amu_ads.openxTags['mid_2'],
-                    amu_ads.pubmaticTags['mid_2'],
-                    amu_ads.rubiconTags['mid_2'],
-                    amu_ads.sovrnTags['728x90_mid_2'],
-                    amu_ads.sovrnTags['300x250_mid_2'],
-                    amu_ads.tripleliftTags['mid_2']
-                ]
-            },
-            {
-                minWidth: 970,
-                minHeight: 0,
-                sizes: [[970, 90], [728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_2'],
-                    amu_ads.ixTags['970x90_mid_2'],
-                    amu_ads.ixTags['728x90_mid_2'],
-                    amu_ads.ixTags['300x250_mid_2'],
-                    amu_ads.openxTags['mid_2'],
-                    amu_ads.pubmaticTags['mid_2'],
-                    amu_ads.rubiconTags['mid_2'],
-                    amu_ads.sovrnTags['728x90_mid_2'],
-                    amu_ads.sovrnTags['300x250_mid_2']
-                ]
-            },
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_2'],
-                    amu_ads.ixTags['728x90_mid_2'],
-                    amu_ads.ixTags['300x250_mid_2'],
-                    amu_ads.openxTags['mid_2'],
-                    amu_ads.pubmaticTags['mid_2'],
-                    amu_ads.rubiconTags['mid_2'],
-                    amu_ads.sovrnTags['728x90_mid_2'],
-                    amu_ads.sovrnTags['300x250_mid_2'],
-                    amu_ads.tripleliftTags['mid_2']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_2'],
-                    amu_ads.ixTags['320x50_mid_2'],
-                    amu_ads.ixTags['300x250_mid_2'],
-                    amu_ads.openxTags['mid_2'],
-                    amu_ads.pubmaticTags['mid_2'],
-                    amu_ads.rubiconTags['mid_2'],
-                    amu_ads.sovrnTags['320x50_mid_2'],
-                    amu_ads.sovrnTags['300x250_mid_2'],
-                    amu_ads.tripleliftTags['mid_2']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['banner2'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['banner2'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['banner_explore1'] = {
-        name: 'banner_explore1',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'mid_1',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 1145,
-                minHeight: 0,
-                sizes: [[728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_1'],
-                    amu_ads.ixTags['728x90_mid_1'],
-                    amu_ads.ixTags['300x250_mid_1'],
-                    amu_ads.openxTags['mid_1'],
-                    amu_ads.pubmaticTags['mid_1'],
-                    amu_ads.rubiconTags['mid_1'],
-                    amu_ads.sovrnTags['728x90_mid_1'],
-                    amu_ads.sovrnTags['300x250_mid_1'],
-                    amu_ads.tripleliftTags['mid_1']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_1'],
-                    amu_ads.ixTags['320x50_mid_1'],
-                    amu_ads.ixTags['300x250_mid_1'],
-                    amu_ads.openxTags['mid_1'],
-                    amu_ads.pubmaticTags['mid_1'],
-                    amu_ads.rubiconTags['mid_1'],
-                    amu_ads.sovrnTags['320x50_mid_1'],
-                    amu_ads.sovrnTags['300x250_mid_1'],
-                    amu_ads.tripleliftTags['mid_1']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['banner_explore1'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['banner_explore1'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['banner_explore2'] = {
-        name: 'banner_explore2',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'mid_2',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 1145,
-                minHeight: 0,
-                sizes: [[728, 90], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_2'],
-                    amu_ads.ixTags['728x90_mid_2'],
-                    amu_ads.ixTags['300x250_mid_2'],
-                    amu_ads.openxTags['mid_2'],
-                    amu_ads.pubmaticTags['mid_2'],
-                    amu_ads.rubiconTags['mid_2'],
-                    amu_ads.sovrnTags['728x90_mid_2'],
-                    amu_ads.sovrnTags['300x250_mid_2'],
-                    amu_ads.tripleliftTags['mid_2']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[320, 50], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['mid_2'],
-                    amu_ads.ixTags['320x50_mid_2'],
-                    amu_ads.ixTags['300x250_mid_2'],
-                    amu_ads.openxTags['mid_2'],
-                    amu_ads.pubmaticTags['mid_2'],
-                    amu_ads.rubiconTags['mid_2'],
-                    amu_ads.sovrnTags['320x50_mid_2'],
-                    amu_ads.sovrnTags['300x250_mid_2'],
-                    amu_ads.tripleliftTags['mid_2']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['banner_explore2'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['banner_explore2'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['banner_bot'] = {
-        name: 'banner_bot',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'bot',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 728,
-                minHeight: 0,
-                sizes: [[728, 90]],
-                bids: [
-                    amu_ads.appnexusTags['bot'],
-                    amu_ads.ixTags['728x90_bot'],
-                    amu_ads.openxTags['bot'],
-                    amu_ads.pubmaticTags['bot'],
-                    amu_ads.rubiconTags['bot'],
-                    amu_ads.sovrnTags['728x90_bot'],
-                    amu_ads.tripleliftTags['bot']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['banner_bot'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['banner_bot'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['banner_lock'] = {
-        name: 'banner_lock',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'locked',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 768,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            },
-            {
-                minWidth: 0,
-                minHeight: 300,
-                sizes: [[320, 50]],
-                bids: [
-                    amu_ads.appnexusTags['locked'],
-                    amu_ads.ixTags['320x50_locked'],
-                    amu_ads.openxTags['locked'],
-                    amu_ads.pubmaticTags['locked'],
-                    amu_ads.rubiconTags['locked'],
-                    amu_ads.sovrnTags['320x50_locked'],
-                    amu_ads.tripleliftTags['locked']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['banner_lock'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['banner_lock'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['rectangle1'] = {
-        name: 'rectangle1',
-        targeting: {
-            'fcode': 'ch',
-            'pos': '1',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['1'],
-                    amu_ads.ixTags['300x250_1'],
-                    amu_ads.openxTags['1'],
-                    amu_ads.pubmaticTags['1'],
-                    amu_ads.rubiconTags['1'],
-                    amu_ads.sovrnTags['300x250_1'],
-                    amu_ads.tripleliftTags['1']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['rectangle1'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['rectangle1'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['rectangle2'] = {
-        name: 'rectangle2',
-        targeting: {
-            'fcode': 'ch',
-            'pos': '2',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['2'],
-                    amu_ads.ixTags['300x250_2'],
-                    amu_ads.openxTags['2'],
-                    amu_ads.pubmaticTags['2'],
-                    amu_ads.rubiconTags['2'],
-                    amu_ads.sovrnTags['300x250_2'],
-                    amu_ads.tripleliftTags['2']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['rectangle2'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['rectangle2'].breakpoints);
-
-
-    amu_ads.adSlotConfig['rectangle_sidebar1'] = {
-        name: 'rectangle_sidebar1',
-        targeting: {
-            'fcode': 'ch',
-            'pos': '1',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['1'],
-                    amu_ads.ixTags['300x250_1'],
-                    amu_ads.openxTags['1'],
-                    amu_ads.pubmaticTags['1'],
-                    amu_ads.rubiconTags['1'],
-                    amu_ads.sovrnTags['300x250_1'],
-                    amu_ads.tripleliftTags['1']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['rectangle_sidebar1'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['rectangle_sidebar1'].breakpoints);
-
-
-    // TODO: rename to tower_comic or something later (Will need to coordinate with ADDKT)
-    amu_ads.adSlotConfig['tower'] = {
-        name: 'tower',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'right',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 1200,
-                minHeight: 700,
-                sizes: [[300, 600], [160, 600], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['right'],
-                    amu_ads.ixTags['300x600_right'],
-                    amu_ads.ixTags['160x600_right'],
-                    amu_ads.ixTags['300x250_right'],
-                    amu_ads.openxTags['right'],
-                    amu_ads.pubmaticTags['right'],
-                    amu_ads.rubiconTags['right'],
-                    amu_ads.sovrnTags['300x600_right'],
-                    amu_ads.sovrnTags['160x600_right'],
-                    amu_ads.sovrnTags['300x250_right'],
-                    amu_ads.tripleliftTags['right']
-                ]
-            },
-            {
-                minWidth: 1200,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['right'],
-                    amu_ads.ixTags['300x250_right'],
-                    amu_ads.openxTags['right'],
-                    amu_ads.pubmaticTags['right'],
-                    amu_ads.rubiconTags['right'],
-                    amu_ads.sovrnTags['300x250_right'],
-                    amu_ads.tripleliftTags['right']
-                ]
-            },
-            {
-                minWidth: 992,
-                minHeight: 700,
-                sizes: [[160, 600]],
-                bids: [
-                    amu_ads.appnexusTags['right'],
-                    amu_ads.ixTags['160x600_right'],
-                    amu_ads.openxTags['right'],
-                    amu_ads.pubmaticTags['right'],
-                    amu_ads.rubiconTags['right'],
-                    amu_ads.sovrnTags['160x600_right'],
-                    amu_ads.tripleliftTags['right']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tower'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tower'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['tower_comments'] = {
-        name: 'tower_comments',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'comments',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 992,
-                minHeight: 700,
-                sizes: [[300, 600], [160, 600], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['comments'],
-                    amu_ads.ixTags['300x600_comments'],
-                    amu_ads.ixTags['160x600_comments'],
-                    amu_ads.ixTags['300x250_comments'],
-                    amu_ads.openxTags['comments'],
-                    amu_ads.pubmaticTags['comments'],
-                    amu_ads.rubiconTags['comments'],
-                    amu_ads.sovrnTags['300x600_comments'],
-                    amu_ads.sovrnTags['160x600_comments'],
-                    amu_ads.sovrnTags['300x250_comments'],
-                    amu_ads.tripleliftTags['comments']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['comments'],
-                    amu_ads.ixTags['300x250_comments'],
-                    amu_ads.openxTags['comments'],
-                    amu_ads.pubmaticTags['comments'],
-                    amu_ads.rubiconTags['comments'],
-                    amu_ads.sovrnTags['300x250_comments'],
-                    amu_ads.tripleliftTags['comments']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tower_comments'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tower_comments'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['tower_spotlight'] = {
-        name: 'tower_spotlight',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'right',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['right'],
-                    amu_ads.ixTags['300x250_right'],
-                    amu_ads.openxTags['right'],
-                    amu_ads.pubmaticTags['right'],
-                    amu_ads.rubiconTags['right'],
-                    amu_ads.sovrnTags['300x250_right'],
-                    amu_ads.tripleliftTags['right']
-                ]
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tower_spotlight'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tower_spotlight'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['tower_nav'] = {
-        name: 'tower_nav',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'left',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 1200,
-                minHeight: 700,
-                sizes: [[300, 600], [160, 600], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['left'],
-                    amu_ads.ixTags['300x600_left'],
-                    amu_ads.ixTags['160x600_left'],
-                    amu_ads.ixTags['300x250_left'],
-                    amu_ads.openxTags['left'],
-                    amu_ads.pubmaticTags['left'],
-                    amu_ads.rubiconTags['left'],
-                    amu_ads.sovrnTags['300x600_left'],
-                    amu_ads.sovrnTags['160x600_left'],
-                    amu_ads.sovrnTags['300x250_left'],
-                    amu_ads.tripleliftTags['left']
-                ]
-            },
-            {
-                minWidth: 1200,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['left'],
-                    amu_ads.ixTags['300x250_left'],
-                    amu_ads.openxTags['left'],
-                    amu_ads.pubmaticTags['left'],
-                    amu_ads.rubiconTags['left'],
-                    amu_ads.sovrnTags['300x250_left'],
-                    amu_ads.tripleliftTags['left']
-                ]
-            },
-            {
-                minWidth: 992,
-                minHeight: 700,
-                sizes: [[160, 600]],
-                bids: [
-                    amu_ads.appnexusTags['left'],
-                    amu_ads.ixTags['160x600_left'],
-                    amu_ads.openxTags['left'],
-                    amu_ads.pubmaticTags['left'],
-                    amu_ads.rubiconTags['left'],
-                    amu_ads.sovrnTags['160x600_left'],
-                    amu_ads.tripleliftTags['left']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tower_nav'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tower_nav'].breakpoints);
-
-
-    amu_ads.adSlotConfig['tower_left'] = {
-        name: 'tower_left',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'left',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 992,
-                minHeight: 700,
-                sizes: [[300, 600], [160, 600], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['left'],
-                    amu_ads.ixTags['300x600_left'],
-                    amu_ads.ixTags['160x600_left'],
-                    amu_ads.ixTags['300x250_left'],
-                    amu_ads.openxTags['left'],
-                    amu_ads.pubmaticTags['left'],
-                    amu_ads.rubiconTags['left'],
-                    amu_ads.sovrnTags['300x600_left'],
-                    amu_ads.sovrnTags['160x600_left'],
-                    amu_ads.sovrnTags['300x250_left'],
-                    amu_ads.tripleliftTags['left']
-                ]
-            },
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['left'],
-                    amu_ads.ixTags['300x250_left'],
-                    amu_ads.openxTags['left'],
-                    amu_ads.pubmaticTags['left'],
-                    amu_ads.rubiconTags['left'],
-                    amu_ads.sovrnTags['300x250_left'],
-                    amu_ads.tripleliftTags['left']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tower_left'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tower_left'].breakpoints);
-
-
-
-    // TODO: rename to tower or something later (will need to coordinate with ADDKT)
-    amu_ads.adSlotConfig['tower_explore'] = {
-        name: 'tower_explore',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'right',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 992,
-                minHeight: 700,
-                sizes: [[300, 600], [160, 600], [300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['right'],
-                    amu_ads.ixTags['300x600_right'],
-                    amu_ads.ixTags['160x600_right'],
-                    amu_ads.ixTags['300x250_right'],
-                    amu_ads.openxTags['right'],
-                    amu_ads.pubmaticTags['right'],
-                    amu_ads.rubiconTags['right'],
-                    amu_ads.sovrnTags['300x600_right'],
-                    amu_ads.sovrnTags['160x600_right'],
-                    amu_ads.sovrnTags['300x250_right'],
-                    amu_ads.tripleliftTags['right']
-                ]
-            },
-            {
-                minWidth: 992,
-                minHeight: 0,
-                sizes: [[300, 250]],
-                bids: [
-                    amu_ads.appnexusTags['right'],
-                    amu_ads.ixTags['300x250_right'],
-                    amu_ads.openxTags['right'],
-                    amu_ads.pubmaticTags['right'],
-                    amu_ads.rubiconTags['right'],
-                    amu_ads.sovrnTags['300x250_right'],
-                    amu_ads.tripleliftTags['right']
-                ]
-            },
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tower_explore'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tower_explore'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['sharethrough_home1'] = {
-        name: 'sharethrough_home1',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'sharethrough1',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel,
-            'strnativekey': 'ToUYV7H9xW7PLXQmvtACxrh1'
-        },
-        breakpoints: [
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[1, 1]],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['sharethrough_home1'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['sharethrough_home1'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['sharethrough_home2'] = {
-        name: 'sharethrough_home2',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'sharethrough2',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel,
-            'strnativekey': 'ToUYV7H9xW7PLXQmvtACxrh1'
-        },
-        breakpoints: [
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[1, 1]],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['sharethrough_home2'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['sharethrough_home2'].breakpoints);
-
-
-
-    amu_ads.adSlotConfig['tynt'] = {
-        name: 'tynt',
-        targeting: {
-            'fcode': 'ch',
-            'pos': 'tynt',
-            'pv': amu_ads.adPageview,
-            'channel': amu_ads.adChannel
-        },
-        breakpoints: [
-            {
-                minWidth: 0,
-                minHeight: 0,
-                sizes: [[1, 1]],
-                bids: []
-            }
-        ]
-    };
-    amu_ads.adSlotConfig['tynt'].breakpoint = findBreakpoint(amu_ads.adSlotConfig['tynt'].breakpoints);
+    &lt;link rel="stylesheet" media="all" href="https://assets.gocomics.com/assets/application-gc-294393ac84f497fe2ca043cf93d9a1508bba3312d2644c29d1912f7a618085ee.css" /&gt;
+
+    &lt;link rel="preconnect" href="https://gdpr-tcfv2.sp-prod.net" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="https://gdpr-tcfv2.sp-prod.net/"&gt;
+&lt;link rel="preconnect" href="https://ccpa.sp-prod.net" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="https://ccpa.sp-prod.net"&gt;
+&lt;link rel="preconnect" href="//d2zv5rkii46miq.cloudfront.net" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="//d2zv5rkii46miq.cloudfront.net"&gt;
+
+&lt;link rel="preconnect" href="//hb.vntsm.com" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="//hb.vntsm.com"&gt;
+
+&lt;link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net"&gt;
+
+&lt;link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="https://c.amazon-adsystem.com"&gt;
+
+&lt;link rel="preconnect" href="//tagan.adlightning.com" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="//tagan.adlightning.com"&gt;
+
+&lt;link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin&gt;
+&lt;link rel="dns-prefetch" href="https://confiant-integrations.global.ssl.fastly.net"&gt;
+
+    &lt;script type="text/javascript"&gt;
+    /*---------- Global JS Variables and Objects ---------------------------------------*/
+    // Global GC Object and Pre Document Load Variables
+    window.amuGc = window.amuGc || {};
+    amuGc.layoutWidthBreakpoint = '';
+    amuGc.layoutHeightBreakpoint = '';
+    amuGc.layoutWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    amuGc.layoutHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    amuGc.env = "production";
+    amuGc.displayAds = true;
+    amuGc.qcLabel = 'comic.calvinandhobbes'
+    amuGc.privacy_link = 'https://www.andrewsmcmeel.com/privacy-policy';
+        amuGc.feature_code = 'ch';
 &lt;/script&gt;
 
-&lt;script&gt;
-    // Venatus
-    var isEU = false;
-    window.VM_API = window.VM_API || [];
-
-    var PREBID_TIMEOUT = 1500;
-    var pbjs = pbjs || {};
-    pbjs.que = pbjs.que || [];
-
-    var customPriceBuckets = {
-        'buckets': [
-            // 1 cent increments up to 50 cents
-            {
-                'min': 0.00,
-                'max': 0.50,
-                'increment': 0.01
-            },
-            // 5 cent increments up to 5 dollars
-            {
-                'min': 0.50,
-                'max': 5.00,
-                'increment': 0.05
-            },
-            // 10 cent increments up to 10 dollars
-            {
-                'min': 5.00,
-                'max': 10.00,
-                'increment': 0.10
-            },
-            // 50 cent increments up to 20 dollars
-            {
-                'min': 10.00,
-                'max': 20.00,
-                'increment': 0.50
-            },
-            // 1 dollar increments up to 50 dollars
-            {
-                'min': 20.00,
-                'max': 50.00,
-                'increment': 1.00
-            }
-        ]
-    };
-
-    pbjs.que.push(function() {
-        pbjs.setConfig({
-            enableSendAllBids: true,
-            priceGranularity: customPriceBuckets,
-            userSync: {
-                iframeEnabled: true
-            }
-        });
-    });
-
-
-    // Confiant
-    // Wrapper for AMUniversal (GoComics), generated on 2018-10-26T16:40:06-04:00, version 2018.04.02
-    pbjs.que.push(function() {
-        // keep a reference to original renderAd function
-        var w = window;
-        w._clrm = w._clrm || {};
-        w._clrm.renderAd = w._clrm.renderAd || pbjs.renderAd;
-        var config = w._clrm.prebid || {
-            /* Enables sandboxing on a device group
-                 All:1 , Desktop:2, Mobile: 3, iOS: 4, Android: 5, Off: 0
-             */
-            sandbox: 0
-        };
-
-        var isGoogleFrame = function (c) {
-            return c.tagName === 'IFRAME' &amp;&amp; c.id &amp;&amp; c.id.indexOf('google_ads_iframe_') &gt; -1;
-        };
-
-        var shouldSandbox = function () {
-            var uaToRegexMap = {
-                    "mobile": /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/i,
-                    "ios": /(.+)(iPhone|iPad|iPod)(.+)OS[\s|\_](\d)\_?(\d)?[\_]?(\d)?.+/i,
-                    "android": /Android/i
-                },
-                sbStr = "" +config.sandbox;
-            if (sbStr === "1") {
-                // all environments
-                return true;
-            } else if (sbStr === "2") {
-                // desktop
-                return !navigator.userAgent.match(uaToRegexMap["mobile"]);
-            } else if (sbStr === "3") {
-                // mobile
-                return navigator.userAgent.match(uaToRegexMap["mobile"]);
-            } else if (sbStr === "4") {
-                // ios only
-                return navigator.userAgent.match(uaToRegexMap["ios"]);
-            } else if (sbStr === "5") {
-                // android
-                return navigator.userAgent.match(uaToRegexMap["android"]);
-            } else {
-                return false;
-            }
-        };
-
-        Node.prototype.appendChild = (function (original) {
-            return function (child) {
-                if (isGoogleFrame(child) &amp;&amp; shouldSandbox() &amp;&amp; !child.getAttribute('sandbox')) {
-                    child.setAttribute('sandbox', 'allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation');
-                    child.setAttribute('data-forced-sandbox', true);
-                }
-                return original.call(this, child);
-            };
-        }(Node.prototype.appendChild));
-
-
-        // override renderAd
-        pbjs.renderAd = function(doc, id) {
-            if (doc &amp;&amp; id) {
-                try {
-
-                    // get pbjs bids
-                    var bids = [],
-                        bidResponses = pbjs.getBidResponses(),
-                        highestBids = pbjs.getHighestCpmBids();
-                    for (var slot in bidResponses) {
-                        bids = bids.concat(bidResponses[slot].bids);
-                    }
-                    bids = bids.concat(highestBids);
-
-                    // lookup ad by ad Id (avoid ES6 array functions)
-                    var bid, i;
-                    for (i=0; i&lt;bids.length; i++) {
-                        if (bids[i].adId === id) {
-                            bid = bids[i];
-                            break;
-                        }
-                    }
-
-                    // Optional: list of bidders that don't need wrapping, array of strings, e.g.: ["bidder1", "bidder2"]
-                    var confiantExcludeBidders = [];
-
-                    // check bidder exclusion (avoid ES6 array functions)
-                    var excludeBidder = false;
-                    for (i = 0; i &lt; confiantExcludeBidders.length; i++) {
-                        if (bid.bidder === confiantExcludeBidders[i]) {
-                            excludeBidder = true;
-                            break;
-                        }
-                    }
-
-                    if (bid &amp;&amp; bid.ad &amp;&amp; !excludeBidder) {
-                        // Neutralize document
-                        var docwrite = doc.write;
-                        var docclose = doc.close;
-                        doc.write = doc.close = function() {};
-                        // call renderAd with our neutralized doc.write
-                        window._clrm.renderAd(doc, id);
-                        // Restore document
-                        delete doc.write;
-                        delete doc.close;
-
-                        var callback = function(blockingType, blockingId, isBlocked, wrapperId, tagId, impressionData) {
-                            console.log("w00t one more bad ad nixed.", arguments);
-                        };
-
-                        return;
-                    }
-                } catch (e) {
-                    console.log(e);
-                }
-            }
-
-            // if bid.ad is not defined or if any error occurs, call renderAd to serve the creative
-            window._clrm.renderAd(doc, id);
-        };
-
-    });
-
-
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.pubads().disableInitialLoad();
-
-        // Event listener for when slot renders
-        googletag.pubads().addEventListener('slotRenderEnded', function(event) {
-            // Element Id of the slot
-            var slotId = event.slot.getSlotElementId();
-
-            // Update lock targets that load after initial page load
-            if(slotId === "tower_comments") {
-                gcLock.init('[data-gc-lock-depends="tower_comments"]');
-            } else if(slotId === "banner_lock") {
-                if(!event.isEmpty) {
-                    document.querySelector('.js-ad-banner-lock-wrapper').classList.remove('ad-hidden');
-                }
-            }
-        });
-    });
-
-    apstag.init({
-        pubID: 'af9aec0d-17e4-4619-825c-371fa3483a58',
-        adServer: 'googletag'
-    });
-&lt;/script&gt;
-
-&lt;script&gt;
-    function startAuction(bidTimeout, adInfo, adSlots, refresh) {
-        // Define bidders
-        var bidders = ['a9', 'prebid'];
-
-        // create a requestManager to keep track of bidder state to determine when to send ad server
-        // request and what apstagSlots to request from the ad server
-        var requestManager = {
-            adServerRequestSent: false
-        };
-        // add the bidders to the request manager:
-        bidders.forEach(function(bidder) {
-            requestManager[bidder] = false;
-        });
-
-        // return true if all bidders have returned
-        function allBiddersDone () {
-            return bidders.filter(function(bidder) {return requestManager[bidder];}).length === bidders.length;
-        }
-
-        // handler for header bidder responses
-        function bidderDone(bidder) {
-            if (requestManager.adServerRequestSent === false) {
-                // flip the boolean associated with the bidder in the request manager
-                requestManager[bidder] = true;
-
-                // if all bidders are back, send the request to the ad server
-                if (allBiddersDone()) {
-                    sendAdserverRequest(adInfo, adSlots, refresh);
-                }
-            }
-        }
-
-        // actually get ads from DFP
-        function sendAdserverRequest(adInfo, adSlots, refresh) {
-            if (requestManager.adServerRequestSent === false) {
-                requestManager.adServerRequestSent = true;
-                pbjs.que.push(function() {
-                    googletag.cmd.push(function() {
-                        if(!refresh){
-                            // 5. Display Ads
-                            displayAds(adInfo);
-                        }
-
-                        // 6. Refresh bids
-                        refreshAds(adSlots);
-                    });
-                });
-            }
-        }
-
-        function requestBids(adInfo, adSlots) {
-            // Fetch Amazon bids
-            amzn_fetchBids(adInfo, adSlots);
-
-            // Fetch Prebid bids
-            prebid_fetchBids(adInfo, adSlots);
-
-        }
-
-        /***** Amazon helper functions *****/
-        function amzn_buildSlotsArray(adInfo) {
-            var slotsArray = [];
-            var i, curAdId, curAdType;
-            for (i = 0; i &lt; adInfo.length; i++) {
-                curAdId = adInfo[i].id;
-                curAdType = adInfo[i].adType;
-                slotsArray.push({
-                    slotID: curAdId,
-                    sizes: amu_ads.adSlotConfig[curAdType].breakpoint.sizes
-                });
-            }
-            return slotsArray;
-
-        }
-
-        function amzn_fetchBids(adInfo, adSlots) {
-            // Fetch Amazon bids for slots on page
-            apstag.fetchBids(
-                {
-                    slots: amzn_buildSlotsArray(adInfo),
-                    timeout: 1000
-                },
-                function (bids) {
-                    pbjs.que.push(function () {
-                        googletag.cmd.push(function () {
-                            // Set Amazon bid key-values pairs
-                            try {
-                                apstag.setDisplayBids();
-                            } catch (e) {
-                                //do nothing
-                            }
-                        });
-                        bidderDone('a9', adInfo, adSlots);
-                    });
-                }
-            );
-        }
-
-        /* Prebid helper functions */
-        var prebid_fetchBids = function(adInfo, adSlots) {
-            var curAdIds = adInfo.map(function(e){return e.id;});
-            pbjs.que.push(function() {
-                pbjs.requestBids({
-                    timeout: PREBID_TIMEOUT,
-                    adUnitCodes: curAdIds,
-                    bidsBackHandler: function() {
-                        googletag.cmd.push(function() {
-                            pbjs.setTargetingForGPTAsync(curAdIds);
-                        });
-                        bidderDone('prebid', adInfo, adSlots);
-                    }
-                });
-            });
-        };
-
-        // ask bidders for their bids
-        requestBids(adInfo, adSlots);
-        // set timeout to send request to call sendAdserverRequest() after timeout
-        // it all bidders haven't returned before then
-        window.setTimeout(function() {
-            sendAdserverRequest(adInfo, adSlots);
-        }, bidTimeout);
-    }
-&lt;/script&gt;
-
-&lt;script&gt;
-    var buildAdUnits = function(adInfo) {
-        var adUnits = [];
-        var curUnit, curAdId, curAdType;
-        for(var i = 0; i &lt; adInfo.length; i++) {
-            curAdId = adInfo[i].id;
-            curAdType = adInfo[i].adType;
-            curUnit = {
-                code: curAdId,
-                mediaTypes: {
-                    banner: {
-                        sizes: amu_ads.adSlotConfig[curAdType].breakpoint.sizes
-                    }
-                },
-                bids: amu_ads.adSlotConfig[curAdType].breakpoint.bids
-            };
-            adUnits.push(curUnit);
-        }
-        return adUnits
-    };
-
-    var defineAds = function(adInfo) {
-        var slots = [];
-        var i, curSlot, curAdId, curAdType;
-        for (i = 0; i &lt; adInfo.length; i++) {
-            curAdId = adInfo[i].id;
-            curAdType = adInfo[i].adType;
-            // Define slot
-            curSlot = googletag.defineSlot(amu_ads.adSlotPath, amu_ads.adSlotConfig[curAdType].breakpoint.sizes, curAdId).addService(googletag.pubads());
-
-            // Set slot level targeting
-            for (key in amu_ads.adSlotConfig[curAdType].targeting) {
-                curSlot.setTargeting(key, amu_ads.adSlotConfig[curAdType].targeting[key]);
-            }
-
-            slots.push(curSlot);
-
-            // Store slot for later use (refreshing ads, etc)
-            amu_ads.adSlots[curAdId] = curSlot;
-
-        }
-        return slots;
-    };
-
-    var displayAds = function(adInfo) {
-        var curAdId;
-        if(adInfo.length === 0) {
-            googletag.display();
-        } else {
-            for(var i = 0; i &lt; adInfo.length; i++) {
-                curAdId = adInfo[i].id;
-                googletag.display(curAdId);
-            }
-        }
-    };
-
-    var refreshAds = function(adSlots) {
-        for(var i = 0; i &lt; adSlots.length; i++) {
-            adSlots[i].setTargeting('pv', getPageviewFromCookie());
-        }
-
-        if(adSlots.length === 0) {
-            googletag.pubads().refresh();
-        } else {
-            googletag.pubads().refresh(adSlots);
-        }
-    };
-
-    var auctionInit = function(adInfo, refresh) {
-        if(adInfo.length &gt; 0){
-            if(isEU) {
-                googletag.cmd.push(function() {
-                    // Define ads
-                    var adSlots = defineAds(adInfo);
-
-                    // Enable services for GPT
-                    googletag.enableServices();
-
-                    // Display Ads
-                    displayAds(adInfo);
-
-                    // Refresh bids
-                    refreshAds(adSlots);
-                });
-            } else {
-                pbjs.que.push(function() {
-                    googletag.cmd.push(function() {
-                        if(!refresh) {
-                            // Build ad units and add them to Prebid
-                            var adUnits = buildAdUnits(adInfo);
-                            pbjs.addAdUnits(adUnits);
-
-                            // Define ads
-                            var adSlots = defineAds(adInfo);
-
-                            // Enable services for GPT
-                            googletag.enableServices();
-                        } else {
-                            // Get existing ad slots
-                            var adSlots = adInfo.map(getAdSlot);
-                        }
-                        // Start header-bidding auction
-                        startAuction(1500, adInfo, adSlots, refresh);
-                    });
-                });
-            }
-        }
-    };
-
-    // Venatus
-    window.VM_API.push({
-        call: "is-consent-required",
-        onResult: function(res) {
-            //res = true in EU
-            //res = false outside EU
-            isEU = res;
-            if (document.readyState === "loading") {
-                document.addEventListener("DOMContentLoaded", function(event) {
-                    // Find ads
-                    var adElements = findAds('js-ad');
-
-                    // Get ad info
-                    var adInfo = getAdInfo(adElements);
-                    auctionInit(adInfo, false);
-
-                    //Lazy load ads
-                    adLazyLoaderInit('js-ad-lazy-load');
-
-                    // Refresh in view ads
-                    adRefresherInit('js-ad-refresh');
-                });
-            } else {
-                // Find ads
-                var adElements = findAds('js-ad');
-
-                // Get ad info
-                var adInfo = getAdInfo(adElements);
-
-                auctionInit(adInfo, false);
-
-                //Lazy load ads
-                adLazyLoaderInit('js-ad-lazy-load');
-
-                // Refresh ads in view
-                adRefresherInit('js-ad-refresh');
-            }
-        }
-    });
-
-&lt;/script&gt;
-
-
-&lt;!-- Sharethrough --&gt;
-&lt;script type="text/javascript" src="https://native.sharethrough.com/assets/sfp.js"&gt;&lt;/script&gt;
-
-    &lt;!-- Begin Monetate ExpressTag Sync v8.1. Place at start of document head. DO NOT ALTER. --&gt;
-&lt;script type="text/javascript"&gt;var monetateT = new Date().getTime();&lt;/script&gt;
-&lt;script type="text/javascript" src="//se.monetate.net/js/2/a-8760e223/p/gocomics.com/entry.js"&gt;&lt;/script&gt;
-&lt;!-- End Monetate tag --&gt;
-
+&lt;!-- BEGIN GTM Core Data Layer --&gt;
 &lt;script type="text/javascript"&gt;
-    window.monetateQ = window.monetateQ || [];
-
-    // Set page type
-        window.monetateQ.push([
-        'setPageType',
-        'feature-item'
-    ]);
-
-    // Set custom variables
-    monetateQ.push([
-        'setCustomVariables',
-        [
-            // Feature variables
-            {
-                name: 'featureCode',
-                value: 'ch'
-            },
-
-            // Ad variables
-            {
-                name: 'advertisingChannel',
-                value: 'a'
-            },
-
-            // User variables
-        ]
-    ]);
-
-    // Call trackData when data is ready to be sent to Monetate.
-    // Each time trackData is called, monetateQ is cleared.
-    window.monetateQ.push([
-        "trackData"
-    ]);
-&lt;/script&gt;
-
-    &lt;!-- BEGIN GTM Core Data Layer --&gt;
-&lt;script&gt;
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
         'event': 'dataLayer-loaded',
@@ -2947,7 +128,7 @@
         'featureType': 'comic',
         'featureFormat': 'print_classics',
 
-        'featureItemPublishDate': '2019-07-14',
+        'featureItemPublishDate': '2020-09-06',
 
 
         'advertisingChannel': 'a',
@@ -2958,47 +139,51 @@
 
         'loginStatus': 'logged out'
     });
+
+
+    // Google Analytics Variables
+    amuGc.uaCategoryGroup = 'comic strips';
+    amuGc.uaSubcategoryGroup = '';
+    amuGc.uaTypeGroup = 'print classics';
+    amuGc.uaClientName = "gocomics";
+    amuGc.uaFeatureName = 'calvin and hobbes';
+    amuGc.uaUserType = 'casual';
+    amuGc.uaUserId = '';
+    amuGc.uaUserPromo = '';
 &lt;/script&gt;
 &lt;!-- END GTM Core Data Layer --&gt;
 
-    &lt;!-- Google Tag Manager HEAD? --&gt;
-&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-PN7JV4B');&lt;/script&gt;
-&lt;!-- End Google Tag Manager --&gt;
+    &lt;script src="https://assets.gocomics.com/assets/application-gc-preload-10860f76ba813bbc2fda4e6fc4fa906c957ffe8a68e76c8b9ea955345f1b4feb.js"&gt;&lt;/script&gt;
 
-    &lt;script type="text/javascript"&gt;
-//Set markup and styling here
-window.cookieconsent_options = {
-  container: '#cookieconsent-container',
-  learnMore: 'More info',
-  link: "//www.andrewsmcmeel.com/privacy-policy",
-  //If you wish to use your own CSS instead, specify the URL of your CSS file. e.g. styles/my_custom_theme.css.
-  //This can be a relative or absolute URL.
-  //To stop Cookie Consent from loading CSS at all, specify false
-  //IE8 Styles need to be duplicated in app specific css overrides /assets/stylesheets/ie/ie8.css
-  theme: false,
-  markup: [
-    '&lt;div&gt;',
-    '&lt;style type="text/css"&gt;.cc_banner-wrapper {height: 70px; } .cc_container {position:absolute; width:100%; left:0; top:80px; right:0; overflow:hidden; background-color:#666; } .cookie-choices-info {margin:0; padding:0; text-align:center; color:#fff; line-height:140%; padding:15px 0; font-family:roboto,Arial } .cookie-choices-info .cookie-choices-text {display:inline-block; vertical-align:middle; font-size:16px; margin:10px; color:#fefefe; max-width:800px; text-align:center } .cookie-choices-info .cookie-choices-buttons {display:inline-block; vertical-align:middle; white-space:nowrap; margin:10px } .cookie-choices-info .cookie-choices-button:hover {color:#fff; background-color:#000 } .cookie-choices-info .cookie-choices-button {background:#444; font-weight:700; text-transform:UPPERCASE; white-space:nowrap; color:#eee; margin-left:8px; padding:10px; border-radius:3px; text-decoration:none } @media screen and (max-width: 992px) {.cc_container {top: 60px}} @media screen and (max-width: 851px) {.cc_container {top: 60px} .cc_banner-wrapper {height:110px } } @media screen and (max-width: 588px) {.cc_banner-wrapper {height:140px} } @media screen and (max-width: 327px) {.cc_banner-wrapper {height:160px} } @media print {.cc_banner-wrapper,.cc_container {display:none } }&lt;/style&gt;',
-    '&lt;div class="cc_banner-wrapper {{containerClasses}}"&gt;',
-    '&lt;div class="cc_banner cc_container cc_container--open"&gt;',
-    '&lt;div class="cookie-choices-info"&gt;&lt;div class="cookie-choices-inner"&gt;&lt;span class="cookie-choices-text"&gt;{{options.message}}&lt;/span&gt;&lt;span class="cookie-choices-buttons"&gt; &lt;a data-cc-if="options.link" class="cookie-choices-button" target="_blank" href="{{options.link || "#null"}}"&gt;{{options.learnMore}}&lt;/a&gt; &lt;a id="cookieChoiceDismiss" href="#null" data-cc-event="click:dismiss"  class="cookie-choices-button"&gt;{{options.dismiss}}&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;',
-    '&lt;/div&gt;',
-    '&lt;/div&gt;',
-    '&lt;/div&gt;'
-  ],
-  cookieName: 'gocomics_cookieconsent_dismissed',
-  readystate: 'interactive'
-};
+      &lt;!-- GPT --&gt;
+&lt;script async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"&gt;&lt;/script&gt;
+
+&lt;!-- Amazon --&gt;
+&lt;script async="async"&gt;
+  !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","////c.amazon-adsystem.com/aax2/apstag.js");
 &lt;/script&gt;
 
-    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" integrity="sha384-acGNjq0ZO3YC8YdbDezfdh+P9JYzpbVLNKWULhNFraiKnRIhnbcb75B7Jvzqf3hA" crossorigin="anonymous"&gt;
+&lt;!-- Confiant --&gt;
+&lt;script async="async" src="https://confiant-integrations.global.ssl.fastly.net/URCY_lYNAEeMRZShS4CoaDXuIew/gpt_and_prebid/config.js"&gt;&lt;/script&gt;
+
+&lt;!-- Venatus --&gt;
+&lt;script async="async"&gt;
+  (function(){document.write('&lt;div id="vmv3-ad-manager" style="display:none"&gt;&lt;/div&gt;');document.getElementById("vmv3-ad-manager").innerHTML='&lt;iframe id="vmv3-frm" src="javascript:\'&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\'" width="0" height="0" data-mode="scan" data-site-id="5b04343a46e0fb0001162107"&gt;&lt;/iframe&gt;';var a=document.getElementById("vmv3-frm");a=a.contentWindow?a.contentWindow:a.contentDocument;a.document.open();a.document.write('&lt;script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" async&gt;'+'&lt;/scr'+'ipt&gt;');a.document.close()})();
+&lt;/script&gt;
+
+&lt;!-- AdLightning --&gt;
+&lt;script defer src="https://tagan.adlightning.com/andrewsmcmeel/op.js"&gt;&lt;/script&gt;
+      &lt;script src="https://assets.gocomics.com/assets/ad-dependencies-e8ba09486437b95ed25d0f48f8d71c9fb9e678087b2135672b6a4528bac716ce.js" defer="defer"&gt;&lt;/script&gt;
+
+    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" integrity="sha384-acGNjq0ZO3YC8YdbDezfdh+P9JYzpbVLNKWULhNFraiKnRIhnbcb75B7Jvzqf3hA" crossorigin="anonymous" media="all"&gt;
   &lt;/head&gt;
-  &lt;body role="document" data-controller="feature_items" data-action="feature-lander" class="js-gc-page-item gc-page-item gc-profile-casual calvinandhobbes"&gt;
+  &lt;body role="document" data-controller="feature_items" data-action="feature-lander" class="js-gc-page-item gc-page-item gc-profile-casual calvinandhobbes "&gt;
 
     &lt;!-- All Server-Side Analytic Values or Markup (No Script Calls or Heavy Client-Side Scripting) --&gt;
 
 &lt;!-- Google Tag Manager (noscript) --&gt;
-&lt;noscript&gt;&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN7JV4B" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;&lt;/noscript&gt;
+&lt;noscript&gt;&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN7JV4B"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;&lt;/noscript&gt;
 &lt;!-- End Google Tag Manager (noscript) --&gt;
 
 
@@ -3017,20 +202,6 @@ window.cookieconsent_options = {
 
 
 
-
-&lt;script type="text/javascript"&gt;
-    amuGc.env = "production";
-    amuGc.displayAds = true;
-    amuGc.uaCategoryGroup = 'comic strips';
-    amuGc.uaSubcategoryGroup = '';
-    amuGc.uaTypeGroup = 'print classics';
-    amuGc.uaClientName = "gocomics";
-    amuGc.uaFeatureName = 'calvin and hobbes';
-    amuGc.uaUserType = 'casual';
-    amuGc.uaUserId = '';
-    amuGc.uaUserPromo = '';
-    amuGc.qcLabel = 'comic.calvinandhobbes'
-&lt;/script&gt;
 &lt;!-- Google Universal Analytics End --&gt;
 
     &lt;div class="js-amu-container-global"&gt;
@@ -3039,7 +210,6 @@ window.cookieconsent_options = {
   &lt;header class="gc-content__1col gc-gap-none"&gt;
 
     &lt;nav class='navbar navbar-expand-lg navbar-light bg-white gc-nav-primary container'&gt;
-
       &lt;button class='navbar-toggler collapsed gc-hamburger' type='button' data-toggle='collapse' data-target='.gc-nav-primary__left-menu' aria-controls='gc-nav-primary__left-menu' aria-expanded='false' aria-label='Toggle navigation'&gt;
 
         &lt;div class='gc-hamburger__icon'&gt;
@@ -3214,8 +384,6 @@ window.cookieconsent_options = {
   &lt;/header&gt;
 &lt;/div&gt;&lt;!-- End Site Header --&gt;
 
-      &lt;div id='cookieconsent-container'&gt;&lt;/div&gt;
-
 
       &lt;noscript&gt;
         &lt;div class="amu-container-layout gc-no-js"&gt;
@@ -3231,6 +399,8 @@ window.cookieconsent_options = {
       &lt;/noscript&gt;
 
       &lt;div role="main" class="gc-page-container"&gt;
+        &lt;div id="cookieconsent-container" /&gt;
+
 
 
 
@@ -3244,22 +414,23 @@ window.cookieconsent_options = {
       &lt;div class="layout-2col-sidebar bg-white border-right js-gc-lock-parent hidden-md-down"&gt;
         &lt;aside class="gc-feature-side"&gt;
   &lt;div class="gc-fade-bottom"&gt;
-    &lt;picture class="card-img lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/large_rec-201701251556.jpg 600w, https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/mid_rec-201701251556.jpg 300w, https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/small_rec-201701251556.jpg 150w" sizes="auto" width="100%" alt="#&amp;lt;Feature:0x00007f087d340620&amp;gt;" src="https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/large_rec-201701251556.jpg" /&gt;&lt;/picture&gt;
+    &lt;picture class="card-img lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/large_rec-201701251556.jpg 600w, https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/mid_rec-201701251556.jpg 300w, https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/small_rec-201701251556.jpg 150w" sizes="auto" width="100%" alt="#&amp;lt;Feature:0x00007f275dbb74d0&amp;gt;" src="https://avatar.amuniversal.com/feature_avatars/recommendation_images/features/ch/large_rec-201701251556.jpg" /&gt;&lt;/picture&gt;
   &lt;/div&gt;
   &lt;div class="gc-feature-side__info"&gt;
     &lt;a class="gc-blended-link gc-blended-link--primary" href="/calvinandhobbes"&gt;
       
 
 
-&lt;div class='media amu-media-item'&gt;
-  &lt;div class='media-left'&gt;
-    &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png, 72w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png" /&gt;&lt;/div&gt;
+  &lt;div class='media amu-media-item'&gt;
+    &lt;div class='media-left'&gt;
+      &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png, 137w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png" /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='media-body ml-3'&gt;
+      &lt;h2 class='media-heading h4 mb-0'&gt;Calvin and Hobbes&lt;/h2&gt;
+      &lt;span class="media-subheading small"&gt;By Bill Watterson&lt;/span&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class='media-body ml-3'&gt;
-    &lt;h2 class='media-heading h4 mb-0'&gt;Calvin and Hobbes&lt;/h2&gt;
-    &lt;span class="media-subheading small"&gt;By Bill Watterson&lt;/span&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+
 
 &lt;/a&gt;    &lt;div class="gc-feature-side__follow js-subscription-feature-344"&gt;
     &lt;a class="btn btn-primary btn-block" data-toggle="modal" data-tooltip="tooltip" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add comics to your comics page." aria-label="Sign up or sign in to add Calvin and Hobbes to your Comics I Follow" title="Sign up or sign in to add Calvin and Hobbes to your Comics I Follow" rel="nofollow" href=""&gt;
@@ -3271,11 +442,18 @@ window.cookieconsent_options = {
           &lt;div class='js-gc-lock-target'&gt;
             
 &lt;div class="amu-container-ad-wrapper   "&gt;
-	&lt;div class="amu-container-ad ad-tower_nav-container"&gt;
-    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
-	  &lt;div id="tower_nav" class="js-ad js-ad-refresh gc-ad ad-tower_nav" data-ad-type="tower_nav"&gt;
-	  &lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="amu-container-ad ad-tower_nav-container"&gt;
+    &lt;div class="ad-header"&gt;
+      Advertisement
+    &lt;/div&gt;
+
+    &lt;div id="tower_nav" class="js-ad js-ad-refresh gc-ad ad-tower_nav" data-ad-type="tower_nav"&gt;
+    &lt;/div&gt;
+
+    &lt;div id="js-report-tower_nav" class="gc-ad__report-button"&gt;
+      &lt;div class="adl-report-ad-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
       &lt;/div&gt;
@@ -3289,15 +467,16 @@ window.cookieconsent_options = {
       
 
 
-&lt;div class='media amu-media-item'&gt;
-  &lt;div class='media-left'&gt;
-    &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png, 72w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png" /&gt;&lt;/div&gt;
+  &lt;div class='media amu-media-item'&gt;
+    &lt;div class='media-left'&gt;
+      &lt;div class="gc-avatar gc-avatar--creator xs"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png, 137w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png" /&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='media-body ml-3'&gt;
+      &lt;h4 class='media-heading h4 mb-0'&gt;Calvin and Hobbes&lt;/h4&gt;
+      &lt;span class="media-subheading small"&gt;By Bill Watterson&lt;/span&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class='media-body ml-3'&gt;
-    &lt;h4 class='media-heading h4 mb-0'&gt;Calvin and Hobbes&lt;/h4&gt;
-    &lt;span class="media-subheading small"&gt;By Bill Watterson&lt;/span&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+
 
 &lt;/a&gt;    &lt;!-- Follow Button --&gt;
     &lt;div class="gc-feature-side__follow js-subscription-feature-344"&gt;
@@ -3310,17 +489,24 @@ window.cookieconsent_options = {
 
         
 &lt;div class="amu-container-ad-wrapper   "&gt;
-	&lt;div class="amu-container-ad ad-leaderboard_feature_item-container"&gt;
-    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
-	  &lt;div id="leaderboard_feature_item" class="js-ad js-ad-refresh gc-ad ad-leaderboard_feature_item" data-ad-type="leaderboard_feature_item"&gt;
-	  &lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="amu-container-ad ad-leaderboard_feature_item-container"&gt;
+    &lt;div class="ad-header"&gt;
+      Advertisement
+    &lt;/div&gt;
+
+    &lt;div id="leaderboard_feature_item" class="js-ad js-ad-refresh gc-ad ad-leaderboard_feature_item" data-ad-type="leaderboard_feature_item"&gt;
+    &lt;/div&gt;
+
+    &lt;div id="js-report-leaderboard_feature_item" class="gc-ad__report-button"&gt;
+      &lt;div class="adl-report-ad-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
         &lt;nav class='content-section-padded-sm'&gt;
   &lt;ul class='nav nav-tabs gc-tab-nav js-tab-nav' style="visibility: hidden;"&gt;
     &lt;li class="nav-item"&gt;&lt;a class="nav-link " data-link="overview" href="/calvinandhobbes"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-    &lt;li class="nav-item"&gt;&lt;a class="nav-link active" data-link="comics" href="/calvinandhobbes/2019/07/16"&gt;Comics&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;&lt;a class="nav-link active" data-link="comics" href="/calvinandhobbes/2020/09/11"&gt;Comics&lt;/a&gt;&lt;/li&gt;
     &lt;li class="nav-item"&gt;&lt;a class="nav-link " data-link="about" href="/calvinandhobbes/about"&gt;About&lt;/a&gt;&lt;/li&gt;
     
   &lt;/ul&gt;
@@ -3330,27 +516,27 @@ window.cookieconsent_options = {
 
         
   &lt;div class="gc-container"&gt;
-    &lt;h1 class="m-0 h6 text-center"&gt;Calvin and Hobbes by Bill Watterson for July 14, 2019&lt;/h1&gt;
+    &lt;h1 class="m-0 h6 text-center"&gt;Calvin and Hobbes by Bill Watterson for September 06, 2020&lt;/h1&gt;
     
 
 
-&lt;div class="comic container js-comic-2735865 js-item-init js-item-share js-comic-swipe bg-white border rounded" data-shareable-model="FeatureItem"
-data-shareable-id="2735865"
+&lt;div class="comic container js-comic-3106792 js-item-init js-item-share js-comic-swipe bg-white border rounded" data-shareable-model="FeatureItem"
+data-shareable-id="3106792"
 data-transcript=""
-data-id="2735865"
+data-id="3106792"
 data-feature-id="344"
 data-feature-name="Calvin and Hobbes"
 data-feature-code="ch"
 data-feature-type="comic"
 data-feature-format="print_classics"
-data-date="2019-07-14"
-data-formatted-date="July 14, 2019"
-data-url="https://www.gocomics.com/calvinandhobbes/2019/07/14"
+data-date="2020-09-06"
+data-formatted-date="September 06, 2020"
+data-url="https://www.gocomics.com/calvinandhobbes/2020/09/06"
 data-creator="Bill Watterson"
-data-title="Calvin and Hobbes for July 14, 2019 | GoComics.com"
+data-title="Calvin and Hobbes for September 06, 2020 | GoComics.com"
 data-tags=""
-data-description="For July 14, 2019"
-data-image="https://assets.amuniversal.com/32ae40405a9b01379c16005056a9545d"
+data-description="For September 06, 2020"
+data-image="https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d"
 itemtype="http://schema.org/CreativeWork"
 accountableperson="Andrews McMeel Universal"
 creator="Bill Watterson"&gt;
@@ -3368,29 +554,29 @@ creator="Bill Watterson"&gt;
         &lt;div class="swipe-preview swipe-preview__previous js-preview-previous"&gt;
   &lt;div class='swipe-preview__group'&gt;
     &lt;h5 class='card-subtitle'&gt;
-        &lt;date&gt;July 13, 2019&lt;/date&gt;
+        &lt;date&gt;September 05, 2020&lt;/date&gt;
     &lt;/h5&gt;
     &lt;div class='swipe-preview__ubadge'&gt;
-      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png, 137w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png" /&gt;&lt;/div&gt;
+      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png, 72w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png" /&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-        &lt;a itemprop='image' class="js-item-comic-link" href="/calvinandhobbes/2019/07/14" title="Calvin and Hobbes"&gt;
+        &lt;a itemprop='image' class="js-item-comic-link" href="/calvinandhobbes/2020/09/06" title="Calvin and Hobbes"&gt;
 
-  &lt;picture class="item-comic-image"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://assets.amuniversal.com/32ae40405a9b01379c16005056a9545d 900w" sizes="
+  &lt;picture class="item-comic-image"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d 900w" sizes="
                        (min-width: 992px) 900px,
                        (min-width: 768px) 600px,
                        (min-width: 576px) 300px,
-                       900px" width="100%" alt="Calvin and Hobbes Comic Strip for July 14, 2019 " src="https://assets.amuniversal.com/32ae40405a9b01379c16005056a9545d" /&gt;&lt;/picture&gt;
+                       900px" width="100%" alt="Calvin and Hobbes Comic Strip for September 06, 2020 " src="https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d" /&gt;&lt;/picture&gt;
 &lt;/a&gt;
 &lt;meta itemprop='isFamilyFriendly' content='true'&gt;
         &lt;div class="swipe-preview swipe-preview__next js-preview-next"&gt;
   &lt;div class='swipe-preview__group'&gt;
     &lt;h5 class='card-subtitle'&gt;
-        &lt;date&gt;July 15, 2019&lt;/date&gt;
+        &lt;date&gt;September 07, 2020&lt;/date&gt;
     &lt;/h5&gt;
     &lt;div class='swipe-preview__ubadge'&gt;
-      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png, 137w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/mid_u-201701251613.png" /&gt;&lt;/div&gt;
+      &lt;div class="gc-avatar gc-avatar--creator sm"&gt;&lt;img srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png, 72w" class="lazyload" alt="Calvin and Hobbes" src="https://avatar.amuniversal.com/feature_avatars/ubadge_images/features/ch/small_u-201701251613.png" /&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -3399,28 +585,28 @@ creator="Bill Watterson"&gt;
         &lt;nav class="gc-calendar-nav" role="group" aria-label="Date Navigation Controls"&gt;
     &lt;div class="gc-calendar-nav__previous"&gt;
       &lt;a role='button' href='/calvinandhobbes/1985/11/18' class='fa btn btn-outline-secondary btn-circle fa fa-backward sm ' title='' &gt;&lt;/a&gt;
-      &lt;a role='button' href='/calvinandhobbes/2019/07/13' class='fa btn btn-outline-secondary btn-circle fa-caret-left sm js-previous-comic ' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='/calvinandhobbes/2020/09/05' class='fa btn btn-outline-secondary btn-circle fa-caret-left sm js-previous-comic ' title='' &gt;&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class="gc-calendar-nav__select"&gt;
       &lt;div class="btn btn-outline-secondary gc-calendar-nav__datepicker js-calendar-wrapper"
-           data-date="2019/07/14"
+           data-date="2020/09/06"
            data-name="/calvinandhobbes/"
-           data-year="2019"
-           data-month="07"
-           data-day="14"
+           data-year="2020"
+           data-month="09"
+           data-day="06"
            data-feature="calvinandhobbes"
            data-ct=""
            data-start="1985/11/18"
-           data-end="2019/07/16"
-           data-open="2019-07-14"&gt;
+           data-end="2020/09/11"
+           data-open="2020-09-06"&gt;
           &lt;i class="fa fa-calendar xs"&gt;&lt;/i&gt;
-          &lt;input type="text" name="startDate" placeholder="July 14, 2019" readonly="readonly" class="cal off calendar-input date js-calendar-input datepicker js-calendar-input-link"&gt;
+          &lt;input type="text" name="startDate" placeholder="September 06, 2020" readonly="readonly" class="cal off calendar-input date js-calendar-input datepicker js-calendar-input-link"&gt;
       &lt;/div&gt;
       &lt;a class="btn btn-outline-secondary" alt="Click to View a Random Calvin and Hobbes Comic Strip!" href="/random/calvinandhobbes"&gt;Random&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class="gc-calendar-nav__next"&gt;
-      &lt;a role='button' href='/calvinandhobbes/2019/07/15' class='fa btn btn-outline-secondary btn-circle fa-caret-right sm ' title='' &gt;&lt;/a&gt;
-      &lt;a role='button' href='/calvinandhobbes/2019/07/16' class='fa btn btn-outline-secondary btn-circle fa-forward sm ' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='/calvinandhobbes/2020/09/07' class='fa btn btn-outline-secondary btn-circle fa-caret-right sm ' title='' &gt;&lt;/a&gt;
+      &lt;a role='button' href='/calvinandhobbes/2020/09/11' class='fa btn btn-outline-secondary btn-circle fa-forward sm ' title='' &gt;&lt;/a&gt;
     &lt;/div&gt;
 &lt;/nav&gt;
 
@@ -3428,19 +614,19 @@ creator="Bill Watterson"&gt;
     &lt;/div&gt;
 
       &lt;div class="comic__interactions-container js-gc-lock-parent js-item-interactions-container "&gt;
-        &lt;div class="item-interactions js-gc-lock-target js-share-button-container dropdown" id="toolbar_2735865" data-gc-lock-depends="leaderboard_feature_item"&gt;
+        &lt;div class="item-interactions js-gc-lock-target js-share-button-container dropdown" id="toolbar_3106792" data-gc-lock-depends="leaderboard_feature_item"&gt;
   &lt;div class='gc-comment-toggle'&gt;
-    &lt;a role="button" class="gc-icon fa fa-comment md js-comment-toggle" aria-label="View the comments" title="View the comments" data-tooltip="tooltip" data-remote="true" href="/comments/show/feature_item/2735865"&gt;&lt;/a&gt;
-  &lt;span id="interaction_count_comments_2735865"  class="js-interaction-count h6 text-center interaction-count comments"&gt;95&lt;/span&gt;
+    &lt;a role="button" class="gc-icon fa fa-comment md js-comment-toggle" aria-label="View the comments" title="View the comments" data-tooltip="tooltip" data-remote="true" href="/comments/show/feature_item/3106792"&gt;&lt;/a&gt;
+  &lt;span id="interaction_count_comments_3106792"  class="js-interaction-count h6 text-center interaction-count comments"&gt;128&lt;/span&gt;
 &lt;/div&gt;
   &lt;div class='js-like'&gt;
     &lt;a class="gc-icon fa fa-heart md" data-toggle="modal" data-target="#js-modal-account-hook" aria-label="Sign in to like this comic." title="Sign in to like this comic." data-tooltip="tooltip" rel="nofollow" href=""&gt;&lt;/a&gt;
 
-  &lt;span id="interaction_count_likes_2735865"  class="js-interaction-count h6 text-center interaction-count likes"&gt;327&lt;/span&gt;
+  &lt;span id="interaction_count_likes_3106792"  class="js-interaction-count h6 text-center interaction-count likes"&gt;366&lt;/span&gt;
 &lt;/div&gt;
   &lt;div class=" js-favorite"&gt;
     &lt;a class="gc-icon fa fa-thumb-tack md" data-toggle="modal" data-target="#js-modal-account-hook" data-modal-message="Sign up or sign in to add this to your Saved Comic Strips." title="Sign up or sign in to add to your Saved Comic Strips" data-tooltip="tooltip" rel="nofollow" href="#"&gt;&lt;/a&gt;
-  &lt;span id="interaction_count_favorites_2735865"  class="js-interaction-count h6 text-center interaction-count favorites"&gt;49&lt;/span&gt;
+  &lt;span id="interaction_count_favorites_3106792"  class="js-interaction-count h6 text-center interaction-count favorites"&gt;48&lt;/span&gt;
 &lt;/div&gt;
   
 &lt;a class="js-facebook js-share-button gc-icon fa btn fa-facebook md" aria-label="Share on Facebook" data-tooltip="tooltip" title="Share on Facebook" role="button" rel="no-follow" href="#"&gt;&lt;/a&gt;
@@ -3455,16 +641,16 @@ creator="Bill Watterson"&gt;
     &lt;a class="js-tumblr js-share-button gc-icon fa btn fa-tumblr md" aria-label="Share on Tumblr" data-tooltip="tooltip" title="Share on Tumblr" role="button" rel="no-follow" href="#"&gt;&lt;/a&gt;
     &lt;a class="js-pinterest js-share-button gc-icon fa btn fa-pinterest md" aria-label="Share on Pinterest" data-tooltip="tooltip" title="Share on Pinterest" role="button" rel="no-follow" href="#"&gt;&lt;/a&gt;
 
-    &lt;a aria-label="Share via email" title="Share via email" data-tooltip="tooltip" class="js-email js-share-button gc-icon fa btn fa-envelope md" href="mailto:?body=https%3A%2F%2Fwww.gocomics.com%2Fcalvinandhobbes%2F2019%2F07%2F14&amp;amp;subject=Read%20Calvin%20and%20Hobbes%20by%20Bill%20Watterson%20on%20GoComics.com%20%7C%20July%2014%2C%202019"&gt;
+    &lt;a aria-label="Share via email" title="Share via email" data-tooltip="tooltip" class="js-email js-share-button gc-icon fa btn fa-envelope md" href="mailto:?body=https%3A%2F%2Fwww.gocomics.com%2Fcalvinandhobbes%2F2020%2F09%2F06&amp;amp;subject=Read%20Calvin%20and%20Hobbes%20by%20Bill%20Watterson%20on%20GoComics.com%20%7C%20September%2006%2C%202020"&gt;
 &lt;/a&gt;  &lt;/div&gt;
 
   &lt;form class='text-center'&gt;
     &lt;fieldset&gt;
       &lt;legend class="sr-only"&gt;Share this - Copy link&lt;/legend&gt;
-      &lt;label class='gc-font-secondary' for="link-2735865" aria-label="link-2735865"&gt;
+      &lt;label class='gc-font-secondary' for="link-3106792" aria-label="link-3106792"&gt;
         Share Link
       &lt;/label&gt;
-      &lt;input class='js-copy-link form-control' id="link-2735865" value="https://www.gocomics.com/calvinandhobbes/2019/07/14" aria-label='Get the permalink' data-clipboard-target="#link-2735865"&gt;
+      &lt;input class='js-copy-link form-control' id="link-3106792" value="https://www.gocomics.com/calvinandhobbes/2020/09/06" aria-label='Get the permalink' data-clipboard-target="#link-3106792"&gt;
     &lt;/fieldset&gt;
   &lt;/form&gt;
 &lt;/div&gt;
@@ -3475,8 +661,8 @@ creator="Bill Watterson"&gt;
   &lt;/div&gt;
 
     &lt;div class='comic__buy-button'&gt;
-      &lt;a class="btn btn-primary gc-button" alt="Buy a Print of This Comic" data-link-type="feature-item-buy-print" href="https://store.gocomics.com/product/custom-print-order?publish_date=20190714&amp;amp;feature_code=ch&amp;amp;featureName=Calvin and Hobbes&amp;amp;hash=32ae40405a9b01379c16005056a9545d"&gt;Buy a Print of This Comic&lt;/a&gt;
-      &lt;a class="btn btn-outline-primary gc-button" alt="Buy a Print of This Comic" data-link-type="feature-item-license" href="https://licensing.andrewsmcmeel.com/features/ch?date=2019-07-14"&gt;License This Comic&lt;/a&gt;
+      &lt;a class="btn btn-primary gc-button" alt="Buy a Print of This Comic" data-link-type="feature-item-buy-print" href="https://store.gocomics.com/product/custom-print-order?publish_date=20200906&amp;amp;feature_code=ch&amp;amp;featureName=Calvin and Hobbes&amp;amp;hash=2e4e2070b4e2013816bc005056a9545d"&gt;Buy a Print of This Comic&lt;/a&gt;
+      &lt;a class="btn btn-outline-primary gc-button" alt="Buy a Print of This Comic" data-link-type="feature-item-license" href="https://licensing.andrewsmcmeel.com/features/ch?date=2020-09-06"&gt;License This Comic&lt;/a&gt;
     &lt;/div&gt;
 
 &lt;/div&gt;
@@ -3562,11 +748,11 @@ creator="Bill Watterson"&gt;
           &lt;div class='col-12 col-sm-6 col-lg-4 mb-4'&gt;
             
 &lt;div class='gc-collection-list'&gt;
-    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1625933/calvin-and-hobbes-back-to-school-comics"&gt;Back to School for Calvin and Hobbes&lt;/a&gt;
-    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1720934/calvin-and-hobbes-babysitter-comics"&gt;All Babysitters Must Quit&lt;/a&gt;
-    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1720937/calvin-and-hobbes-duplicator-comics"&gt;Calvin Meet Calvin Meet Calvin&lt;/a&gt;
-    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1722006/Fall-Philosophizing-with-Calvin-and-Hobbes"&gt;Fall Philosophizing with &amp;#39;Calvin and Hobbes&amp;#39;&lt;/a&gt;
-    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1720941/calvin-and-hobbes-susie-derkins-comics"&gt;Dandelion Head Susie&lt;/a&gt;
+    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1643247/calvin-and-hobbes-dionosaurs"&gt;Calvin and Hobbes: Dinosaurs&lt;/a&gt;
+    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1643217/calvin-and-hobbes-calvinball"&gt;Calvin and Hobbes: Calvinball&lt;/a&gt;
+    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1720931/calvin-and-hobbes-gross"&gt;The No Girls Allowed Club!&lt;/a&gt;
+    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1626804/calvin-and-hobbes-parenting-collection"&gt;Fight Club: Calvin vs. Parents&lt;/a&gt;
+    &lt;a class="gc-collection-list__item" data-link-type="explore-feature-collection-list" href="/comics/collections/1720939/calvin-and-hobbes-haircuts"&gt;Calvin’s Bad Hair Daze&lt;/a&gt;
 &lt;/div&gt;
 
           &lt;/div&gt;
@@ -3579,49 +765,49 @@ creator="Bill Watterson"&gt;
           &lt;a id="comments" class="gc-link-anchor"&gt;&lt;/a&gt;
           &lt;div class="js-comments-thread-container"&gt;
             &lt;div class="bg-white border rounded content-section gc-container section-comments js-form-field-autoheight js-comment-thread"
-     id="2735865"
-     data-comment-id="2735865"
+     id="3106792"
+     data-comment-id="3106792"
      data-show-comments="false"
-     data-show-comments-url="/comments/show/feature_item/2735865"
+     data-show-comments-url="/comments/show/feature_item/3106792"
 &gt;
   &lt;div class="layout-2col layout-2col--comments no-gutters"&gt;
     &lt;div class="layout-2col-content p-4"&gt;
 
       
 &lt;div class="gc-controls js-comment-controls"&gt;
-  &lt;h4 class="gc-controls__title js-comment-controls-size hidden"&gt;&lt;i class='gc-icon fa gc-icon-fluid fa-comment sm'&gt;&lt;/i&gt;&lt;span id='comments-size'&gt;95&lt;/span&gt; &lt;span id='comments-text'&gt;Comments&lt;/span&gt;&lt;/h4&gt;
+  &lt;h4 class="gc-controls__title js-comment-controls-size hidden"&gt;&lt;i class='gc-icon fa gc-icon-fluid fa-comment sm'&gt;&lt;/i&gt;&lt;span id='comments-size'&gt;128&lt;/span&gt; &lt;span id='comments-text'&gt;Comments&lt;/span&gt;&lt;/h4&gt;
 
   &lt;h4 class="gc-controls__title js-comment-controls-featured "&gt;&lt;i class='gc-icon fa gc-icon-fluid fa-comment sm'&gt;&lt;/i&gt;Featured Comment&lt;/h4&gt;
 
-    &lt;a role="button" class="btn btn-link hidden js-comment-controls-button js-comment-toggle" aria-label="Hide All Comments" aria-expanded="true" data-remote="true" href="/comments/show/feature_item/2735865"&gt;Hide All Comments &lt;i class='gc-icon fa gc-icon-fluid fa fa-caret-up sm'&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;a role="button" class="btn btn-link  js-comment-controls-button js-comment-toggle" aria-label="Show All Comments" aria-expanded="false" data-remote="true" href="/comments/show/feature_item/2735865"&gt;Show All Comments &lt;i class='gc-icon fa gc-icon-fluid fa fa-caret-down sm'&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a role="button" class="btn btn-link hidden js-comment-controls-button js-comment-toggle" aria-label="Hide All Comments" aria-expanded="true" data-remote="true" href="/comments/show/feature_item/3106792"&gt;Hide All Comments &lt;i class='gc-icon fa gc-icon-fluid fa fa-caret-up sm'&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a role="button" class="btn btn-link  js-comment-controls-button js-comment-toggle" aria-label="Show All Comments" aria-expanded="false" data-remote="true" href="/comments/show/feature_item/3106792"&gt;Show All Comments &lt;i class='gc-icon fa gc-icon-fluid fa fa-caret-down sm'&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;/div&gt;
 
-      &lt;ol id="featured-comment-2735865" class="list-comments js-featured-comment"&gt;
+      &lt;ol id="featured-comment-3106792" class="list-comments js-featured-comment"&gt;
           
-&lt;li id="comment_29387369" class="media comment-item js-comment-29387369 "
-    data-comment-id="29387369"
-    data-commentable-id="2735865"
-    data-reply-to="Bilan"&gt;
+&lt;li id="comment_35891343" class="media comment-item js-comment-35891343 "
+    data-comment-id="35891343"
+    data-commentable-id="3106792"
+    data-reply-to="flagmichael"&gt;
 
-  &lt;a class="" title="View Bilan&amp;#39;s Profile" href="/profile/1389807"&gt;&lt;div class="gc-avatar sm  js-avatar-refresh"&gt;&lt;img src="https://avatar.amuniversal.com/user_avatars/avatars_gocomicsver3/1389000/1389807/bluedog.jpg" alt="Bluedog" /&gt;&lt;/div&gt;&lt;/a&gt;
+  &lt;a class="" title="View flagmichael&amp;#39;s Profile" href="/profile/2211947"&gt;&lt;div class="gc-avatar sm  js-avatar-refresh"&gt;&lt;img src="https://avatar.amuniversal.com/user_avatars/avatars_gocomicsver3/missing/missing_large.jpg" alt="Missing large" /&gt;&lt;/div&gt;&lt;/a&gt;
   &lt;div class="media-body ml-3"&gt;
     &lt;h5&gt;
-      &lt;a class="gc-blended-link gc-blended-link--primary" href="/profile/1389807"&gt;Bilan&lt;/a&gt;&amp;nbsp;
-      &lt;span class="comment-meta text-muted"&gt;3 days ago&lt;/span&gt;
+      &lt;a class="gc-blended-link gc-blended-link--primary" href="/profile/2211947"&gt;flagmichael&lt;/a&gt;&amp;nbsp;
+      &lt;span class="comment-meta text-muted"&gt;5 days ago&lt;/span&gt;
     &lt;/h5&gt;
 
     &lt;div class="comment-body"&gt;
       
-      &lt;p&gt;An old west analogy, you don’t need six bullets in your gun.  Just one.&lt;/p&gt;
+      &lt;p&gt;Calvin really is a jerk.&lt;/p&gt;
     &lt;/div&gt;
 
-    &lt;div class="comment-actions js-comment-actions-29387369"&gt;
+    &lt;div class="comment-actions js-comment-actions-35891343"&gt;
     
 
 
 
-  &lt;div id="comment-like-29387369" class="js-comment-like-29387369"&gt;
+  &lt;div id="comment-like-35891343" class="js-comment-like-35891343"&gt;
       &lt;div class="js-comment-like"&gt;
     &lt;a aria-label="Sign in to like this comment" title="Sign in to like this comment" data-toggle="modal" data-target="#js-modal-account-hook" data-tooltip="tooltip" href="#"&gt;Like&lt;/a&gt;
 &lt;/div&gt;
@@ -3629,29 +815,29 @@ creator="Bill Watterson"&gt;
 
   &lt;span class="text-muted"&gt;&amp;nbsp;&amp;bull;&amp;nbsp;&lt;/span&gt;
 
-  &lt;a class="js-reply-link" data-reply-to="Bilan" data-comment-id="29387369" data-commentable-id="2735865" data-remote="true" href="/comments/show/comment/29387369"&gt;Reply&lt;/a&gt;
+  &lt;a class="js-reply-link" data-reply-to="flagmichael" data-comment-id="35891343" data-commentable-id="3106792" data-remote="true" href="/comments/show/comment/35891343"&gt;Reply&lt;/a&gt;
 
-  &lt;div id="comment-like-count-29387369" class="js-comment-like-count-29387369 gc-blended-link gc-blended-link--primary"&gt;
+  &lt;div id="comment-like-count-35891343" class="js-comment-like-count-35891343 gc-blended-link gc-blended-link--primary"&gt;
 
       &lt;a data-toggle="modal" data-target="#js-modal-account-hook" aria-label="Sign in to see who liked this comment" title="Sign in to see who liked this comment" data-tooltip="tooltip" href=""&gt;
         &lt;i class='gc-icon gc-icon-fluid fa gc-icon fa fa-heart md'&gt;&lt;/i&gt;
-        &lt;span id="interaction_count_comment_likes_29387369"  class="js-interaction-count h6 text-center interaction-count comment_likes"&gt;7&lt;/span&gt;
+        &lt;span id="interaction_count_comment_likes_35891343"  class="js-interaction-count h6 text-center interaction-count comment_likes"&gt;36&lt;/span&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
 
-    &lt;div class="js-replies-list-29387369"&gt;
+    &lt;div class="js-replies-list-35891343"&gt;
 
-    &lt;a data-remote="true" href="/comments/show/comment/29387369"&gt;
-      &lt;i class='gc-icon gc-icon-fluid fa fa-reply sm'&gt;&lt;/i&gt;18 replies
+    &lt;a data-remote="true" href="/comments/show/comment/35891343"&gt;
+      &lt;i class='gc-icon gc-icon-fluid fa fa-reply sm'&gt;&lt;/i&gt;31 replies
 &lt;/a&gt;&lt;/div&gt;
 
   &lt;/div&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;
-      &lt;ol id="comment-list-2735865" class="list-comments js-comments-list"&gt;&lt;/ol&gt;
+      &lt;ol id="comment-list-3106792" class="list-comments js-comments-list"&gt;&lt;/ol&gt;
         &lt;a href="/profiles/sign-in"&gt;Sign in to comment&lt;/a&gt;
 
 
@@ -3723,16 +909,23 @@ creator="Bill Watterson"&gt;
 &lt;/a&gt;      &lt;/div&gt;
 
       &lt;div class="gc-deck gc-deck--third gc-deck--is-ad"&gt;
-          &lt;section class='card gc-card gc-card--ad-rectangle group-item-ad'&gt;
-            
+        &lt;section class='card gc-card gc-card--ad-rectangle group-item-ad'&gt;
+          
 &lt;div class="amu-container-ad-wrapper   "&gt;
-	&lt;div class="amu-container-ad ad-rectangle-container"&gt;
-    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
-	  &lt;div id="rectangle1" class="js-ad-lazy-load js-ad-refresh gc-ad ad-rectangle" data-ad-type="rectangle1"&gt;
-	  &lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="amu-container-ad ad-rectangle-container"&gt;
+    &lt;div class="ad-header"&gt;
+      Advertisement
+    &lt;/div&gt;
+
+    &lt;div id="rectangle1" class="js-ad-lazy-load js-ad-refresh gc-ad ad-rectangle" data-ad-type="rectangle1"&gt;
+    &lt;/div&gt;
+
+    &lt;div id="js-report-rectangle1" class="gc-ad__report-button"&gt;
+      &lt;div class="adl-report-ad-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-          &lt;/section&gt;
+        &lt;/section&gt;
       &lt;/div&gt;
 
 
@@ -3761,7 +954,7 @@ creator="Bill Watterson"&gt;
 
 
       &lt;div class="gc-deck gc-deck--third gc-deck--has-ads"&gt;
-          &lt;a class="gc-blended-link gc-blended-link--primary" target="_self" href="https://www.gocomics.com/blog/4779/the-12-most-popular-comic-strips-of-2018"&gt;
+          &lt;a class="gc-blended-link gc-blended-link--primary" href="/blog/4821/the-new-wallace-the-brave-book-is-out-and-it-s-snug-sational"&gt;
             
 &lt;div class="card gc-card gc-card--on-hover"&gt;
 
@@ -3769,7 +962,7 @@ creator="Bill Watterson"&gt;
     &lt;div class="card-img-top gc-card__image-wrapper "&gt;
 
       
-  &lt;picture class="gc-card__image"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="//assets.gocomics.com/uploads/features/ch/widgets/link_w_title_large_ch_Calvin_and_Hobbes__201901090844.jpg 600w, //assets.gocomics.com/uploads/features/ch/widgets/link_w_title_mid_ch_Calvin_and_Hobbes__201901090844.jpg 300w, //assets.gocomics.com/uploads/features/ch/widgets/link_w_title_small_ch_Calvin_and_Hobbes__201901090844.jpg 150w" sizes="auto" width="100%" alt="The 12 Most Popular Comic Strips of 2018" src="//assets.gocomics.com/uploads/features/ch/widgets/link_w_title_large_ch_Calvin_and_Hobbes__201901090844.jpg" /&gt;&lt;/picture&gt;
+  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_4821_12201_snug_harbor_202001030958.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_4821_12201_snug_harbor_202001030958.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_4821_12201_snug_harbor_202001030958.jpg 150w" sizes="auto" width="100%" alt="The New &amp;#39;Wallace the Brave&amp;#39; Book is Out and It&amp;#39;s &amp;#39;Snug-sational&amp;#39;!" src="//assets.gocomics.com/uploads/blogs/blog_image_large_4821_12201_snug_harbor_202001030958.jpg" /&gt;&lt;/picture&gt;
 
 
 
@@ -3780,54 +973,13 @@ creator="Bill Watterson"&gt;
     &lt;div class="card-body gc-card__body"&gt;
       
 
-&lt;h4 class="card-title"&gt;The 12 Most Popular Comic Strips of 2018&lt;/h4&gt;
+&lt;h4 class="card-title"&gt;The New 'Wallace the Brave' Book is Out and It's 'Snug-sational'!&lt;/h4&gt;
 
-&lt;h5 class="card-subtitle text-muted"&gt;LINK&lt;/h5&gt;
+&lt;h5 class="card-subtitle text-muted"&gt;GoComics Staff&lt;/h5&gt;
       
       
       
-      
-
-
-
-
-
-
-    &lt;/div&gt;
-
-&lt;/div&gt;
-            
-&lt;/a&gt;      &lt;/div&gt;
-
-
-
-      &lt;div class="gc-deck gc-deck--third gc-deck--has-ads"&gt;
-          &lt;a class="gc-blended-link gc-blended-link--primary" href="/blog/3976/dig-into-these-30-calvin-and-hobbes-comics-on-dinosaur-day"&gt;
-            
-&lt;div class="card gc-card gc-card--on-hover"&gt;
-
-
-    &lt;div class="card-img-top gc-card__image-wrapper "&gt;
-
-      
-  &lt;picture class="gc-card__image lazyload__padder lazyload__padder--card"&gt;&lt;img class="lazyload img-fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="//assets.gocomics.com/uploads/blogs/blog_image_large_3976_6586_Dinosaur_Day_Calvin_and_Hobbes_Comics_201705221509.jpg 600w, //assets.gocomics.com/uploads/blogs/blog_image_mid_3976_6586_Dinosaur_Day_Calvin_and_Hobbes_Comics_201705221509.jpg 300w, //assets.gocomics.com/uploads/blogs/blog_image_small_3976_6586_Dinosaur_Day_Calvin_and_Hobbes_Comics_201705221509.jpg 150w" sizes="auto" width="100%" alt="Dig Into These 30 &amp;#39;Calvin And Hobbes&amp;#39; Comics On Dinosaur Day" src="//assets.gocomics.com/uploads/blogs/blog_image_large_3976_6586_Dinosaur_Day_Calvin_and_Hobbes_Comics_201705221509.jpg" /&gt;&lt;/picture&gt;
-
-
-
-      &lt;div class='gc-card__image gc-card__image--overlay'&gt;&lt;/div&gt;
-    &lt;/div&gt;
-
-
-    &lt;div class="card-body gc-card__body"&gt;
-      
-
-&lt;h4 class="card-title"&gt;Dig Into These 30 'Calvin And Hobbes' Comics On Dinosaur Day&lt;/h4&gt;
-
-&lt;h5 class="card-subtitle text-muted"&gt;The GoComics Team&lt;/h5&gt;
-      
-      
-      
-      &lt;p class="card-text text-muted"&gt;June 01, 2017&lt;/p&gt;
+      &lt;p class="card-text text-muted"&gt;September 25, 2019&lt;/p&gt;
 
 
 
@@ -3855,11 +1007,18 @@ creator="Bill Watterson"&gt;
 
   
 &lt;div class="amu-container-ad-wrapper   "&gt;
-	&lt;div class="amu-container-ad ad-tynt-container"&gt;
-    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
-	  &lt;div id="tynt" class="js-ad js-ad-refresh gc-ad ad-tynt" data-ad-type="tynt"&gt;
-	  &lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="amu-container-ad ad-tynt-container"&gt;
+    &lt;div class="ad-header"&gt;
+      Advertisement
+    &lt;/div&gt;
+
+    &lt;div id="tynt" class="js-ad js-ad-refresh gc-ad ad-tynt" data-ad-type="tynt"&gt;
+    &lt;/div&gt;
+
+    &lt;div id="js-report-tynt" class="gc-ad__report-button"&gt;
+      &lt;div class="adl-report-ad-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 
@@ -3869,27 +1028,41 @@ creator="Bill Watterson"&gt;
 
       
 &lt;div class="amu-container-ad-wrapper js-destructable fixed-ad-bottom fixed-ad-bottom--banner js-ad-banner-lock-wrapper ad-hidden"&gt;
-	&lt;div class="amu-container-ad ad-banner-lock-container"&gt;
-    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
-	  &lt;div id="banner_lock" class="js-ad js-ad-refresh gc-ad ad-banner-lock" data-ad-type="banner_lock"&gt;
-	  &lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="amu-container-ad ad-banner-lock-container"&gt;
+    &lt;div class="ad-header"&gt;
+      Advertisement
+    &lt;/div&gt;
+
+    &lt;div id="banner_lock" class="js-ad js-ad-refresh gc-ad ad-banner-lock" data-ad-type="banner_lock"&gt;
+    &lt;/div&gt;
+
+    &lt;div id="js-report-banner_lock" class="gc-ad__report-button"&gt;
+      &lt;div class="adl-report-ad-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
       
 &lt;div class="amu-container-ad-wrapper   "&gt;
-	&lt;div class="amu-container-ad ad-banner-bottom-container"&gt;
-    &lt;div class="ad-header"&gt;Advertisement&lt;/div&gt;
-	  &lt;div id="banner_bot" class="js-ad-lazy-load js-ad-refresh gc-ad ad-banner-bottom" data-ad-type="banner_bot"&gt;
-	  &lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="amu-container-ad ad-banner-bottom-container"&gt;
+    &lt;div class="ad-header"&gt;
+      Advertisement
+    &lt;/div&gt;
+
+    &lt;div id="banner_bot" class="js-ad-lazy-load js-ad-refresh gc-ad ad-banner-bottom" data-ad-type="banner_bot"&gt;
+    &lt;/div&gt;
+
+    &lt;div id="js-report-banner_bot" class="gc-ad__report-button"&gt;
+      &lt;div class="adl-report-ad-container"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;footer class="gc-page gc-page--gutters-none gc-footer bg-white"&gt;
   &lt;div class="gc-page__full"&gt;
     &lt;div class="container gc-footer__links"&gt;
       &lt;div class="gc-content"&gt;
-        
+
           &lt;div class="gc-content__4col"&gt;
             &lt;h5 class='text-muted font-weight-normal'&gt;Find Comics&lt;/h5&gt;
             &lt;ul class='gc-footer__list'&gt;
@@ -3903,16 +1076,17 @@ creator="Bill Watterson"&gt;
               &lt;!--&lt;li&gt;&lt;/li&gt;--&gt;
             &lt;/ul&gt;
           &lt;/div&gt;
-          
+
           &lt;div class="gc-content__4col"&gt;
             &lt;h5 class='text-muted font-weight-normal'&gt;More GoComics&lt;/h5&gt;
             &lt;ul class='gc-footer__list'&gt;
               &lt;li&gt;&lt;a class="gc-footer__item" data-link-type="footer-nav" href="https://www.gocomics.com/blog"&gt;GoComics Blog&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" data-link-type="footer-nav" href="http://www.comicssherpa.com/site/index"&gt;Visit Comics Sherpa&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" data-link-type="footer-nav" href="http://www.facebook.com/gocomics"&gt;GC on Facebook&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" data-link-type="footer-nav" href="http://www.twitter.com/gocomics"&gt;GC on Twitter&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" data-link-type="footer-nav" href="http://www.instagram.com/gocomics"&gt;GC on Instagram&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" data-link-type="footer-nav" href="https://store.gocomics.com/"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" rel="noopener" data-link-type="footer-nav" href="https://www.thefarside.com?referrer=https://www.gocomics.com?utm_source=gocomics&amp;amp;utm_medium=gc-footer&amp;amp;utm_campaign=gc-thefarside-promo"&gt;Visit TheFarSide.com&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" rel="noopener" data-link-type="footer-nav" href="http://www.comicssherpa.com/site/index"&gt;Visit Comics Sherpa&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" rel="noopener" data-link-type="footer-nav" href="//www.facebook.com/gocomics"&gt;GC on Facebook&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" rel="noopener" data-link-type="footer-nav" href="//www.twitter.com/gocomics"&gt;GC on Twitter&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" rel="noopener" data-link-type="footer-nav" href="//www.instagram.com/gocomics"&gt;GC on Instagram&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a class="gc-footer__item" target="_blank" rel="noopener" data-link-type="footer-nav" href="https://store.gocomics.com/"&gt;Shop&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/div&gt;
 
@@ -3938,20 +1112,25 @@ creator="Bill Watterson"&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;&lt;!-- /.gc-footer --&gt;
-    
+
     &lt;div class="gc-footer__copyright"&gt;
       &lt;span&gt;
         &amp;copy; Copyright
           Calvin and Hobbes, © Andrews McMeel Syndication&lt;br class="d-sm-none"/&gt;
-        2019. All Rights Reserved.
+        2020. All Rights Reserved.
         &lt;a class="gc-footer__copyright-link" data-link-type="footer-nav" href="https://www.gocomics.com/help/terms"&gt;Terms &amp;amp; Conditions&lt;/a&gt;
         -
-        &lt;a target="_blank" class="gc-footer__copyright-link" data-link-type="footer-nav" href="//www.andrewsmcmeel.com/privacy-policy"&gt;Privacy Policy&lt;/a&gt;
+        &lt;a class="gc-footer__copyright-link" target="_blank" rel="noopener" data-link-type="footer-nav" href="https://www.andrewsmcmeel.com/privacy-policy"&gt;Privacy Policy&lt;/a&gt;
+        -
+        &lt;a class="gc-footer__copyright-link" target="_blank" rel="noopener" data-link-type="footer-nav" href="https://www.andrewsmcmeel.com/privacy-requests?referrer=https://www.gocomics.com"&gt;Do Not Sell My Data&lt;/a&gt;
+        -
+        &lt;div class="gc-sp-message"&gt;&lt;/div&gt;
       &lt;/span&gt;
     &lt;/div&gt;&lt;!-- /.footer-copyright --&gt;
   &lt;/div&gt;
 &lt;/footer&gt;&lt;!-- /.amu-container-footer --&gt;
     &lt;/div&gt;
+
 
       
 &lt;div class="modal fade" id="js-modal-account-hook" tabindex="-1" role="dialog" aria-labelledby="Join GoComics!" aria-hidden="true"&gt;
@@ -3975,20 +1154,10 @@ creator="Bill Watterson"&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-
-    &lt;script src="https://assets.gocomics.com/assets/application-gc-postload-38c495659fa74c6bdbdef491358d7e8770448401a22883e612c250e793eba21f.js"&gt;&lt;/script&gt;
-
+    &lt;script src="https://assets.gocomics.com/assets/application-gc-postload-3c7924c5b0b0e5e3a03d294ca05fc6e3eea176e54517e8b10b4d7acf4afcfe6c.js" defer="defer"&gt;&lt;/script&gt;
     
 
-    &lt;script src="https://assets.gocomics.com/assets/apollo-8d36fd370ca1a24d2d6322970a4b520718a53c12ea96b5e6d85090ecb4f11d93.js?sampling=100"&gt;&lt;/script&gt;
-
-    &lt;div class="amu-layout-size"&gt;
-	&lt;span class="js-layout-size-xl d-none d-xl-block"&gt;&lt;/span&gt;
-	&lt;span class="js-layout-size-lg d-none d-lg-block d-xl-none"&gt;&lt;/span&gt;
-  &lt;span class="js-layout-size-md d-none d-md-block d-lg-none"&gt;&lt;/span&gt;
-  &lt;span class="js-layout-size-sm d-none d-sm-block d-md-none"&gt;&lt;/span&gt;
-  &lt;span class="js-layout-size-xs d-block d-sm-none"&gt;&lt;/span&gt;
-&lt;/div&gt;
+    &lt;script defer="true" src="https://assets.gocomics.com/assets/ad-apollo-blocking-3eb57c67c1aa573612e32564cbf3adf5476d46178195178dce1497337be19f46.js?sampling=100"&gt;&lt;/script&gt;
 
     &lt;a class="btn btn-secondary gc-back-to-top" href="#top"&gt;&lt;i class='gc-icon gc-icon-fluid fa fa-caret-up sm'&gt;&lt;/i&gt; Back To Top&lt;/a&gt;
 
