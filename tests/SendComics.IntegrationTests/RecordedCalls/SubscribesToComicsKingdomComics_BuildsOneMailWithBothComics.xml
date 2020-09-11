@@ -1,49 +1,157 @@
 <?xml version="1.0"?>
-<ArrayOfRecordedCall xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RecordedCall>
     <Method>System.String GetContent(System.Uri)</Method>
     <ReturnValue xsi:type="xsd:string">
+
+
+
 &lt;!DOCTYPE html&gt;
 &lt;html class="h-100"&gt;
 &lt;head&gt;
+    &lt;!-- Google Tag Manager --&gt;
+    &lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N7L7QGM');&lt;/script&gt;
+    &lt;!-- End Google Tag Manager --&gt;
+
     &lt;meta charset="UTF-8"&gt;
     &lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1.0"&gt;
     &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
-    &lt;title&gt;Comics Kingdom - Blondie - 2019-07-14 &lt;/title&gt;
+    &lt;title&gt;Comics Kingdom - Blondie - 2020-09-11 &lt;/title&gt;
     
 
 
-    &lt;meta property="fb:app_id" content="314131672543240"&gt;
-    &lt;link href="/css/tachyons.min.css" rel="stylesheet"&gt;
-    &lt;link href="/assets/css/global-head.css" rel="stylesheet"&gt;
-    &lt;link href="https://use.typekit.net/qhp3ntw.css" rel="stylesheet"&gt;
-    &lt;script&gt;window.asset_url = "/assets/"&lt;/script&gt;
-    &lt;script&gt;
-        var PageData = {"PageInformation":{"Path":["","blondie","2019-07-14",""],"PathBase":""},"UserRef":null,"IsPremium":false,"Email":null,"UID":null,"disqusShortname":"comicskingdom","amplitudeApiKey":"2b7fca3945557fe7c657e74f04dc61ae","googleTagId":"UA-822371-27","facebookId":"314131672543240","brazeId":"2dcb127e-a85d-47e1-b8b0-f60c63cf7824","brazeApiUrl":"https://sdk.iad-03.braze.com/api/v3","pianoAppId":"NDC6fzMqCD","pianoEmbedUrl":"//experience.tinypass.com/xbuilder/experience/load?aid=","pianoApiUrl":"https://api.tinypass.com/api/v3","pianoRedirectUrl":"/thankyou","pianoCheckoutUrl":"/api/piano","pianoAccountUrl":"/user/manage/profile","ensighten":"//nexus.ensighten.com/hearst/kfs-prod/Bootstrap.js","settingsEnv":"production-2019/3/1"};
+&lt;meta property="fb:app_id" content="314131672543240"&gt;
+&lt;link href="/css/tachyons.min.css" rel="stylesheet"&gt;
+&lt;link href="/assets/css/global-head.css" rel="stylesheet"&gt;
+&lt;link href="https://use.typekit.net/qhp3ntw.css" rel="stylesheet"&gt;
+&lt;script&gt;window.asset_url = "/assets/"&lt;/script&gt;
+&lt;script&gt;
+        var PageData = {"PageInformation":{"Path":["","blondie","2020-09-11",""],"PathBase":""},"UserRef":null,"IsPremium":false,"Email":null,"UID":null,"disqusShortname":"comicskingdom","amplitudeApiKey":"2b7fca3945557fe7c657e74f04dc61ae","googleTagId":"UA-822371-27","googleTagManagerId":"GTM-N7L7QGM","facebookId":"314131672543240","brazeId":"2dcb127e-a85d-47e1-b8b0-f60c63cf7824","brazeApiUrl":"https://sdk.iad-03.braze.com/api/v3","pianoAppId":"NDC6fzMqCD","pianoEmbedUrl":"//experience.tinypass.com/xbuilder/experience/load?aid=","pianoApiUrl":"https://api.tinypass.com/api/v3","pianoRedirectUrl":"/thankyou","pianoCheckoutUrl":"/api/piano","pianoAccountUrl":"/user/manage/profile","settingsEnv":"production-2019/3/1"};
         window.PageData = PageData;
         window.CK_PAGE_INFO = PageData.PageInformation;
         window.__uid = PageData.UID;
         window.__email = PageData.Email;
+&lt;/script&gt;
+&lt;script src="/assets/js/vendors.bundle.js"&gt;&lt;/script&gt;
+&lt;script src="/assets/js/global-head.bundle.js"&gt;&lt;/script&gt;
 
-        (function (d) {
-            var s = document.createElement("script");
-            s.async = true;
-            s.src = PageData.ensighten;
-            d.getElementsByTagName("head")[0].appendChild(s);
-        })(document);  
-    &lt;/script&gt;
-    &lt;script src="/assets/js/vendors.bundle.js"&gt;&lt;/script&gt;
-    &lt;script src="/assets/js/global-head.bundle.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+    var isMobile = /iPhone|iPod|BlackBerry|Opera Mini|(android|bb\d+|meego).+mobile/i.test(navigator.userAgent);
+    var cmnunt_site = 'cmn_comicskingdom';
+    var cmnunt_silo = 's_pop';
+    var cmnunt_subsilo = '';
+    var cmnunt_tier = 'to,home';
+    var cmnunt_zone = 'home';
+    var cmnunt_kw = '';
+    var cmnunt_exclude = '';
+    cmnunt_site += window.isMobile ? '_mob' : '';
+
+    (function () {
+        var ns = document.createElement('script');
+        ns.src = '//media.complex.com/common/cmnUNT' + (window.isMobile ? 'mobile' : '') + '.js';
+        ns.type = 'text/javascript';
+        ns.async = true;
+        ns.addEventListener('load', function () {
+            window.dispatchEvent(new Event('cmnunt.loaded'));
+        });
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ns, s);
+    })();
+
+    function cmnUntLoadWrapper() {
+        var adConf = Array.prototype.slice.call(arguments);
+
+        if (typeof CMNUNT === 'object' &amp;&amp; typeof CMNUNT.load === 'function') {
+            console.log('CMNUNT.load available for:', adConf[1].containerId);
+            CMNUNT.load.apply(CMNUNT, adConf);
+        } else {
+            console.log('CMNUNT.load NOT available for:', adConf[1].containerId, 'setting a listener');
+            window.addEventListener('cmnunt.loaded', function () {
+                console.log('Inside of a listener for:', adConf[1].containerId);
+                CMNUNT.load.apply(CMNUNT, adConf);
+            });
+        }
+    }
+
+    var generateSlotName = function () {
+        var nextSlotId = 0;
+
+        return function () {
+            return 'adslot_' + nextSlotId++;
+        }
+    }();
+
+    function addInlineAd(containerRef) {
+        var slotName = generateSlotName();
+
+        // Create another slot
+        var slotDiv = document.createElement('div');
+        slotDiv.id = slotName;
+        slotDiv.className = 'ad-slot';
+        slotDiv.setAttribute('data-heading', 'Dynamically Loaded Ad: ' + slotName);
+        containerRef.appendChild(slotDiv);
+
+        // Load an ad into newly created slot
+        CMNUNT.load('inline', { containerId: slotName, lazyLoad: true });
+    }
+    cmnUntLoadWrapper('square', {
+        containerId: 'cmn-tile-square',
+        lazyLoad: true
+    });
+
+&lt;/script&gt;
+&lt;script&gt;
+    window.addEventListener('DOMContentLoaded', function () {
+        var ajaxUrl = "feed/";
+
+        var latestPostsContainer = document.querySelector('main');
+
+        if (latestPostsContainer) {
+            var page = 2;
+            var morePostsLoading = false;
+
+            window.addEventListener('scroll', function () {
+                if (latestPostsContainer.getBoundingClientRect().bottom - window.innerHeight &lt; 350 &amp;&amp; !morePostsLoading) {
+                    getMorePosts();
+                }
+            });
+
+            function getMorePosts() {
+                var xhttp = new XMLHttpRequest();
+                var postData = "action=dosomething";
+                morePostsLoading = true;
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 &amp;&amp; this.status == 200) {
+                        addInlineAd(latestPostsContainer);
+                        page++;
+                        latestPostsContainer.insertAdjacentHTML('beforeend', this.responseText);
+                        morePostsLoading = false;
+                    }
+                };
+                xhttp.open("POST", ajaxUrl, true);
+                xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                postData += "&amp;page=" + page;
+                xhttp.send(postData);
+            }
+        }
+    });
+&lt;/script&gt;
+
     
     &lt;!-- Load page specific header items --&gt;
-    &lt;meta property="og:url" content='https://www.comicskingdom.com/blondie/2019-07-14' /&gt;
+    &lt;meta property="og:url" content='https://www.comicskingdom.com/blondie/2020-09-11' /&gt;
     &lt;meta property="og:type" content="article" /&gt;
     &lt;meta property="og:title" content="Blondie" /&gt;
     &lt;meta property="og:description" content="Blondie" /&gt;
-    &lt;meta property="og:image" content="https://safr.kingfeatures.com/api/img.php?e=png&amp;s=c&amp;file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=" /&gt;
+    &lt;meta property="og:image" content="https://safr.kingfeatures.com/api/img.php?e=gif&amp;s=c&amp;file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY=" /&gt;
     &lt;meta name="twitter:title" content="Blondie"&gt;
     &lt;meta name="twitter:description" content="Blondie"&gt;
-    &lt;meta name="twitter:image" content="https://safr.kingfeatures.com/api/img.php?e=png&amp;s=c&amp;file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc="&gt;
+    &lt;meta name="twitter:image" content="https://safr.kingfeatures.com/api/img.php?e=gif&amp;s=c&amp;file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY="&gt;
     &lt;meta name="twitter:card" content="summary_large_image"&gt;
     &lt;link href="/assets/css/comic.css" rel="stylesheet"&gt;
 
@@ -60,11 +168,23 @@
     &lt;/script&gt;
 &lt;/head&gt;
 &lt;body class="ma0 pa0 h-100 w-100"&gt;
-    
+    &lt;!-- Google Tag Manager (noscript) --&gt;
+    &lt;noscript&gt;
+        &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7L7QGM"
+                height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
+    &lt;/noscript&gt;
+    &lt;!-- End Google Tag Manager (noscript) --&gt;
 
-&lt;div id="above-nav" class="ad-lg-header"&gt;
-    &lt;div data-comic-advertisement="above_nav" class="get-prem global-header-advertisement"&gt;&lt;/div&gt;
-&lt;/div&gt;
+
+    &lt;div class="ck-global-container"&gt;
+        
+
+    &lt;div id="above-nav" class="ad-lg-header"&gt;
+        &lt;div id="cmn-leaderboard"&gt;&lt;/div&gt;
+        &lt;script&gt;
+            cmnUntLoadWrapper('top', { containerId: 'cmn-leaderboard' });
+        &lt;/script&gt;
+    &lt;/div&gt;
 
 &lt;global-header inline-template id="global-header"&gt;
 &lt;header class="masthead"&gt;
@@ -72,9 +192,22 @@
         &lt;div class="social"&gt;
     &lt;p&gt;FOLLOW:&lt;/p&gt;
     &lt;div class="nav-social"&gt;
-        &lt;a href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;&lt;img src="/assets/img/global/facebook.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;&lt;img src="/assets/img/global/instagram.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;&lt;img src="/assets/img/global/twitter.svg" alt=""&gt;&lt;/a&gt;
+        &lt;a href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;
+            &lt;img src="/assets/img/global/facebook.svg" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;
+            &lt;img src="/assets/img/global/instagram_top_nav.png" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;
+            &lt;img src="/assets/img/global/twitter.svg" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://www.tiktok.com/@comics.kingdom" target="_blank"&gt;
+            &lt;img src="/assets/img/global/tiktokwhite_top_nav.jpg" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://www.youtube.com/channel/UCITxE1wlcJD-cNsrBF-D6fw" target="_blank"&gt;
+            &lt;img src="/assets/img/global/youtube_top_nav.png" alt=""&gt;
+        &lt;/a&gt;
+
         &lt;!-- &lt;a href="" target="_blank"&gt;&lt;img src="~/assets/img/global/youtube.svg" alt=""&gt;&lt;/a&gt; --&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -114,11 +247,11 @@
 &lt;div class="menu"&gt;
     &lt;ul class="links"&gt;
         &lt;li&gt;&lt;a class='ttu white home ' href="/" data-ref="Navbar Link"&gt;Comics&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class='ttu white ' href="/premium" data-ref="Navbar Link"&gt;Premium&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class='ttu white ' href="/premium" data-ref="Navbar Link"&gt;Subscribe&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class='ttu white ' href="/political" data-ref="Navbar Link"&gt;Political&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class='ttu white ' href="/puzzles" data-ref="Navbar Link"&gt;Puzzles&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class='ttu white ' href="/trending" data-ref="Navbar Link"&gt;Trending&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class='ttu white' href="https://comics-kingdom.myshopify.com/" target="_blank" data-ref="Navbar Link"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class='ttu white' href="https://shop.comicskingdom.com/" target="_blank" data-ref="Navbar Link"&gt;Shop&lt;/a&gt;&lt;/li&gt;
         &lt;li class="sign-in"&gt;&lt;a class="ttu white" href='/user/login' data-ref="Navbar Link"&gt;Log In&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;div class="mobile-login-nav db white relative"&gt;
@@ -155,8 +288,8 @@
 INIT_GLOBAL_HEADER();
 &lt;/script&gt;
 
-    &lt;div id="scrollArea"&gt;
-    
+        &lt;div id="scrollArea"&gt;
+            
 
 
 
@@ -197,49 +330,48 @@ INIT_GLOBAL_HEADER();
             &lt;span class="delimeter"&gt; &amp;gt; &lt;/span&gt;
             &lt;a href="/blondie" class="inactive" data-ref="Breadcrumb Link"&gt;BLONDIE&lt;/a&gt;
             &lt;span class="delimeter"&gt; &amp;gt; &lt;/span&gt;
-            &lt;a href="/blondie/2019-07-14" class="active" data-ref="Breadcrumb Link"&gt;SUNDAY, JULY 14, 2019&lt;/a&gt;
+            &lt;a href="/blondie/2020-09-11" class="active" data-ref="Breadcrumb Link"&gt;FRIDAY, SEPTEMBER 11, 2020&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
 &lt;section class="comic container" id="comic"&gt;
     
 
 
-&lt;comic-slider inline-template :comic-id="2504826"&gt;
-&lt;div id="comic-slider" class="cv-section flex non-premium"&gt;
-    &lt;div class="comic-slider-wrap flex flex-column"&gt;
-        &lt;div class="top-bar flex justify-between items-center"&gt;
-            &lt;div class="date flex items-center"&gt;
-                &lt;div class="date-container flex items-center"&gt;
-                    
+&lt;comic-slider inline-template :comic-id="2560184"&gt;
+    &lt;div id="comic-slider" class="cv-section flex non-premium"&gt;
+        &lt;div class="comic-slider-wrap flex flex-column"&gt;
+            &lt;div class="top-bar flex justify-between items-center"&gt;
+                &lt;div class="date flex items-center"&gt;
+                    &lt;div class="date-container flex items-center"&gt;
+                        
 
-&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="blondie" date-slug="2019-07-13"&gt;
+&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="blondie" date-slug="2020-09-10"&gt;
 &lt;div class="arrow-prev back" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-                    
+                        
 &lt;div class="desktop"&gt;
-    &lt;slider-date inline-template date="Sunday, July 14, 2019"&gt;
-    &lt;h4 class="ttc desktop-date" v-html="innerHtml"&gt;Sunday, July 14, 2019&lt;/h4&gt;
+    &lt;slider-date inline-template date="Friday, September 11, 2020"&gt;
+    &lt;h4 class="ttc desktop-date" v-html="innerHtml"&gt;Friday, September 11, 2020&lt;/h4&gt;
     &lt;/slider-date&gt;
 &lt;/div&gt;
-                    
+                        
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug="2019-07-15"&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug=""&gt;
 &lt;div class="arrow-next next" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-                &lt;/div&gt;
-                
+                    &lt;/div&gt;
+                    
 &lt;a href="/blondie/archive" data-ref="Archives Icon"&gt;
     &lt;div class="archives"&gt;
         &lt;i class="archive-icon"&gt;&lt;/i&gt;
         &lt;p class="label"&gt;Archives&lt;/p&gt;
     &lt;/div&gt;
 &lt;/a&gt;
-            &lt;/div&gt;
-            
-            &lt;div class="follow-save flex justify-between align-center" ref="favSave"&gt;
-                
+                &lt;/div&gt;
+
+                &lt;div class="follow-save flex justify-between align-center" ref="favSave"&gt;
+                    
 
 &lt;slider-favorite inline-template :is-following="false" :feature-id="17"&gt;
 &lt;span data-prem="Favorited Icon"&gt;
@@ -249,9 +381,9 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/span&gt;
 &lt;/slider-favorite&gt;
-                
+                    
 
-&lt;slider-save inline-template :is-saved="false" :comic-id="2504826"&gt;
+&lt;slider-save inline-template :is-saved="false" :comic-id="2560184"&gt;
 &lt;span data-prem="Saved Icon"&gt;
     &lt;div class="save flex pointer" v-on:click="bookmark"&gt;
         &lt;i :class="bookmarkClass"&gt;&lt;/i&gt;
@@ -259,34 +391,35 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/span&gt;
 &lt;/slider-save&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-        &lt;/div&gt;
-        
-        &lt;div class="cv-strip inline-slider flex"&gt;
-            
 
-&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="blondie" date-slug="2019-07-13"&gt;
+            &lt;div class="cv-strip inline-slider flex"&gt;
+                
+
+&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="blondie" date-slug="2020-09-10"&gt;
 &lt;div class="arrow arrow-left" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-            
+                
 
-&lt;slider-image inline-template image-url="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=" :comic-id="2504826"&gt;
+&lt;slider-image inline-template image-url="https://safr.kingfeatures.com/api/img.php?e=gif&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY=" :comic-id="2560184"&gt;
 &lt;div class="cv-comic"&gt;
+    &lt;div v-if="!isLoadingImage" v-bind:style="imageStyles" class="cv-img"&gt;&lt;/div&gt;
     &lt;img ref="sliderImg" v-bind:style="{visibility: isLoadingImage ? 'hidden' : 'visible'}" v-on:click="onShowViewer" class="w-100 h-100" src="/assets/img/comic/transparent-comic.png" :src="image" alt=""&gt;
     &lt;img v-if="isLoadingImage" class="loader" src="/assets/img/global/ck-loading-graphic.gif" alt=""&gt;
 &lt;/div&gt;
 &lt;/slider-image&gt;
-            
+                
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug="2019-07-15"&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="blondie" date-slug=""&gt;
 &lt;div class="arrow arrow-right" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-        &lt;/div&gt;
-        
-        &lt;div class="cv-footer"&gt;
-            &lt;div class="footer-bar flex justify-between relative"&gt;
-                &lt;div class="comments-merch flex items-center"&gt;
-                    &lt;slider-disqus inline-template disqus="Blondie-2019-07-14" pretty-slug="blondie" date-slug="2019-07-14"&gt;
+            &lt;/div&gt;
+
+            &lt;div class="cv-footer"&gt;
+                &lt;div class="footer-bar flex justify-between relative"&gt;
+                    &lt;div class="comments-merch flex items-center"&gt;
+                        &lt;slider-disqus inline-template disqus="Blondie-2020-09-11" pretty-slug="blondie" date-slug="2020-09-11"&gt;
 &lt;a :href="disqusUrl" data-ref="Comments Link"&gt;
     &lt;div class="comments flex items-center"&gt;
         &lt;div class="bubble"&gt;
@@ -295,8 +428,8 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/a&gt;
 &lt;/slider-disqus&gt;
-                    
-&lt;slider-prints inline-template feature-name="Blondie" date="Sunday, July 14, 2019"&gt;
+                        
+&lt;slider-prints inline-template feature-name="Blondie" date="Friday, September 11, 2020"&gt;
 &lt;a :href="href" data-ref="Buy Merch Icon"&gt;
     &lt;div class="flex"&gt;
         &lt;i class="merch-icon"&gt;&lt;/i&gt;
@@ -304,44 +437,51 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/a&gt;
 &lt;/slider-prints&gt;
-                &lt;/div&gt;
-                &lt;div class="mobile-view"&gt;
-                    &lt;a v-on:click="onShowViewer"&gt;&lt;div class="mv-icon"&gt;&lt;/div&gt;&lt;/a&gt;
-                &lt;/div&gt; 
-                
-&lt;div class="social flex items-center" ref="socialShare" data-comic-image-url="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=" data-comic-url="/blondie/2019-07-14/" data-comic-id="2504826" data-feature-id="17"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="mobile-view"&gt;
+                        &lt;a v-on:click="onShowViewer"&gt;&lt;div class="mv-icon"&gt;&lt;/div&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    
+&lt;div class="social flex items-center" ref="socialShare" data-comic-image-url="https://safr.kingfeatures.com/api/img.php?e=gif&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY=" data-comic-url="/blondie/2020-09-11/" data-comic-id="2560184" data-feature-id="17"&gt;
     &lt;p class="label black"&gt;Share:&lt;/p&gt;
-    &lt;share-ecard inline-template :comic-id="2504826"&gt;
+    &lt;share-ecard inline-template :comic-id="2560184"&gt;
         &lt;span v-on:click="onMailClick"&gt;&lt;i class="email-icon pointer"&gt;&lt;/i&gt;&lt;/span&gt;
     &lt;/share-ecard&gt;
-    &lt;share-facebook inline-template :comic-id="2504826"&gt;
+    &lt;share-facebook inline-template :comic-id="2560184"&gt;
         &lt;span v-on:click="onFacebookClick"&gt;&lt;i class="facebook-icon pointer"&gt;&lt;/i&gt;&lt;/span&gt;
     &lt;/share-facebook&gt;
-    &lt;share-twitter inline-template :comic-id="2504826"&gt;
+    &lt;share-twitter inline-template :comic-id="2560184"&gt;
         &lt;span v-on:click="onTwitterClick"&gt;&lt;i class="twitter-icon pointer"&gt;&lt;/i&gt;&lt;/span&gt;
     &lt;/share-twitter&gt;
 &lt;/div&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
+        &lt;div class="comic-ad-container"&gt;
+            
+
+    &lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;
+        &lt;div id="cmn-aside_0"&gt;&lt;/div&gt;
+        &lt;script&gt;
+            cmnUntLoadWrapper('aside', { containerId: 'cmn-aside_0'});
+        &lt;/script&gt;
     &lt;/div&gt;
-    &lt;div class="comic-ad-container"&gt;
-        
 
-&lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;&lt;/div&gt;
-
+        &lt;/div&gt;
+        &lt;!--&lt;partial name="Advertisement/_BetweenContent" model='""' /&gt; --&gt;
     &lt;/div&gt;
-    
-
-&lt;div class="between-content-sections" data-comic-advertisement='between_content_sections'&gt;&lt;/div&gt;
-
-&lt;/div&gt;
 &lt;/comic-slider&gt;
     &lt;!-- MOVED ADD OUTSIDE OF SLIDER --&gt;
-    
-
-&lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;&lt;/div&gt;
+    &lt;!-- &lt;partial name="Advertisement/_RightColumn" /&gt; --&gt;
 
 &lt;/section&gt;
+
+&lt;div class="video-container"&gt;
+&lt;style&gt;
+
+
+&lt;/style&gt;
+&lt;/div&gt;
 
 &lt;div class="comments-ads-section"&gt;
     &lt;div class="section-container container flex"&gt;
@@ -349,7 +489,7 @@ INIT_GLOBAL_HEADER();
 &lt;div class="comments-container"&gt;
     &lt;h3&gt;JOIN THE CONVERSATION&lt;/h3&gt;
     &lt;div id="comic-comments" class="col1"&gt;
-        &lt;div id="disqus_thread" data-disqus-url="https://www.comicskingdom.com/blondie/2019-07-14" data-disqus-identifier="Blondie-2019-07-14" data-disqus-title="Blondie - 2019-07-14"&gt;&lt;/div&gt;
+        &lt;div id="disqus_thread" data-disqus-url="https://www.comicskingdom.com/blondie/2020-09-11" data-disqus-identifier="Blondie-2020-09-11" data-disqus-title="Blondie - 2020-09-11"&gt;&lt;/div&gt;
         &lt;div class="yellow-halftone"&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -362,12 +502,17 @@ INIT_GLOBAL_HEADER();
         &lt;h3 class="universalBorder bottom"&gt;BUY A PRINT!&lt;/h3&gt;
     &lt;/div&gt;
 
-    &lt;img class="buy-print-image" src="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=" alt=""&gt;
-    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Jul 16, 2019 edition of &amp;quot;Blondie&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
+    &lt;img class="buy-print-image" src="https://safr.kingfeatures.com/api/img.php?e=gif&amp;amp;s=c&amp;amp;file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY=" alt=""&gt;
+    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Sep 11, 2020 edition of &amp;quot;Blondie&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
 &lt;/div&gt;
                 
 
-&lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;&lt;/div&gt;
+    &lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;
+        &lt;div id="cmn-aside_0"&gt;&lt;/div&gt;
+        &lt;script&gt;
+            cmnUntLoadWrapper('aside', { containerId: 'cmn-aside_0'});
+        &lt;/script&gt;
+    &lt;/div&gt;
 
                 
 
@@ -393,7 +538,14 @@ INIT_GLOBAL_HEADER();
 
 
 
-&lt;div class="between-content-sections" data-comic-advertisement='between_content_sections'&gt;&lt;/div&gt;
+    &lt;div class="between-content-sections"&gt;
+        &lt;div id="cmn-feed-inline_0"&gt;
+            &lt;script&gt;
+                cmnUntLoadWrapper('inline', { containerId: 'cmn-feed-inline_0', lazyLoad: true });
+            &lt;/script&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
 
 
 &lt;!-- INCLUDE RECCOMENDED COMICS --&gt;
@@ -405,58 +557,58 @@ INIT_GLOBAL_HEADER();
         &lt;/div&gt;
         &lt;div data-scroll-area class="list-of-comics"&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/zits" data-ref="recommendation-299"&gt;&lt;img src="http://api.kingdigital.com/img/features/642/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/arctic-circle" data-ref="recommendation-296"&gt;&lt;img src="http://api.kingdigital.com/img/features/2/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/safe-havens" data-ref="recommendation-351"&gt;&lt;img src="http://api.kingdigital.com/img/features/472/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/between-friends" data-ref="recommendation-329"&gt;&lt;img src="http://api.kingdigital.com/img/features/52/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/crankshaft" data-ref="recommendation-334"&gt;&lt;img src="http://api.kingdigital.com/img/features/122/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/on-the-fastrack" data-ref="recommendation-306"&gt;&lt;img src="http://api.kingdigital.com/img/features/1212/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/dustin" data-ref="recommendation-316"&gt;&lt;img src="http://api.kingdigital.com/img/features/2162/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/moose-and-molly" data-ref="recommendation-315"&gt;&lt;img src="http://api.kingdigital.com/img/features/1942/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/mutts" data-ref="recommendation-310"&gt;&lt;img src="http://api.kingdigital.com/img/features/1572/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/pajama-diaries" data-ref="recommendation-311"&gt;&lt;img src="http://api.kingdigital.com/img/features/1662/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/slylock-fox-and-comics-for-kids" data-ref="recommendation-333"&gt;&lt;img src="http://api.kingdigital.com/img/features/112/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/crankshaft" data-ref="recommendation-334"&gt;&lt;img src="http://api.kingdigital.com/img/features/122/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/hagar-the-horrible" data-ref="recommendation-308"&gt;&lt;img src="http://api.kingdigital.com/img/features/1302/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
+                &lt;a href="/family-circus" data-ref="recommendation-303"&gt;&lt;img src="http://api.kingdigital.com/img/features/1112/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/pros-cons" data-ref="recommendation-340"&gt;&lt;img src="http://api.kingdigital.com/img/features/272/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/dustin" data-ref="recommendation-316"&gt;&lt;img src="http://api.kingdigital.com/img/features/2162/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/Macanudo" data-ref="recommendation-353"&gt;&lt;img src="http://api.kingdigital.com/img/features/4262/icon.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/beetle-bailey-1" data-ref="recommendation-328"&gt;&lt;img src="http://api.kingdigital.com/img/features/42/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/take-it-from-the-tinkersons" data-ref="recommendation-318"&gt;&lt;img src="http://api.kingdigital.com/img/features/3142/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/curtis" data-ref="recommendation-335"&gt;&lt;img src="http://api.kingdigital.com/img/features/132/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/kevin-and-kell" data-ref="recommendation-320"&gt;&lt;img src="http://api.kingdigital.com/img/features/3892/headers/original.png"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
                 &lt;a href="/funky-winkerbean" data-ref="recommendation-305"&gt;&lt;img src="http://api.kingdigital.com/img/features/1182/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/hi-and-lois" data-ref="recommendation-352"&gt;&lt;img src="http://api.kingdigital.com/img/features/242/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/marvin" data-ref="recommendation-346"&gt;&lt;img src="http://api.kingdigital.com/img/features/342/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/tiger" data-ref="recommendation-322"&gt;&lt;img src="http://api.kingdigital.com/img/features/562/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/daddy-daze" data-ref="recommendation-338"&gt;&lt;img src="http://api.kingdigital.com/img/features/4232/ddaze-header.png"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/barney-google-and-snuffy-smith" data-ref="recommendation-327"&gt;&lt;img src="http://api.kingdigital.com/img/features/32/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/sherman-s-lagoon" data-ref="recommendation-309"&gt;&lt;img src="http://api.kingdigital.com/img/features/1442/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/on-the-fastrack" data-ref="recommendation-306"&gt;&lt;img src="http://api.kingdigital.com/img/features/1212/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/popeye" data-ref="recommendation-339"&gt;&lt;img src="http://api.kingdigital.com/img/features/232/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="slide tc w-90"&gt;
@@ -465,8 +617,7 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/section&gt;
 
-
-    &lt;/div&gt;
+        &lt;/div&gt;
 
 &lt;section id="try-premium" class="flex flex-column items-center justify-center white pv6 ph4 relative"&gt;
     &lt;div class="cta-overlay"&gt;&lt;/div&gt;
@@ -478,19 +629,21 @@ INIT_GLOBAL_HEADER();
         &lt;a href="/premium" data-ref="Learn More Button"&gt;&lt;button class="btn lg bg-yellow ttu"&gt;Learn More&lt;/button&gt;&lt;/a&gt;
     &lt;/div&gt;
 &lt;/section&gt;
-    
-    
+        
+            
 &lt;section id="follow" class="flex items-center justify-center"&gt;
     &lt;div class=""&gt;
         &lt;h3 class="ttu mv0 mr5"&gt;Follow Comics Kingdom: &lt;/h3&gt;
     &lt;/div&gt;
-    &lt;div class="social flex"&gt;
-        &lt;a class="mr5" href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;&lt;img src="/assets/img/global/CK_icon_facebook.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a class="mr5" href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;&lt;img src="/assets/img/global/CK_icon_instagram.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a class="mr5" href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;&lt;img src="/assets/img/global/CK_icon_twitter.svg" alt=""&gt;&lt;/a&gt;
+    &lt;div class="social flex img-container"&gt;
+        &lt;a class="mr5" href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/facebook_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/instagram_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/twitter_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://www.tiktok.com/@comics.kingdom" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/tiktok_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://www.youtube.com/channel/UCITxE1wlcJD-cNsrBF-D6fw" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/youtube_social_nav.png" alt=""&gt;&lt;/a&gt;
     &lt;/div&gt;
 &lt;/section&gt;
-    
+            
 
 
 
@@ -516,31 +669,33 @@ INIT_GLOBAL_HEADER();
                     &lt;li class="mb2"&gt;&lt;a class="" href="/privacy-policy#internet-ads" data-ref="Reference Link"&gt;Interest-Based Ads&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="mb2"&gt;&lt;a class="" href="/advertising" data-ref="Reference Link"&gt;Advertising&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="mb2"&gt;&lt;a class="" href="/faq" data-ref="Reference Link"&gt;Help/FAQ&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class=""&gt;&lt;a class="" href="/contact" data-ref="Reference Link"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=""&gt;&lt;a class="" href="https://kingfeatures.atlassian.net/servicedesk/customer/portal/9" target="_blank" data-ref="Reference Link"&gt;Contact&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/div&gt;
             &lt;div class="email-list pv3"&gt;
                 &lt;h3 class="ttu mv0 white"&gt;Love Comics?&lt;/h3&gt;
                 &lt;p class="f6 mv0"&gt;Sign up to receive weekly updates and news from around the kingdom.&lt;/p&gt;
+                
+                &lt;!--Start mc_embed_signup--&gt;
                 &lt;div class="email-signup"&gt;
-                    &lt;div id="mc_embed_signup"&gt;
-                    &lt;form action="https://comicskingdom.us3.list-manage.com/subscribe/post?u=229ff613cb6e35b29b1105dee&amp;amp;amp;id=544007b4e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate&gt;
-                        &lt;div id="mc_embed_signup_scroll"&gt;
-                    &lt;div class="mc-field-group"&gt;
-                        &lt;input type="email" value="" name="EMAIL" placeholder="Email" class="required email" id="mce-EMAIL"&gt;
+                    &lt;div id="mc_embed_signup_footer"&gt;
+                        &lt;form action="" method="post" id="mc-embedded-subscribe-form-footer" name="mc-embedded-subscribe-form" class="validate" data-email-footer='newsletter' novalidate&gt;    
+                            &lt;div id="mc_embed_signup_scroll_footer"&gt;
+                                &lt;div class="mc-field-group"&gt;
+                                    &lt;input type="email" name="EMAIL" placeholder="Email" class="required email" id="mce-EMAIL-footer"&gt;
+                                &lt;/div&gt;
+                                &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups --&gt;
+                                &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_229ff613cb6e35b29b1105dee_544007b4e1" tabindex="-1" value=""&gt;&lt;/div&gt;
+                                &lt;input type="submit" value="" name="subscribe" id="mc-embedded-subscribe-footer" class="button"&gt;
+                            &lt;/div&gt;
+                        &lt;input name="__RequestVerificationToken" type="hidden" value="CfDJ8BM57XIJIjxDlK7epe9-xmFzq15752w0dXs9Psn2EhMxrpy-yKTLeyE7-AqecwzXYJqm_7vhmN35x8RQMI75F7h0Lfbn-5OFJeM7-6hPZwHsQFtsJomUAi82fYQcFwX72t5MQginwc4TsWnAjqb2lMc" /&gt;&lt;/form&gt;
                     &lt;/div&gt;
-                        &lt;div id="mce-responses" class="clear"&gt;
-                            &lt;div class="response" id="mce-error-response" style="display:none"&gt;&lt;/div&gt;
-                            &lt;div class="response" id="mce-success-response" style="display:none"&gt;&lt;/div&gt;
-                        &lt;/div&gt;    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
-                        &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_229ff613cb6e35b29b1105dee_544007b4e1" tabindex="-1" value=""&gt;&lt;/div&gt;
-                        &lt;input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button" data-email='newsletter'&gt;
-                        &lt;/div&gt;
-                    &lt;/form&gt;
-                    &lt;/div&gt;
-
-                    &lt;!--End mc_embed_signup--&gt;
                 &lt;/div&gt;
+                &lt;div id="mce-responses-footer" style="padding-top: 10px;"&gt;
+                    &lt;div class="response" id="mce-error-response-footer" style="display:none"&gt;&lt;/div&gt;
+                    &lt;div class="response" id="mce-success-response-footer" style="display:none"&gt;&lt;/div&gt;
+                &lt;/div&gt;  
+                &lt;!--End mc_embed_signup--&gt;
             &lt;/div&gt;
         &lt;/aside&gt;
         &lt;div id="comic-lists" class="space2"&gt;
@@ -550,72 +705,73 @@ INIT_GLOBAL_HEADER();
 
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /amazing-spider-man data-ref="Footer Link"&gt;Amazing Spider-Man&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /amazing-spider-man data-ref="Footer Link"&gt;Amazing Spider-man&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /arctic-circle data-ref="Footer Link"&gt;Arctic Circle&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /baby-blues data-ref="Footer Link"&gt;Baby Blues&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith data-ref="Footer Link"&gt;Barney Google and Snuffy Smith&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith data-ref="Footer Link"&gt;Barney Google And Snuffy Smith&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /beetle-bailey-1 data-ref="Footer Link"&gt;Beetle Bailey&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /between-friends data-ref="Footer Link"&gt;Between Friends&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /bizarro data-ref="Footer Link"&gt;Bizarro&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /blondie data-ref="Footer Link"&gt;Blondie&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /brilliant-mind-of-edison-lee data-ref="Footer Link"&gt;Brilliant Mind of Edison Lee&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /buckles data-ref="Footer Link"&gt;Buckles&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /carpe-diem data-ref="Footer Link"&gt;Carpe Diem&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /crankshaft data-ref="Footer Link"&gt;Crankshaft&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /crock data-ref="Footer Link"&gt;Crock&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /curtis data-ref="Footer Link"&gt;Curtis&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /daddy-daze data-ref="Footer Link"&gt;Daddy Daze&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /dennis-the-menace data-ref="Footer Link"&gt;Dennis The Menace&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /dennis-the-menace data-ref="Footer Link"&gt;Dennis the Menace&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /dustin data-ref="Footer Link"&gt;Dustin&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /family-circus data-ref="Footer Link"&gt;Family Circus&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /flash-gordon data-ref="Footer Link"&gt;Flash Gordon&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean data-ref="Footer Link"&gt;Funky Winkerbean&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hagar-the-horrible data-ref="Footer Link"&gt;Hagar the Horrible&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hagar-the-horrible data-ref="Footer Link"&gt;Hagar The Horrible&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /hi-and-lois data-ref="Footer Link"&gt;Hi and Lois&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /Intelligent data-ref="Footer Link"&gt;Intelligent Life&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /judge-parker data-ref="Footer Link"&gt;Judge Parker&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /katzenjammer-kids data-ref="Footer Link"&gt;Katzenjammer Kids&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /kevin-and-kell data-ref="Footer Link"&gt;Kevin and Kell&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns data-ref="Footer Link"&gt;Lockhorns&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /Macanudo data-ref="Footer Link"&gt;Macanudo&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /mallard-fillmore data-ref="Footer Link"&gt;Mallard Fillmore&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-1 data-ref="Footer Link"&gt;Mandrake the Magician&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-1 data-ref="Footer Link"&gt;Mandrake The Magician&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mark-trail data-ref="Footer Link"&gt;Mark Trail&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /marvin data-ref="Footer Link"&gt;Marvin&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mary-worth data-ref="Footer Link"&gt;Mary Worth&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mark-trail data-ref="Footer Link"&gt;Mark Trail&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /marvin data-ref="Footer Link"&gt;Marvin&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mary-worth data-ref="Footer Link"&gt;Mary Worth&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /moose-and-molly data-ref="Footer Link"&gt;Moose and Molly&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /moose-and-molly data-ref="Footer Link"&gt;Moose And Molly&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /mother-goose-grimm data-ref="Footer Link"&gt;Mother Goose &amp;amp; Grimm&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /mutts data-ref="Footer Link"&gt;Mutts&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /on-the-fastrack data-ref="Footer Link"&gt;On the Fastrack&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /pajama-diaries data-ref="Footer Link"&gt;Pajama Diaries&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /on-the-fastrack data-ref="Footer Link"&gt;On The Fastrack&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /pardon-my-planet data-ref="Footer Link"&gt;Pardon My Planet&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom data-ref="Footer Link"&gt;Phantom&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /popeye data-ref="Footer Link"&gt;Popeye&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /popeyes-cartoon-club data-ref="Footer Link"&gt;Popeye&amp;#x27;s Cartoon Club&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /prince-valiant data-ref="Footer Link"&gt;Prince Valiant&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /pros-cons data-ref="Footer Link"&gt;Pros &amp;amp; Cons&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /retail data-ref="Footer Link"&gt;Retail&lt;/a&gt;&lt;/li&gt;
-                                    &lt;/ul&gt;
-                                    &lt;ul class="comic-link-group"&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /rae-the-doe data-ref="Footer Link"&gt;Rae The Doe&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /rex-morgan-m-d data-ref="Footer Link"&gt;Rex Morgan M.D.&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /rhymes-with-orange data-ref="Footer Link"&gt;Rhymes with Orange&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /safe-havens data-ref="Footer Link"&gt;Safe Havens&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /sales data-ref="Footer Link"&gt;Sales&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /sally-forth data-ref="Footer Link"&gt;Sally Forth&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /sam-and-silo data-ref="Footer Link"&gt;Sam and Silo&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;ul class="comic-link-group"&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /sam-and-silo data-ref="Footer Link"&gt;Sam And Silo&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /sherman-s-lagoon data-ref="Footer Link"&gt;Sherman&amp;#x27;s Lagoon&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /shoe data-ref="Footer Link"&gt;Shoe&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /six-chix data-ref="Footer Link"&gt;Six Chix&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /slylock-fox-and-comics-for-kids data-ref="Footer Link"&gt;Slylock Fox and Comics for Kids&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /take-it-from-the-tinkersons data-ref="Footer Link"&gt;Take It From The Tinkersons&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /slylock-fox-and-comics-for-kids data-ref="Footer Link"&gt;Slylock Fox And Comics For Kids&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /take-it-from-the-tinkersons data-ref="Footer Link"&gt;Take it from the Tinkersons&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /brilliant-mind-of-edison-lee data-ref="Footer Link"&gt;The Brilliant Mind Of Edison Lee&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /family-circus data-ref="Footer Link"&gt;The Family Circus&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns data-ref="Footer Link"&gt;The Lockhorns&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /pajama-diaries data-ref="Footer Link"&gt;The Pajama Diaries&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom data-ref="Footer Link"&gt;The Phantom&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger data-ref="Footer Link"&gt;Tiger&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /todd-the-dinosaur data-ref="Footer Link"&gt;Todd the Dinosaur&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /zippy-the-pinhead data-ref="Footer Link"&gt;Zippy the Pinhead&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /todd-the-dinosaur data-ref="Footer Link"&gt;Todd The Dinosaur&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /zippy-the-pinhead data-ref="Footer Link"&gt;Zippy The Pinhead&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /zits data-ref="Footer Link"&gt;Zits&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
@@ -628,7 +784,7 @@ INIT_GLOBAL_HEADER();
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /apartment-3-g_1 data-ref="Footer Link"&gt;Apartment 3-G&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith-1 data-ref="Footer Link"&gt;Barney Google and Snuffy Smith&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith-1 data-ref="Footer Link"&gt;Barney Google And Snuffy Smith&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /beetle-bailey data-ref="Footer Link"&gt;Beetle Bailey&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /betty-boop-sundays data-ref="Footer Link"&gt;Betty Boop Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /big-ben-bolt data-ref="Footer Link"&gt;Big Ben Bolt&lt;/a&gt;&lt;/li&gt;
@@ -636,47 +792,47 @@ INIT_GLOBAL_HEADER();
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /boners-ark data-ref="Footer Link"&gt;Boner&amp;#x27;s Ark&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /boners-ark-sundays data-ref="Footer Link"&gt;Boner&amp;#x27;s Ark Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /brick-bradford data-ref="Footer Link"&gt;Brick Bradford&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /bringing-up-father data-ref="Footer Link"&gt;Bringing up Father&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /bringing-up-father data-ref="Footer Link"&gt;Bringing Up Father&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /buz-sawyer data-ref="Footer Link"&gt;Buz Sawyer&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                     &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /flash-gordon-1 data-ref="Footer Link"&gt;Flash Gordon&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /flash-gordon-sundays data-ref="Footer Link"&gt;Flash Gordon Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-1 data-ref="Footer Link"&gt;Funky Winkerbean&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-sundays data-ref="Footer Link"&gt;Funky Winkerbean Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones data-ref="Footer Link"&gt;Heart of Juliet Jones&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones-sundays data-ref="Footer Link"&gt;Heart of Juliet Jones Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hi-and-lois-1 data-ref="Footer Link"&gt;Hi and Lois&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-sundays data-ref="Footer Link"&gt;Funky Winkerbean Sunday&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-1 data-ref="Footer Link"&gt;Funky Winkerbean Vintage&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones data-ref="Footer Link"&gt;Heart Of Juliet Jones&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones-sundays data-ref="Footer Link"&gt;Heart Of Juliet Jones Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hi-and-lois-1 data-ref="Footer Link"&gt;Hi And Lois&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /johnny-hazard data-ref="Footer Link"&gt;Johnny Hazard&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /johnny-hazard-sundays data-ref="Footer Link"&gt;Johnny Hazard Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /judge-parker-1 data-ref="Footer Link"&gt;Judge Parker&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /jungle-jim-sundays data-ref="Footer Link"&gt;Jungle Jim Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /katzenjammer-kids-sundays data-ref="Footer Link"&gt;Katzenjammer Kids Sundays&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /katzenjammer-kids-sundays data-ref="Footer Link"&gt;Katzenjammer Kids Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /king-of-the-royal-mounted data-ref="Footer Link"&gt;King of The Royal Mounted&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /king-of-the-royal-mounted data-ref="Footer Link"&gt;King of the Royal Mounted&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /krazy-kat data-ref="Footer Link"&gt;Krazy Kat&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /little-iodine-sundays data-ref="Footer Link"&gt;Little Iodine Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns-1 data-ref="Footer Link"&gt;Lockhorns&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician data-ref="Footer Link"&gt;Mandrake the Magician&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-sundays data-ref="Footer Link"&gt;Mandrake the Magician Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician data-ref="Footer Link"&gt;Mandrake The Magician&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-sundays data-ref="Footer Link"&gt;Mandrake The Magician Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /office-hours data-ref="Footer Link"&gt;Office Hours&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-1 data-ref="Footer Link"&gt;Phantom&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-sundays data-ref="Footer Link"&gt;Phantom Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /prince-valiant-sundays data-ref="Footer Link"&gt;Prince Valiant Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /quincy data-ref="Footer Link"&gt;Quincy&lt;/a&gt;&lt;/li&gt;
-                                    &lt;/ul&gt;
-                                    &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /radio-patrol data-ref="Footer Link"&gt;Radio Patrol&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /redeye-2 data-ref="Footer Link"&gt;Redeye&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /redeye-sundays data-ref="Footer Link"&gt;Redeye Sundays&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /rip-kirby data-ref="Footer Link"&gt;Rip Kirby&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /secret-agent-x-9 data-ref="Footer Link"&gt;Secret Agent X-9&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /the-little-king data-ref="Footer Link"&gt;The Little King&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns-1 data-ref="Footer Link"&gt;The Lockhorns&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-1 data-ref="Footer Link"&gt;The Phantom&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-sundays data-ref="Footer Link"&gt;The Phantom Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /thimble-theater data-ref="Footer Link"&gt;Thimble Theater&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-1 data-ref="Footer Link"&gt;Tiger&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-sundays data-ref="Footer Link"&gt;Tiger Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-1 data-ref="Footer Link"&gt;Tiger Vintage&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-sundays data-ref="Footer Link"&gt;Tiger Vintage Sundays&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
                         &lt;/div&gt;
@@ -716,16 +872,46 @@ INIT_GLOBAL_HEADER();
 &lt;div class="copyright-footer legal bg-black flex justify-center items-center"&gt;
     &lt;span class="mv0 white  "&gt;&amp;copy; KING FEATURES SYNDICATE, INC. 2019&amp;nbsp; &lt;span class="divider"&gt;|&lt;/span&gt; All rights reserved worldwide.&lt;/span&gt;
 &lt;/div&gt;
-    
+        
 
-    &lt;!-- Javascript specific to this page. --&gt;
-    
+        &lt;!-- Javascript specific to this page. --&gt;
+        
     &lt;!-- Load page specific scripts --&gt;
     &lt;script type="text/javascript"&gt;
         window.CK_COMIC_IS_PREMIUM = false;
     &lt;/script&gt;
     &lt;script type="text/javascript" src="/assets/js/comic.bundle.js"&gt;&lt;/script&gt;
 
+    &lt;/div&gt;
+    &lt;div id="cmn-leaderboard"&gt;&lt;/div&gt;
+    &lt;div id="cmn-feed-inline_0"&gt;&lt;/div&gt;
+    &lt;div id="cmn-tile-square_0"&gt;&lt;/div&gt;
+
+    &lt;script type="text/javascript"&gt;
+        (function () {
+            if (window.isMobile) return;
+            window.cToolbarInit = function () {
+                cToolbar.load({
+                    mobileRightButton: 'youtube',
+                    facebookUsername: 'TheComicsKingdom',
+                    facebookName: 'Comics Kingdom',
+                    twitterHandle: 'comicskingdom',
+                    twitterName: 'Comics Kingdom',
+                    youtubeChannelId: 'UCITxE1wlcJD-cNsrBF-D6fw',
+                    youtubeDisplayName: 'Comics Kingdom',
+                    desktopBackground: 'gradient',
+                    desktopSocialButtons: ['facebook', 'twitter', 'youtube'],
+                    channel: 'Entertainment'
+                });
+            };
+            var ns = document.createElement('script');
+            ns.type = 'text/javascript';
+            ns.async = true;
+            ns.src = '//toolbar.complex.com/dist/ctoolbar.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ns, s);
+        })();
+    &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</ReturnValue>
     <OutAndRefValues />
@@ -733,47 +919,155 @@ INIT_GLOBAL_HEADER();
   <RecordedCall>
     <Method>System.String GetContent(System.Uri)</Method>
     <ReturnValue xsi:type="xsd:string">
+
+
+
 &lt;!DOCTYPE html&gt;
 &lt;html class="h-100"&gt;
 &lt;head&gt;
+    &lt;!-- Google Tag Manager --&gt;
+    &lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N7L7QGM');&lt;/script&gt;
+    &lt;!-- End Google Tag Manager --&gt;
+
     &lt;meta charset="UTF-8"&gt;
     &lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1.0"&gt;
     &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
-    &lt;title&gt;Comics Kingdom - Rhymes with Orange - 2019-07-14 &lt;/title&gt;
+    &lt;title&gt;Comics Kingdom - Rhymes with Orange - 2020-09-11 &lt;/title&gt;
     
 
 
-    &lt;meta property="fb:app_id" content="314131672543240"&gt;
-    &lt;link href="/css/tachyons.min.css" rel="stylesheet"&gt;
-    &lt;link href="/assets/css/global-head.css" rel="stylesheet"&gt;
-    &lt;link href="https://use.typekit.net/qhp3ntw.css" rel="stylesheet"&gt;
-    &lt;script&gt;window.asset_url = "/assets/"&lt;/script&gt;
-    &lt;script&gt;
-        var PageData = {"PageInformation":{"Path":["","rhymes-with-orange","2019-07-14",""],"PathBase":""},"UserRef":null,"IsPremium":false,"Email":null,"UID":null,"disqusShortname":"comicskingdom","amplitudeApiKey":"2b7fca3945557fe7c657e74f04dc61ae","googleTagId":"UA-822371-27","facebookId":"314131672543240","brazeId":"2dcb127e-a85d-47e1-b8b0-f60c63cf7824","brazeApiUrl":"https://sdk.iad-03.braze.com/api/v3","pianoAppId":"NDC6fzMqCD","pianoEmbedUrl":"//experience.tinypass.com/xbuilder/experience/load?aid=","pianoApiUrl":"https://api.tinypass.com/api/v3","pianoRedirectUrl":"/thankyou","pianoCheckoutUrl":"/api/piano","pianoAccountUrl":"/user/manage/profile","ensighten":"//nexus.ensighten.com/hearst/kfs-prod/Bootstrap.js","settingsEnv":"production-2019/3/1"};
+&lt;meta property="fb:app_id" content="314131672543240"&gt;
+&lt;link href="/css/tachyons.min.css" rel="stylesheet"&gt;
+&lt;link href="/assets/css/global-head.css" rel="stylesheet"&gt;
+&lt;link href="https://use.typekit.net/qhp3ntw.css" rel="stylesheet"&gt;
+&lt;script&gt;window.asset_url = "/assets/"&lt;/script&gt;
+&lt;script&gt;
+        var PageData = {"PageInformation":{"Path":["","rhymes-with-orange","2020-09-11",""],"PathBase":""},"UserRef":null,"IsPremium":false,"Email":null,"UID":null,"disqusShortname":"comicskingdom","amplitudeApiKey":"2b7fca3945557fe7c657e74f04dc61ae","googleTagId":"UA-822371-27","googleTagManagerId":"GTM-N7L7QGM","facebookId":"314131672543240","brazeId":"2dcb127e-a85d-47e1-b8b0-f60c63cf7824","brazeApiUrl":"https://sdk.iad-03.braze.com/api/v3","pianoAppId":"NDC6fzMqCD","pianoEmbedUrl":"//experience.tinypass.com/xbuilder/experience/load?aid=","pianoApiUrl":"https://api.tinypass.com/api/v3","pianoRedirectUrl":"/thankyou","pianoCheckoutUrl":"/api/piano","pianoAccountUrl":"/user/manage/profile","settingsEnv":"production-2019/3/1"};
         window.PageData = PageData;
         window.CK_PAGE_INFO = PageData.PageInformation;
         window.__uid = PageData.UID;
         window.__email = PageData.Email;
+&lt;/script&gt;
+&lt;script src="/assets/js/vendors.bundle.js"&gt;&lt;/script&gt;
+&lt;script src="/assets/js/global-head.bundle.js"&gt;&lt;/script&gt;
 
-        (function (d) {
-            var s = document.createElement("script");
-            s.async = true;
-            s.src = PageData.ensighten;
-            d.getElementsByTagName("head")[0].appendChild(s);
-        })(document);  
-    &lt;/script&gt;
-    &lt;script src="/assets/js/vendors.bundle.js"&gt;&lt;/script&gt;
-    &lt;script src="/assets/js/global-head.bundle.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+    var isMobile = /iPhone|iPod|BlackBerry|Opera Mini|(android|bb\d+|meego).+mobile/i.test(navigator.userAgent);
+    var cmnunt_site = 'cmn_comicskingdom';
+    var cmnunt_silo = 's_pop';
+    var cmnunt_subsilo = '';
+    var cmnunt_tier = 'to,home';
+    var cmnunt_zone = 'home';
+    var cmnunt_kw = '';
+    var cmnunt_exclude = '';
+    cmnunt_site += window.isMobile ? '_mob' : '';
+
+    (function () {
+        var ns = document.createElement('script');
+        ns.src = '//media.complex.com/common/cmnUNT' + (window.isMobile ? 'mobile' : '') + '.js';
+        ns.type = 'text/javascript';
+        ns.async = true;
+        ns.addEventListener('load', function () {
+            window.dispatchEvent(new Event('cmnunt.loaded'));
+        });
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ns, s);
+    })();
+
+    function cmnUntLoadWrapper() {
+        var adConf = Array.prototype.slice.call(arguments);
+
+        if (typeof CMNUNT === 'object' &amp;&amp; typeof CMNUNT.load === 'function') {
+            console.log('CMNUNT.load available for:', adConf[1].containerId);
+            CMNUNT.load.apply(CMNUNT, adConf);
+        } else {
+            console.log('CMNUNT.load NOT available for:', adConf[1].containerId, 'setting a listener');
+            window.addEventListener('cmnunt.loaded', function () {
+                console.log('Inside of a listener for:', adConf[1].containerId);
+                CMNUNT.load.apply(CMNUNT, adConf);
+            });
+        }
+    }
+
+    var generateSlotName = function () {
+        var nextSlotId = 0;
+
+        return function () {
+            return 'adslot_' + nextSlotId++;
+        }
+    }();
+
+    function addInlineAd(containerRef) {
+        var slotName = generateSlotName();
+
+        // Create another slot
+        var slotDiv = document.createElement('div');
+        slotDiv.id = slotName;
+        slotDiv.className = 'ad-slot';
+        slotDiv.setAttribute('data-heading', 'Dynamically Loaded Ad: ' + slotName);
+        containerRef.appendChild(slotDiv);
+
+        // Load an ad into newly created slot
+        CMNUNT.load('inline', { containerId: slotName, lazyLoad: true });
+    }
+    cmnUntLoadWrapper('square', {
+        containerId: 'cmn-tile-square',
+        lazyLoad: true
+    });
+
+&lt;/script&gt;
+&lt;script&gt;
+    window.addEventListener('DOMContentLoaded', function () {
+        var ajaxUrl = "feed/";
+
+        var latestPostsContainer = document.querySelector('main');
+
+        if (latestPostsContainer) {
+            var page = 2;
+            var morePostsLoading = false;
+
+            window.addEventListener('scroll', function () {
+                if (latestPostsContainer.getBoundingClientRect().bottom - window.innerHeight &lt; 350 &amp;&amp; !morePostsLoading) {
+                    getMorePosts();
+                }
+            });
+
+            function getMorePosts() {
+                var xhttp = new XMLHttpRequest();
+                var postData = "action=dosomething";
+                morePostsLoading = true;
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 &amp;&amp; this.status == 200) {
+                        addInlineAd(latestPostsContainer);
+                        page++;
+                        latestPostsContainer.insertAdjacentHTML('beforeend', this.responseText);
+                        morePostsLoading = false;
+                    }
+                };
+                xhttp.open("POST", ajaxUrl, true);
+                xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                postData += "&amp;page=" + page;
+                xhttp.send(postData);
+            }
+        }
+    });
+&lt;/script&gt;
+
     
     &lt;!-- Load page specific header items --&gt;
-    &lt;meta property="og:url" content='https://www.comicskingdom.com/rhymes-with-orange/2019-07-14' /&gt;
+    &lt;meta property="og:url" content='https://www.comicskingdom.com/rhymes-with-orange/2020-09-11' /&gt;
     &lt;meta property="og:type" content="article" /&gt;
     &lt;meta property="og:title" content="Rhymes with Orange" /&gt;
     &lt;meta property="og:description" content="Rhymes with Orange" /&gt;
-    &lt;meta property="og:image" content="https://safr.kingfeatures.com/api/img.php?e=png&amp;s=c&amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=" /&gt;
+    &lt;meta property="og:image" content="https://safr.kingfeatures.com/api/img.php?e=gif&amp;s=c&amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg==" /&gt;
     &lt;meta name="twitter:title" content="Rhymes with Orange"&gt;
     &lt;meta name="twitter:description" content="Rhymes with Orange"&gt;
-    &lt;meta name="twitter:image" content="https://safr.kingfeatures.com/api/img.php?e=png&amp;s=c&amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc="&gt;
+    &lt;meta name="twitter:image" content="https://safr.kingfeatures.com/api/img.php?e=gif&amp;s=c&amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg=="&gt;
     &lt;meta name="twitter:card" content="summary_large_image"&gt;
     &lt;link href="/assets/css/comic.css" rel="stylesheet"&gt;
 
@@ -790,11 +1084,23 @@ INIT_GLOBAL_HEADER();
     &lt;/script&gt;
 &lt;/head&gt;
 &lt;body class="ma0 pa0 h-100 w-100"&gt;
-    
+    &lt;!-- Google Tag Manager (noscript) --&gt;
+    &lt;noscript&gt;
+        &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7L7QGM"
+                height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
+    &lt;/noscript&gt;
+    &lt;!-- End Google Tag Manager (noscript) --&gt;
 
-&lt;div id="above-nav" class="ad-lg-header"&gt;
-    &lt;div data-comic-advertisement="above_nav" class="get-prem global-header-advertisement"&gt;&lt;/div&gt;
-&lt;/div&gt;
+
+    &lt;div class="ck-global-container"&gt;
+        
+
+    &lt;div id="above-nav" class="ad-lg-header"&gt;
+        &lt;div id="cmn-leaderboard"&gt;&lt;/div&gt;
+        &lt;script&gt;
+            cmnUntLoadWrapper('top', { containerId: 'cmn-leaderboard' });
+        &lt;/script&gt;
+    &lt;/div&gt;
 
 &lt;global-header inline-template id="global-header"&gt;
 &lt;header class="masthead"&gt;
@@ -802,9 +1108,22 @@ INIT_GLOBAL_HEADER();
         &lt;div class="social"&gt;
     &lt;p&gt;FOLLOW:&lt;/p&gt;
     &lt;div class="nav-social"&gt;
-        &lt;a href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;&lt;img src="/assets/img/global/facebook.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;&lt;img src="/assets/img/global/instagram.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;&lt;img src="/assets/img/global/twitter.svg" alt=""&gt;&lt;/a&gt;
+        &lt;a href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;
+            &lt;img src="/assets/img/global/facebook.svg" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;
+            &lt;img src="/assets/img/global/instagram_top_nav.png" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;
+            &lt;img src="/assets/img/global/twitter.svg" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://www.tiktok.com/@comics.kingdom" target="_blank"&gt;
+            &lt;img src="/assets/img/global/tiktokwhite_top_nav.jpg" alt=""&gt;
+        &lt;/a&gt;
+        &lt;a href="https://www.youtube.com/channel/UCITxE1wlcJD-cNsrBF-D6fw" target="_blank"&gt;
+            &lt;img src="/assets/img/global/youtube_top_nav.png" alt=""&gt;
+        &lt;/a&gt;
+
         &lt;!-- &lt;a href="" target="_blank"&gt;&lt;img src="~/assets/img/global/youtube.svg" alt=""&gt;&lt;/a&gt; --&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -844,11 +1163,11 @@ INIT_GLOBAL_HEADER();
 &lt;div class="menu"&gt;
     &lt;ul class="links"&gt;
         &lt;li&gt;&lt;a class='ttu white home ' href="/" data-ref="Navbar Link"&gt;Comics&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class='ttu white ' href="/premium" data-ref="Navbar Link"&gt;Premium&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class='ttu white ' href="/premium" data-ref="Navbar Link"&gt;Subscribe&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class='ttu white ' href="/political" data-ref="Navbar Link"&gt;Political&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class='ttu white ' href="/puzzles" data-ref="Navbar Link"&gt;Puzzles&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class='ttu white ' href="/trending" data-ref="Navbar Link"&gt;Trending&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a class='ttu white' href="https://comics-kingdom.myshopify.com/" target="_blank" data-ref="Navbar Link"&gt;Shop&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class='ttu white' href="https://shop.comicskingdom.com/" target="_blank" data-ref="Navbar Link"&gt;Shop&lt;/a&gt;&lt;/li&gt;
         &lt;li class="sign-in"&gt;&lt;a class="ttu white" href='/user/login' data-ref="Navbar Link"&gt;Log In&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;div class="mobile-login-nav db white relative"&gt;
@@ -885,8 +1204,8 @@ INIT_GLOBAL_HEADER();
 INIT_GLOBAL_HEADER();
 &lt;/script&gt;
 
-    &lt;div id="scrollArea"&gt;
-    
+        &lt;div id="scrollArea"&gt;
+            
 
 
 
@@ -927,49 +1246,48 @@ INIT_GLOBAL_HEADER();
             &lt;span class="delimeter"&gt; &amp;gt; &lt;/span&gt;
             &lt;a href="/rhymes-with-orange" class="inactive" data-ref="Breadcrumb Link"&gt;RHYMES WITH ORANGE&lt;/a&gt;
             &lt;span class="delimeter"&gt; &amp;gt; &lt;/span&gt;
-            &lt;a href="/rhymes-with-orange/2019-07-14" class="active" data-ref="Breadcrumb Link"&gt;SUNDAY, JULY 14, 2019&lt;/a&gt;
+            &lt;a href="/rhymes-with-orange/2020-09-11" class="active" data-ref="Breadcrumb Link"&gt;FRIDAY, SEPTEMBER 11, 2020&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
 &lt;section class="comic container" id="comic"&gt;
     
 
 
-&lt;comic-slider inline-template :comic-id="2504830"&gt;
-&lt;div id="comic-slider" class="cv-section flex non-premium"&gt;
-    &lt;div class="comic-slider-wrap flex flex-column"&gt;
-        &lt;div class="top-bar flex justify-between items-center"&gt;
-            &lt;div class="date flex items-center"&gt;
-                &lt;div class="date-container flex items-center"&gt;
-                    
+&lt;comic-slider inline-template :comic-id="2560200"&gt;
+    &lt;div id="comic-slider" class="cv-section flex non-premium"&gt;
+        &lt;div class="comic-slider-wrap flex flex-column"&gt;
+            &lt;div class="top-bar flex justify-between items-center"&gt;
+                &lt;div class="date flex items-center"&gt;
+                    &lt;div class="date-container flex items-center"&gt;
+                        
 
-&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="rhymes-with-orange" date-slug="2019-07-13"&gt;
+&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="rhymes-with-orange" date-slug="2020-09-10"&gt;
 &lt;div class="arrow-prev back" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-                    
+                        
 &lt;div class="desktop"&gt;
-    &lt;slider-date inline-template date="Sunday, July 14, 2019"&gt;
-    &lt;h4 class="ttc desktop-date" v-html="innerHtml"&gt;Sunday, July 14, 2019&lt;/h4&gt;
+    &lt;slider-date inline-template date="Friday, September 11, 2020"&gt;
+    &lt;h4 class="ttc desktop-date" v-html="innerHtml"&gt;Friday, September 11, 2020&lt;/h4&gt;
     &lt;/slider-date&gt;
 &lt;/div&gt;
-                    
+                        
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug="2019-07-15"&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug=""&gt;
 &lt;div class="arrow-next next" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-                &lt;/div&gt;
-                
+                    &lt;/div&gt;
+                    
 &lt;a href="/rhymes-with-orange/archive" data-ref="Archives Icon"&gt;
     &lt;div class="archives"&gt;
         &lt;i class="archive-icon"&gt;&lt;/i&gt;
         &lt;p class="label"&gt;Archives&lt;/p&gt;
     &lt;/div&gt;
 &lt;/a&gt;
-            &lt;/div&gt;
-            
-            &lt;div class="follow-save flex justify-between align-center" ref="favSave"&gt;
-                
+                &lt;/div&gt;
+
+                &lt;div class="follow-save flex justify-between align-center" ref="favSave"&gt;
+                    
 
 &lt;slider-favorite inline-template :is-following="false" :feature-id="106"&gt;
 &lt;span data-prem="Favorited Icon"&gt;
@@ -979,9 +1297,9 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/span&gt;
 &lt;/slider-favorite&gt;
-                
+                    
 
-&lt;slider-save inline-template :is-saved="false" :comic-id="2504830"&gt;
+&lt;slider-save inline-template :is-saved="false" :comic-id="2560200"&gt;
 &lt;span data-prem="Saved Icon"&gt;
     &lt;div class="save flex pointer" v-on:click="bookmark"&gt;
         &lt;i :class="bookmarkClass"&gt;&lt;/i&gt;
@@ -989,34 +1307,35 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/span&gt;
 &lt;/slider-save&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-        &lt;/div&gt;
-        
-        &lt;div class="cv-strip inline-slider flex"&gt;
-            
 
-&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="rhymes-with-orange" date-slug="2019-07-13"&gt;
+            &lt;div class="cv-strip inline-slider flex"&gt;
+                
+
+&lt;slider-arrow inline-template :is-left-arrow="true" feature-slug="rhymes-with-orange" date-slug="2020-09-10"&gt;
 &lt;div class="arrow arrow-left" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-            
+                
 
-&lt;slider-image inline-template image-url="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=" :comic-id="2504830"&gt;
+&lt;slider-image inline-template image-url="https://safr.kingfeatures.com/api/img.php?e=gif&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg==" :comic-id="2560200"&gt;
 &lt;div class="cv-comic"&gt;
+    &lt;div v-if="!isLoadingImage" v-bind:style="imageStyles" class="cv-img"&gt;&lt;/div&gt;
     &lt;img ref="sliderImg" v-bind:style="{visibility: isLoadingImage ? 'hidden' : 'visible'}" v-on:click="onShowViewer" class="w-100 h-100" src="/assets/img/comic/transparent-comic.png" :src="image" alt=""&gt;
     &lt;img v-if="isLoadingImage" class="loader" src="/assets/img/global/ck-loading-graphic.gif" alt=""&gt;
 &lt;/div&gt;
 &lt;/slider-image&gt;
-            
+                
 
-&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug="2019-07-15"&gt;
+&lt;slider-arrow inline-template :is-left-arrow="false" feature-slug="rhymes-with-orange" date-slug=""&gt;
 &lt;div class="arrow arrow-right" v-on:click="arrowClick" v-html="innerHtml"&gt;&lt;/div&gt;
 &lt;/slider-arrow&gt;
-        &lt;/div&gt;
-        
-        &lt;div class="cv-footer"&gt;
-            &lt;div class="footer-bar flex justify-between relative"&gt;
-                &lt;div class="comments-merch flex items-center"&gt;
-                    &lt;slider-disqus inline-template disqus="Rhymes_with_Orange-2019-07-14" pretty-slug="rhymes-with-orange" date-slug="2019-07-14"&gt;
+            &lt;/div&gt;
+
+            &lt;div class="cv-footer"&gt;
+                &lt;div class="footer-bar flex justify-between relative"&gt;
+                    &lt;div class="comments-merch flex items-center"&gt;
+                        &lt;slider-disqus inline-template disqus="Rhymes_with_Orange-2020-09-11" pretty-slug="rhymes-with-orange" date-slug="2020-09-11"&gt;
 &lt;a :href="disqusUrl" data-ref="Comments Link"&gt;
     &lt;div class="comments flex items-center"&gt;
         &lt;div class="bubble"&gt;
@@ -1025,8 +1344,8 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/a&gt;
 &lt;/slider-disqus&gt;
-                    
-&lt;slider-prints inline-template feature-name="Rhymes with Orange" date="Sunday, July 14, 2019"&gt;
+                        
+&lt;slider-prints inline-template feature-name="Rhymes with Orange" date="Friday, September 11, 2020"&gt;
 &lt;a :href="href" data-ref="Buy Merch Icon"&gt;
     &lt;div class="flex"&gt;
         &lt;i class="merch-icon"&gt;&lt;/i&gt;
@@ -1034,44 +1353,51 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/a&gt;
 &lt;/slider-prints&gt;
-                &lt;/div&gt;
-                &lt;div class="mobile-view"&gt;
-                    &lt;a v-on:click="onShowViewer"&gt;&lt;div class="mv-icon"&gt;&lt;/div&gt;&lt;/a&gt;
-                &lt;/div&gt; 
-                
-&lt;div class="social flex items-center" ref="socialShare" data-comic-image-url="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=" data-comic-url="/rhymes-with-orange/2019-07-14/" data-comic-id="2504830" data-feature-id="106"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="mobile-view"&gt;
+                        &lt;a v-on:click="onShowViewer"&gt;&lt;div class="mv-icon"&gt;&lt;/div&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    
+&lt;div class="social flex items-center" ref="socialShare" data-comic-image-url="https://safr.kingfeatures.com/api/img.php?e=gif&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg==" data-comic-url="/rhymes-with-orange/2020-09-11/" data-comic-id="2560200" data-feature-id="106"&gt;
     &lt;p class="label black"&gt;Share:&lt;/p&gt;
-    &lt;share-ecard inline-template :comic-id="2504830"&gt;
+    &lt;share-ecard inline-template :comic-id="2560200"&gt;
         &lt;span v-on:click="onMailClick"&gt;&lt;i class="email-icon pointer"&gt;&lt;/i&gt;&lt;/span&gt;
     &lt;/share-ecard&gt;
-    &lt;share-facebook inline-template :comic-id="2504830"&gt;
+    &lt;share-facebook inline-template :comic-id="2560200"&gt;
         &lt;span v-on:click="onFacebookClick"&gt;&lt;i class="facebook-icon pointer"&gt;&lt;/i&gt;&lt;/span&gt;
     &lt;/share-facebook&gt;
-    &lt;share-twitter inline-template :comic-id="2504830"&gt;
+    &lt;share-twitter inline-template :comic-id="2560200"&gt;
         &lt;span v-on:click="onTwitterClick"&gt;&lt;i class="twitter-icon pointer"&gt;&lt;/i&gt;&lt;/span&gt;
     &lt;/share-twitter&gt;
 &lt;/div&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
+        &lt;div class="comic-ad-container"&gt;
+            
+
+    &lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;
+        &lt;div id="cmn-aside_0"&gt;&lt;/div&gt;
+        &lt;script&gt;
+            cmnUntLoadWrapper('aside', { containerId: 'cmn-aside_0'});
+        &lt;/script&gt;
     &lt;/div&gt;
-    &lt;div class="comic-ad-container"&gt;
-        
 
-&lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;&lt;/div&gt;
-
+        &lt;/div&gt;
+        &lt;!--&lt;partial name="Advertisement/_BetweenContent" model='""' /&gt; --&gt;
     &lt;/div&gt;
-    
-
-&lt;div class="between-content-sections" data-comic-advertisement='between_content_sections'&gt;&lt;/div&gt;
-
-&lt;/div&gt;
 &lt;/comic-slider&gt;
     &lt;!-- MOVED ADD OUTSIDE OF SLIDER --&gt;
-    
-
-&lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;&lt;/div&gt;
+    &lt;!-- &lt;partial name="Advertisement/_RightColumn" /&gt; --&gt;
 
 &lt;/section&gt;
+
+&lt;div class="video-container"&gt;
+&lt;style&gt;
+
+
+&lt;/style&gt;
+&lt;/div&gt;
 
 &lt;div class="comments-ads-section"&gt;
     &lt;div class="section-container container flex"&gt;
@@ -1079,7 +1405,7 @@ INIT_GLOBAL_HEADER();
 &lt;div class="comments-container"&gt;
     &lt;h3&gt;JOIN THE CONVERSATION&lt;/h3&gt;
     &lt;div id="comic-comments" class="col1"&gt;
-        &lt;div id="disqus_thread" data-disqus-url="https://www.comicskingdom.com/rhymes-with-orange/2019-07-14" data-disqus-identifier="Rhymes_with_Orange-2019-07-14" data-disqus-title="Rhymes with Orange - 2019-07-14"&gt;&lt;/div&gt;
+        &lt;div id="disqus_thread" data-disqus-url="https://www.comicskingdom.com/rhymes-with-orange/2020-09-11" data-disqus-identifier="Rhymes_with_Orange-2020-09-11" data-disqus-title="Rhymes with Orange - 2020-09-11"&gt;&lt;/div&gt;
         &lt;div class="yellow-halftone"&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1092,12 +1418,17 @@ INIT_GLOBAL_HEADER();
         &lt;h3 class="universalBorder bottom"&gt;BUY A PRINT!&lt;/h3&gt;
     &lt;/div&gt;
 
-    &lt;img class="buy-print-image" src="https://safr.kingfeatures.com/api/img.php?e=png&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=" alt=""&gt;
-    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Jul 16, 2019 edition of &amp;quot;Rhymes%20with%20Orange&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
+    &lt;img class="buy-print-image" src="https://safr.kingfeatures.com/api/img.php?e=gif&amp;amp;s=c&amp;amp;file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg==" alt=""&gt;
+    &lt;a class="btn sm bg-purple" href="mailto:KFSReprint@hearstsc.com?cc=&amp;bcc=&amp;subject=Comic Print Order&amp;body=I am interested in buying a print of the Sep 11, 2020 edition of &amp;quot;Rhymes%20with%20Orange&amp;quot; comic."&gt;BUY&amp;nbsp;PRINTS&lt;/a&gt;
 &lt;/div&gt;
                 
 
-&lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;&lt;/div&gt;
+    &lt;div data-comic-advertisement="right_column" class="right_column_ad"&gt;
+        &lt;div id="cmn-aside_0"&gt;&lt;/div&gt;
+        &lt;script&gt;
+            cmnUntLoadWrapper('aside', { containerId: 'cmn-aside_0'});
+        &lt;/script&gt;
+    &lt;/div&gt;
 
                 
 
@@ -1123,7 +1454,14 @@ INIT_GLOBAL_HEADER();
 
 
 
-&lt;div class="between-content-sections" data-comic-advertisement='between_content_sections'&gt;&lt;/div&gt;
+    &lt;div class="between-content-sections"&gt;
+        &lt;div id="cmn-feed-inline_0"&gt;
+            &lt;script&gt;
+                cmnUntLoadWrapper('inline', { containerId: 'cmn-feed-inline_0', lazyLoad: true });
+            &lt;/script&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
 
 
 &lt;!-- INCLUDE RECCOMENDED COMICS --&gt;
@@ -1135,52 +1473,52 @@ INIT_GLOBAL_HEADER();
         &lt;/div&gt;
         &lt;div data-scroll-area class="list-of-comics"&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/macanudo-spanish" data-ref="recommendation-488"&gt;&lt;img src="http://api.kingdigital.com/img/features/4282/icon.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/Intelligent" data-ref="recommendation-319"&gt;&lt;img src="http://api.kingdigital.com/img/features/3662/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/kevin-and-kell" data-ref="recommendation-320"&gt;&lt;img src="http://api.kingdigital.com/img/features/3892/headers/original.png"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/shoe" data-ref="recommendation-313"&gt;&lt;img src="http://api.kingdigital.com/img/features/1852/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
                 &lt;a href="/pros-cons" data-ref="recommendation-340"&gt;&lt;img src="http://api.kingdigital.com/img/features/272/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/mother-goose-grimm" data-ref="recommendation-307"&gt;&lt;img src="http://api.kingdigital.com/img/features/1292/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/Macanudo" data-ref="recommendation-353"&gt;&lt;img src="http://api.kingdigital.com/img/features/4262/icon.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/sherman-s-lagoon" data-ref="recommendation-309"&gt;&lt;img src="http://api.kingdigital.com/img/features/1442/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/arctic-circle" data-ref="recommendation-296"&gt;&lt;img src="http://api.kingdigital.com/img/features/2/headers/original.jpg"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/pardon-my-planet" data-ref="recommendation-348"&gt;&lt;img src="http://api.kingdigital.com/img/features/422/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/bizarro" data-ref="recommendation-331"&gt;&lt;img src="http://api.kingdigital.com/img/features/72/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/sherman-s-lagoon" data-ref="recommendation-309"&gt;&lt;img src="http://api.kingdigital.com/img/features/1442/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
-                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class="comic-recommended"&gt;
-                &lt;a href="/mallard-fillmore" data-ref="recommendation-343"&gt;&lt;img src="http://api.kingdigital.com/img/features/312/headers/original.jpg"&gt;&lt;/a&gt;
+                &lt;a href="/shoe" data-ref="recommendation-313"&gt;&lt;img src="http://api.kingdigital.com/img/features/1852/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
                 &lt;a href="/carpe-diem" data-ref="recommendation-321"&gt;&lt;img src="http://api.kingdigital.com/img/features/3922/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
             &lt;div class="comic-recommended"&gt;
+                &lt;a href="/mother-goose-grimm" data-ref="recommendation-307"&gt;&lt;img src="http://api.kingdigital.com/img/features/1292/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/todd-the-dinosaur" data-ref="recommendation-297"&gt;&lt;img src="http://api.kingdigital.com/img/features/582/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/mallard-fillmore" data-ref="recommendation-343"&gt;&lt;img src="http://api.kingdigital.com/img/features/312/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
                 &lt;a href="/zippy-the-pinhead" data-ref="recommendation-298"&gt;&lt;img src="http://api.kingdigital.com/img/features/632/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/Intelligent" data-ref="recommendation-319"&gt;&lt;img src="http://api.kingdigital.com/img/features/3662/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/Macanudo" data-ref="recommendation-353"&gt;&lt;img src="http://api.kingdigital.com/img/features/4262/icon.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/arctic-circle" data-ref="recommendation-296"&gt;&lt;img src="http://api.kingdigital.com/img/features/2/headers/original.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/kevin-and-kell" data-ref="recommendation-320"&gt;&lt;img src="http://api.kingdigital.com/img/features/3892/headers/original.png"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/macanudo-spanish" data-ref="recommendation-488"&gt;&lt;img src="http://api.kingdigital.com/img/features/4282/icon.jpg"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/six-chix" data-ref="recommendation-314"&gt;&lt;img src="http://api.kingdigital.com/img/features/1862/sixchixlogonew.png"&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="comic-recommended"&gt;
+                &lt;a href="/pardon-my-planet" data-ref="recommendation-348"&gt;&lt;img src="http://api.kingdigital.com/img/features/422/headers/original.jpg"&gt;&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class="slide tc w-90"&gt;
@@ -1189,8 +1527,7 @@ INIT_GLOBAL_HEADER();
     &lt;/div&gt;
 &lt;/section&gt;
 
-
-    &lt;/div&gt;
+        &lt;/div&gt;
 
 &lt;section id="try-premium" class="flex flex-column items-center justify-center white pv6 ph4 relative"&gt;
     &lt;div class="cta-overlay"&gt;&lt;/div&gt;
@@ -1202,19 +1539,21 @@ INIT_GLOBAL_HEADER();
         &lt;a href="/premium" data-ref="Learn More Button"&gt;&lt;button class="btn lg bg-yellow ttu"&gt;Learn More&lt;/button&gt;&lt;/a&gt;
     &lt;/div&gt;
 &lt;/section&gt;
-    
-    
+        
+            
 &lt;section id="follow" class="flex items-center justify-center"&gt;
     &lt;div class=""&gt;
         &lt;h3 class="ttu mv0 mr5"&gt;Follow Comics Kingdom: &lt;/h3&gt;
     &lt;/div&gt;
-    &lt;div class="social flex"&gt;
-        &lt;a class="mr5" href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;&lt;img src="/assets/img/global/CK_icon_facebook.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a class="mr5" href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;&lt;img src="/assets/img/global/CK_icon_instagram.svg" alt=""&gt;&lt;/a&gt;
-        &lt;a class="mr5" href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;&lt;img src="/assets/img/global/CK_icon_twitter.svg" alt=""&gt;&lt;/a&gt;
+    &lt;div class="social flex img-container"&gt;
+        &lt;a class="mr5" href="https://www.facebook.com/TheComicsKingdom" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/facebook_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://www.instagram.com/comicskingdom/" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/instagram_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://twitter.com/comicskingdom?lang=en" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/twitter_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://www.tiktok.com/@comics.kingdom" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/tiktok_social_nav.png" alt=""&gt;&lt;/a&gt;
+        &lt;a class="mr5" href="https://www.youtube.com/channel/UCITxE1wlcJD-cNsrBF-D6fw" target="_blank"&gt;&lt;img style="max-width:90%" src="/assets/img/global/youtube_social_nav.png" alt=""&gt;&lt;/a&gt;
     &lt;/div&gt;
 &lt;/section&gt;
-    
+            
 
 
 
@@ -1240,31 +1579,33 @@ INIT_GLOBAL_HEADER();
                     &lt;li class="mb2"&gt;&lt;a class="" href="/privacy-policy#internet-ads" data-ref="Reference Link"&gt;Interest-Based Ads&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="mb2"&gt;&lt;a class="" href="/advertising" data-ref="Reference Link"&gt;Advertising&lt;/a&gt;&lt;/li&gt;
                     &lt;li class="mb2"&gt;&lt;a class="" href="/faq" data-ref="Reference Link"&gt;Help/FAQ&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class=""&gt;&lt;a class="" href="/contact" data-ref="Reference Link"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=""&gt;&lt;a class="" href="https://kingfeatures.atlassian.net/servicedesk/customer/portal/9" target="_blank" data-ref="Reference Link"&gt;Contact&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/div&gt;
             &lt;div class="email-list pv3"&gt;
                 &lt;h3 class="ttu mv0 white"&gt;Love Comics?&lt;/h3&gt;
                 &lt;p class="f6 mv0"&gt;Sign up to receive weekly updates and news from around the kingdom.&lt;/p&gt;
+                
+                &lt;!--Start mc_embed_signup--&gt;
                 &lt;div class="email-signup"&gt;
-                    &lt;div id="mc_embed_signup"&gt;
-                    &lt;form action="https://comicskingdom.us3.list-manage.com/subscribe/post?u=229ff613cb6e35b29b1105dee&amp;amp;amp;id=544007b4e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate&gt;
-                        &lt;div id="mc_embed_signup_scroll"&gt;
-                    &lt;div class="mc-field-group"&gt;
-                        &lt;input type="email" value="" name="EMAIL" placeholder="Email" class="required email" id="mce-EMAIL"&gt;
+                    &lt;div id="mc_embed_signup_footer"&gt;
+                        &lt;form action="" method="post" id="mc-embedded-subscribe-form-footer" name="mc-embedded-subscribe-form" class="validate" data-email-footer='newsletter' novalidate&gt;    
+                            &lt;div id="mc_embed_signup_scroll_footer"&gt;
+                                &lt;div class="mc-field-group"&gt;
+                                    &lt;input type="email" name="EMAIL" placeholder="Email" class="required email" id="mce-EMAIL-footer"&gt;
+                                &lt;/div&gt;
+                                &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups --&gt;
+                                &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_229ff613cb6e35b29b1105dee_544007b4e1" tabindex="-1" value=""&gt;&lt;/div&gt;
+                                &lt;input type="submit" value="" name="subscribe" id="mc-embedded-subscribe-footer" class="button"&gt;
+                            &lt;/div&gt;
+                        &lt;input name="__RequestVerificationToken" type="hidden" value="CfDJ8BM57XIJIjxDlK7epe9-xmFzq15752w0dXs9Psn2EhMxrpy-yKTLeyE7-AqecwzXYJqm_7vhmN35x8RQMI75F7h0Lfbn-5OFJeM7-6hPZwHsQFtsJomUAi82fYQcFwX72t5MQginwc4TsWnAjqb2lMc" /&gt;&lt;/form&gt;
                     &lt;/div&gt;
-                        &lt;div id="mce-responses" class="clear"&gt;
-                            &lt;div class="response" id="mce-error-response" style="display:none"&gt;&lt;/div&gt;
-                            &lt;div class="response" id="mce-success-response" style="display:none"&gt;&lt;/div&gt;
-                        &lt;/div&gt;    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
-                        &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_229ff613cb6e35b29b1105dee_544007b4e1" tabindex="-1" value=""&gt;&lt;/div&gt;
-                        &lt;input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button" data-email='newsletter'&gt;
-                        &lt;/div&gt;
-                    &lt;/form&gt;
-                    &lt;/div&gt;
-
-                    &lt;!--End mc_embed_signup--&gt;
                 &lt;/div&gt;
+                &lt;div id="mce-responses-footer" style="padding-top: 10px;"&gt;
+                    &lt;div class="response" id="mce-error-response-footer" style="display:none"&gt;&lt;/div&gt;
+                    &lt;div class="response" id="mce-success-response-footer" style="display:none"&gt;&lt;/div&gt;
+                &lt;/div&gt;  
+                &lt;!--End mc_embed_signup--&gt;
             &lt;/div&gt;
         &lt;/aside&gt;
         &lt;div id="comic-lists" class="space2"&gt;
@@ -1274,72 +1615,73 @@ INIT_GLOBAL_HEADER();
 
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /amazing-spider-man data-ref="Footer Link"&gt;Amazing Spider-Man&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /amazing-spider-man data-ref="Footer Link"&gt;Amazing Spider-man&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /arctic-circle data-ref="Footer Link"&gt;Arctic Circle&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /baby-blues data-ref="Footer Link"&gt;Baby Blues&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith data-ref="Footer Link"&gt;Barney Google and Snuffy Smith&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith data-ref="Footer Link"&gt;Barney Google And Snuffy Smith&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /beetle-bailey-1 data-ref="Footer Link"&gt;Beetle Bailey&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /between-friends data-ref="Footer Link"&gt;Between Friends&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /bizarro data-ref="Footer Link"&gt;Bizarro&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /blondie data-ref="Footer Link"&gt;Blondie&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /brilliant-mind-of-edison-lee data-ref="Footer Link"&gt;Brilliant Mind of Edison Lee&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /buckles data-ref="Footer Link"&gt;Buckles&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /carpe-diem data-ref="Footer Link"&gt;Carpe Diem&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /crankshaft data-ref="Footer Link"&gt;Crankshaft&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /crock data-ref="Footer Link"&gt;Crock&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /curtis data-ref="Footer Link"&gt;Curtis&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /daddy-daze data-ref="Footer Link"&gt;Daddy Daze&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /dennis-the-menace data-ref="Footer Link"&gt;Dennis The Menace&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /dennis-the-menace data-ref="Footer Link"&gt;Dennis the Menace&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /dustin data-ref="Footer Link"&gt;Dustin&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /family-circus data-ref="Footer Link"&gt;Family Circus&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /flash-gordon data-ref="Footer Link"&gt;Flash Gordon&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean data-ref="Footer Link"&gt;Funky Winkerbean&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hagar-the-horrible data-ref="Footer Link"&gt;Hagar the Horrible&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hagar-the-horrible data-ref="Footer Link"&gt;Hagar The Horrible&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /hi-and-lois data-ref="Footer Link"&gt;Hi and Lois&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /Intelligent data-ref="Footer Link"&gt;Intelligent Life&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /judge-parker data-ref="Footer Link"&gt;Judge Parker&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /katzenjammer-kids data-ref="Footer Link"&gt;Katzenjammer Kids&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /kevin-and-kell data-ref="Footer Link"&gt;Kevin and Kell&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns data-ref="Footer Link"&gt;Lockhorns&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /Macanudo data-ref="Footer Link"&gt;Macanudo&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /mallard-fillmore data-ref="Footer Link"&gt;Mallard Fillmore&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-1 data-ref="Footer Link"&gt;Mandrake the Magician&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-1 data-ref="Footer Link"&gt;Mandrake The Magician&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mark-trail data-ref="Footer Link"&gt;Mark Trail&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /marvin data-ref="Footer Link"&gt;Marvin&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mary-worth data-ref="Footer Link"&gt;Mary Worth&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mark-trail data-ref="Footer Link"&gt;Mark Trail&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /marvin data-ref="Footer Link"&gt;Marvin&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mary-worth data-ref="Footer Link"&gt;Mary Worth&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /moose-and-molly data-ref="Footer Link"&gt;Moose and Molly&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /moose-and-molly data-ref="Footer Link"&gt;Moose And Molly&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /mother-goose-grimm data-ref="Footer Link"&gt;Mother Goose &amp;amp; Grimm&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /mutts data-ref="Footer Link"&gt;Mutts&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /on-the-fastrack data-ref="Footer Link"&gt;On the Fastrack&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /pajama-diaries data-ref="Footer Link"&gt;Pajama Diaries&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /on-the-fastrack data-ref="Footer Link"&gt;On The Fastrack&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /pardon-my-planet data-ref="Footer Link"&gt;Pardon My Planet&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom data-ref="Footer Link"&gt;Phantom&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /popeye data-ref="Footer Link"&gt;Popeye&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /popeyes-cartoon-club data-ref="Footer Link"&gt;Popeye&amp;#x27;s Cartoon Club&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /prince-valiant data-ref="Footer Link"&gt;Prince Valiant&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /pros-cons data-ref="Footer Link"&gt;Pros &amp;amp; Cons&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /retail data-ref="Footer Link"&gt;Retail&lt;/a&gt;&lt;/li&gt;
-                                    &lt;/ul&gt;
-                                    &lt;ul class="comic-link-group"&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /rae-the-doe data-ref="Footer Link"&gt;Rae The Doe&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /rex-morgan-m-d data-ref="Footer Link"&gt;Rex Morgan M.D.&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /rhymes-with-orange data-ref="Footer Link"&gt;Rhymes with Orange&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /safe-havens data-ref="Footer Link"&gt;Safe Havens&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /sales data-ref="Footer Link"&gt;Sales&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /sally-forth data-ref="Footer Link"&gt;Sally Forth&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /sam-and-silo data-ref="Footer Link"&gt;Sam and Silo&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;ul class="comic-link-group"&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /sam-and-silo data-ref="Footer Link"&gt;Sam And Silo&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /sherman-s-lagoon data-ref="Footer Link"&gt;Sherman&amp;#x27;s Lagoon&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /shoe data-ref="Footer Link"&gt;Shoe&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /six-chix data-ref="Footer Link"&gt;Six Chix&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /slylock-fox-and-comics-for-kids data-ref="Footer Link"&gt;Slylock Fox and Comics for Kids&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /take-it-from-the-tinkersons data-ref="Footer Link"&gt;Take It From The Tinkersons&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /slylock-fox-and-comics-for-kids data-ref="Footer Link"&gt;Slylock Fox And Comics For Kids&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /take-it-from-the-tinkersons data-ref="Footer Link"&gt;Take it from the Tinkersons&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /brilliant-mind-of-edison-lee data-ref="Footer Link"&gt;The Brilliant Mind Of Edison Lee&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /family-circus data-ref="Footer Link"&gt;The Family Circus&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns data-ref="Footer Link"&gt;The Lockhorns&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /pajama-diaries data-ref="Footer Link"&gt;The Pajama Diaries&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom data-ref="Footer Link"&gt;The Phantom&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger data-ref="Footer Link"&gt;Tiger&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /todd-the-dinosaur data-ref="Footer Link"&gt;Todd the Dinosaur&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /zippy-the-pinhead data-ref="Footer Link"&gt;Zippy the Pinhead&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /todd-the-dinosaur data-ref="Footer Link"&gt;Todd The Dinosaur&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /zippy-the-pinhead data-ref="Footer Link"&gt;Zippy The Pinhead&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /zits data-ref="Footer Link"&gt;Zits&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
@@ -1352,7 +1694,7 @@ INIT_GLOBAL_HEADER();
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /apartment-3-g_1 data-ref="Footer Link"&gt;Apartment 3-G&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith-1 data-ref="Footer Link"&gt;Barney Google and Snuffy Smith&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /barney-google-and-snuffy-smith-1 data-ref="Footer Link"&gt;Barney Google And Snuffy Smith&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /beetle-bailey data-ref="Footer Link"&gt;Beetle Bailey&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /betty-boop-sundays data-ref="Footer Link"&gt;Betty Boop Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /big-ben-bolt data-ref="Footer Link"&gt;Big Ben Bolt&lt;/a&gt;&lt;/li&gt;
@@ -1360,47 +1702,47 @@ INIT_GLOBAL_HEADER();
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /boners-ark data-ref="Footer Link"&gt;Boner&amp;#x27;s Ark&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /boners-ark-sundays data-ref="Footer Link"&gt;Boner&amp;#x27;s Ark Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /brick-bradford data-ref="Footer Link"&gt;Brick Bradford&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /bringing-up-father data-ref="Footer Link"&gt;Bringing up Father&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /bringing-up-father data-ref="Footer Link"&gt;Bringing Up Father&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /buz-sawyer data-ref="Footer Link"&gt;Buz Sawyer&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                     &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /flash-gordon-1 data-ref="Footer Link"&gt;Flash Gordon&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /flash-gordon-sundays data-ref="Footer Link"&gt;Flash Gordon Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-1 data-ref="Footer Link"&gt;Funky Winkerbean&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-sundays data-ref="Footer Link"&gt;Funky Winkerbean Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones data-ref="Footer Link"&gt;Heart of Juliet Jones&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones-sundays data-ref="Footer Link"&gt;Heart of Juliet Jones Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hi-and-lois-1 data-ref="Footer Link"&gt;Hi and Lois&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-sundays data-ref="Footer Link"&gt;Funky Winkerbean Sunday&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /funky-winkerbean-1 data-ref="Footer Link"&gt;Funky Winkerbean Vintage&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones data-ref="Footer Link"&gt;Heart Of Juliet Jones&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /heart-of-juliet-jones-sundays data-ref="Footer Link"&gt;Heart Of Juliet Jones Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /hi-and-lois-1 data-ref="Footer Link"&gt;Hi And Lois&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /johnny-hazard data-ref="Footer Link"&gt;Johnny Hazard&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /johnny-hazard-sundays data-ref="Footer Link"&gt;Johnny Hazard Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /judge-parker-1 data-ref="Footer Link"&gt;Judge Parker&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /jungle-jim-sundays data-ref="Footer Link"&gt;Jungle Jim Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /katzenjammer-kids-sundays data-ref="Footer Link"&gt;Katzenjammer Kids Sundays&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
                                 &lt;div class="comic-link-group-pair"&gt;
                                     &lt;ul class="comic-link-group"&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /katzenjammer-kids-sundays data-ref="Footer Link"&gt;Katzenjammer Kids Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /king-of-the-royal-mounted data-ref="Footer Link"&gt;King of The Royal Mounted&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /king-of-the-royal-mounted data-ref="Footer Link"&gt;King of the Royal Mounted&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /krazy-kat data-ref="Footer Link"&gt;Krazy Kat&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /little-iodine-sundays data-ref="Footer Link"&gt;Little Iodine Sundays&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns-1 data-ref="Footer Link"&gt;Lockhorns&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician data-ref="Footer Link"&gt;Mandrake the Magician&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-sundays data-ref="Footer Link"&gt;Mandrake the Magician Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician data-ref="Footer Link"&gt;Mandrake The Magician&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /mandrake-the-magician-sundays data-ref="Footer Link"&gt;Mandrake The Magician Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /office-hours data-ref="Footer Link"&gt;Office Hours&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-1 data-ref="Footer Link"&gt;Phantom&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-sundays data-ref="Footer Link"&gt;Phantom Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /prince-valiant-sundays data-ref="Footer Link"&gt;Prince Valiant Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /quincy data-ref="Footer Link"&gt;Quincy&lt;/a&gt;&lt;/li&gt;
-                                    &lt;/ul&gt;
-                                    &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /radio-patrol data-ref="Footer Link"&gt;Radio Patrol&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /redeye-2 data-ref="Footer Link"&gt;Redeye&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /redeye-sundays data-ref="Footer Link"&gt;Redeye Sundays&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;ul class="comic-link-group"&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /rip-kirby data-ref="Footer Link"&gt;Rip Kirby&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /secret-agent-x-9 data-ref="Footer Link"&gt;Secret Agent X-9&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /the-little-king data-ref="Footer Link"&gt;The Little King&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /lockhorns-1 data-ref="Footer Link"&gt;The Lockhorns&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-1 data-ref="Footer Link"&gt;The Phantom&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /phantom-sundays data-ref="Footer Link"&gt;The Phantom Sundays&lt;/a&gt;&lt;/li&gt;
                                             &lt;li class="comic-link mb1"&gt;&lt;a href= /thimble-theater data-ref="Footer Link"&gt;Thimble Theater&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-1 data-ref="Footer Link"&gt;Tiger&lt;/a&gt;&lt;/li&gt;
-                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-sundays data-ref="Footer Link"&gt;Tiger Sundays&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-1 data-ref="Footer Link"&gt;Tiger Vintage&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li class="comic-link mb1"&gt;&lt;a href= /tiger-sundays data-ref="Footer Link"&gt;Tiger Vintage Sundays&lt;/a&gt;&lt;/li&gt;
                                     &lt;/ul&gt;
                                 &lt;/div&gt;
                         &lt;/div&gt;
@@ -1440,16 +1782,46 @@ INIT_GLOBAL_HEADER();
 &lt;div class="copyright-footer legal bg-black flex justify-center items-center"&gt;
     &lt;span class="mv0 white  "&gt;&amp;copy; KING FEATURES SYNDICATE, INC. 2019&amp;nbsp; &lt;span class="divider"&gt;|&lt;/span&gt; All rights reserved worldwide.&lt;/span&gt;
 &lt;/div&gt;
-    
+        
 
-    &lt;!-- Javascript specific to this page. --&gt;
-    
+        &lt;!-- Javascript specific to this page. --&gt;
+        
     &lt;!-- Load page specific scripts --&gt;
     &lt;script type="text/javascript"&gt;
         window.CK_COMIC_IS_PREMIUM = false;
     &lt;/script&gt;
     &lt;script type="text/javascript" src="/assets/js/comic.bundle.js"&gt;&lt;/script&gt;
 
+    &lt;/div&gt;
+    &lt;div id="cmn-leaderboard"&gt;&lt;/div&gt;
+    &lt;div id="cmn-feed-inline_0"&gt;&lt;/div&gt;
+    &lt;div id="cmn-tile-square_0"&gt;&lt;/div&gt;
+
+    &lt;script type="text/javascript"&gt;
+        (function () {
+            if (window.isMobile) return;
+            window.cToolbarInit = function () {
+                cToolbar.load({
+                    mobileRightButton: 'youtube',
+                    facebookUsername: 'TheComicsKingdom',
+                    facebookName: 'Comics Kingdom',
+                    twitterHandle: 'comicskingdom',
+                    twitterName: 'Comics Kingdom',
+                    youtubeChannelId: 'UCITxE1wlcJD-cNsrBF-D6fw',
+                    youtubeDisplayName: 'Comics Kingdom',
+                    desktopBackground: 'gradient',
+                    desktopSocialButtons: ['facebook', 'twitter', 'youtube'],
+                    channel: 'Entertainment'
+                });
+            };
+            var ns = document.createElement('script');
+            ns.type = 'text/javascript';
+            ns.async = true;
+            ns.src = '//toolbar.complex.com/dist/ctoolbar.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ns, s);
+        })();
+    &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</ReturnValue>
     <OutAndRefValues />

@@ -14,11 +14,11 @@ namespace SendComics.IntegrationTests
 
     public static class ComicMailBuilderTests
     {
-        private const string DilbertImageUrl = "https://assets.amuniversal.com/c4d1b3a078c70137a69a005056a9545d";
-        private const string ChickweedLaneUrl = "https://assets.amuniversal.com/d4571e307e420137a88c005056a9545d";
-        private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=png&s=c&file=QmxvbmRpZS8yMDE5LzA3L0Jsb25kaWVfaHMuMjAxOTA3MTRfMTUzNi5wbmc=";
-        private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/api/img.php?e=png&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDE5LzA3L1JoeW1lc193aXRoX09yYW5nZV9udGIuMjAxOTA3MTRfMTUzNi5wbmc=";
-        private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/32ae40405a9b01379c16005056a9545d";
+        private const string DilbertImageUrl = "https://assets.amuniversal.com/cf272580ca0c01381e22005056a9545d";
+        private const string ChickweedLaneUrl = "https://assets.amuniversal.com/7ba54670ca9f01381e51005056a9545d";
+        private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY=";
+        private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg==";
+        private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d";
         private const string BreakingCatNews20170327ImageUrl = "https://assets.amuniversal.com/680049a0e683013465c3005056a9545d";
         private const string BreakingCatNews20170328ImageUrl = "https://assets.amuniversal.com/69ee7590e683013465c3005056a9545d";
 
@@ -246,7 +246,7 @@ blair.conrad@gmail.com: 9chickweedlane
                 new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
-                    new DateTime(2019, 7, 14),
+                    new DateTime(2020, 9, 11),
                     new ConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -432,7 +432,7 @@ blair.conrad@gmail.com: 9chickweedlane
             A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
                 .Throws(new WebException("Bad Request"));
             A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://www.dilbert.com/")))
-                .Returns($@"<img class=""img-responsive img-comic"" src=""{DilbertImageUrl.Substring(6)}"" />");
+                .Returns($@"<img class=""img-responsive img-comic"" src=""{DilbertImageUrl}"" />");
 
             var target = new ComicMailBuilder(
                 DateTime.Now,
