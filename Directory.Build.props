@@ -8,14 +8,12 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta006" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
-    <!-- <CodeAnalysisDictionary Include="$(MSBuildThisFileDirectory)src/FakeItEasy.Dictionary.xml">
-      <Link>Properties\FakeItEasy.Dictionary.xml</Link>
-    </CodeAnalysisDictionary> -->
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.321" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>
