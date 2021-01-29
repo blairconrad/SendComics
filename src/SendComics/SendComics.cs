@@ -19,18 +19,28 @@ namespace SendComics
             [SendGrid(ApiKey = "SendGridApiKey")] IAsyncCollector<Mail> mails)
         {
             var log = new Logger(tracer);
-            log.Info("Beginning execution");
-
-            var configurationString = new WebClient().DownloadString(Environment.GetEnvironmentVariable("SubscriberConfigurationLocation"));
-            var comicMailBuilder = new ComicMailBuilder(
-                DateTime.Now.Date,
-                new ConfigurationParser(configurationString),
-                new WebComicFetcher(),
-                log);
-
-            foreach (var mail in comicMailBuilder.CreateMailMessage())
+            try
             {
-                mails.AddAsync(mail);
+                log.Info("Beginning execution");
+
+                var configurationLocation = Environment.GetEnvironmentVariable("SubscriberConfigurationLocation");
+                log.Info("Downloading configuration from " + configurationLocation + "...");
+                var configurationString = new WebClient().DownloadString(configurationLocation);
+                log.Info("Downloaded configuration");
+                var comicMailBuilder = new ComicMailBuilder(
+                    DateTime.Now.Date,
+                    new ConfigurationParser(configurationString),
+                    new WebComicFetcher(),
+                    log);
+
+                foreach (var mail in comicMailBuilder.CreateMailMessage())
+                {
+                    mails.AddAsync(mail);
+                }
+            }
+            catch (Exception e)
+            {
+                log.Error("Error " + e.ToString());
             }
 
             log.Info("Finished execution");
