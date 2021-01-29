@@ -16,7 +16,7 @@
     /// which is preferred.
     /// In the multi-line format,
     ///   - lines beginning with # are comments and are ignored, and
-    ///   - lines beginning with ! are "emphatic" - if any of these are present, other !-less subscribers are skipped
+    ///   - lines beginning with ! are "emphatic" - if any of these are present, other !-less subscribers are skipped.
     /// </summary>
     public class ConfigurationParser : IConfigurationSource
     {

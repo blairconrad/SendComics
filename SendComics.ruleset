@@ -6,6 +6,7 @@
   </Rules>
   <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
     <Rule Id="SA1124" Action="Warning" />
+    <Rule Id="SA1135" Action="None" /> <!-- Using directive for namespace should be qualified -->
     <Rule Id="SA1600" Action="None" /> <!-- Elements should be documented -->
     <Rule Id="SA1628" Action="Warning" />
     <Rule Id="SA1629" Action="Warning" />
