@@ -7,8 +7,11 @@
     {
         public string GetContent(Uri url)
         {
-            var wc = new WebClient();
-            var bytes = wc.DownloadData(url);
+            byte[] bytes;
+            using (var wc = new WebClient())
+            {
+                bytes = wc.DownloadData(url);
+            }
 
             return System.Text.Encoding.UTF8.GetString(bytes);
         }

@@ -20,8 +20,8 @@ namespace SendComics
             return this.ComicName + " on " + this.Date.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture);
         }
 
-        public override bool Equals(object otherObject) =>
-            otherObject is Episode otherEpisode &&
+        public override bool Equals(object obj) =>
+            obj is Episode otherEpisode &&
                 this.ComicName == otherEpisode.ComicName &&
                 this.Date == otherEpisode.Date;
 

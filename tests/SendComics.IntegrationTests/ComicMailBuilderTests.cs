@@ -91,7 +91,7 @@ namespace SendComics.IntegrationTests
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
-            target.CreateMailMessage().ToList();
+            var mailMessages = target.CreateMailMessage().ToList();
 
             A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._)).MustHaveHappened(3, Times.Exactly);
         }
@@ -108,7 +108,7 @@ namespace SendComics.IntegrationTests
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
-            target.CreateMailMessage().ToList();
+            var mailMessages = target.CreateMailMessage().ToList();
 
             A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._)).MustHaveHappened(1, Times.Exactly);
         }
@@ -275,7 +275,7 @@ blair.conrad@gmail.com: 9chickweedlane
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
-            target.CreateMailMessage().ToList();
+            var mailMessages = target.CreateMailMessage().ToList();
 
             A.CallTo(() => fakeComicFetcher.GetContent(new Uri(expectedLocation))).MustHaveHappened();
         }
