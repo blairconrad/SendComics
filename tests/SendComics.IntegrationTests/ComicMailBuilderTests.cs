@@ -264,6 +264,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [Theory]
         [InlineData("dilbert", "http://www.dilbert.com/")]
         [InlineData("blondie", "https://www.comicskingdom.com/blondie/2018-06-27/")]
+        [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2018-06-27/")]
         [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2018/06/27/")]
         public static void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedLocation)
         {

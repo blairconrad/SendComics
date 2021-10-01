@@ -13,7 +13,7 @@ namespace SendComics
                 return new DilbertComic(comicFetcher);
             }
 
-            if (name == "blondie" || name == "rhymes-with-orange")
+            if (name == "blondie" || name == "rhymes-with-orange" || name == "bizarro")
             {
                 return new ComicsKingdomComic(name, comicFetcher);
             }
