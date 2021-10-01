@@ -11,6 +11,7 @@ namespace SendComics
     [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless, and Azure knows about the name now.")]
     public static class SendComics
     {
+        [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
         [SuppressMessage("Microsoft.Usage", "CA1801:ReviewUnusedParameters", MessageId = "myTimer", Justification = "Used implicitly by Azure Functions.")]
         [FunctionName("SendComics")]
         public static void Run(
@@ -18,6 +19,11 @@ namespace SendComics
             TraceWriter tracer,
             [SendGrid(ApiKey = "SendGridApiKey")] IAsyncCollector<Mail> mails)
         {
+            if (mails is null)
+            {
+                throw new ArgumentNullException(nameof(mails));
+            }
+
             var log = new Logger(tracer);
             try
             {
@@ -25,7 +31,7 @@ namespace SendComics
 
                 var configurationLocation = Environment.GetEnvironmentVariable("SubscriberConfigurationLocation");
                 log.Info("Downloading configuration from " + configurationLocation + "...");
-                var configurationString = new WebClient().DownloadString(configurationLocation);
+                var configurationString = DownloadConfigurationString(configurationLocation);
                 log.Info("Downloaded configuration");
                 var comicMailBuilder = new ComicMailBuilder(
                     DateTime.Now.Date,
@@ -44,6 +50,14 @@ namespace SendComics
             }
 
             log.Info("Finished execution");
+        }
+
+        private static string DownloadConfigurationString(string configurationLocation)
+        {
+            using (var webClient = new WebClient())
+            {
+                return webClient.DownloadString(configurationLocation);
+            }
         }
     }
 }

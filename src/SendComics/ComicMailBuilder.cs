@@ -2,6 +2,7 @@ namespace SendComics
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Linq;
     using System.Text;
@@ -75,6 +76,7 @@ namespace SendComics
             }
         }
 
+        [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
         private ComicLocation GetComicLocation(Episode episode)
         {
             this.log.Info($"Getting image URL for {episode}…");
