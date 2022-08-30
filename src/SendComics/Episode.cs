@@ -26,6 +26,6 @@ namespace SendComics
                 this.Date == otherEpisode.Date;
 
         public override int GetHashCode() =>
-           (this.ComicName.GetHashCode() * 33) + this.Date.GetHashCode();
+           (this.ComicName.GetHashCode(StringComparison.Ordinal) * 33) + this.Date.GetHashCode();
     }
 }

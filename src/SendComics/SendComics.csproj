@@ -1,13 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net461</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-  <ItemGroup>    
-    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.SendGrid" Version="2.2.0" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.24" />
-  </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
+    <!-- <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.24" /> -->
+    <PackageReference Include="SendGrid" Version ="9.28.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
