@@ -6,6 +6,9 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      SUBSCRIBER_CONFIGURATION_LOCATION: ${{ secrets.SUBSCRIBER_CONFIGURATION_LOCATION }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-dotnet@v2
