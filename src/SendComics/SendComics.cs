@@ -23,9 +23,10 @@ namespace SendComics
                 new WebComicFetcher(),
                 log);
 
+            var mailer = new SendGridMailer();
             foreach (var mailMessage in comicMailBuilder.CreateMailMessage())
             {
-                log.Info(mailMessage.Subject);
+                mailer.SendEmailAsync(mailMessage).Wait();
             }
 
             log.Info("Finished execution");
