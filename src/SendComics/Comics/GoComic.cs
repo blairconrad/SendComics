@@ -20,7 +20,7 @@ namespace SendComics.Comics
             var comicContent = this.GetContent(
                 new Uri($"http://www.gocomics.com/{this.name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
 
-            var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from");
+            var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from", StringComparison.Ordinal);
             if (isWrongDay)
             {
                 return ComicLocation.NotPublished;

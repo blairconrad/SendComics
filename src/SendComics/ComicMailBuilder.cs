@@ -28,9 +28,9 @@ namespace SendComics
             this.log = log;
         }
 
-        public IEnumerable<Mail> CreateMailMessage()
+        public IEnumerable<SendGridMessage> CreateMailMessage()
         {
-            var fromEmail = new Email("comics@blairconrad.com", "Blair Conrad");
+            var fromEmail = new EmailAddress("comics@blairconrad.com", "Blair Conrad");
             var mailSubject = "comics " + this.now.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture);
 
             var configuration = this.configurationSource.GetConfiguration();
@@ -40,7 +40,7 @@ namespace SendComics
             foreach (var subscriber in configuration.Subscribers)
             {
                 this.log.Info($"Building mail for {subscriber.Email}…");
-                var mailContent = new StringBuilder("<html>\r\n<body>\r\n");
+                var mailContent = new StringBuilder();
 
                 foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
@@ -49,12 +49,14 @@ namespace SendComics
                     this.log.Info($"  Added  {episode}");
                 }
 
-                mailContent.Append("</body>\r\n</html>\r\n");
-                yield return new Mail(
-                    from: fromEmail,
-                    subject: mailSubject,
-                    to: new Email(subscriber.Email),
-                    content: new Content("text/html", mailContent.ToString()));
+                var message = new SendGridMessage
+                {
+                    From = fromEmail,
+                    Subject = mailSubject,
+                    HtmlContent = mailContent.ToString(),
+                };
+                message.AddTo(new EmailAddress(subscriber.Email));
+                yield return message;
 
                 this.log.Info($"Built    mail for {subscriber.Email}");
             }
@@ -64,16 +66,18 @@ namespace SendComics
         {
             if (!comicLocation.IsPublished)
             {
-                sink.AppendLine($"  No published comic for {episode}.<br>");
+                sink.Append("  No published comic for ").Append(episode).Append('.');
             }
             else if (!comicLocation.WasFound)
             {
-                sink.AppendLine($"  Couldn't find comic for {episode}.<br>");
+                sink.Append("  Couldn't find comic for ").Append(episode).Append('.');
             }
             else
             {
-                sink.AppendLine($"  <img alt='{episode}' src='{comicLocation.Url}'><br>");
+                sink.Append("  <img alt='").Append(episode).Append("' src='").Append(comicLocation.Url).Append("'>");
             }
+
+            sink.Append("<br>").AppendLine();
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]

@@ -2,51 +2,31 @@ namespace SendComics
 {
     using System;
     using System.Diagnostics.CodeAnalysis;
-    using System.Net;
+    using System.Net.Http;
     using global::SendComics.Services;
-    using Microsoft.Azure.WebJobs;
-    using Microsoft.Azure.WebJobs.Host;
-    using SendGrid.Helpers.Mail;
 
-    [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless, and Azure knows about the name now.")]
-    public static class SendComics
+    [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless.")]
+    internal static class SendComics
     {
-        [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
-        [SuppressMessage("Microsoft.Usage", "CA1801:ReviewUnusedParameters", MessageId = "myTimer", Justification = "Used implicitly by Azure Functions.")]
-        [FunctionName("SendComics")]
-        public static void Run(
-            [TimerTrigger("0 30 6 * * *")] TimerInfo myTimer,
-            TraceWriter tracer,
-            [SendGrid(ApiKey = "SendGridApiKey")] IAsyncCollector<Mail> mails)
+        public static void Main()
         {
-            if (mails is null)
-            {
-                throw new ArgumentNullException(nameof(mails));
-            }
+            var log = new Logger();
+            log.Info("Beginning execution");
 
-            var log = new Logger(tracer);
-            try
-            {
-                log.Info("Beginning execution");
+            var configurationLocation = Environment.GetEnvironmentVariable("SubscriberConfigurationLocation");
+            log.Info("Downloading configuration from " + configurationLocation + "...");
+            var configurationString = DownloadConfigurationString(configurationLocation);
+            log.Info("Downloaded configuration");
+            var comicMailBuilder = new ComicMailBuilder(
+                DateTime.Now.Date,
+                new ConfigurationParser(configurationString),
+                new WebComicFetcher(),
+                log);
 
-                var configurationLocation = Environment.GetEnvironmentVariable("SubscriberConfigurationLocation");
-                log.Info("Downloading configuration from " + configurationLocation + "...");
-                var configurationString = DownloadConfigurationString(configurationLocation);
-                log.Info("Downloaded configuration");
-                var comicMailBuilder = new ComicMailBuilder(
-                    DateTime.Now.Date,
-                    new ConfigurationParser(configurationString),
-                    new WebComicFetcher(),
-                    log);
-
-                foreach (var mail in comicMailBuilder.CreateMailMessage())
-                {
-                    mails.AddAsync(mail);
-                }
-            }
-            catch (Exception e)
+            var mailer = new SendGridMailer();
+            foreach (var mailMessage in comicMailBuilder.CreateMailMessage())
             {
-                log.Error("Error " + e.ToString());
+                mailer.SendEmailAsync(mailMessage).Wait();
             }
 
             log.Info("Finished execution");
@@ -54,9 +34,9 @@ namespace SendComics
 
         private static string DownloadConfigurationString(string configurationLocation)
         {
-            using (var webClient = new WebClient())
+            using (var client = new HttpClient())
             {
-                return webClient.DownloadString(configurationLocation);
+                return client.GetStringAsync(new Uri(configurationLocation)).Result;
             }
         }
     }

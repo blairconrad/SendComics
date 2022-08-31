@@ -25,7 +25,7 @@ namespace SendComics.IntegrationTests
         [Fact]
         public static void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -42,17 +42,17 @@ namespace SendComics.IntegrationTests
 
             mails.Should().HaveCount(1);
 
-            mails[0].From.Address.Should().Be("comics@blairconrad.com");
-            mails[0].Personalization[0].Tos.Should().HaveCount(1);
-            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-            mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
-            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+            mails[0].From.Email.Should().Be("comics@blairconrad.com");
+            mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
+            mails[0].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
         }
 
         [Fact]
         public static void OneSubscriberOneComicTwiceAsFast_BuildsOneMailWithBothEpisodes()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -70,13 +70,13 @@ namespace SendComics.IntegrationTests
 
             mails.Should().HaveCount(1);
 
-            mails[0].From.Address.Should().Be("comics@blairconrad.com");
-            mails[0].Personalization[0].Tos.Should().HaveCount(1);
-            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-            mails[0].Contents[0].Value.Should().Contain(BreakingCatNews20170327ImageUrl);
-            mails[0].Contents[0].Value.Should().Contain("alt='breaking-cat-news on 27 March 2017'");
-            mails[0].Contents[0].Value.Should().Contain(BreakingCatNews20170328ImageUrl);
-            mails[0].Contents[0].Value.Should().Contain("alt='breaking-cat-news on 28 March 2017'");
+            mails[0].From.Email.Should().Be("comics@blairconrad.com");
+            mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
+            mails[0].HtmlContent.Should().Contain(BreakingCatNews20170327ImageUrl);
+            mails[0].HtmlContent.Should().Contain("alt='breaking-cat-news on 27 March 2017'");
+            mails[0].HtmlContent.Should().Contain(BreakingCatNews20170328ImageUrl);
+            mails[0].HtmlContent.Should().Contain("alt='breaking-cat-news on 28 March 2017'");
         }
 
         [Fact]
@@ -116,7 +116,7 @@ namespace SendComics.IntegrationTests
         [Fact]
         public static void TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -133,21 +133,21 @@ namespace SendComics.IntegrationTests
 
             mails.Should().HaveCount(2);
 
-            mails[0].From.Address.Should().Be("comics@blairconrad.com");
-            mails[0].Personalization[0].Tos.Should().HaveCount(1);
-            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+            mails[0].From.Email.Should().Be("comics@blairconrad.com");
+            mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
+            mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
 
-            mails[1].From.Address.Should().Be("comics@blairconrad.com");
-            mails[1].Contents[0].Value.Should().Contain(DilbertImageUrl);
-            mails[1].Personalization[0].Tos.Should().HaveCount(1);
-            mails[1].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
+            mails[1].From.Email.Should().Be("comics@blairconrad.com");
+            mails[1].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[1].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
         }
 
         [Fact]
         public static void TwoSubscribersOnSeparateLinesOneComicEach_BuildsTwoMailsEachWithOneComic()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -167,21 +167,21 @@ anyone@mail.org: dilbert
 
             mails.Should().HaveCount(2);
 
-            mails[0].From.Address.Should().Be("comics@blairconrad.com");
-            mails[0].Personalization[0].Tos.Should().HaveCount(1);
-            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+            mails[0].From.Email.Should().Be("comics@blairconrad.com");
+            mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
+            mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
 
-            mails[1].From.Address.Should().Be("comics@blairconrad.com");
-            mails[1].Contents[0].Value.Should().Contain(DilbertImageUrl);
-            mails[1].Personalization[0].Tos.Should().HaveCount(1);
-            mails[1].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
+            mails[1].From.Email.Should().Be("comics@blairconrad.com");
+            mails[1].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[1].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
         }
 
         [Fact]
         public static void TwoSubscribersOneCommentedOut_BuildsOneMailForNonCommented()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -201,16 +201,16 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].From.Address.Should().Be("comics@blairconrad.com");
-            mails[0].Personalization[0].Tos.Should().HaveCount(1);
-            mails[0].Personalization[0].Tos[0].Address.Should().Be("blair.conrad@gmail.com");
-            mails[0].Contents[0].Value.Should().Contain(ChickweedLaneUrl);
+            mails[0].From.Email.Should().Be("comics@blairconrad.com");
+            mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
+            mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
         }
 
         [Fact]
         public static void TwoSubscribersOneEmphatic_BuildsOneMailForEmphatic()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -230,16 +230,16 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].From.Address.Should().Be("comics@blairconrad.com");
-            mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
-            mails[0].Personalization[0].Tos.Should().HaveCount(1);
-            mails[0].Personalization[0].Tos[0].Address.Should().Be("anyone@mail.org");
+            mails[0].From.Email.Should().Be("comics@blairconrad.com");
+            mails[0].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+            mails[0].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
         }
 
         [Fact]
         public static void SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -256,7 +256,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should()
+            mails[0].HtmlContent.Should()
                 .Contain(BlondieUrl, "it should have Blondie").And
                 .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
         }
@@ -286,7 +286,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [InlineData(DayOfWeek.Sunday)]
         public static void DinosaurComicOnAWeekend_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             var dateToCheck = MostRecent(dayOfWeek);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
@@ -304,7 +304,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should()
+            mails[0].HtmlContent.Should()
                 .NotContain("Couldn't find comic for dinosaur-comics", "it should not have looked for the comic").And
                 .Contain($"No published comic for dinosaur-comics on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.", "it should tell the reader why there's no comic");
         }
@@ -317,7 +317,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [InlineData(DayOfWeek.Friday)]
         public static void DinosaurComicOnAWeekday_MailIncludesComic(DayOfWeek dayOfWeek)
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             var dateToCheck = MostRecent(dayOfWeek);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
@@ -335,7 +335,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should()
+            mails[0].HtmlContent.Should()
                 .NotContain("Couldn't find comic for dinosaur-comics", "it should not have looked for the comic").And
                 .NotContain($"Comic dinosaur-comics wasn't published on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.", "it should have found the comic");
         }
@@ -349,7 +349,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [InlineData(DayOfWeek.Saturday)]
         public static void FoxtrotOnAnythingButSunday_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             var dateToCheck = MostRecent(dayOfWeek);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
@@ -367,7 +367,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should()
+            mails[0].HtmlContent.Should()
                 .NotContain("Couldn't find comic for foxtrot", "it should not have looked for the comic").And
                 .Contain($"No published comic for foxtrot on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.", "it should tell the reader why there's no comic");
         }
@@ -375,7 +375,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [Fact]
         public static void FoxtrotOnSunday_MailIncludesComic()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             var dateToCheck = MostRecent(DayOfWeek.Sunday);
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
@@ -393,7 +393,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should()
+            mails[0].HtmlContent.Should()
                 .NotContain("Couldn't find comic for foxtrot", "it should not have looked for the comic").And
                 .NotContain($"Comic foxtrot wasn't published on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.", "it should have found the comic");
         }
@@ -401,7 +401,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [Fact]
         public static void CalvinAndHobbesOnSunday_MailIncludesComic()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                 () => new WebComicFetcher(),
@@ -419,7 +419,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should()
+            mails[0].HtmlContent.Should()
                 .NotContain("Couldn't find comic for calvinandhobbes", "it should not have looked for the comic").And
                 .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
         }
@@ -427,7 +427,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [Fact]
         public static void TwoComicsOneThrowsWhenFetched_BuildsOneMailWithOneComicOneError()
         {
-            IList<Mail> mails = null;
+            IList<SendGridMessage> mails = null;
 
             var fakeComicFetcher = A.Fake<IComicFetcher>();
             A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
@@ -445,8 +445,8 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].Contents[0].Value.Should().Contain(DilbertImageUrl);
-            mails[0].Contents[0].Value.Should().Contain("Couldn't find comic for rhymeswithorange");
+            mails[0].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[0].HtmlContent.Should().Contain("Couldn't find comic for rhymeswithorange");
         }
 
         private static DateTime MostRecent(DayOfWeek dayOfWeek)
