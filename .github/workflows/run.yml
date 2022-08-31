@@ -1,14 +1,19 @@
 name: Run
 
 on:
+  schedule:
+    - cron: '30 10 * * *'
   workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      SUBSCRIBER_CONFIGURATION_LOCATION: ${{ secrets.SUBSCRIBER_CONFIGURATION_LOCATION }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '6.0.x' # SDK Version to use; x means "latest"
-      - run: dotnet run src/SendComics
+      - run: dotnet run --project src/SendComics
