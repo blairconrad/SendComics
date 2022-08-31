@@ -13,7 +13,7 @@ namespace SendComics
             var log = new Logger();
             log.Info("Beginning execution");
 
-            var configurationLocation = Environment.GetEnvironmentVariable("SubscriberConfigurationLocation");
+            var configurationLocation = Environment.GetEnvironmentVariable("SUBSCRIBER_CONFIGURATION_LOCATION");
             log.Info("Downloading configuration from " + configurationLocation + "...");
             var configurationString = DownloadConfigurationString(configurationLocation);
             log.Info("Downloaded configuration");

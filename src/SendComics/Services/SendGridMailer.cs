@@ -9,7 +9,7 @@ namespace SendComics.Services
     internal class SendGridMailer
     {
         private readonly SendGridClient client =
-            new SendGridClient(Environment.GetEnvironmentVariable("SendGridApiKey"));
+            new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_API_KEY"));
 
         public Task<Response> SendEmailAsync(SendGridMessage message)
         {
