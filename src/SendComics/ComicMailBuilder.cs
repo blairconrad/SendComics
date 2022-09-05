@@ -37,9 +37,9 @@ namespace SendComics
 
             var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, this.GetComicLocation);
 
-            foreach (var subscriber in configuration.Subscribers)
+            foreach (var (subscriber, i) in configuration.Subscribers.Select((value, i) => (value, i)))
             {
-                this.log.Info($"Building mail for {subscriber.Email}…");
+                this.log.Info($"Building mail for subscriber {i}…");
                 var mailContent = new StringBuilder();
 
                 foreach (var episode in subscriber.GetEpisodesFor(this.now))
@@ -58,7 +58,7 @@ namespace SendComics
                 message.AddTo(new EmailAddress(subscriber.Email));
                 yield return message;
 
-                this.log.Info($"Built    mail for {subscriber.Email}");
+                this.log.Info($"Built    mail for subscriber {i}");
             }
         }
 
