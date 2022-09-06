@@ -3,6 +3,7 @@ namespace SendComics
     using System;
     using System.Diagnostics.CodeAnalysis;
     using System.Net.Http;
+    using dotenv.net;
     using global::SendComics.Services;
 
     [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless.")]
@@ -12,6 +13,8 @@ namespace SendComics
         {
             var log = new Logger();
             log.Info("Beginning execution");
+
+            DotEnv.Fluent().Load();
 
             var configurationLocation = Environment.GetEnvironmentVariable("SUBSCRIBER_CONFIGURATION_LOCATION");
             log.Info("Downloading configuration from " + configurationLocation + "...");
