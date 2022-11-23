@@ -2,6 +2,7 @@ namespace SendComics
 {
     using System;
     using System.Diagnostics.CodeAnalysis;
+    using System.Globalization;
     using System.Net.Http;
     using dotenv.net;
     using global::SendComics.Services;
@@ -9,7 +10,7 @@ namespace SendComics
     [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless.")]
     internal static class SendComics
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             var log = new Logger();
             log.Info("Beginning execution");
@@ -20,11 +21,15 @@ namespace SendComics
             log.Info("Downloading configuration from " + configurationLocation + "...");
             var configurationString = DownloadConfigurationString(configurationLocation);
             log.Info("Downloaded configuration");
+            var date = (args.Length > 0)
+                ? DateTime.Parse(args[0], CultureInfo.InvariantCulture)
+                : DateTime.Now.Date;
+
             var comicMailBuilder = new ComicMailBuilder(
-                DateTime.Now.Date,
-                new ConfigurationParser(configurationString),
-                new WebComicFetcher(),
-                log);
+                    date,
+                    new ConfigurationParser(configurationString),
+                    new WebComicFetcher(),
+                    log);
 
             var mailer = new SendGridMailer();
             foreach (var mailMessage in comicMailBuilder.CreateMailMessage())
