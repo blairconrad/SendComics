@@ -14,10 +14,10 @@ namespace SendComics.IntegrationTests
 
     public static class ComicMailBuilderTests
     {
-        private const string DilbertImageUrl = "https://assets.amuniversal.com/cf272580ca0c01381e22005056a9545d";
-        private const string ChickweedLaneUrl = "https://assets.amuniversal.com/7ba54670ca9f01381e51005056a9545d";
-        private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmxvbmRpZS8yMDIwLzA5L0Jsb25kaWUuMjAyMDA5MTFfMTUzNi5naWY=";
-        private const string RhymesWithOrangeUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDIwLzA5L1JoeW1lc193aXRoX09yYW5nZS4yMDIwMDkxMV8xNTM2LmdpZg==";
+        private const string ArloAndJanisUrl = "https://assets.amuniversal.com/6d160ca0943c013be6c8005056a9545d";
+        private const string ChickweedLaneUrl = "https://assets.amuniversal.com/ecd3d2c09072013be5ea005056a9545d";
+        private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmxvbmRpZS8yMDIzLzAyL0Jsb25kaWUuMjAyMzAyMjdfMTUzNi5naWY=";
+        private const string RhymesWithOrangeUrl = "ttps://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDIzLzAyL1JoeW1lc193aXRoX09yYW5nZS4yMDIzMDIyN18xNTM2LmdpZg==";
         private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d";
         private const string BreakingCatNews20170327ImageUrl = "https://assets.amuniversal.com/680049a0e683013465c3005056a9545d";
         private const string BreakingCatNews20170328ImageUrl = "https://assets.amuniversal.com/69ee7590e683013465c3005056a9545d";
@@ -33,7 +33,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
-                    new ConfigurationParser("blair.conrad@gmail.com: dilbert, 9chickweedlane"),
+                    new ConfigurationParser("blair.conrad@gmail.com: arloandjanis, 9chickweedlane"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -45,7 +45,7 @@ namespace SendComics.IntegrationTests
             mails[0].From.Email.Should().Be("comics@blairconrad.com");
             mails[0].Personalizations[0].Tos.Should().HaveCount(1);
             mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-            mails[0].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
             mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
         }
 
@@ -124,7 +124,7 @@ namespace SendComics.IntegrationTests
             {
                 var target = new ComicMailBuilder(
                     DateTime.Now,
-                    new ConfigurationParser("blair.conrad@gmail.com: 9chickweedlane; anyone@mail.org: dilbert"),
+                    new ConfigurationParser("blair.conrad@gmail.com: 9chickweedlane; anyone@mail.org: arloandjanis"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
 
@@ -139,7 +139,7 @@ namespace SendComics.IntegrationTests
             mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
 
             mails[1].From.Email.Should().Be("comics@blairconrad.com");
-            mails[1].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[1].HtmlContent.Should().Contain(ArloAndJanisUrl);
             mails[1].Personalizations[0].Tos.Should().HaveCount(1);
             mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
         }
@@ -157,7 +157,7 @@ namespace SendComics.IntegrationTests
                     DateTime.Now,
                     new ConfigurationParser(@"
 blair.conrad@gmail.com: 9chickweedlane
-anyone@mail.org: dilbert
+anyone@mail.org: arloandjanis
 ".TrimStart()),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -173,7 +173,7 @@ anyone@mail.org: dilbert
             mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
 
             mails[1].From.Email.Should().Be("comics@blairconrad.com");
-            mails[1].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[1].HtmlContent.Should().Contain(ArloAndJanisUrl);
             mails[1].Personalizations[0].Tos.Should().HaveCount(1);
             mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
         }
@@ -191,7 +191,7 @@ anyone@mail.org: dilbert
                     DateTime.Now,
                     new ConfigurationParser(@"
 blair.conrad@gmail.com: 9chickweedlane
-# anyone@mail.org: dilbert
+# anyone@mail.org: arloandjanis
 ".TrimStart()),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -220,7 +220,7 @@ blair.conrad@gmail.com: 9chickweedlane
                     DateTime.Now,
                     new ConfigurationParser(@"
 blair.conrad@gmail.com: 9chickweedlane
-! anyone@mail.org: dilbert
+! anyone@mail.org: arloandjanis
 ".TrimStart()),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -231,7 +231,7 @@ blair.conrad@gmail.com: 9chickweedlane
             mails.Should().HaveCount(1);
 
             mails[0].From.Email.Should().Be("comics@blairconrad.com");
-            mails[0].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
             mails[0].Personalizations[0].Tos.Should().HaveCount(1);
             mails[0].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
         }
@@ -246,7 +246,7 @@ blair.conrad@gmail.com: 9chickweedlane
                 new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics.xml")))
             {
                 var target = new ComicMailBuilder(
-                    new DateTime(2020, 9, 11),
+                    new DateTime(2023, 2, 27),
                     new ConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
                     fakeComicFetcher.Object,
                     A.Dummy<ILogger>());
@@ -262,16 +262,15 @@ blair.conrad@gmail.com: 9chickweedlane
         }
 
         [Theory]
-        [InlineData("dilbert", "http://www.dilbert.com/")]
-        [InlineData("blondie", "https://www.comicskingdom.com/blondie/2018-06-27/")]
-        [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2018-06-27/")]
-        [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2018/06/27/")]
+        [InlineData("blondie", "https://www.comicskingdom.com/blondie/2023-02-27/")]
+        [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2023-02-27/")]
+        [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2023/02/27/")]
         public static void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedLocation)
         {
             var fakeComicFetcher = A.Fake<IComicFetcher>();
 
             var target = new ComicMailBuilder(
-                new DateTime(2018, 6, 27),
+                new DateTime(2023, 2, 27),
                 new ConfigurationParser($"blair.conrad@gmail.com: {comic}"),
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
@@ -432,12 +431,13 @@ blair.conrad@gmail.com: 9chickweedlane
             var fakeComicFetcher = A.Fake<IComicFetcher>();
             A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
                 .Throws(new WebException("Bad Request"));
-            A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://www.dilbert.com/")))
-                .Returns($@"<img class=""img-responsive img-comic"" src=""{DilbertImageUrl}"" />");
+            A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://www.gocomics.com/arloandjanis/2023/02/27/")))
+                .Returns($@"<picture class=""item-comic-image""><img class=""lazyload img - fluid"" srcset=""https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png"" data-srcset=""{ArloAndJanisUrl} 900w"" sizes=");
 
+            var now = new DateTime(2023, 2, 27);
             var target = new ComicMailBuilder(
-                DateTime.Now,
-                new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, dilbert"),
+                now,
+                new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, arloandjanis"),
                 fakeComicFetcher,
                 A.Dummy<ILogger>());
 
@@ -445,7 +445,7 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails.Should().HaveCount(1);
 
-            mails[0].HtmlContent.Should().Contain(DilbertImageUrl);
+            mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
             mails[0].HtmlContent.Should().Contain("Couldn't find comic for rhymeswithorange");
         }
 
