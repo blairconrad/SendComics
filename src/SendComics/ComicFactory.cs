@@ -8,11 +8,6 @@ namespace SendComics
     {
         public static Comic GetComic(string name, IComicFetcher comicFetcher)
         {
-            if (name == "dilbert")
-            {
-                return new DilbertComic(comicFetcher);
-            }
-
             if (name == "blondie" || name == "rhymes-with-orange" || name == "bizarro")
             {
                 return new ComicsKingdomComic(name, comicFetcher);
