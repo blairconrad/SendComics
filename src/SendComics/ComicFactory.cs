@@ -13,6 +13,11 @@ namespace SendComics
                 return new ComicsKingdomComic(name, comicFetcher);
             }
 
+            if (name == "schlockmercenary")
+            {
+                return new SchlockMercenaryComic(comicFetcher);
+            }
+
             return new GoComic(name, comicFetcher);
         }
     }

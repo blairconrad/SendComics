@@ -21,6 +21,7 @@ namespace SendComics.IntegrationTests
         private const string CalvinAndHobbesSundayUrl = "https://assets.amuniversal.com/2e4e2070b4e2013816bc005056a9545d";
         private const string BreakingCatNews20170327ImageUrl = "https://assets.amuniversal.com/680049a0e683013465c3005056a9545d";
         private const string BreakingCatNews20170328ImageUrl = "https://assets.amuniversal.com/69ee7590e683013465c3005056a9545d";
+        private const string SchlockMercenary20000612Url = "https://www.schlockmercenary.com/strip/1/0/schlock20000612.jpg?v=1443894882526";
 
         [Fact]
         public static void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -447,6 +448,30 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
             mails[0].HtmlContent.Should().Contain("Couldn't find comic for rhymeswithorange");
+        }
+
+        [Fact]
+        public static void SubscribesToSchlockMercenary_BuildsOneMailWithOneComics()
+        {
+            IList<SendGridMessage> mails = null;
+
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToSchlockMercenary_BuildsOneMailWithOneComics.xml")))
+            {
+                var target = new ComicMailBuilder(
+                    new DateTime(2000, 06, 12),
+                    new ConfigurationParser("blair.conrad@gmail.com: schlockmercenary"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                mails = target.CreateMailMessage().ToList();
+            }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].HtmlContent.Should()
+                .Contain(SchlockMercenary20000612Url, "it should have SchlockMercenary");
         }
 
         private static DateTime MostRecent(DayOfWeek dayOfWeek)
