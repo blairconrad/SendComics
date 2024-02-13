@@ -74,10 +74,18 @@ namespace SendComics
             }
             else
             {
-                sink.Append("  <img alt='").Append(episode).Append("' src='").Append(comicLocation.Url).Append("'>");
+                foreach (var url in comicLocation.Urls)
+                {
+                    sink
+                        .Append("  <img alt='")
+                        .Append(episode)
+                        .Append("' src='")
+                        .Append(url)
+                        .Append("'>")
+                        .Append("<br>")
+                        .AppendLine();
+                }
             }
-
-            sink.Append("<br>").AppendLine();
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
