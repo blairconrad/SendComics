@@ -1,19 +1,16 @@
 namespace SendComics
 {
-    using System;
     using Comics;
     using Services;
 
     internal static class ComicFactory
     {
-        public static Comic GetComic(string name, IComicFetcher comicFetcher)
-        {
-            if (name == "blondie" || name == "rhymes-with-orange" || name == "bizarro")
+        public static Comic GetComic(string name, IComicFetcher comicFetcher) =>
+            name switch
             {
-                return new ComicsKingdomComic(name, comicFetcher);
-            }
-
-            return new GoComic(name, comicFetcher);
-        }
+                "blondie" or "rhymes-with-orange" or "bizarro" => new ComicsKingdomComic(name, comicFetcher),
+                "schlockmercenary" => new SchlockMercenaryComic(comicFetcher),
+                _ => new GoComic(name, comicFetcher),
+            };
     }
 }

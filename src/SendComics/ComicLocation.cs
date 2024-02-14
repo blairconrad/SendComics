@@ -1,5 +1,7 @@
 namespace SendComics
 {
+    using System.Collections.Generic;
+
     internal class ComicLocation
     {
         private ComicLocation()
@@ -14,13 +16,15 @@ namespace SendComics
 
         public bool WasFound { get; private set; }
 
-        public string Url { get; private set; }
+        public IEnumerable<string> Urls { get; private set; }
 
-        public static ComicLocation FoundAt(string url) => new ComicLocation
+        public static ComicLocation FoundAt(string url) => FoundAt(new[] { url });
+
+        public static ComicLocation FoundAt(IEnumerable<string> urls) => new()
         {
             IsPublished = true,
             WasFound = true,
-            Url = url,
+            Urls = urls,
         };
     }
 }
