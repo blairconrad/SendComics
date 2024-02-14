@@ -2,6 +2,7 @@ namespace SendComics.Comics
 {
     using System;
     using System.Globalization;
+    using System.Linq;
     using System.Text.RegularExpressions;
     using Services;
 
@@ -19,9 +20,9 @@ namespace SendComics.Comics
             var comicContent = this.GetContent(
                 new Uri($"{BaseUrl}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}"));
 
-            var imageMatch = Regex.Match(comicContent, @"<img src=""(/strip/[^/]+/[^/]+/schlock[^.]+\.jpg[^""]*)");
-            return imageMatch.Success
-                ? ComicLocation.FoundAt(BaseUrl + imageMatch.Groups[1].Value)
+            var imageMatches = Regex.Matches(comicContent, @"<img src=""(/strip/[^/]+/[^/]+/schlock[^.]+\.jpg[^""]*)");
+            return imageMatches.Count > 0
+                ? ComicLocation.FoundAt(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
                 : ComicLocation.NotFound;
         }
     }

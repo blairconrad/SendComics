@@ -22,6 +22,8 @@ namespace SendComics.IntegrationTests
         private const string BreakingCatNews20170327ImageUrl = "https://assets.amuniversal.com/680049a0e683013465c3005056a9545d";
         private const string BreakingCatNews20170328ImageUrl = "https://assets.amuniversal.com/69ee7590e683013465c3005056a9545d";
         private const string SchlockMercenary20000612Url = "https://www.schlockmercenary.com/strip/1/0/schlock20000612.jpg?v=1443894882526";
+        private const string SchlockMercenary20200724aUrl = "https://www.schlockmercenary.com/strip/7348/0/schlock20200724a.jpg?v=1701276896559";
+        private const string SchlockMercenary20200724bUrl = "https://www.schlockmercenary.com/strip/7348/1/schlock20200724b.jpg?v=1701276896559";
 
         [Fact]
         public static void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -472,6 +474,31 @@ blair.conrad@gmail.com: 9chickweedlane
 
             mails[0].HtmlContent.Should()
                 .Contain(SchlockMercenary20000612Url, "it should have SchlockMercenary");
+        }
+
+        [Fact]
+        public static void SchlockMercenaryTwoImageDay_BuildsOneMailWithTwoComics()
+        {
+            IList<SendGridMessage> mails = null;
+
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                () => new WebComicFetcher(),
+                new XmlFileRecordedCallRepository("../../../RecordedCalls/SchlockMercenaryTwoImageDay_BuildsOneMailWithTwoComics.xml")))
+            {
+                var target = new ComicMailBuilder(
+                    new DateTime(2020, 07, 24),
+                    new ConfigurationParser("blair.conrad@gmail.com: schlockmercenary"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                mails = target.CreateMailMessage().ToList();
+            }
+
+            mails.Should().HaveCount(1);
+
+            mails[0].HtmlContent.Should().Match(
+                $"*{SchlockMercenary20200724aUrl}*{SchlockMercenary20200724bUrl}*",
+                "it should have both SchlockMercenary images");
         }
 
         private static DateTime MostRecent(DayOfWeek dayOfWeek)
