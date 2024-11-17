@@ -9,6 +9,7 @@ namespace SendComics
             name switch
             {
                 "blondie" or "rhymes-with-orange" or "bizarro" => new ComicsKingdomComic(name, comicFetcher),
+                "thefarside" => new TheFarSideComic(comicFetcher),
                 "schlockmercenary" => new SchlockMercenaryComic(comicFetcher),
                 _ => new GoComic(name, comicFetcher),
             };
