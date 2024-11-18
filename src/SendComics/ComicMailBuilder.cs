@@ -64,6 +64,8 @@ namespace SendComics
 
         private static void WriteEpisode(StringBuilder sink, Episode episode, EpisodeContent episodeContent)
         {
+            sink.AppendLine(CultureInfo.InvariantCulture, $"<article title='{episode}'>");
+
             if (!episodeContent.IsPublished)
             {
                 sink.Append("  No published comic for ").Append(episode).Append('.');
@@ -76,16 +78,17 @@ namespace SendComics
             {
                 foreach (var url in episodeContent.Urls)
                 {
-                    sink
-                        .Append("  <img alt='")
+                    sink.AppendLine("  <figure>")
+                        .Append("    <img alt='")
                         .Append(episode)
                         .Append("' src='")
                         .Append(url)
-                        .Append("'>")
-                        .Append("<br>")
-                        .AppendLine();
+                        .AppendLine("'>")
+                        .AppendLine("  </figure>");
                 }
             }
+
+            sink.AppendLine("</article>");
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
