@@ -15,15 +15,15 @@ namespace SendComics.Comics
         {
         }
 
-        public override ComicLocation GetLocation(DateTime now)
+        public override EpisodeContent GetContent(DateTime now)
         {
             var comicContent = this.GetContent(
                 new Uri($"{BaseUrl}/"));
 
             var imageMatches = Regex.Matches(comicContent, "img data-src=\"(https://assets.amuniversal.com/[^\"]+)\"");
             return imageMatches.Count > 0
-                ? ComicLocation.FoundAt(imageMatches.Select(match => match.Groups[1].Value))
-                : ComicLocation.NotFound;
+                ? EpisodeContent.FoundAt(imageMatches.Select(match => match.Groups[1].Value))
+                : EpisodeContent.NotFound;
         }
     }
 }

@@ -15,15 +15,15 @@ namespace SendComics.Comics
         {
         }
 
-        public override ComicLocation GetLocation(DateTime now)
+        public override EpisodeContent GetContent(DateTime now)
         {
             var comicContent = this.GetContent(
                 new Uri($"{BaseUrl}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}"));
 
             var imageMatches = Regex.Matches(comicContent, @"<img src=""(/strip/[^/]+/[^/]+/schlock[^.]+\.jpg[^""]*)");
             return imageMatches.Count > 0
-                ? ComicLocation.FoundAt(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
-                : ComicLocation.NotFound;
+                ? EpisodeContent.FoundAt(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
+                : EpisodeContent.NotFound;
         }
     }
 }

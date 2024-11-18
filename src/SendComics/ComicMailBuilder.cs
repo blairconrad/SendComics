@@ -35,7 +35,7 @@ namespace SendComics
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, this.GetComicLocation);
+            var episodesContentMap = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, this.GetEpisodeContent);
 
             foreach (var (subscriber, i) in configuration.Subscribers.Select((value, i) => (value, i)))
             {
@@ -45,7 +45,7 @@ namespace SendComics
                 foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
                     this.log.Info($"  Adding {episode}…");
-                    WriteImage(mailContent, episode, comicLocations[episode]);
+                    WriteEpisode(mailContent, episode, episodesContentMap[episode]);
                     this.log.Info($"  Added  {episode}");
                 }
 
@@ -62,19 +62,19 @@ namespace SendComics
             }
         }
 
-        private static void WriteImage(StringBuilder sink, Episode episode, ComicLocation comicLocation)
+        private static void WriteEpisode(StringBuilder sink, Episode episode, EpisodeContent episodeContent)
         {
-            if (!comicLocation.IsPublished)
+            if (!episodeContent.IsPublished)
             {
                 sink.Append("  No published comic for ").Append(episode).Append('.');
             }
-            else if (!comicLocation.WasFound)
+            else if (!episodeContent.WasFound)
             {
                 sink.Append("  Couldn't find comic for ").Append(episode).Append('.');
             }
             else
             {
-                foreach (var url in comicLocation.Urls)
+                foreach (var url in episodeContent.Urls)
                 {
                     sink
                         .Append("  <img alt='")
@@ -89,18 +89,18 @@ namespace SendComics
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
-        private ComicLocation GetComicLocation(Episode episode)
+        private EpisodeContent GetEpisodeContent(Episode episode)
         {
             this.log.Info($"Getting image URL for {episode}…");
             try
             {
                 var comic = ComicFactory.GetComic(episode.ComicName, this.comicFetcher);
-                return comic.GetLocation(episode.Date);
+                return comic.GetContent(episode.Date);
             }
             catch (Exception e)
             {
                 this.log.Error($"Caught error getting image URL for {episode}: {e}");
-                return ComicLocation.NotFound;
+                return EpisodeContent.NotFound;
             }
         }
     }
