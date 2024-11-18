@@ -18,7 +18,7 @@ namespace SendComics.Comics
         public override ComicLocation GetLocation(DateTime now)
         {
             var comicContent = this.GetContent(
-                new Uri($"{BaseUrl}/{now.ToString("yyyy'/'MM'/'dd/", CultureInfo.InvariantCulture)}"));
+                new Uri($"{BaseUrl}/"));
 
             var imageMatches = Regex.Matches(comicContent, "img data-src=\"(https://assets.amuniversal.com/[^\"]+)\"");
             return imageMatches.Count > 0
