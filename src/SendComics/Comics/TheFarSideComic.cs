@@ -20,10 +20,18 @@ namespace SendComics.Comics
             var comicContent = this.GetContent(
                 new Uri($"{BaseUrl}/"));
 
-            var imageMatches = Regex.Matches(comicContent, "img data-src=\"(https://assets.amuniversal.com/[^\"]+)\"");
-            return imageMatches.Count > 0
-                ? EpisodeContent.FoundAt(imageMatches.Select(match => match.Groups[1].Value))
-                : EpisodeContent.NotFound;
+            var imageMatches = Regex.Matches(
+                comicContent,
+                "img data-src=\"(https://assets.amuniversal.com/[^\"]+)\".*?<figcaption class=\"figure-caption\">(.*?)</figcaption>",
+                RegexOptions.Singleline);
+            if (imageMatches.Count <= 0)
+            {
+                return EpisodeContent.NotFound;
+            }
+
+            var imageUrls = imageMatches.Select(match => match.Groups[1].Value);
+            var captions = imageMatches.Select(match => match.Groups[2].Value);
+            return EpisodeContent.FoundAt(imageUrls, captions);
         }
     }
 }

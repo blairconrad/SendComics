@@ -503,7 +503,7 @@ blair.conrad@gmail.com: 9chickweedlane
         }
 
         [Fact]
-        public static void TheFarSideFiveImageDay_BuildsOneMailWithFiveComics()
+        public static void TheFarSideMultipleImageDay_BuildsOneMailWithMultipleComics()
         {
             IList<SendGridMessage> mails = null;
 
@@ -520,18 +520,17 @@ blair.conrad@gmail.com: 9chickweedlane
                 mails = target.CreateMailMessage().ToList();
             }
 
-            var expectedImageUrls = new[]
+            var expectedEmailBits = new[]
             {
-                "https://assets.amuniversal.com/3a29b420df110137cbaf005056a9545d",
-                "https://assets.amuniversal.com/e49aaac0ea250137cfba005056a9545d",
-                "https://assets.amuniversal.com/ba56af70cdd20137c56b005056a9545d",
-                "https://assets.amuniversal.com/94e228b0fa840137d52f005056a9545d",
-                "https://assets.amuniversal.com/ade4b120dcca0137caaf005056a9545d",
+                "https://assets.amuniversal.com/399c6d30e85b0137cedf005056a9545d",
+                "“... And please let Mom, Dad, Rex, Ginger, Tucker, me, and all the rest of the family see color.”",
+                "https://assets.amuniversal.com/1a9d11e0d0f70137c652005056a9545d",
+                "School for the Mechanically Declined",
             };
 
             mails.Should().HaveCount(1);
             mails[0].HtmlContent.Should().Match(
-                '*' + string.Join('*', expectedImageUrls) + '*',
+                '*' + string.Join('*', expectedEmailBits) + '*',
                 "it should have all The Far Side images");
         }
 

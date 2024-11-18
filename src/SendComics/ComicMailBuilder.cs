@@ -40,7 +40,29 @@ namespace SendComics
             foreach (var (subscriber, i) in configuration.Subscribers.Select((value, i) => (value, i)))
             {
                 this.log.Info($"Building mail for subscriber {i}…");
-                var mailContent = new StringBuilder();
+                var mailContent = new StringBuilder(@"
+                    <html>
+                    <head>
+                      <style>
+                        article + article {
+                          margin-top: 1em;
+                          boarder-top: 1px solid #ccc;
+                        }
+                        figure {
+                          margin: 0;
+                        }
+                        img {
+                          max-width: 100%;
+                        }
+                        figcaption {
+                          font-size: 200%;
+                          font-style: italic;
+                          margin-bottom: 4em;
+                        }
+                      </style>);
+                      </head>
+                      <body>
+                    ");
 
                 foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
@@ -48,6 +70,11 @@ namespace SendComics
                     WriteEpisode(mailContent, episode, episodesContentMap[episode]);
                     this.log.Info($"  Added  {episode}");
                 }
+
+                mailContent.AppendLine(@"
+                    </body>
+                    </html
+                    ");
 
                 var message = new SendGridMessage
                 {
@@ -76,19 +103,30 @@ namespace SendComics
             }
             else
             {
-                foreach (var url in episodeContent.Urls)
-                {
-                    sink.AppendLine("  <figure>")
-                        .Append("    <img alt='")
-                        .Append(episode)
-                        .Append("' src='")
-                        .Append(url)
-                        .AppendLine("'>")
-                        .AppendLine("  </figure>");
-                }
+                episodeContent.Urls.Zip(episodeContent.Captions, (url, caption) => (url, caption))
+                    .ToList()
+                    .ForEach(image => WriteEpisodeImage(sink, episode, image.url, image.caption));
             }
 
             sink.AppendLine("</article>");
+        }
+
+        private static void WriteEpisodeImage(StringBuilder sink, Episode episode, string url, string caption)
+        {
+            sink.AppendLine("  <figure>")
+                .Append("    <img alt='")
+                .Append(episode)
+                .Append("' src='")
+                .Append(url)
+                .AppendLine("'>");
+
+            if (caption is not null)
+            {
+                sink.Append("    <figcaption>").Append(caption).AppendLine("</figcaption>");
+            }
+
+            sink
+                .AppendLine("  </figure>");
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]

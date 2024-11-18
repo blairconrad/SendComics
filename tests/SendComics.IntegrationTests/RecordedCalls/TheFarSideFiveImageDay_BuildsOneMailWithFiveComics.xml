@@ -56,27 +56,27 @@
 &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /&gt;
 
 
-&lt;title&gt;Today’s Daily Dose of the Far Side Comics by Gary Larson | TheFarSide.com&lt;/title&gt;
+&lt;title&gt;The Far Side Comic Strip by Gary Larson - Official Website | TheFarSide.com&lt;/title&gt;
 &lt;link rel="icon" type="image/x-icon" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/favicon-3495f6b1aa637316727ef7ad05f3c9a3.ico"&gt;
 &lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/favicon-16x16-80654150f62eeed096ff27c54cf0028b.png" sizes="16x16"&gt;
 &lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/favicon-32x32-f7922ac1ac41999a87e683360563a2af.png" sizes="32x32"&gt;
 &lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/android-chrome-192x192-20e4989d70064702391f677695256ef6.png" sizes="192x192"&gt;
 &lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/android-chrome-512x512-4567ece9d2dea0e668e6a92fdbbfdea6.png" sizes="512x512"&gt;
 &lt;link rel="apple-touch-icon-precomposed" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/apple-touch-icon-e96ffbf26642bedbfe9cb59866fccd09.png" sizes="180x180"&gt;
-&lt;meta name="robots" content="noindex, nofollow"&gt;
-&lt;link rel="next" href="https://www.thefarside.com/2024/11/15"&gt;
-&lt;meta property="og:url" content="https://www.thefarside.com/2024/11/14"&gt;
+&lt;meta name="description" content="Visit the official online home of The Far Side comic strip by Gary Larson for your daily dose of Gary’s classic cartoons."&gt;
+&lt;link rel="prev" href="https://www.thefarside.com/2024/11/16"&gt;
+&lt;meta property="og:url" content="https://www.thefarside.com/2024/11/17"&gt;
 &lt;meta property="og:type" content="article"&gt;
-&lt;meta property="og:title" content="Today’s Daily Dose of the Far Side Comics by Gary Larson | TheFarSide.com"&gt;
-&lt;meta property="og:description" content="Visit the official online home of The Far Side comic strip to get a dose of ever-changing, random selections of classic cartoons, updated daily."&gt;
+&lt;meta property="og:title" content="The Far Side Comic Strip by Gary Larson - Official Website | TheFarSide.com"&gt;
+&lt;meta property="og:description" content="Visit the official online home of The Far Side comic strip by Gary Larson for your daily dose of Gary’s classic cartoons."&gt;
 &lt;meta property="og:image" content="https://webassets.thefarside.com/uploads/social_images/Final-Social-Share-2019-Updated2021-086d9305-f5f3-4749-a9cf-66c953ee7cd3.jpg"&gt;
 &lt;meta property="og:image:secure_url" content="https://webassets.thefarside.com/uploads/social_images/Final-Social-Share-2019-Updated2021-086d9305-f5f3-4749-a9cf-66c953ee7cd3.jpg"&gt;
 &lt;meta property="og:image:width" content="1200"&gt;
 &lt;meta property="og:image:height" content="628"&gt;
 &lt;meta property="og:site_name" content="TheFarSide.com"&gt;
 &lt;meta name="twitter:card" content="summary"&gt;
-&lt;meta name="twitter:title" content="Today’s Daily Dose of the Far Side Comics by Gary Larson | TheFarSide.com"&gt;
-&lt;meta name="twitter:description" content="Visit the official online home of The Far Side comic strip to get a dose of ever-changing, random selections of classic cartoons, updated daily."&gt;
+&lt;meta name="twitter:title" content="The Far Side Comic Strip by Gary Larson - Official Website | TheFarSide.com"&gt;
+&lt;meta name="twitter:description" content="Visit the official online home of The Far Side comic strip by Gary Larson for your daily dose of Gary’s classic cartoons."&gt;
 &lt;meta name="twitter:image" content="https://webassets.thefarside.com/uploads/social_images/Final-Social-Share-2019-Updated2021-086d9305-f5f3-4749-a9cf-66c953ee7cd3.jpg"&gt;
 
   &lt;/head&gt;
@@ -146,6 +146,22 @@
         
   
 
+
+&lt;div class="tfs-splash-image js-splash-image"&gt;
+
+    &lt;div class="tfs-splash-image__icon" data-scroll-target="#tfs-daily-dose-header"&gt;
+      &lt;img class="text-white js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/chevron-bottom-8dea4467643c84eb3d81e9eb26f211a2.svg" /&gt;
+    &lt;/div&gt;
+
+  
+&lt;picture class="tfs-splash-image__image"&gt;
+    &lt;source srcset="https://webassets.thefarside.com/uploads/splash_images/tfs860706_SplashImage_03-e8a140f5-cdea-4d21-8ba3-f175c6f34379.jpg" media="(min-width: 768px)"&gt;
+    &lt;source srcset="https://webassets.thefarside.com/uploads/splash_images/splash_mob_03.jpg" media="(min-width: 0px)"&gt;
+  &lt;img id="tfs-splash-image" class="img-fluid" alt="The Far Side cartoon" src="https://webassets.thefarside.com/uploads/splash_images/tfs860706_SplashImage_03-e8a140f5-cdea-4d21-8ba3-f175c6f34379.jpg" /&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+
+
   &lt;div class="container" id="tfs-daily-dose-header"&gt;
     &lt;div class="tfs-content tfs-content--gap-none"&gt;
       &lt;div class="tfs-content__1col text-center"&gt;
@@ -170,12 +186,12 @@
 
 &lt;div class="tfs-content__1col"&gt;
   &lt;hr class="tfs-section-header"/&gt;
-  &lt;h3&gt;Thursday, November 14, 2024&lt;/h3&gt;
+  &lt;h3&gt;Sunday, November 17, 2024&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class="tfs-content js-daily-dose"&gt;
-  &lt;div class="tfs-content__1col" data-position="0" data-id="19821"&gt;
+  &lt;div class="tfs-content__1col" data-position="0" data-id="19847"&gt;
   
   
 
@@ -183,13 +199,13 @@
 
   &lt;div class="card-body"&gt;
       &lt;div class="tfs-comic__image"&gt;
-  &lt;img data-src="https://assets.amuniversal.com/3a29b420df110137cbaf005056a9545d" data-width="950" data-height="1068" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1068&amp;#39;%3E%3C/svg%3E" /&gt;
+  &lt;img data-src="https://assets.amuniversal.com/399c6d30e85b0137cedf005056a9545d" data-width="950" data-height="1163" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1163&amp;#39;%3E%3C/svg%3E" /&gt;
 &lt;/div&gt;
 
 
 &lt;figure class="figure tfs-comic__caption"&gt;
   &lt;figcaption class="figure-caption"&gt;
-    “Wawa!”
+    “... And please let Mom, Dad, Rex, Ginger, Tucker, me, and all the rest of the family see color.”
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -205,38 +221,38 @@
     &lt;button type="button"
             aria-label="Like"
             class="tfs-interactable__button tfs-interactable__button--like"
-            data-likable-item="24732"
-            data-likable-count="988"
-            data-likable-permalink="https://www.thefarside.com/2024/11/14/0"&gt;
+            data-likable-item="24758"
+            data-likable-count="772"
+            data-likable-permalink="https://www.thefarside.com/2024/11/17/0"&gt;
       &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
     &lt;/button&gt;
 
   &lt;button type="button"
           aria-label="Comment"
           class="tfs-interactable__button tfs-interactable__button--comment"
-          data-commentable-item="20520"
+          data-commentable-item="20546"
           data-commentable-count="0"
-          data-commentable-permalink="https://www.thefarside.com/2024/11/14/0"
-          data-disqus-permalink="https://thefarside.com/2024/11/14/0"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/17/0"
+          data-disqus-permalink="https://thefarside.com/2024/11/17/0"
           data-toggle="collapse"
-          data-target="#comments-20520"
+          data-target="#comments-20546"
           aria-expanded="false"
-          aria-controls="comments-20520"&gt;
+          aria-controls="comments-20546"&gt;
     &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
   &lt;/button&gt;
 
   &lt;button type="button"
           aria-label="Share"
           class="tfs-interactable__button tfs-interactable__button--share"
-          data-shareable-item="single19821"
-          data-shareable-permalink="https://www.thefarside.com/2024/11/14/0"
+          data-shareable-item="single19847"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/17/0"
           aria-haspopup="true"
           aria-expanded="false"&gt;
     &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
   &lt;/button&gt;
 
   
-&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19821"&gt;
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19847"&gt;
   &lt;div class="p-3"&gt;
     &lt;h5&gt;Share This Post&lt;/h5&gt;
   &lt;/div&gt;
@@ -244,7 +260,7 @@
   &lt;hr class="my-0"/&gt;
 
   &lt;div class="p-3"&gt;
-    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/14/0" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/17/0" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
       &lt;div class="input-group-prepend"&gt;
         &lt;button type="button"
                 aria-label="Copy to clipboard"
@@ -252,7 +268,7 @@
           &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
         &lt;/button&gt;
       &lt;/div&gt;
-      &lt;input readonly data-copy-item="single19821-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/14/0"&gt;
+      &lt;input readonly data-copy-item="single19847-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/17/0"&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -260,7 +276,7 @@
 &lt;/div&gt;
 
 &lt;div&gt;
-  &lt;div class="collapse mt-5" id="comments-20520" data-parent=".js-comments-parent"&gt;
+  &lt;div class="collapse mt-5" id="comments-20546" data-parent=".js-comments-parent"&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -282,7 +298,7 @@
 &lt;/div&gt;
 
     &lt;/div&gt;
-&lt;div class="tfs-content__1col" data-position="1" data-id="19822"&gt;
+&lt;div class="tfs-content__1col" data-position="1" data-id="19850"&gt;
   
   
 
@@ -290,14 +306,13 @@
 
   &lt;div class="card-body"&gt;
       &lt;div class="tfs-comic__image"&gt;
-  &lt;img data-src="https://assets.amuniversal.com/e49aaac0ea250137cfba005056a9545d" data-width="950" data-height="1060" data-timing="300" class="img-fluid js-lazy-load" alt="MOM! NO! " src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1060&amp;#39;%3E%3C/svg%3E" /&gt;
+  &lt;img data-src="https://assets.amuniversal.com/1a9d11e0d0f70137c652005056a9545d" data-width="950" data-height="1094" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1094&amp;#39;%3E%3C/svg%3E" /&gt;
 &lt;/div&gt;
 
 
 &lt;figure class="figure tfs-comic__caption"&gt;
   &lt;figcaption class="figure-caption"&gt;
-    Despite his repeated efforts to explain things to her, 
-Satan could never dissuade his mother from offering cookies and milk to the accursed. 
+    School for the Mechanically Declined
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -313,38 +328,38 @@ Satan could never dissuade his mother from offering cookies and milk to the accu
     &lt;button type="button"
             aria-label="Like"
             class="tfs-interactable__button tfs-interactable__button--like"
-            data-likable-item="24733"
-            data-likable-count="1.26K"
-            data-likable-permalink="https://www.thefarside.com/2024/11/14/1"&gt;
+            data-likable-item="24761"
+            data-likable-count="855"
+            data-likable-permalink="https://www.thefarside.com/2024/11/17/1"&gt;
       &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
     &lt;/button&gt;
 
   &lt;button type="button"
           aria-label="Comment"
           class="tfs-interactable__button tfs-interactable__button--comment"
-          data-commentable-item="20521"
+          data-commentable-item="20549"
           data-commentable-count="0"
-          data-commentable-permalink="https://www.thefarside.com/2024/11/14/1"
-          data-disqus-permalink="https://thefarside.com/2024/11/14/1"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/17/1"
+          data-disqus-permalink="https://thefarside.com/2024/11/17/1"
           data-toggle="collapse"
-          data-target="#comments-20521"
+          data-target="#comments-20549"
           aria-expanded="false"
-          aria-controls="comments-20521"&gt;
+          aria-controls="comments-20549"&gt;
     &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
   &lt;/button&gt;
 
   &lt;button type="button"
           aria-label="Share"
           class="tfs-interactable__button tfs-interactable__button--share"
-          data-shareable-item="single19822"
-          data-shareable-permalink="https://www.thefarside.com/2024/11/14/1"
+          data-shareable-item="single19850"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/17/1"
           aria-haspopup="true"
           aria-expanded="false"&gt;
     &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
   &lt;/button&gt;
 
   
-&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19822"&gt;
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19850"&gt;
   &lt;div class="p-3"&gt;
     &lt;h5&gt;Share This Post&lt;/h5&gt;
   &lt;/div&gt;
@@ -352,7 +367,7 @@ Satan could never dissuade his mother from offering cookies and milk to the accu
   &lt;hr class="my-0"/&gt;
 
   &lt;div class="p-3"&gt;
-    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/14/1" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/17/1" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
       &lt;div class="input-group-prepend"&gt;
         &lt;button type="button"
                 aria-label="Copy to clipboard"
@@ -360,7 +375,7 @@ Satan could never dissuade his mother from offering cookies and milk to the accu
           &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
         &lt;/button&gt;
       &lt;/div&gt;
-      &lt;input readonly data-copy-item="single19822-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/14/1"&gt;
+      &lt;input readonly data-copy-item="single19850-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/17/1"&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -368,7 +383,7 @@ Satan could never dissuade his mother from offering cookies and milk to the accu
 &lt;/div&gt;
 
 &lt;div&gt;
-  &lt;div class="collapse mt-5" id="comments-20521" data-parent=".js-comments-parent"&gt;
+  &lt;div class="collapse mt-5" id="comments-20549" data-parent=".js-comments-parent"&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -379,325 +394,14 @@ Satan could never dissuade his mother from offering cookies and milk to the accu
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class="tfs-content__1col" data-position="2" data-id="19825"&gt;
-  
-  
-
-&lt;div class="card tfs-comic js-comic"&gt;
-
-  &lt;div class="card-body"&gt;
-      &lt;div class="tfs-comic__image"&gt;
-  &lt;img data-src="https://assets.amuniversal.com/ba56af70cdd20137c56b005056a9545d" data-width="950" data-height="1061" data-timing="300" class="img-fluid js-lazy-load" alt="Butterflies carrying a net, flying over a man wearing a pith helmet, carrying a butterfly net." src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1061&amp;#39;%3E%3C/svg%3E" /&gt;
-&lt;/div&gt;
-
-
-&lt;figure class="figure tfs-comic__caption"&gt;
-  &lt;figcaption class="figure-caption"&gt;
-    
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-
-    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
-      
-
-
-
-&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
-    &lt;button type="button"
-            aria-label="Like"
-            class="tfs-interactable__button tfs-interactable__button--like"
-            data-likable-item="24736"
-            data-likable-count="1.23K"
-            data-likable-permalink="https://www.thefarside.com/2024/11/14/2"&gt;
-      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
-    &lt;/button&gt;
-
-  &lt;button type="button"
-          aria-label="Comment"
-          class="tfs-interactable__button tfs-interactable__button--comment"
-          data-commentable-item="20524"
-          data-commentable-count="0"
-          data-commentable-permalink="https://www.thefarside.com/2024/11/14/2"
-          data-disqus-permalink="https://thefarside.com/2024/11/14/2"
-          data-toggle="collapse"
-          data-target="#comments-20524"
-          aria-expanded="false"
-          aria-controls="comments-20524"&gt;
-    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
-  &lt;/button&gt;
-
-  &lt;button type="button"
-          aria-label="Share"
-          class="tfs-interactable__button tfs-interactable__button--share"
-          data-shareable-item="single19825"
-          data-shareable-permalink="https://www.thefarside.com/2024/11/14/2"
-          aria-haspopup="true"
-          aria-expanded="false"&gt;
-    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
-  &lt;/button&gt;
-
-  
-&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19825"&gt;
-  &lt;div class="p-3"&gt;
-    &lt;h5&gt;Share This Post&lt;/h5&gt;
-  &lt;/div&gt;
-
-  &lt;hr class="my-0"/&gt;
-
-  &lt;div class="p-3"&gt;
-    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/14/2" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
-      &lt;div class="input-group-prepend"&gt;
-        &lt;button type="button"
-                aria-label="Copy to clipboard"
-                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
-          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
-        &lt;/button&gt;
-      &lt;/div&gt;
-      &lt;input readonly data-copy-item="single19825-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/14/2"&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;div&gt;
-  &lt;div class="collapse mt-5" id="comments-20524" data-parent=".js-comments-parent"&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-    &lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-    &lt;div class="tfs-content__1col"&gt;
-      &lt;div class='ad-leaderboard' aria-hidden="true"&gt;
-  &lt;div id='thefarside_leaderboard_2' class="ad js-ad js-ad-refresh"
-    data-ad-type="leaderboard"
-    data-ad-position="2"
-    data-ad-async="false"
-    data-ad-size="__300x250 __728x90"&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;div class="tfs-content__1col" data-position="3" data-id="19829"&gt;
-  
-  
-
-&lt;div class="card tfs-comic js-comic"&gt;
-
-  &lt;div class="card-body"&gt;
-      &lt;div class="tfs-comic__image"&gt;
-  &lt;img data-src="https://assets.amuniversal.com/94e228b0fa840137d52f005056a9545d" data-width="950" data-height="1053" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1053&amp;#39;%3E%3C/svg%3E" /&gt;
-&lt;/div&gt;
-
-
-&lt;figure class="figure tfs-comic__caption"&gt;
-  &lt;figcaption class="figure-caption"&gt;
-    “Open the gate! It’s a big wiener dog!”
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-
-    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
-      
-
-
-
-&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
-    &lt;button type="button"
-            aria-label="Like"
-            class="tfs-interactable__button tfs-interactable__button--like"
-            data-likable-item="24740"
-            data-likable-count="1.32K"
-            data-likable-permalink="https://www.thefarside.com/2024/11/14/3"&gt;
-      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
-    &lt;/button&gt;
-
-  &lt;button type="button"
-          aria-label="Comment"
-          class="tfs-interactable__button tfs-interactable__button--comment"
-          data-commentable-item="20528"
-          data-commentable-count="0"
-          data-commentable-permalink="https://www.thefarside.com/2024/11/14/3"
-          data-disqus-permalink="https://thefarside.com/2024/11/14/3"
-          data-toggle="collapse"
-          data-target="#comments-20528"
-          aria-expanded="false"
-          aria-controls="comments-20528"&gt;
-    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
-  &lt;/button&gt;
-
-  &lt;button type="button"
-          aria-label="Share"
-          class="tfs-interactable__button tfs-interactable__button--share"
-          data-shareable-item="single19829"
-          data-shareable-permalink="https://www.thefarside.com/2024/11/14/3"
-          aria-haspopup="true"
-          aria-expanded="false"&gt;
-    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
-  &lt;/button&gt;
-
-  
-&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19829"&gt;
-  &lt;div class="p-3"&gt;
-    &lt;h5&gt;Share This Post&lt;/h5&gt;
-  &lt;/div&gt;
-
-  &lt;hr class="my-0"/&gt;
-
-  &lt;div class="p-3"&gt;
-    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/14/3" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
-      &lt;div class="input-group-prepend"&gt;
-        &lt;button type="button"
-                aria-label="Copy to clipboard"
-                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
-          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
-        &lt;/button&gt;
-      &lt;/div&gt;
-      &lt;input readonly data-copy-item="single19829-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/14/3"&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;div&gt;
-  &lt;div class="collapse mt-5" id="comments-20528" data-parent=".js-comments-parent"&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-    &lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="tfs-content__1col" data-position="4" data-id="19826"&gt;
-  
-  
-
-&lt;div class="card tfs-comic js-comic"&gt;
-
-  &lt;div class="card-body"&gt;
-      &lt;div class="tfs-comic__image"&gt;
-  &lt;img data-src="https://assets.amuniversal.com/ade4b120dcca0137caaf005056a9545d" data-width="950" data-height="1079" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1079&amp;#39;%3E%3C/svg%3E" /&gt;
-&lt;/div&gt;
-
-
-&lt;figure class="figure tfs-comic__caption"&gt;
-  &lt;figcaption class="figure-caption"&gt;
-    The rhino in repose
-
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-
-    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
-      
-
-
-
-&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
-    &lt;button type="button"
-            aria-label="Like"
-            class="tfs-interactable__button tfs-interactable__button--like"
-            data-likable-item="24737"
-            data-likable-count="949"
-            data-likable-permalink="https://www.thefarside.com/2024/11/14/4"&gt;
-      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
-    &lt;/button&gt;
-
-  &lt;button type="button"
-          aria-label="Comment"
-          class="tfs-interactable__button tfs-interactable__button--comment"
-          data-commentable-item="20525"
-          data-commentable-count="0"
-          data-commentable-permalink="https://www.thefarside.com/2024/11/14/4"
-          data-disqus-permalink="https://thefarside.com/2024/11/14/4"
-          data-toggle="collapse"
-          data-target="#comments-20525"
-          aria-expanded="false"
-          aria-controls="comments-20525"&gt;
-    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
-  &lt;/button&gt;
-
-  &lt;button type="button"
-          aria-label="Share"
-          class="tfs-interactable__button tfs-interactable__button--share"
-          data-shareable-item="single19826"
-          data-shareable-permalink="https://www.thefarside.com/2024/11/14/4"
-          aria-haspopup="true"
-          aria-expanded="false"&gt;
-    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
-  &lt;/button&gt;
-
-  
-&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19826"&gt;
-  &lt;div class="p-3"&gt;
-    &lt;h5&gt;Share This Post&lt;/h5&gt;
-  &lt;/div&gt;
-
-  &lt;hr class="my-0"/&gt;
-
-  &lt;div class="p-3"&gt;
-    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/14/4" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
-      &lt;div class="input-group-prepend"&gt;
-        &lt;button type="button"
-                aria-label="Copy to clipboard"
-                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
-          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
-        &lt;/button&gt;
-      &lt;/div&gt;
-      &lt;input readonly data-copy-item="single19826-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/14/4"&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;div&gt;
-  &lt;div class="collapse mt-5" id="comments-20525" data-parent=".js-comments-parent"&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-    &lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-    &lt;div class="tfs-content__1col"&gt;
-      &lt;div class='ad-leaderboard' aria-hidden="true"&gt;
-  &lt;div id='thefarside_leaderboard_3' class="ad js-ad js-ad-refresh"
-    data-ad-type="leaderboard"
-    data-ad-position="3"
-    data-ad-async="false"
-    data-ad-size="__300x250 __728x90"&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-    &lt;/div&gt;
 
 &lt;/div&gt;
 
 
 
 &lt;nav class="tfs-pagination tfs-gap-full" aria-label="pager"&gt;
+  &lt;a class="btn btn-primary tfs-button" href="/2024/11/16"&gt;Previous Day&lt;/a&gt;
   
-  &lt;a class="btn btn-primary tfs-button" href="/2024/11/15"&gt;Next Day&lt;/a&gt;
 &lt;/nav&gt;
 
 
