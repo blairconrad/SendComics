@@ -73,7 +73,7 @@ namespace SendComics
 
                 mailContent.AppendLine(@"
                     </body>
-                    </html
+                    </html>
                     ");
 
                 var message = new SendGridMessage
