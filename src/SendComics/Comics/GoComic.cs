@@ -15,7 +15,7 @@ namespace SendComics.Comics
             this.name = name;
         }
 
-        public override ComicLocation GetLocation(DateTime now)
+        public override EpisodeContent GetContent(DateTime now)
         {
             var comicContent = this.GetContent(
                 new Uri($"http://www.gocomics.com/{this.name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
@@ -23,13 +23,13 @@ namespace SendComics.Comics
             var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from", StringComparison.Ordinal);
             if (isWrongDay)
             {
-                return ComicLocation.NotPublished;
+                return EpisodeContent.NotPublished;
             }
 
             var imageMatch = Regex.Match(comicContent, @"item-comic-image"".* data-srcset=""([^ ]+) ");
             return imageMatch.Success
-                ? ComicLocation.FoundAt(imageMatch.Groups[1].Value)
-                : ComicLocation.NotFound;
+                ? EpisodeContent.FoundAt(imageMatch.Groups[1].Value)
+                : EpisodeContent.NotFound;
         }
     }
 }

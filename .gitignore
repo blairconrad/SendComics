@@ -7,5 +7,6 @@ local.settings.json
 /.vs
 /artifacts
 /src/*/Properties
+/src/SendComics/.env
 /tools/NuGet.exe
 /tools/packages

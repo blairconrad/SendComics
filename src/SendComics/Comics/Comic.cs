@@ -12,7 +12,7 @@ namespace SendComics.Comics
             this.comicFetcher = comicFetcher;
         }
 
-        public abstract ComicLocation GetLocation(DateTime now);
+        public abstract EpisodeContent GetContent(DateTime now);
 
         protected string GetContent(Uri url) => this.comicFetcher.GetContent(url);
     }

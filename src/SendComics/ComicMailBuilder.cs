@@ -35,19 +35,46 @@ namespace SendComics
 
             var configuration = this.configurationSource.GetConfiguration();
 
-            var comicLocations = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, this.GetComicLocation);
+            var episodesContentMap = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, this.GetEpisodeContent);
 
             foreach (var (subscriber, i) in configuration.Subscribers.Select((value, i) => (value, i)))
             {
                 this.log.Info($"Building mail for subscriber {i}…");
-                var mailContent = new StringBuilder();
+                var mailContent = new StringBuilder(@"
+                    <html>
+                    <head>
+                      <style>
+                        article + article {
+                          margin-top: 1em;
+                          boarder-top: 1px solid #ccc;
+                        }
+                        figure {
+                          margin: 0;
+                        }
+                        img {
+                          max-width: 100%;
+                        }
+                        figcaption {
+                          font-size: 200%;
+                          font-style: italic;
+                          margin-bottom: 4em;
+                        }
+                      </style>);
+                      </head>
+                      <body>
+                    ");
 
                 foreach (var episode in subscriber.GetEpisodesFor(this.now))
                 {
                     this.log.Info($"  Adding {episode}…");
-                    WriteImage(mailContent, episode, comicLocations[episode]);
+                    WriteEpisode(mailContent, episode, episodesContentMap[episode]);
                     this.log.Info($"  Added  {episode}");
                 }
+
+                mailContent.AppendLine(@"
+                    </body>
+                    </html
+                    ");
 
                 var message = new SendGridMessage
                 {
@@ -62,45 +89,59 @@ namespace SendComics
             }
         }
 
-        private static void WriteImage(StringBuilder sink, Episode episode, ComicLocation comicLocation)
+        private static void WriteEpisode(StringBuilder sink, Episode episode, EpisodeContent episodeContent)
         {
-            if (!comicLocation.IsPublished)
+            sink.AppendLine(CultureInfo.InvariantCulture, $"<article title='{episode}'>");
+
+            if (!episodeContent.IsPublished)
             {
                 sink.Append("  No published comic for ").Append(episode).Append('.');
             }
-            else if (!comicLocation.WasFound)
+            else if (!episodeContent.WasFound)
             {
                 sink.Append("  Couldn't find comic for ").Append(episode).Append('.');
             }
             else
             {
-                foreach (var url in comicLocation.Urls)
-                {
-                    sink
-                        .Append("  <img alt='")
-                        .Append(episode)
-                        .Append("' src='")
-                        .Append(url)
-                        .Append("'>")
-                        .Append("<br>")
-                        .AppendLine();
-                }
+                episodeContent.Urls.Zip(episodeContent.Captions, (url, caption) => (url, caption))
+                    .ToList()
+                    .ForEach(image => WriteEpisodeImage(sink, episode, image.url, image.caption));
             }
+
+            sink.AppendLine("</article>");
+        }
+
+        private static void WriteEpisodeImage(StringBuilder sink, Episode episode, string url, string caption)
+        {
+            sink.AppendLine("  <figure>")
+                .Append("    <img alt='")
+                .Append(episode)
+                .Append("' src='")
+                .Append(url)
+                .AppendLine("'>");
+
+            if (caption is not null)
+            {
+                sink.Append("    <figcaption>").Append(caption).AppendLine("</figcaption>");
+            }
+
+            sink
+                .AppendLine("  </figure>");
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
-        private ComicLocation GetComicLocation(Episode episode)
+        private EpisodeContent GetEpisodeContent(Episode episode)
         {
             this.log.Info($"Getting image URL for {episode}…");
             try
             {
                 var comic = ComicFactory.GetComic(episode.ComicName, this.comicFetcher);
-                return comic.GetLocation(episode.Date);
+                return comic.GetContent(episode.Date);
             }
             catch (Exception e)
             {
                 this.log.Error($"Caught error getting image URL for {episode}: {e}");
-                return ComicLocation.NotFound;
+                return EpisodeContent.NotFound;
             }
         }
     }

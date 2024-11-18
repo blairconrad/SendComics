@@ -24,11 +24,6 @@ namespace SendComics.IntegrationTests
         private const string SchlockMercenary20000612Url = "https://www.schlockmercenary.com/strip/1/0/schlock20000612.jpg?v=1443894882526";
         private const string SchlockMercenary20200724aUrl = "https://www.schlockmercenary.com/strip/7348/0/schlock20200724a.jpg?v=1701276896559";
         private const string SchlockMercenary20200724bUrl = "https://www.schlockmercenary.com/strip/7348/1/schlock20200724b.jpg?v=1701276896559";
-        private const string TheFarSide20241114aUrl = "https://assets.amuniversal.com/3a29b420df110137cbaf005056a9545d";
-        private const string TheFarSide20241114bUrl = "https://assets.amuniversal.com/e49aaac0ea250137cfba005056a9545d";
-        private const string TheFarSide20241114cUrl = "https://assets.amuniversal.com/ba56af70cdd20137c56b005056a9545d";
-        private const string TheFarSide20241114dUrl = "https://assets.amuniversal.com/94e228b0fa840137d52f005056a9545d";
-        private const string TheFarSide20241114eUrl = "https://assets.amuniversal.com/ade4b120dcca0137caaf005056a9545d";
 
         [Fact]
         public static void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -273,7 +268,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [InlineData("blondie", "https://www.comicskingdom.com/blondie/2023-02-27/")]
         [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2023-02-27/")]
         [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2023/02/27/")]
-        [InlineData("thefarside", "https://thefarside.com/2023/02/27/")]
+        [InlineData("thefarside", "https://thefarside.com/")]
         public static void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedLocation)
         {
             var fakeComicFetcher = A.Fake<IComicFetcher>();
@@ -508,7 +503,7 @@ blair.conrad@gmail.com: 9chickweedlane
         }
 
         [Fact]
-        public static void TheFarSideFiveImageDay_BuildsOneMailWithFiveComics()
+        public static void TheFarSideMultipleImageDay_BuildsOneMailWithMultipleComics()
         {
             IList<SendGridMessage> mails = null;
 
@@ -525,10 +520,17 @@ blair.conrad@gmail.com: 9chickweedlane
                 mails = target.CreateMailMessage().ToList();
             }
 
-            mails.Should().HaveCount(1);
+            var expectedEmailBits = new[]
+            {
+                "https://assets.amuniversal.com/399c6d30e85b0137cedf005056a9545d",
+                "“... And please let Mom, Dad, Rex, Ginger, Tucker, me, and all the rest of the family see color.”",
+                "https://assets.amuniversal.com/1a9d11e0d0f70137c652005056a9545d",
+                "School for the Mechanically Declined",
+            };
 
+            mails.Should().HaveCount(1);
             mails[0].HtmlContent.Should().Match(
-                $"*{TheFarSide20241114aUrl}*{TheFarSide20241114bUrl}*{TheFarSide20241114cUrl}*{TheFarSide20241114dUrl}*{TheFarSide20241114eUrl}*",
+                '*' + string.Join('*', expectedEmailBits) + '*',
                 "it should have all The Far Side images");
         }
 
