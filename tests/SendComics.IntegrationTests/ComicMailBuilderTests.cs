@@ -268,7 +268,7 @@ blair.conrad@gmail.com: 9chickweedlane
         [InlineData("blondie", "https://www.comicskingdom.com/blondie/2023-02-27/")]
         [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2023-02-27/")]
         [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2023/02/27/")]
-        [InlineData("thefarside", "https://thefarside.com/")]
+        [InlineData("thefarside", "https://www.thefarside.com/")]
         public static void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedLocation)
         {
             var fakeComicFetcher = A.Fake<IComicFetcher>();

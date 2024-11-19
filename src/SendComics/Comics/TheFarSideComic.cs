@@ -8,7 +8,7 @@ namespace SendComics.Comics
 
     internal class TheFarSideComic : Comic
     {
-        private const string BaseUrl = "https://thefarside.com";
+        private static readonly Uri Url = new Uri("https://www.thefarside.com/");
 
         public TheFarSideComic(IComicFetcher comicFetcher)
             : base(comicFetcher)
@@ -17,8 +17,7 @@ namespace SendComics.Comics
 
         public override EpisodeContent GetContent(DateTime now)
         {
-            var comicContent = this.GetContent(
-                new Uri($"{BaseUrl}/"));
+            var comicContent = this.GetContent(Url);
 
             var imageMatches = Regex.Matches(
                 comicContent,
