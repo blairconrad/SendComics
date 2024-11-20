@@ -59,7 +59,7 @@ namespace SendComics
                           font-style: italic;
                           margin-bottom: 4em;
                         }
-                      </style>);
+                      </style>
                       </head>
                       <body>
                     ");
