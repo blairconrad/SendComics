@@ -28,7 +28,7 @@ namespace SendComics.Comics
 
             var imageMatch = Regex.Match(comicContent, @"item-comic-image"".* data-srcset=""([^ ]+) ");
             return imageMatch.Success
-                ? EpisodeContent.FoundAt(imageMatch.Groups[1].Value)
+                ? EpisodeContent.WithImages(imageMatch.Groups[1].Value)
                 : EpisodeContent.NotFound;
         }
     }

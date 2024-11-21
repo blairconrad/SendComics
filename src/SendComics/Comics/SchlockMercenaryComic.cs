@@ -22,7 +22,7 @@ namespace SendComics.Comics
 
             var imageMatches = Regex.Matches(comicContent, @"<img src=""(/strip/[^/]+/[^/]+/schlock[^.]+\.jpg[^""]*)");
             return imageMatches.Count > 0
-                ? EpisodeContent.FoundAt(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
+                ? EpisodeContent.WithImages(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
                 : EpisodeContent.NotFound;
         }
     }

@@ -21,7 +21,7 @@ namespace SendComics.Comics
                 new Uri($"https://www.comicskingdom.com/{this.name}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}/"));
             var match = Regex.Match(comicContent, @"property=""og:image"" content=""([^""]+)""");
             return match.Success
-                ? EpisodeContent.FoundAt(match.Groups[1].Value)
+                ? EpisodeContent.WithImages(match.Groups[1].Value)
                 : EpisodeContent.NotFound;
         }
     }

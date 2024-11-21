@@ -21,15 +21,15 @@ namespace SendComics
 
         public IEnumerable<string> Captions { get; private set; }
 
-        public static EpisodeContent FoundAt(string url) => FoundAt(new[] { url });
+        public static EpisodeContent WithImages(string url) => WithImages(new[] { url });
 
-        public static EpisodeContent FoundAt(IEnumerable<string> urls)
+        public static EpisodeContent WithImages(IEnumerable<string> urls)
         {
             var urlsList = urls.ToList();
-            return FoundAt(urlsList, new string[urlsList.Count]);
+            return WithFigures(urlsList, new string[urlsList.Count]);
         }
 
-        public static EpisodeContent FoundAt(IEnumerable<string> urls, IEnumerable<string> captions) => new()
+        public static EpisodeContent WithFigures(IEnumerable<string> urls, IEnumerable<string> captions) => new()
         {
             IsPublished = true,
             WasFound = true,

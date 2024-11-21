@@ -30,7 +30,7 @@ namespace SendComics.Comics
 
             var imageUrls = imageMatches.Select(match => match.Groups[1].Value);
             var captions = imageMatches.Select(match => match.Groups[2].Value);
-            return EpisodeContent.FoundAt(imageUrls, captions);
+            return EpisodeContent.WithFigures(imageUrls, captions);
         }
     }
 }
