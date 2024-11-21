@@ -36,7 +36,7 @@
             IEnumerable<string> subscriberStrings = subscriberSplitter
                 .Split(this.configurationString)
                 .Where(s => !string.IsNullOrWhiteSpace(s))
-                .Where(s => !s.StartsWith("#", StringComparison.InvariantCulture))
+                .Where(s => !s.StartsWith('#'))
                 .ToList();
 
             if (subscriberStrings.Any(emphaticPattern.IsMatch))

@@ -3,7 +3,7 @@ namespace SendComics
     using System.Collections.Generic;
     using System.Linq;
 
-    internal class EpisodeContent
+    internal sealed class EpisodeContent
     {
         private EpisodeContent()
         {

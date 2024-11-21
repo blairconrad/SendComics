@@ -6,7 +6,7 @@ namespace SendComics.Comics
     using System.Text.RegularExpressions;
     using Services;
 
-    internal class TheFarSideComic : Comic
+    internal sealed class TheFarSideComic : Comic
     {
         private static readonly Uri Url = new Uri("https://www.thefarside.com/");
 

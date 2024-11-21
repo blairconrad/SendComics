@@ -5,7 +5,7 @@ namespace SendComics.Comics
     using System.Text.RegularExpressions;
     using Services;
 
-    internal class GoComic : Comic
+    internal sealed class GoComic : Comic
     {
         private readonly string name;
 

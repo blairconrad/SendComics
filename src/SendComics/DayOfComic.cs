@@ -2,7 +2,7 @@ namespace SendComics
 {
     using System.Collections.Generic;
 
-    internal class DayOfComic
+    internal sealed class DayOfComic
     {
         private DayOfComic()
         {

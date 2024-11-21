@@ -6,7 +6,7 @@ namespace SendComics.Comics
     using System.Text.RegularExpressions;
     using Services;
 
-    internal class SchlockMercenaryComic : Comic
+    internal sealed class SchlockMercenaryComic : Comic
     {
         private const string BaseUrl = "https://www.schlockmercenary.com";
 
