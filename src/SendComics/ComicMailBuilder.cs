@@ -103,26 +103,25 @@ namespace SendComics
             }
             else
             {
-                episodeContent.Urls.Zip(episodeContent.Captions, (url, caption) => (url, caption))
-                    .ToList()
-                    .ForEach(image => WriteEpisodeImage(sink, episode, image.url, image.caption));
+                episodeContent.Figures.ToList()
+                    .ForEach(figure => WriteEpisodeImage(sink, episode, figure));
             }
 
             sink.AppendLine("</article>");
         }
 
-        private static void WriteEpisodeImage(StringBuilder sink, Episode episode, string url, string caption)
+        private static void WriteEpisodeImage(StringBuilder sink, Episode episode, Figure figure)
         {
             sink.AppendLine("  <figure>")
                 .Append("    <img alt='")
                 .Append(episode)
                 .Append("' src='")
-                .Append(url)
+                .Append(figure.ImageLocation)
                 .AppendLine("'>");
 
-            if (caption is not null)
+            if (figure.HasCaption)
             {
-                sink.Append("    <figcaption>").Append(caption).AppendLine("</figcaption>");
+                sink.Append("    <figcaption>").Append(figure.Caption).AppendLine("</figcaption>");
             }
 
             sink
