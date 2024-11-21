@@ -4,7 +4,9 @@ obj/
 local.settings.json
 *.csproj.user
 
+/.idea/
 /.vs
+/SendComics.sln.DotSettings.user
 /artifacts
 /src/*/Properties
 /src/SendComics/.env
