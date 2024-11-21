@@ -13,6 +13,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendComics.IntegrationTests", "tests\SendComics.IntegrationTests\SendComics.IntegrationTests.csproj", "{326B2F69-8438-404B-9681-CF19AADE7C31}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{A3C30F74-98AF-4F4C-904B-1267CFAB36FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6B474022-B3B4-4F28-BD6F-6E24137D276F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\run.yml = .github\workflows\run.yml
+		.github\workflows\test.yml = .github\workflows\test.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,5 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED369CA2-EE5C-4069-95D3-0589BA4C6AB4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3C30F74-98AF-4F4C-904B-1267CFAB36FD} = {C7341FD8-ACB6-4889-961D-CFEC2A4E0D1A}
+		{6B474022-B3B4-4F28-BD6F-6E24137D276F} = {A3C30F74-98AF-4F4C-904B-1267CFAB36FD}
 	EndGlobalSection
 EndGlobal
