@@ -44,20 +44,19 @@ namespace SendComics
                     <html>
                     <head>
                       <style>
-                        article + article {
-                          margin-top: 1em;
-                          boarder-top: 1px solid #ccc;
-                        }
                         figure {
-                          margin: 0;
+                            margin-bottom: 1em;
+                            max-width: fit-content;
+                            padding-bottom: 1em;
                         }
                         img {
-                          max-width: 100%;
+                          max-height: 600px;
+                          max-width: 900px;
                         }
                         figcaption {
-                          font-size: 200%;
+                          font-size: 150%;
                           font-style: italic;
-                          margin-bottom: 4em;
+                          text-align: center;
                         }
                       </style>
                       </head>
