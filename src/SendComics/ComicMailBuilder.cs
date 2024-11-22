@@ -27,28 +27,29 @@ public class ComicMailBuilder(
         foreach (var (subscriber, i) in configuration.Subscribers.Select((value, i) => (value, i)))
         {
             log.Info($"Building mail for subscriber {i}…");
-            var mailContent = new StringBuilder(@"
-                    <html>
-                    <head>
-                      <style>
-                        figure {
-                            margin-bottom: 1em;
-                            max-width: fit-content;
-                            padding-bottom: 1em;
-                        }
-                        img {
-                          max-height: 600px;
-                          max-width: 900px;
-                        }
-                        figcaption {
-                          font-size: 150%;
-                          font-style: italic;
-                          text-align: center;
-                        }
-                      </style>
-                      </head>
-                      <body>
-                    ");
+            var mailContent = new StringBuilder("""
+                <html>
+                <head>
+                  <style>
+                    figure {
+                        margin-bottom: 1em;
+                        max-width: fit-content;
+                        padding-bottom: 1em;
+                    }
+                    img {
+                      max-height: 600px;
+                      max-width: 900px;
+                    }
+                    figcaption {
+                      font-size: 150%;
+                      font-style: italic;
+                      text-align: center;
+                    }
+                  </style>
+                </head>
+                <body>
+
+                """);
 
             foreach (var episode in subscriber.GetEpisodesFor(now))
             {
@@ -57,10 +58,11 @@ public class ComicMailBuilder(
                 log.Info($"  Added  {episode}");
             }
 
-            mailContent.AppendLine(@"
-                    </body>
-                    </html>
-                    ");
+            mailContent.AppendLine("""
+
+                </body>
+                </html>
+                """);
 
             var message = new SendGridMessage
             {

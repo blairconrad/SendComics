@@ -158,10 +158,11 @@ public static class ComicMailBuilderTests
         {
             var target = new ComicMailBuilder(
                 DateTime.Now,
-                new ConfigurationParser(@"
-blair.conrad@gmail.com: 9chickweedlane
-anyone@mail.org: arloandjanis
-".TrimStart()),
+                new ConfigurationParser("""
+                    blair.conrad@gmail.com: 9chickweedlane
+                    anyone@mail.org: arloandjanis
+
+                    """),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
 
@@ -192,10 +193,11 @@ anyone@mail.org: arloandjanis
         {
             var target = new ComicMailBuilder(
                 DateTime.Now,
-                new ConfigurationParser(@"
-blair.conrad@gmail.com: 9chickweedlane
-# anyone@mail.org: arloandjanis
-".TrimStart()),
+                new ConfigurationParser("""
+                    blair.conrad@gmail.com: 9chickweedlane
+                    # anyone@mail.org: arloandjanis
+
+                    """),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
 
@@ -221,10 +223,11 @@ blair.conrad@gmail.com: 9chickweedlane
         {
             var target = new ComicMailBuilder(
                 DateTime.Now,
-                new ConfigurationParser(@"
-blair.conrad@gmail.com: 9chickweedlane
-! anyone@mail.org: arloandjanis
-".TrimStart()),
+                new ConfigurationParser("""
+                    blair.conrad@gmail.com: 9chickweedlane
+                    ! anyone@mail.org: arloandjanis
+
+                    """),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
 
@@ -436,7 +439,7 @@ blair.conrad@gmail.com: 9chickweedlane
         A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
             .Throws(new WebException("Bad Request"));
         A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/arloandjanis/2023/02/27/")))
-            .Returns($@"<picture class=""item-comic-image""><img class=""lazyload img - fluid"" srcset=""https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png"" data-srcset=""{ArloAndJanisUrl} 900w"" sizes=");
+            .Returns($"""<picture class="item-comic-image"><img class="lazyload img - fluid" srcset="https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png" data-srcset="{ArloAndJanisUrl} 900w" sizes=""");
 
         var now = new DateTime(2023, 2, 27);
         var target = new ComicMailBuilder(
