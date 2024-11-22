@@ -6,7 +6,7 @@ namespace SendComics.Comics
     using System.Text.RegularExpressions;
     using Services;
 
-    internal class SchlockMercenaryComic : Comic
+    internal sealed class SchlockMercenaryComic : Comic
     {
         private const string BaseUrl = "https://www.schlockmercenary.com";
 
@@ -22,7 +22,7 @@ namespace SendComics.Comics
 
             var imageMatches = Regex.Matches(comicContent, @"<img src=""(/strip/[^/]+/[^/]+/schlock[^.]+\.jpg[^""]*)");
             return imageMatches.Count > 0
-                ? EpisodeContent.FoundAt(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
+                ? EpisodeContent.WithImages(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
                 : EpisodeContent.NotFound;
         }
     }

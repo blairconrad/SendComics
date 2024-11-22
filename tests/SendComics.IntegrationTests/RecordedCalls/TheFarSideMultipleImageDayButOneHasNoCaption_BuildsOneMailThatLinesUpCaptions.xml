@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecordedCall>
+    <Method>System.String GetContent(System.Uri)</Method>
+    <ReturnValue xsi:type="xsd:string">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"
+      data-disqus-api-url="https://disqus.com/api/3.0"
+      data-disqus-api-public-key="iPOjAyIabflR3mxd9p7chQiqUCc7WDSAIjsKgjHKr9Ifcv4zR5NDXoRIfVoFhGvV"
+      data-disqus-shortname="the-farside"
+      data-disqus-embed-url="https://the-farside.disqus.com/embed.js"
+      &gt;
+  &lt;head&gt;
+    &lt;link rel="preload" as="style" href="https://use.typekit.net/uah1ext.css"&gt;
+    &lt;link rel="stylesheet" href="https://use.typekit.net/uah1ext.css"&gt;
+    &lt;link rel="preload" media="screen" href="https://webassets.thefarside.com/packs/css/application-9113873a.chunk.css" as="style" /&gt;
+    &lt;link rel="stylesheet" media="screen" href="https://webassets.thefarside.com/packs/css/application-9113873a.chunk.css" /&gt;
+    &lt;link rel="preload" as="script" href="https://www.googletagservices.com/tag/js/gpt.js" /&gt;
+
+&lt;script async src="https://dn0qt3r0xannq.cloudfront.net/amu-Yxa71KhWOl/thefarside-longform/prebid-load.js"&gt;&lt;/script&gt;
+
+    &lt;script type="text/javascript"&gt;
+  /*---------- Global JS Variables and Objects ---------------------------------------*/
+  // Global TheFarside Object and Pre Document Load Variables
+  window.amuTheFarside = window.amuTheFarside || {};
+  amuTheFarside.env = "production";
+  amuTheFarside.debug = 'false';
+  // amuTheFarside.productName = "thefarside";
+  // Global variable for advertising config
+  amuTheFarside.startingPoint = "0";
+  
+  // This is a utility to easily output what typically is "console" messages.  It is turned off by default in production but can be enabled by adding a "?debug=true" to the end of the url.
+  if (window.amuTheFarside.debug === 'true') {
+    console.log("AMU: ***DEBUG MESSAGES ARE ENABLED***");
+    function debug(message, object) {
+      object = object || ''
+      if (window.amuTheFarside.debug) {
+        console.debug(message, object);
+      }
+    }
+  } else {
+    function debug(message, object) {
+      return;
+    }
+  }
+&lt;/script&gt;
+
+    &lt;script src="https://webassets.thefarside.com/packs/js/runtime_application-743b8cc7014fe1da9c87.js" async="async"&gt;&lt;/script&gt;
+&lt;script src="https://webassets.thefarside.com/packs/js/babel-391e2067bbc5ebe83126.chunk.js" async="async"&gt;&lt;/script&gt;
+&lt;script src="https://webassets.thefarside.com/packs/js/sentry-67f455a2ca15d0eecbf8.chunk.js" async="async"&gt;&lt;/script&gt;
+&lt;script src="https://webassets.thefarside.com/packs/js/application-f24a1ed1c96ce93e76ce.chunk.js" async="async"&gt;&lt;/script&gt;
+    &lt;link rel="preconnect" href="https://www.google-analytics.com" crossorigin&gt;
+    &lt;link rel="dns-prefetch" href="https://www.google-analytics.com"&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;meta name="language" content="english" /&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /&gt;
+
+
+&lt;title&gt;The Far Side Comic Strip by Gary Larson - Official Website | TheFarSide.com&lt;/title&gt;
+&lt;link rel="icon" type="image/x-icon" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/favicon-3495f6b1aa637316727ef7ad05f3c9a3.ico"&gt;
+&lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/favicon-16x16-80654150f62eeed096ff27c54cf0028b.png" sizes="16x16"&gt;
+&lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/favicon-32x32-f7922ac1ac41999a87e683360563a2af.png" sizes="32x32"&gt;
+&lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/android-chrome-192x192-20e4989d70064702391f677695256ef6.png" sizes="192x192"&gt;
+&lt;link rel="icon" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/android-chrome-512x512-4567ece9d2dea0e668e6a92fdbbfdea6.png" sizes="512x512"&gt;
+&lt;link rel="apple-touch-icon-precomposed" type="image/png" href="https://webassets.thefarside.com/packs/media/images/brand/meta_icons/apple-touch-icon-e96ffbf26642bedbfe9cb59866fccd09.png" sizes="180x180"&gt;
+&lt;meta name="description" content="Visit the official online home of The Far Side comic strip by Gary Larson for your daily dose of Gary’s classic cartoons."&gt;
+&lt;link rel="prev" href="https://www.thefarside.com/2024/11/20"&gt;
+&lt;meta property="og:url" content="https://www.thefarside.com/2024/11/21"&gt;
+&lt;meta property="og:type" content="article"&gt;
+&lt;meta property="og:title" content="The Far Side Comic Strip by Gary Larson - Official Website | TheFarSide.com"&gt;
+&lt;meta property="og:description" content="Visit the official online home of The Far Side comic strip by Gary Larson for your daily dose of Gary’s classic cartoons."&gt;
+&lt;meta property="og:image" content="https://webassets.thefarside.com/uploads/social_images/Final-Social-Share-2019-Updated2021-086d9305-f5f3-4749-a9cf-66c953ee7cd3.jpg"&gt;
+&lt;meta property="og:image:secure_url" content="https://webassets.thefarside.com/uploads/social_images/Final-Social-Share-2019-Updated2021-086d9305-f5f3-4749-a9cf-66c953ee7cd3.jpg"&gt;
+&lt;meta property="og:image:width" content="1200"&gt;
+&lt;meta property="og:image:height" content="628"&gt;
+&lt;meta property="og:site_name" content="TheFarSide.com"&gt;
+&lt;meta name="twitter:card" content="summary"&gt;
+&lt;meta name="twitter:title" content="The Far Side Comic Strip by Gary Larson - Official Website | TheFarSide.com"&gt;
+&lt;meta name="twitter:description" content="Visit the official online home of The Far Side comic strip by Gary Larson for your daily dose of Gary’s classic cartoons."&gt;
+&lt;meta name="twitter:image" content="https://webassets.thefarside.com/uploads/social_images/Final-Social-Share-2019-Updated2021-086d9305-f5f3-4749-a9cf-66c953ee7cd3.jpg"&gt;
+
+  &lt;/head&gt;
+  &lt;body&gt;
+    
+
+&lt;div class="tfs-stickybit js-stickybit"&gt;
+  &lt;nav class="navbar navbar-expand-lg navbar-light tfs-main-nav js-main-nav"&gt;
+  &lt;a class="navbar-brand tfs-main-nav__logo" data-link-event="click header nav" aria-label="The Far Side Homepage" href="https://www.thefarside.com/"&gt;
+  &lt;div class="tfs-logo__wrapper"&gt;
+    &lt;img class="tfs-main-nav__cow tfs-svg" src="https://webassets.thefarside.com/packs/media/images/brand/logo/tfs_logo_cow-9f701760d9d962d7151c22000644bc12.svg" /&gt;
+  &lt;/div&gt;
+  &lt;img class="tfs-main-nav__tfs tfs-svg" src="https://webassets.thefarside.com/packs/media/images/brand/logo/tfs_logo-cb7a52999a9300e203e36865dc428f71.svg" /&gt;
+&lt;/a&gt;  &lt;button class="navbar-toggler collapsed tfs-main-nav__toggler" type="button" data-toggle="collapse" data-target="#tfs-main-nav-target" aria-controls="tfs-main-nav-target" aria-expanded="false" aria-label="Toggle navigation"&gt;
+    &lt;img class="navbar-toggler-icon tfs-main-nav__burger js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/menu-f2944ee54413d450fdaec5ebdf0e22da.svg" /&gt;
+    &lt;img class="navbar-toggler-icon tfs-main-nav__close js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/x-aac37a3e7f28df68197577b36a647dbd.svg" /&gt;
+  &lt;/button&gt;
+  &lt;div class="collapse navbar-collapse" id="tfs-main-nav-target"&gt;
+    &lt;div class="tfs-main-nav__wrapper"&gt;
+      &lt;div class="navbar-nav"&gt;
+          &lt;a class="nav-item nav-link tfs-main-nav__link active" data-link-event="click header nav" href="/"&gt;The Daily Dose&lt;/a&gt;
+          &lt;a class="nav-item nav-link tfs-main-nav__link " data-link-event="click header nav" href="/comic-collections"&gt;Comic Collections&lt;/a&gt;
+          &lt;a class="nav-item nav-link tfs-main-nav__link " data-link-event="click header nav" href="/shop"&gt;Shop&lt;/a&gt;
+          &lt;a class="nav-item nav-link tfs-main-nav__link " data-link-event="click header nav" href="/about"&gt;About&lt;/a&gt;
+          &lt;a class="nav-item nav-link tfs-main-nav__link " data-link-event="click header nav" href="/sketchbooks"&gt;Sketchbooks&lt;/a&gt;
+          &lt;a class="nav-item nav-link tfs-main-nav__link " data-link-event="click header nav" href="/new-stuff"&gt;New Stuff&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="tfs-main-nav__info"&gt;
+        &lt;span class="text-muted"&gt;&lt;a class="text-primary border-bottom-0" href="/terms"&gt;Terms of Service&lt;/a&gt; | &lt;a class="text-primary border-bottom-0" href="/privacy-policy"&gt;Privacy Policy&lt;/a&gt;&lt;/span&gt; | &lt;a class="text-primary border-bottom-0" target="_blank" rel="noopener" href="https://www.andrewsmcmeel.com/privacy-requests?referrer=https://www.thefarside.com"&gt;Do Not Sell or Share my Personal Information&lt;/a&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+
+  &lt;div class="tfs-alerts-wrapper"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="tfs-page"&gt;
+        &lt;div class="tfs-page__full tfs-page__full--md"&gt;
+          &lt;noscript&gt;
+            
+
+&lt;div class="alert alert-danger  tfs-alert" role="alert"&gt;
+
+  &lt;div class="tfs-alert__cap"&gt;
+    &lt;img class="tfs-alert__icon js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/brand/logo/tfs_logo_cow-9f701760d9d962d7151c22000644bc12.svg" /&gt;
+  &lt;/div&gt;
+
+  &lt;span class="tfs-alert__message"&gt;
+    &lt;strong&gt;Oh snap!&lt;/strong&gt; The Far Side needs JavaScript to work, please enable JavaScript in your browser settings.
+  &lt;/span&gt;
+
+&lt;/div&gt;
+
+          &lt;/noscript&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;main role="main" id="main-content" class="tfs-page-container js-comments-parent"&gt;
+      
+
+    &lt;div class="tfs-page tfs-page--gutters-none"&gt;
+      &lt;div class="tfs-page__full"&gt;
+        
+  
+
+
+&lt;div class="tfs-splash-image js-splash-image"&gt;
+
+    &lt;div class="tfs-splash-image__icon" data-scroll-target="#tfs-daily-dose-header"&gt;
+      &lt;img class="text-white js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/chevron-bottom-8dea4467643c84eb3d81e9eb26f211a2.svg" /&gt;
+    &lt;/div&gt;
+
+  
+&lt;picture class="tfs-splash-image__image"&gt;
+    &lt;source srcset="https://webassets.thefarside.com/uploads/splash_images/tfs870329_SplashImage_09-24d9323a-1256-4e98-a65d-bd1ba89266d2.jpg" media="(min-width: 768px)"&gt;
+    &lt;source srcset="https://webassets.thefarside.com/uploads/splash_images/splash_mob_09.jpg" media="(min-width: 0px)"&gt;
+  &lt;img id="tfs-splash-image" class="img-fluid" alt="The Far Side cartoon" src="https://webassets.thefarside.com/uploads/splash_images/tfs870329_SplashImage_09-24d9323a-1256-4e98-a65d-bd1ba89266d2.jpg" /&gt;
+&lt;/picture&gt;
+&lt;/div&gt;
+
+
+  &lt;div class="container" id="tfs-daily-dose-header"&gt;
+    &lt;div class="tfs-content tfs-content--gap-none"&gt;
+      &lt;div class="tfs-content__1col text-center"&gt;
+        &lt;h1 class="mt-5 mb-0"&gt;The Far Side&lt;sup class="tfs-superscript"&gt;®&lt;/sup&gt;&lt;/h1&gt;
+        &lt;h2 class="mt-n3 mb-0 display-3 text-uppercase tfs-body-font"&gt;The Daily Dose&lt;/h2&gt;
+        &lt;p class="lead"&gt;Selections of classic &lt;em&gt;The Far Side&lt;/em&gt; comics, updated daily&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="tfs-page-container__cows"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="tfs-page"&gt;
+          &lt;div class="tfs-page__full tfs-page__full--md"&gt;
+            &lt;div class="tfs-content"&gt;
+  
+
+
+&lt;div class="tfs-content__1col"&gt;
+  &lt;hr class="tfs-section-header"/&gt;
+  &lt;h3&gt;Thursday, November 21, 2024&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="tfs-content js-daily-dose"&gt;
+  &lt;div class="tfs-content__1col" data-position="0" data-id="19895"&gt;
+  
+  
+
+&lt;div class="card tfs-comic js-comic"&gt;
+
+  &lt;div class="card-body"&gt;
+      &lt;div class="tfs-comic__image"&gt;
+  &lt;img data-src="https://assets.amuniversal.com/71fe3b90cdd20137c56b005056a9545d" data-width="950" data-height="1061" data-timing="300" class="img-fluid js-lazy-load" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1061&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/div&gt;
+
+
+
+  &lt;/div&gt;
+
+    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
+      
+
+
+
+&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
+    &lt;button type="button"
+            aria-label="Like"
+            class="tfs-interactable__button tfs-interactable__button--like"
+            data-likable-item="24806"
+            data-likable-count="187"
+            data-likable-permalink="https://www.thefarside.com/2024/11/21/0"&gt;
+      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
+    &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Comment"
+          class="tfs-interactable__button tfs-interactable__button--comment"
+          data-commentable-item="20594"
+          data-commentable-count="0"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/21/0"
+          data-disqus-permalink="https://thefarside.com/2024/11/21/0"
+          data-toggle="collapse"
+          data-target="#comments-20594"
+          aria-expanded="false"
+          aria-controls="comments-20594"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
+  &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Share"
+          class="tfs-interactable__button tfs-interactable__button--share"
+          data-shareable-item="single19895"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/21/0"
+          aria-haspopup="true"
+          aria-expanded="false"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
+  &lt;/button&gt;
+
+  
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19895"&gt;
+  &lt;div class="p-3"&gt;
+    &lt;h5&gt;Share This Post&lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;hr class="my-0"/&gt;
+
+  &lt;div class="p-3"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/21/0" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+      &lt;div class="input-group-prepend"&gt;
+        &lt;button type="button"
+                aria-label="Copy to clipboard"
+                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
+          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;input readonly data-copy-item="single19895-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/21/0"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;div class="collapse mt-5" id="comments-20594" data-parent=".js-comments-parent"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;div class="tfs-content__1col"&gt;
+      &lt;div class='ad-leaderboard' aria-hidden="true"&gt;
+  &lt;div id='thefarside_leaderboard_1' class="ad js-ad js-ad-refresh"
+    data-ad-type="leaderboard"
+    data-ad-position="1"
+    data-ad-async="false"
+    data-ad-size="__300x250 __728x90"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;div class="tfs-content__1col" data-position="1" data-id="19892"&gt;
+  
+  
+
+&lt;div class="card tfs-comic js-comic"&gt;
+
+  &lt;div class="card-body"&gt;
+      &lt;div class="tfs-comic__image"&gt;
+  &lt;img data-src="https://assets.amuniversal.com/076982f0e4860137cda5005056a9545d" data-width="950" data-height="1073" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1073&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/div&gt;
+
+
+&lt;figure class="figure tfs-comic__caption"&gt;
+  &lt;figcaption class="figure-caption"&gt;
+    “Bobby, please jiggle Grandpa’s rat so it looks alive.”
+
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+
+    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
+      
+
+
+
+&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
+    &lt;button type="button"
+            aria-label="Like"
+            class="tfs-interactable__button tfs-interactable__button--like"
+            data-likable-item="24803"
+            data-likable-count="202"
+            data-likable-permalink="https://www.thefarside.com/2024/11/21/1"&gt;
+      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
+    &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Comment"
+          class="tfs-interactable__button tfs-interactable__button--comment"
+          data-commentable-item="20591"
+          data-commentable-count="0"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/21/1"
+          data-disqus-permalink="https://thefarside.com/2024/11/21/1"
+          data-toggle="collapse"
+          data-target="#comments-20591"
+          aria-expanded="false"
+          aria-controls="comments-20591"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
+  &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Share"
+          class="tfs-interactable__button tfs-interactable__button--share"
+          data-shareable-item="single19892"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/21/1"
+          aria-haspopup="true"
+          aria-expanded="false"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
+  &lt;/button&gt;
+
+  
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19892"&gt;
+  &lt;div class="p-3"&gt;
+    &lt;h5&gt;Share This Post&lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;hr class="my-0"/&gt;
+
+  &lt;div class="p-3"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/21/1" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+      &lt;div class="input-group-prepend"&gt;
+        &lt;button type="button"
+                aria-label="Copy to clipboard"
+                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
+          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;input readonly data-copy-item="single19892-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/21/1"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;div class="collapse mt-5" id="comments-20591" data-parent=".js-comments-parent"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="tfs-content__1col" data-position="2" data-id="19898"&gt;
+  
+  
+
+&lt;div class="card tfs-comic js-comic"&gt;
+
+  &lt;div class="card-body"&gt;
+      &lt;div class="tfs-comic__image"&gt;
+  &lt;img data-src="https://assets.amuniversal.com/f27b1060e9ef0137cf93005056a9545d" data-width="950" data-height="1104" data-timing="300" class="img-fluid js-lazy-load" alt="BEET HILL
+THE STEWPOT SALOON
+HOTEL JICAMA" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1104&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/div&gt;
+
+
+&lt;figure class="figure tfs-comic__caption"&gt;
+  &lt;figcaption class="figure-caption"&gt;
+    It was no place for yellow squash.
+
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+
+    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
+      
+
+
+
+&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
+    &lt;button type="button"
+            aria-label="Like"
+            class="tfs-interactable__button tfs-interactable__button--like"
+            data-likable-item="24809"
+            data-likable-count="176"
+            data-likable-permalink="https://www.thefarside.com/2024/11/21/2"&gt;
+      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
+    &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Comment"
+          class="tfs-interactable__button tfs-interactable__button--comment"
+          data-commentable-item="20597"
+          data-commentable-count="0"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/21/2"
+          data-disqus-permalink="https://thefarside.com/2024/11/21/2"
+          data-toggle="collapse"
+          data-target="#comments-20597"
+          aria-expanded="false"
+          aria-controls="comments-20597"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
+  &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Share"
+          class="tfs-interactable__button tfs-interactable__button--share"
+          data-shareable-item="single19898"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/21/2"
+          aria-haspopup="true"
+          aria-expanded="false"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
+  &lt;/button&gt;
+
+  
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19898"&gt;
+  &lt;div class="p-3"&gt;
+    &lt;h5&gt;Share This Post&lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;hr class="my-0"/&gt;
+
+  &lt;div class="p-3"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/21/2" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+      &lt;div class="input-group-prepend"&gt;
+        &lt;button type="button"
+                aria-label="Copy to clipboard"
+                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
+          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;input readonly data-copy-item="single19898-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/21/2"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;div class="collapse mt-5" id="comments-20597" data-parent=".js-comments-parent"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;div class="tfs-content__1col"&gt;
+      &lt;div class='ad-leaderboard' aria-hidden="true"&gt;
+  &lt;div id='thefarside_leaderboard_2' class="ad js-ad js-ad-refresh"
+    data-ad-type="leaderboard"
+    data-ad-position="2"
+    data-ad-async="false"
+    data-ad-size="__300x250 __728x90"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;div class="tfs-content__1col" data-position="3" data-id="19901"&gt;
+  
+  
+
+&lt;div class="card tfs-comic js-comic"&gt;
+
+  &lt;div class="card-body"&gt;
+      &lt;div class="tfs-comic__image"&gt;
+  &lt;img data-src="https://assets.amuniversal.com/30e5bef0e3ae0137cd49005056a9545d" data-width="950" data-height="1067" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1067&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/div&gt;
+
+
+&lt;figure class="figure tfs-comic__caption"&gt;
+  &lt;figcaption class="figure-caption"&gt;
+    “Make your move, Bart—if you’re feelin’ lucky, that is.”
+
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+
+    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
+      
+
+
+
+&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
+    &lt;button type="button"
+            aria-label="Like"
+            class="tfs-interactable__button tfs-interactable__button--like"
+            data-likable-item="24812"
+            data-likable-count="191"
+            data-likable-permalink="https://www.thefarside.com/2024/11/21/3"&gt;
+      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
+    &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Comment"
+          class="tfs-interactable__button tfs-interactable__button--comment"
+          data-commentable-item="20600"
+          data-commentable-count="0"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/21/3"
+          data-disqus-permalink="https://thefarside.com/2024/11/21/3"
+          data-toggle="collapse"
+          data-target="#comments-20600"
+          aria-expanded="false"
+          aria-controls="comments-20600"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
+  &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Share"
+          class="tfs-interactable__button tfs-interactable__button--share"
+          data-shareable-item="single19901"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/21/3"
+          aria-haspopup="true"
+          aria-expanded="false"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
+  &lt;/button&gt;
+
+  
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19901"&gt;
+  &lt;div class="p-3"&gt;
+    &lt;h5&gt;Share This Post&lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;hr class="my-0"/&gt;
+
+  &lt;div class="p-3"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/21/3" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+      &lt;div class="input-group-prepend"&gt;
+        &lt;button type="button"
+                aria-label="Copy to clipboard"
+                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
+          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;input readonly data-copy-item="single19901-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/21/3"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;div class="collapse mt-5" id="comments-20600" data-parent=".js-comments-parent"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="tfs-content__1col" data-position="4" data-id="19904"&gt;
+  
+  
+
+&lt;div class="card tfs-comic js-comic"&gt;
+
+  &lt;div class="card-body"&gt;
+      &lt;div class="tfs-comic__image"&gt;
+  &lt;img data-src="https://assets.amuniversal.com/43bffa90e92e0137cf47005056a9545d" data-width="950" data-height="1045" data-timing="300" class="img-fluid js-lazy-load" alt="" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 950 1045&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/div&gt;
+
+
+&lt;figure class="figure tfs-comic__caption"&gt;
+  &lt;figcaption class="figure-caption"&gt;
+    Beeswax lunches
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+
+    &lt;div class="card-footer text-right border-top-0 pt-0"&gt;
+      
+
+
+
+&lt;div class="tfs-interactable  dropdown js-interactable"&gt;
+    &lt;button type="button"
+            aria-label="Like"
+            class="tfs-interactable__button tfs-interactable__button--like"
+            data-likable-item="24815"
+            data-likable-count="157"
+            data-likable-permalink="https://www.thefarside.com/2024/11/21/4"&gt;
+      &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/heart-2fff92f0934d7a20ad70a8af7278f95e.svg" /&gt;
+    &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Comment"
+          class="tfs-interactable__button tfs-interactable__button--comment"
+          data-commentable-item="20603"
+          data-commentable-count="0"
+          data-commentable-permalink="https://www.thefarside.com/2024/11/21/4"
+          data-disqus-permalink="https://thefarside.com/2024/11/21/4"
+          data-toggle="collapse"
+          data-target="#comments-20603"
+          aria-expanded="false"
+          aria-controls="comments-20603"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/comment-square-4feeb6188d0d9ca779c19f08315e3e2e.svg" /&gt;
+  &lt;/button&gt;
+
+  &lt;button type="button"
+          aria-label="Share"
+          class="tfs-interactable__button tfs-interactable__button--share"
+          data-shareable-item="single19904"
+          data-shareable-permalink="https://www.thefarside.com/2024/11/21/4"
+          aria-haspopup="true"
+          aria-expanded="false"&gt;
+    &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/share-cc5c876c9cbfe9035b5f83f6794df989.svg" /&gt;
+  &lt;/button&gt;
+
+  
+&lt;div class="tfs-interactable__share-popover card text-center" data-shareable-placement="bottom-end" data-shareable-popover="single19904"&gt;
+  &lt;div class="p-3"&gt;
+    &lt;h5&gt;Share This Post&lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;hr class="my-0"/&gt;
+
+  &lt;div class="p-3"&gt;
+    &lt;div class="input-group js-clipboard" data-clipboard-text="https://www.thefarside.com/2024/11/21/4" data-toggle="tooltip" title="Copy link to clipboard" data-placement="left"&gt;
+      &lt;div class="input-group-prepend"&gt;
+        &lt;button type="button"
+                aria-label="Copy to clipboard"
+                class="btn btn-outline-dark tfs-button tfs-button--square-icon"&gt;
+          &lt;img class=" js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/icons/link-intact-2b4a8df762dc9dee5ee831f6ee7223db.svg" /&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;input readonly data-copy-item="single19904-copy" type="text" class="form-control bg-white px-4" value="https://www.thefarside.com/2024/11/21/4"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;div class="collapse mt-5" id="comments-20603" data-parent=".js-comments-parent"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;div class="tfs-content__1col"&gt;
+      &lt;div class='ad-leaderboard' aria-hidden="true"&gt;
+  &lt;div id='thefarside_leaderboard_3' class="ad js-ad js-ad-refresh"
+    data-ad-type="leaderboard"
+    data-ad-position="3"
+    data-ad-async="false"
+    data-ad-size="__300x250 __728x90"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;nav class="tfs-pagination tfs-gap-full" aria-label="pager"&gt;
+  &lt;a class="btn btn-primary tfs-button" href="/2024/11/20"&gt;Previous Day&lt;/a&gt;
+  
+&lt;/nav&gt;
+
+
+  &lt;div class="tfs-content tfs-gap-full"&gt;
+    
+
+
+&lt;div class="tfs-content__1col"&gt;
+  &lt;hr class="tfs-section-header"/&gt;
+  &lt;h3&gt;Comic Collections&lt;/h3&gt;
+&lt;/div&gt;
+    &lt;div class="tfs-content__2col"&gt;
+  
+&lt;div class="tfs-page-preview"&gt;
+  
+&lt;nav aria-label="breadcrumb"&gt;
+  &lt;ol class="breadcrumb tfs-breadcrumb"&gt;
+        &lt;li class="breadcrumb-item"&gt;&lt;a href="/comic-collections"&gt;Comic Collections&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;
+
+
+  &lt;a class="tfs-page-preview__image" aria-label="Horses Are Hard to Draw" href="/comic-collections/808/horses-are-hard-to-draw-nov2024"&gt;
+    &lt;img data-src="https://webassets.thefarside.com/uploads/post_preview_images/june2022-wk2-d3ea3782-987c-45d6-b36d-0e4277f7088d.jpg" data-width="653" data-height="394" data-timing="300" class="img-fluid js-lazy-load" alt="Horses Are Hard to Draw" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 653 394&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/a&gt;
+  &lt;a class="h3 tfs-page-preview__header" href="/comic-collections/808/horses-are-hard-to-draw-nov2024"&gt;Horses Are Hard to Draw&lt;/a&gt;
+
+    &lt;div class="tfs-page-preview__body"&gt;
+      &lt;p&gt;The Old West, cowboys, Native Americans, bandits, and the horses that were drawn under them.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="tfs-content__2col"&gt;
+  
+&lt;div class="tfs-page-preview"&gt;
+  
+&lt;nav aria-label="breadcrumb"&gt;
+  &lt;ol class="breadcrumb tfs-breadcrumb"&gt;
+        &lt;li class="breadcrumb-item"&gt;&lt;a href="/comic-collections"&gt;Comic Collections&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;
+
+
+  &lt;a class="tfs-page-preview__image" aria-label="Trouble Brewing" href="/comic-collections/807/trouble-brewing-nov2024"&gt;
+    &lt;img data-src="https://webassets.thefarside.com/uploads/post_preview_images/june2022-wk1-2133c078-c5bc-46d1-85b0-2afa0bdaaacf.jpg" data-width="653" data-height="394" data-timing="300" class="img-fluid js-lazy-load" alt="Trouble Brewing" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 653 394&amp;#39;%3E%3C/svg%3E" /&gt;
+&lt;/a&gt;
+  &lt;a class="h3 tfs-page-preview__header" href="/comic-collections/807/trouble-brewing-nov2024"&gt;Trouble Brewing&lt;/a&gt;
+
+    &lt;div class="tfs-page-preview__body"&gt;
+      &lt;p&gt;	&lt;/p&gt;&lt;p&gt;Misery, doom, and despair—what’s not to laugh at?&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;/main&gt;
+    
+
+&lt;nav class="tfs-footer js-footer py-5"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="tfs-content tfs-content--gap-double"&gt;
+      &lt;div class="tfs-content__1col tfs-footer__nav"&gt;
+
+        &lt;a class="navbar-brand tfs-footer__logo" data-link-event="click header nav" aria-label="The Far Side Homepage" href="https://www.thefarside.com/"&gt;
+          &lt;div class="tfs-logo__wrapper"&gt;
+            &lt;img class="tfs-logo__cow js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/brand/logo/tfs_logo_cow-9f701760d9d962d7151c22000644bc12.svg" /&gt;
+          &lt;/div&gt;
+          &lt;img class="tfs-logo__white js-svg-inject tfs-svg" src="https://webassets.thefarside.com/packs/media/images/brand/logo/tfs_logo-cb7a52999a9300e203e36865dc428f71.svg" /&gt;
+&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/"&gt;The Daily Dose&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/comic-collections"&gt;Comic Collections&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/shop"&gt;Shop&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/about"&gt;About&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/sketchbooks"&gt;Sketchbooks&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/new-stuff"&gt;New Stuff&lt;/a&gt;
+          &lt;a class="tfs-footer__link" data-link-event="click footer nav" href="/contact"&gt;Contact&lt;/a&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="tfs-content"&gt;
+
+      &lt;div class="tfs-content__1col tfs-footer__farworks"&gt;
+        &lt;img data-src="https://webassets.thefarside.com/packs/media/images/brand/logo/farworks_amoeba-8d3feb7d97c372bd52b1f53edd7c1d61.png" data-width="678" data-height="922" data-timing="300" class="img-fluid js-lazy-load" alt="FarWorks, Inc. Registered logo" src="data:image/svg+xml,%3Csvg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 678 922&amp;#39;%3E%3C/svg%3E" /&gt;
+      &lt;/div&gt;
+
+      &lt;div class="tfs-content__1col tfs-footer__info"&gt;
+        &lt;p class=""&gt;Website hosted and operated by Andrews McMeel Universal.&lt;/p&gt;
+&lt;p class=""&gt;Copyright © 2019-2024 FarWorks, Inc. All rights reserved. Used with permission.&lt;/p&gt;
+&lt;p class=""&gt;&lt;em&gt;The Far Side&lt;/em&gt;®, &lt;em&gt;FarWorks, Inc.&lt;/em&gt;®, &lt;em&gt;Tales From The Far Side&lt;/em&gt;®, the &lt;em&gt;Larson&lt;/em&gt;® signature, the Amoeba® logo, and the Cow® logo are registered trademarks of FarWorks, Inc. in certain countries.&lt;/p&gt;
+&lt;p class=""&gt;No images or other content displayed on this Website may be reproduced, digitized, stored in a retrieval system, made available via any computer or wireless networks, transmitted or circulated in any form or by any means, without prior written permission of the copyright owner.&lt;/p&gt;
+&lt;span class=""&gt;&lt;a class="text-primary border-bottom-0" href="/terms"&gt;Terms of Service&lt;/a&gt; | &lt;a class="text-primary border-bottom-0" href="/privacy-policy"&gt;Privacy Policy&lt;/a&gt;&lt;/span&gt; | &lt;a class="text-primary border-bottom-0" id="compliance_link" target="_blank" rel="noopener" href="https://www.andrewsmcmeel.com/privacy-requests?referrer=https://www.thefarside.com"&gt;Do Not Sell or Share my Personal Information&lt;/a&gt;&lt;/span&gt;
+
+      &lt;/div&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+
+
+  &lt;/body&gt;
+&lt;/html&gt;
+</ReturnValue>
+    <OutAndRefValues />
+  </RecordedCall>
+</ArrayOfRecordedCall>

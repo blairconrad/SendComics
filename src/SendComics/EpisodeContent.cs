@@ -3,38 +3,34 @@ namespace SendComics
     using System.Collections.Generic;
     using System.Linq;
 
-    internal class EpisodeContent
+    internal sealed class EpisodeContent
     {
         private EpisodeContent()
         {
         }
 
-        public static EpisodeContent NotPublished { get; } = new EpisodeContent();
+        public static EpisodeContent NotPublished { get; } = new();
 
-        public static EpisodeContent NotFound { get; } = new EpisodeContent { IsPublished = true };
+        public static EpisodeContent NotFound { get; } = new() { IsPublished = true };
 
-        public bool IsPublished { get; private set; }
+        public bool IsPublished { get; private init; }
 
-        public bool WasFound { get; private set; }
+        public bool WasFound { get; private init; }
 
-        public IEnumerable<string> Urls { get; private set; }
+        public IEnumerable<Figure> Figures { get; init; }
 
-        public IEnumerable<string> Captions { get; private set; }
+        public static EpisodeContent WithImages(string url) => WithImages(new[] { url });
 
-        public static EpisodeContent FoundAt(string url) => FoundAt(new[] { url });
-
-        public static EpisodeContent FoundAt(IEnumerable<string> urls)
+        public static EpisodeContent WithImages(IEnumerable<string> urls)
         {
-            var urlsList = urls.ToList();
-            return FoundAt(urlsList, new string[urlsList.Count]);
+            return WithFigures(urls.Select(u => new Figure(u)));
         }
 
-        public static EpisodeContent FoundAt(IEnumerable<string> urls, IEnumerable<string> captions) => new()
+        public static EpisodeContent WithFigures(IEnumerable<Figure> figures) => new()
         {
             IsPublished = true,
             WasFound = true,
-            Urls = urls,
-            Captions = captions,
+            Figures = figures,
         };
     }
 }

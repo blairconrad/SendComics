@@ -534,6 +534,43 @@ blair.conrad@gmail.com: 9chickweedlane
                 "it should have all The Far Side images");
         }
 
+        [Fact]
+        public static void TheFarSideMultipleImageDayButOneHasNoCaption_BuildsOneMailThatLinesUpCaptions()
+        {
+            IList<SendGridMessage> mails = null;
+
+            using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                       () => new WebComicFetcher(),
+                       new XmlFileRecordedCallRepository("../../../RecordedCalls/TheFarSideMultipleImageDayButOneHasNoCaption_BuildsOneMailThatLinesUpCaptions.xml")))
+            {
+                var target = new ComicMailBuilder(
+                    new DateTime(2024, 11, 14),
+                    new ConfigurationParser("blair.conrad@gmail.com: thefarside"),
+                    fakeComicFetcher.Object,
+                    A.Dummy<ILogger>());
+
+                mails = target.CreateMailMessage().ToList();
+            }
+
+            var expectedEmailBits = new[]
+            {
+                "https://assets.amuniversal.com/71fe3b90cdd20137c56b005056a9545d",
+                "https://assets.amuniversal.com/076982f0e4860137cda5005056a9545d",
+                "“Bobby, please jiggle Grandpa’s rat so it looks alive.”",
+                "https://assets.amuniversal.com/f27b1060e9ef0137cf93005056a9545d",
+                "It was no place for yellow squash.",
+                "https://assets.amuniversal.com/30e5bef0e3ae0137cd49005056a9545d",
+                "“Make your move, Bart—if you’re feelin’ lucky, that is.”",
+                "https://assets.amuniversal.com/43bffa90e92e0137cf47005056a9545d",
+                "Beeswax lunches",
+            };
+
+            mails.Should().HaveCount(1);
+            mails[0].HtmlContent.Should().Match(
+                '*' + string.Join('*', expectedEmailBits) + '*',
+                "it should have all The Far Side images");
+        }
+
         private static DateTime MostRecent(DayOfWeek dayOfWeek)
         {
             var now = DateTime.Now;

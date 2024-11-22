@@ -6,7 +6,7 @@ namespace SendComics.Services
     using SendGrid;
     using SendGrid.Helpers.Mail;
 
-    internal class SendGridMailer
+    internal sealed class SendGridMailer
     {
         private readonly SendGridClient client =
             new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_API_KEY"));
