@@ -1,19 +1,18 @@
-namespace SendComics.Comics
+namespace SendComics.Comics;
+
+using System;
+using Services;
+
+internal abstract class Comic
 {
-    using System;
-    using Services;
+    private readonly IComicFetcher comicFetcher;
 
-    internal abstract class Comic
+    protected Comic(IComicFetcher comicFetcher)
     {
-        private readonly IComicFetcher comicFetcher;
-
-        protected Comic(IComicFetcher comicFetcher)
-        {
-            this.comicFetcher = comicFetcher;
-        }
-
-        public abstract EpisodeContent GetContent(DateTime now);
-
-        protected string GetContent(Uri url) => this.comicFetcher.GetContent(url);
+        this.comicFetcher = comicFetcher;
     }
+
+    public abstract EpisodeContent GetContent(DateTime now);
+
+    protected string GetContent(Uri url) => this.comicFetcher.GetContent(url);
 }

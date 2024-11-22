@@ -1,19 +1,18 @@
-namespace SendComics.Services
+namespace SendComics.Services;
+
+using System;
+using System.Threading.Tasks;
+
+using SendGrid;
+using SendGrid.Helpers.Mail;
+
+internal sealed class SendGridMailer
 {
-    using System;
-    using System.Threading.Tasks;
+    private readonly SendGridClient client =
+        new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_API_KEY"));
 
-    using SendGrid;
-    using SendGrid.Helpers.Mail;
-
-    internal sealed class SendGridMailer
+    public Task<Response> SendEmailAsync(SendGridMessage message)
     {
-        private readonly SendGridClient client =
-            new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_API_KEY"));
-
-        public Task<Response> SendEmailAsync(SendGridMessage message)
-        {
-            return this.client.SendEmailAsync(message);
-        }
+        return this.client.SendEmailAsync(message);
     }
 }

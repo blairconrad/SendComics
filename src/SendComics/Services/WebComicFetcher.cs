@@ -1,17 +1,16 @@
-namespace SendComics.Services
-{
-    using System;
-    using System.Net;
-    using System.Net.Http;
+namespace SendComics.Services;
 
-    public class WebComicFetcher : IComicFetcher
+using System;
+using System.Net;
+using System.Net.Http;
+
+public class WebComicFetcher : IComicFetcher
+{
+    public string GetContent(Uri url)
     {
-        public string GetContent(Uri url)
+        using (var client = new HttpClient())
         {
-            using (var client = new HttpClient())
-            {
-                return client.GetStringAsync(url).Result;
-            }
+            return client.GetStringAsync(url).Result;
         }
     }
 }
