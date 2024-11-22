@@ -1,4 +1,4 @@
-﻿namespace SendComics.Services;
+﻿namespace SendComics;
 
 public interface IConfigurationSource
 {
