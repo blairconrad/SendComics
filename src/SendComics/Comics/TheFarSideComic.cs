@@ -1,12 +1,17 @@
 namespace SendComics.Comics
 {
     using System;
-    using System.Globalization;
-    using System.Linq;
+    using System.Collections.Generic;
     using System.Text.RegularExpressions;
     using Services;
 
-    internal sealed class TheFarSideComic : Comic
+    /// <summary>
+    /// The Far Side Comic.
+    /// </summary>
+    /// <remarks>
+    /// Partial because the regular expressions are generated at compile-time.
+    /// </remarks>
+    internal sealed partial class TheFarSideComic : Comic
     {
         private static readonly Uri Url = new Uri("https://www.thefarside.com/");
 
@@ -19,19 +24,44 @@ namespace SendComics.Comics
         {
             var comicContent = this.GetContent(Url);
 
-            var imageMatches = Regex.Matches(
-                comicContent,
-                "img data-src=\"(https://assets.amuniversal.com/[^\"]+)\".*?<figcaption class=\"figure-caption\">(.*?)</figcaption>",
-                RegexOptions.Singleline);
-            if (imageMatches.Count <= 0)
+            var figureMatches = FigureRegex().Matches(comicContent);
+
+            if (figureMatches.Count <= 0)
             {
                 return EpisodeContent.NotFound;
             }
 
-            var imageUrls = imageMatches.Select(match => match.Groups[1].Value);
-            var captions = imageMatches.Select(match => match.Groups[2].Value);
-            var figures = imageUrls.Zip(captions).Select(f => new Figure(f.First) { Caption = f.Second });
+            var figures = new List<Figure>();
+            foreach (Match figureMatch in figureMatches)
+            {
+                var image = ImageRegex().Match(figureMatch.Value).Groups[1].Value;
+                var captionMatches = CaptionRegex().Matches(figureMatch.Value);
+                var caption = captionMatches.Count > 0 ? captionMatches[0].Groups[1].Value : null;
+                figures.Add(new Figure(image) { Caption = caption });
+            }
+
             return EpisodeContent.WithFigures(figures);
         }
+
+        /// <summary>
+        /// Regular expression matches the content of a figure. Generated at compile-time.
+        /// </summary>
+        /// <returns>The regular expression.</returns>
+        [GeneratedRegex("img data-src=\"https://assets.amuniversal.com/[^\"]+.*?<div class=\"card-footer", RegexOptions.Singleline)]
+        private static partial Regex FigureRegex();
+
+        /// <summary>
+        /// Regular expression matches an image URL. Generated at compile-time.
+        /// </summary>
+        /// <returns>The regular expression.</returns>
+        [GeneratedRegex("img data-src=\"(https://assets.amuniversal.com/[^\"]+)\"")]
+        private static partial Regex ImageRegex();
+
+        /// <summary>
+        /// Regular expression matches an image URL. Generated at compile-time.
+        /// </summary>
+        /// <returns>The regular expression.</returns>
+        [GeneratedRegex("<figcaption class=\"figure-caption\">(.*?)</figcaption>", RegexOptions.Singleline)]
+        private static partial Regex CaptionRegex();
     }
 }
