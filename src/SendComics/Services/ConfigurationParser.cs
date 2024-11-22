@@ -18,13 +18,16 @@ using System.Text.RegularExpressions;
 ///   - lines beginning with # are comments and are ignored, and
 ///   - lines beginning with ! are "emphatic" - if any of these are present, other !-less subscribers are skipped.
 /// </summary>
-public class ConfigurationParser(string configurationString) : IConfigurationSource
+/// <remarks>
+/// Partial because the regular expressions are generated at compile-time.
+/// </remarks>
+public partial class ConfigurationParser(string configurationString) : IConfigurationSource
 {
     public Configuration GetConfiguration()
     {
-        var comicSplitter = new Regex(", *");
-        var subscriberSplitter = new Regex(@"; *|[\r\n]+");
-        var emphaticPattern = new Regex("^! *");
+        var comicSplitter = ComicSplitterRegex();
+        var subscriberSplitter = SubscriberSplitterRegex();
+        var emphaticPattern = EmphaticPatternRegex();
 
         IEnumerable<string> subscriberStrings = subscriberSplitter
             .Split(configurationString)
@@ -73,4 +76,13 @@ public class ConfigurationParser(string configurationString) : IConfigurationSou
     }
 
     private static DateTime ParseDate(string dateString) => DateTime.ParseExact(dateString, "yyyyMMdd", CultureInfo.InvariantCulture).Date;
+
+    [GeneratedRegex(", *")]
+    private static partial Regex ComicSplitterRegex();
+
+    [GeneratedRegex(@"; *|[\r\n]+")]
+    private static partial Regex SubscriberSplitterRegex();
+
+    [GeneratedRegex("^! *")]
+    private static partial Regex EmphaticPatternRegex();
 }

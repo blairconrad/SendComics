@@ -42,20 +42,24 @@ internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comi
     /// Regular expression matches the content of a figure. Generated at compile-time.
     /// </summary>
     /// <returns>The regular expression.</returns>
-    [GeneratedRegex("img data-src=\"https://assets.amuniversal.com/[^\"]+.*?<div class=\"card-footer", RegexOptions.Singleline)]
+    [GeneratedRegex(
+        """img data-src="https://assets.amuniversal.com/[^"]+.*?<div class="card-footer""",
+        RegexOptions.Singleline)]
     private static partial Regex FigureRegex();
 
     /// <summary>
     /// Regular expression matches an image URL. Generated at compile-time.
     /// </summary>
     /// <returns>The regular expression.</returns>
-    [GeneratedRegex("img data-src=\"(https://assets.amuniversal.com/[^\"]+)\"")]
+    [GeneratedRegex("""
+        img data-src="(https://assets.amuniversal.com/[^"]+)
+        """)]
     private static partial Regex ImageRegex();
 
     /// <summary>
     /// Regular expression matches an image URL. Generated at compile-time.
     /// </summary>
     /// <returns>The regular expression.</returns>
-    [GeneratedRegex("<figcaption class=\"figure-caption\">(.*?)</figcaption>", RegexOptions.Singleline)]
+    [GeneratedRegex("""<figcaption class="figure-caption">(.*?)</figcaption>""", RegexOptions.Singleline)]
     private static partial Regex CaptionRegex();
 }

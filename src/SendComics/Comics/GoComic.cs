@@ -5,7 +5,13 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using Services;
 
-internal sealed class GoComic(string name, IComicFetcher comicFetcher) : Comic(comicFetcher)
+/// <summary>
+/// A Go Comic Comic.
+/// </summary>
+/// <remarks>
+/// Partial because the regular expressions are generated at compile-time.
+/// </remarks>
+internal sealed partial class GoComic(string name, IComicFetcher comicFetcher) : Comic(comicFetcher)
 {
     public override EpisodeContent GetContent(DateTime now)
     {
@@ -18,9 +24,16 @@ internal sealed class GoComic(string name, IComicFetcher comicFetcher) : Comic(c
             return EpisodeContent.NotPublished;
         }
 
-        var imageMatch = Regex.Match(comicContent, @"item-comic-image"".* data-srcset=""([^ ]+) ");
+        var imageMatch = ImageRegex().Match(comicContent);
         return imageMatch.Success
             ? EpisodeContent.WithImages(imageMatch.Groups[1].Value)
             : EpisodeContent.NotFound;
     }
+
+    /// <summary>
+    /// Regular expression matches an image URL. Generated at compile-time.
+    /// </summary>
+    /// <returns>The regular expression.</returns>
+    [GeneratedRegex("""item-comic-image".* data-srcset="([^ ]+) """)]
+    private static partial Regex ImageRegex();
 }
