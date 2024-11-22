@@ -16,7 +16,7 @@ internal sealed partial class GoComic(string name, IComicFetcher comicFetcher) :
     public override EpisodeContent GetContent(DateTime now)
     {
         var comicContent = this.GetContent(
-            new Uri($"http://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
+            new Uri($"https://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
 
         var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from", StringComparison.Ordinal);
         if (isWrongDay)

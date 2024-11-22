@@ -267,7 +267,7 @@ blair.conrad@gmail.com: 9chickweedlane
     [Theory]
     [InlineData("blondie", "https://www.comicskingdom.com/blondie/2023-02-27/")]
     [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2023-02-27/")]
-    [InlineData("9chickweedlane", "http://www.gocomics.com/9chickweedlane/2023/02/27/")]
+    [InlineData("9chickweedlane", "https://www.gocomics.com/9chickweedlane/2023/02/27/")]
     [InlineData("thefarside", "https://www.thefarside.com/")]
     public static void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedLocation)
     {
@@ -435,7 +435,7 @@ blair.conrad@gmail.com: 9chickweedlane
         var fakeComicFetcher = A.Fake<IComicFetcher>();
         A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
             .Throws(new WebException("Bad Request"));
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://www.gocomics.com/arloandjanis/2023/02/27/")))
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/arloandjanis/2023/02/27/")))
             .Returns($@"<picture class=""item-comic-image""><img class=""lazyload img - fluid"" srcset=""https://assets.gocomics.com/assets/transparent-3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517.png"" data-srcset=""{ArloAndJanisUrl} 900w"" sizes=");
 
         var now = new DateTime(2023, 2, 27);
