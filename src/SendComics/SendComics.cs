@@ -42,9 +42,7 @@ internal static class SendComics
 
     private static string DownloadConfigurationString(string configurationLocation)
     {
-        using (var client = new HttpClient())
-        {
-            return client.GetStringAsync(new Uri(configurationLocation)).Result;
-        }
+        using var client = new HttpClient();
+        return client.GetStringAsync(new Uri(configurationLocation)).Result;
     }
 }

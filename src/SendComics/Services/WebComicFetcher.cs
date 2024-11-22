@@ -7,9 +7,7 @@ public class WebComicFetcher : IComicFetcher
 {
     public string GetContent(Uri url)
     {
-        using (var client = new HttpClient())
-        {
-            return client.GetStringAsync(url).Result;
-        }
+        using var client = new HttpClient();
+        return client.GetStringAsync(url).Result;
     }
 }
