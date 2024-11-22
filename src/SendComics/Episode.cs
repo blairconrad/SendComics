@@ -3,17 +3,11 @@ namespace SendComics;
 using System;
 using System.Globalization;
 
-public class Episode
+public class Episode(string comicName, DateTime date)
 {
-    public Episode(string comicName, DateTime date)
-    {
-        this.ComicName = comicName;
-        this.Date = date;
-    }
+    public string ComicName { get; } = comicName;
 
-    public string ComicName { get; }
-
-    public DateTime Date { get; }
+    public DateTime Date { get; } = date;
 
     public override string ToString()
     {

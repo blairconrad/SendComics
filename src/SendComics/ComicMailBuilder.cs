@@ -9,37 +9,24 @@ using System.Text;
 using global::SendComics.Services;
 using SendGrid.Helpers.Mail;
 
-public class ComicMailBuilder
+public class ComicMailBuilder(
+    DateTime now,
+    IConfigurationSource configurationSource,
+    IComicFetcher comicFetcher,
+    ILogger log)
 {
-    private readonly DateTime now;
-    private readonly IConfigurationSource configurationSource;
-    private readonly IComicFetcher comicFetcher;
-    private readonly ILogger log;
-
-    public ComicMailBuilder(
-        DateTime now,
-        IConfigurationSource configurationSource,
-        IComicFetcher comicFetcher,
-        ILogger log)
-    {
-        this.now = now;
-        this.configurationSource = configurationSource;
-        this.comicFetcher = comicFetcher;
-        this.log = log;
-    }
-
     public IEnumerable<SendGridMessage> CreateMailMessage()
     {
         var fromEmail = new EmailAddress("comics@blairconrad.com", "Blair Conrad");
-        var mailSubject = "comics " + this.now.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture);
+        var mailSubject = "comics " + now.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture);
 
-        var configuration = this.configurationSource.GetConfiguration();
+        var configuration = configurationSource.GetConfiguration();
 
-        var episodesContentMap = configuration.GetAllEpisodes(this.now).ToDictionary(e => e, this.GetEpisodeContent);
+        var episodesContentMap = configuration.GetAllEpisodes(now).ToDictionary(e => e, this.GetEpisodeContent);
 
         foreach (var (subscriber, i) in configuration.Subscribers.Select((value, i) => (value, i)))
         {
-            this.log.Info($"Building mail for subscriber {i}…");
+            log.Info($"Building mail for subscriber {i}…");
             var mailContent = new StringBuilder(@"
                     <html>
                     <head>
@@ -63,11 +50,11 @@ public class ComicMailBuilder
                       <body>
                     ");
 
-            foreach (var episode in subscriber.GetEpisodesFor(this.now))
+            foreach (var episode in subscriber.GetEpisodesFor(now))
             {
-                this.log.Info($"  Adding {episode}…");
+                log.Info($"  Adding {episode}…");
                 WriteEpisode(mailContent, episode, episodesContentMap[episode]);
-                this.log.Info($"  Added  {episode}");
+                log.Info($"  Added  {episode}");
             }
 
             mailContent.AppendLine(@"
@@ -84,7 +71,7 @@ public class ComicMailBuilder
             message.AddTo(new EmailAddress(subscriber.Email));
             yield return message;
 
-            this.log.Info($"Built    mail for subscriber {i}");
+            log.Info($"Built    mail for subscriber {i}");
         }
     }
 
@@ -130,15 +117,15 @@ public class ComicMailBuilder
     [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
     private EpisodeContent GetEpisodeContent(Episode episode)
     {
-        this.log.Info($"Getting image URL for {episode}…");
+        log.Info($"Getting image URL for {episode}…");
         try
         {
-            var comic = ComicFactory.GetComic(episode.ComicName, this.comicFetcher);
+            var comic = ComicFactory.GetComic(episode.ComicName, comicFetcher);
             return comic.GetContent(episode.Date);
         }
         catch (Exception e)
         {
-            this.log.Error($"Caught error getting image URL for {episode}: {e}");
+            log.Error($"Caught error getting image URL for {episode}: {e}");
             return EpisodeContent.NotFound;
         }
     }

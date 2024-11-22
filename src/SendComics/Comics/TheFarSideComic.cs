@@ -11,14 +11,9 @@ using Services;
 /// <remarks>
 /// Partial because the regular expressions are generated at compile-time.
 /// </remarks>
-internal sealed partial class TheFarSideComic : Comic
+internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comic(comicFetcher)
 {
     private static readonly Uri Url = new Uri("https://www.thefarside.com/");
-
-    public TheFarSideComic(IComicFetcher comicFetcher)
-        : base(comicFetcher)
-    {
-    }
 
     public override EpisodeContent GetContent(DateTime now)
     {

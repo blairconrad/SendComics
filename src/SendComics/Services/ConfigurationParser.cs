@@ -18,15 +18,8 @@ using System.Text.RegularExpressions;
 ///   - lines beginning with # are comments and are ignored, and
 ///   - lines beginning with ! are "emphatic" - if any of these are present, other !-less subscribers are skipped.
 /// </summary>
-public class ConfigurationParser : IConfigurationSource
+public class ConfigurationParser(string configurationString) : IConfigurationSource
 {
-    private readonly string configurationString;
-
-    public ConfigurationParser(string configurationString)
-    {
-        this.configurationString = configurationString;
-    }
-
     public Configuration GetConfiguration()
     {
         var comicSplitter = new Regex(", *");
@@ -34,7 +27,7 @@ public class ConfigurationParser : IConfigurationSource
         var emphaticPattern = new Regex("^! *");
 
         IEnumerable<string> subscriberStrings = subscriberSplitter
-            .Split(this.configurationString)
+            .Split(configurationString)
             .Where(s => !string.IsNullOrWhiteSpace(s))
             .Where(s => !s.StartsWith('#'))
             .ToList();

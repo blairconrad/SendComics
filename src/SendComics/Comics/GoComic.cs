@@ -5,20 +5,12 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using Services;
 
-internal sealed class GoComic : Comic
+internal sealed class GoComic(string name, IComicFetcher comicFetcher) : Comic(comicFetcher)
 {
-    private readonly string name;
-
-    public GoComic(string name, IComicFetcher comicFetcher)
-        : base(comicFetcher)
-    {
-        this.name = name;
-    }
-
     public override EpisodeContent GetContent(DateTime now)
     {
         var comicContent = this.GetContent(
-            new Uri($"http://www.gocomics.com/{this.name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
+            new Uri($"http://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
 
         var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from", StringComparison.Ordinal);
         if (isWrongDay)

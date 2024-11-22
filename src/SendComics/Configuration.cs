@@ -6,14 +6,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless.")]
-public class Configuration
+public class Configuration(params Subscriber[] subscribers)
 {
-    public Configuration(params Subscriber[] subscribers)
-    {
-        this.Subscribers = subscribers;
-    }
-
-    public IEnumerable<Subscriber> Subscribers { get; }
+    public IEnumerable<Subscriber> Subscribers { get; } = subscribers;
 
     public IEnumerable<Episode> GetAllEpisodes(DateTime today)
     {

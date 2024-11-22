@@ -6,14 +6,9 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Services;
 
-internal sealed class SchlockMercenaryComic : Comic
+internal sealed class SchlockMercenaryComic(IComicFetcher comicFetcher) : Comic(comicFetcher)
 {
     private const string BaseUrl = "https://www.schlockmercenary.com";
-
-    public SchlockMercenaryComic(IComicFetcher comicFetcher)
-        : base(comicFetcher)
-    {
-    }
 
     public override EpisodeContent GetContent(DateTime now)
     {
