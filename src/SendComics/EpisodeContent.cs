@@ -17,7 +17,7 @@ internal sealed class EpisodeContent
 
     public bool WasFound { get; private init; }
 
-    public IEnumerable<Figure> Figures { get; init; }
+    public IEnumerable<Figure> Figures { get; private init; }
 
     public static EpisodeContent WithImages(string url) => WithImages(new[] { url });
 
