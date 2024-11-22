@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class Subscription
 {
-    private string comicName;
-    private int comicsToDeliverPerDay;
-    private DateTime? firstComicDate;
-    private DateTime? subscriptionStart;
+    private readonly string comicName;
+    private readonly int comicsToDeliverPerDay;
+    private readonly DateTime? firstComicDate;
+    private readonly DateTime? subscriptionStart;
 
     public Subscription(string comicName)
     {
