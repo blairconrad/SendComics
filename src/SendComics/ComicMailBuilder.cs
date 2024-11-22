@@ -6,8 +6,8 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using global::SendComics.Services;
 using SendGrid.Helpers.Mail;
+using Services;
 
 public class ComicMailBuilder(
     DateTime now,
