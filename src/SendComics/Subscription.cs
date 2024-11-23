@@ -1,41 +1,40 @@
-namespace SendComics
+namespace SendComics;
+
+using System;
+using System.Collections.Generic;
+
+public class Subscription
 {
-    using System;
-    using System.Collections.Generic;
+    private readonly string comicName;
+    private readonly int comicsToDeliverPerDay;
+    private readonly DateTime? firstComicDate;
+    private readonly DateTime? subscriptionStart;
 
-    public class Subscription
+    public Subscription(string comicName)
     {
-        private string comicName;
-        private int comicsToDeliverPerDay;
-        private DateTime? firstComicDate;
-        private DateTime? subscriptionStart;
+        this.comicName = comicName;
+        this.comicsToDeliverPerDay = 1;
+    }
 
-        public Subscription(string comicName)
+    public Subscription(string comicName, int speed, DateTime firstComicDate, DateTime subscriptionStart)
+    {
+        this.comicName = comicName;
+        this.comicsToDeliverPerDay = speed;
+        this.firstComicDate = firstComicDate;
+        this.subscriptionStart = subscriptionStart;
+    }
+
+    internal IEnumerable<Episode> GetEpisodesFor(DateTime today)
+    {
+        var effectiveSubscriptionStart = this.subscriptionStart ?? today;
+        var firstComicToDeliver = this.firstComicDate ?? today;
+        firstComicToDeliver = firstComicToDeliver.AddDays(this.comicsToDeliverPerDay * (today - effectiveSubscriptionStart).Days);
+
+        DateTime episodeDate = firstComicToDeliver > today ? today : firstComicToDeliver;
+        for (int i = 0; i < this.comicsToDeliverPerDay && episodeDate <= today; ++i)
         {
-            this.comicName = comicName;
-            this.comicsToDeliverPerDay = 1;
-        }
-
-        public Subscription(string comicName, int speed, DateTime firstComicDate, DateTime subscriptionStart)
-        {
-            this.comicName = comicName;
-            this.comicsToDeliverPerDay = speed;
-            this.firstComicDate = firstComicDate;
-            this.subscriptionStart = subscriptionStart;
-        }
-
-        internal IEnumerable<Episode> GetEpisodesFor(DateTime today)
-        {
-            var effectiveSubscriptionStart = this.subscriptionStart ?? today;
-            var firstComicToDeliver = this.firstComicDate ?? today;
-            firstComicToDeliver = firstComicToDeliver.AddDays(this.comicsToDeliverPerDay * (today - effectiveSubscriptionStart).Days);
-
-            DateTime episodeDate = firstComicToDeliver > today ? today : firstComicToDeliver;
-            for (int i = 0; i < this.comicsToDeliverPerDay && episodeDate <= today; ++i)
-            {
-                yield return new Episode(this.comicName, episodeDate);
-                episodeDate = episodeDate.AddDays(1);
-            }
+            yield return new Episode(this.comicName, episodeDate);
+            episodeDate = episodeDate.AddDays(1);
         }
     }
 }

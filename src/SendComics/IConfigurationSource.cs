@@ -1,7 +1,6 @@
-﻿namespace SendComics.Services
+﻿namespace SendComics;
+
+public interface IConfigurationSource
 {
-    public interface IConfigurationSource
-    {
-        Configuration GetConfiguration();
-    }
+    Configuration GetConfiguration();
 }

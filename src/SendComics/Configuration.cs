@@ -1,23 +1,17 @@
-﻿namespace SendComics
+﻿namespace SendComics;
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+
+[SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless.")]
+public class Configuration(params Subscriber[] subscribers)
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Linq;
+    public IEnumerable<Subscriber> Subscribers { get; } = subscribers;
 
-    [SuppressMessage("Microsoft.Naming", "CA1724:TypeNamesShouldNotMatchNamespaces", Justification = "Harmless.")]
-    public class Configuration
+    public IEnumerable<Episode> GetAllEpisodes(DateTime today)
     {
-        public Configuration(params Subscriber[] subscribers)
-        {
-            this.Subscribers = subscribers;
-        }
-
-        public IEnumerable<Subscriber> Subscribers { get; }
-
-        public IEnumerable<Episode> GetAllEpisodes(DateTime today)
-        {
-            return this.Subscribers.SelectMany(s => s.GetEpisodesFor(today)).Distinct();
-        }
+        return this.Subscribers.SelectMany(s => s.GetEpisodesFor(today)).Distinct();
     }
 }

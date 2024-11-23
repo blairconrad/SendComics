@@ -1,28 +1,34 @@
-namespace SendComics.Comics
+namespace SendComics.Comics;
+
+using System;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using Services;
+
+/// <summary>
+/// A Comics Kingdom Comic.
+/// </summary>
+/// <remarks>
+/// Partial because the regular expressions are generated at compile-time.
+/// </remarks>
+internal sealed partial class ComicsKingdomComic(string name, IComicFetcher comicFetcher) : Comic(comicFetcher)
 {
-    using System;
-    using System.Globalization;
-    using System.Text.RegularExpressions;
-    using Services;
-
-    internal sealed class ComicsKingdomComic : Comic
+    public override EpisodeContent GetContent(DateTime now)
     {
-        private readonly string name;
-
-        public ComicsKingdomComic(string name, IComicFetcher comicFetcher)
-            : base(comicFetcher)
-        {
-            this.name = name;
-        }
-
-        public override EpisodeContent GetContent(DateTime now)
-        {
-            var comicContent = this.GetContent(
-                new Uri($"https://www.comicskingdom.com/{this.name}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}/"));
-            var match = Regex.Match(comicContent, @"property=""og:image"" content=""([^""]+)""");
-            return match.Success
-                ? EpisodeContent.WithImages(match.Groups[1].Value)
-                : EpisodeContent.NotFound;
-        }
+        var comicContent = this.GetContent(
+            new Uri($"https://www.comicskingdom.com/{name}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}/"));
+        var match = ImageRegex().Match(comicContent);
+        return match.Success
+            ? EpisodeContent.WithImages(match.Groups[1].Value)
+            : EpisodeContent.NotFound;
     }
+
+    /// <summary>
+    /// Regular expression matches an image URL. Generated at compile-time.
+    /// </summary>
+    /// <returns>The regular expression.</returns>
+    [GeneratedRegex("""
+        property="og:image" content="([^"]+)"
+        """)]
+    private static partial Regex ImageRegex();
 }
