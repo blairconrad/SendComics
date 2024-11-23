@@ -31,10 +31,22 @@ public class ComicMailBuilder(
                 <html>
                 <head>
                   <style>
-                    figure {
-                        margin-bottom: 1em;
-                        max-width: fit-content;
+                    .comics {
+                        background-color: lightgoldenrodyellow;
                         padding-bottom: 1em;
+                        padding-top: 1em;
+                    }
+                    article {
+                        margin-left: 1em;
+                    }
+                    figure {
+                        background-color: white;
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        padding: 1em;
+                        width: min-content;
                     }
                     img {
                       max-height: 600px;
@@ -48,7 +60,7 @@ public class ComicMailBuilder(
                   </style>
                 </head>
                 <body>
-
+                <section class="comics">
                 """);
 
             foreach (var episode in subscriber.GetEpisodesFor(now))
@@ -60,6 +72,7 @@ public class ComicMailBuilder(
 
             mailContent.AppendLine("""
 
+                </section>
                 </body>
                 </html>
                 """);
