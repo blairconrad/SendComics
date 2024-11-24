@@ -15,19 +15,20 @@ internal sealed partial class GoComic(string name, IComicFetcher comicFetcher) :
 {
     public override EpisodeContent GetContent(DateTime now)
     {
+        var episode = new Episode(name, now);
         var comicContent = this.GetContent(
             new Uri($"https://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/"));
 
         var isWrongDay = comicContent.Contains("<h4 class=\"card-title\">Today's Comic from", StringComparison.Ordinal);
         if (isWrongDay)
         {
-            return EpisodeContent.NotPublished;
+            return EpisodeContent.NotPublished(episode);
         }
 
         var imageMatch = ImageRegex().Match(comicContent);
         return imageMatch.Success
-            ? EpisodeContent.WithImages(imageMatch.Groups[1].Value)
-            : EpisodeContent.NotFound;
+            ? EpisodeContent.WithImage(episode, imageMatch.Groups[1].Value)
+            : EpisodeContent.NotFound(episode);
     }
 
     /// <summary>

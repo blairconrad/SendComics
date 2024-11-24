@@ -3,7 +3,6 @@ namespace SendComics.Comics;
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using Services;
 
 /// <summary>
 /// The Far Side Comic.
@@ -17,13 +16,14 @@ internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comi
 
     public override EpisodeContent GetContent(DateTime now)
     {
+        var episode = new Episode("thefarside", now);
         var comicContent = this.GetContent(Url);
 
         var figureMatches = FigureRegex().Matches(comicContent);
 
         if (figureMatches.Count <= 0)
         {
-            return EpisodeContent.NotFound;
+            return EpisodeContent.NotFound(episode);
         }
 
         var figures = new List<Figure>();
@@ -35,7 +35,7 @@ internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comi
             figures.Add(new Figure(image) { Caption = caption });
         }
 
-        return EpisodeContent.WithFigures(figures);
+        return EpisodeContent.WithFigures(episode, figures);
     }
 
     /// <summary>

@@ -4,7 +4,6 @@ using System;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Services;
 
 /// <summary>
 /// A Schlock Mercenary Comic.
@@ -18,13 +17,14 @@ internal sealed partial class SchlockMercenaryComic(IComicFetcher comicFetcher) 
 
     public override EpisodeContent GetContent(DateTime now)
     {
+        var episode = new Episode("schlockmercenary", now);
         var comicContent = this.GetContent(
             new Uri($"{BaseUrl}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}"));
 
         var imageMatches = ImageRegex().Matches(comicContent);
         return imageMatches.Count > 0
-            ? EpisodeContent.WithImages(imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
-            : EpisodeContent.NotFound;
+            ? EpisodeContent.WithImages(episode, imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
+            : EpisodeContent.NotFound(episode);
     }
 
     /// <summary>
