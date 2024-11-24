@@ -7,7 +7,6 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using SendGrid.Helpers.Mail;
-using Services;
 
 public class ComicMailBuilder(
     DateTime now,
@@ -66,7 +65,7 @@ public class ComicMailBuilder(
             foreach (var episode in subscriber.GetEpisodesFor(now))
             {
                 log.Info($"  Adding {episode}…");
-                WriteEpisode(mailContent, episode, episodesContentMap[episode]);
+                WriteEpisode(mailContent, episodesContentMap[episode]);
                 log.Info($"  Added  {episode}");
             }
 
@@ -90,22 +89,22 @@ public class ComicMailBuilder(
         }
     }
 
-    private static void WriteEpisode(StringBuilder sink, Episode episode, EpisodeContent episodeContent)
+    private static void WriteEpisode(StringBuilder sink, EpisodeContent episodeContent)
     {
-        sink.AppendLine(CultureInfo.InvariantCulture, $"<article title='{episode}'>");
+        sink.AppendLine(CultureInfo.InvariantCulture, $"<article title='{episodeContent.Episode}'>");
 
         if (!episodeContent.IsPublished)
         {
-            sink.Append("  No published comic for ").Append(episode).Append('.');
+            sink.Append("  No published comic for ").Append(episodeContent.Episode).Append('.');
         }
         else if (!episodeContent.WasFound)
         {
-            sink.Append("  Couldn't find comic for ").Append(episode).Append('.');
+            sink.Append("  Couldn't find comic for ").Append(episodeContent.Episode).Append('.');
         }
         else
         {
             episodeContent.Figures.ToList()
-                .ForEach(figure => WriteEpisodeImage(sink, episode, figure));
+                .ForEach(figure => WriteEpisodeImage(sink, episodeContent.Episode, figure));
         }
 
         sink.AppendLine("</article>");
@@ -132,7 +131,7 @@ public class ComicMailBuilder(
     [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "Defensive and performed on best effort basis.")]
     private EpisodeContent GetEpisodeContent(Episode episode)
     {
-        log.Info($"Getting image URL for {episode}…");
+        log.Info($"Getting content for {episode}…");
         try
         {
             var comic = ComicFactory.GetComic(episode.ComicName, comicFetcher);
@@ -140,8 +139,8 @@ public class ComicMailBuilder(
         }
         catch (Exception e)
         {
-            log.Error($"Caught error getting image URL for {episode}: {e}");
-            return EpisodeContent.NotFound;
+            log.Error($"Caught error getting content for {episode}: {e}");
+            return EpisodeContent.NotFound(episode);
         }
     }
 }

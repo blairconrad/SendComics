@@ -9,9 +9,7 @@ internal sealed class EpisodeContent
     {
     }
 
-    public static EpisodeContent NotPublished { get; } = new();
-
-    public static EpisodeContent NotFound { get; } = new() { IsPublished = true };
+    public Episode Episode { get; private init; }
 
     public bool IsPublished { get; private init; }
 
@@ -19,15 +17,18 @@ internal sealed class EpisodeContent
 
     public IEnumerable<Figure> Figures { get; private init; }
 
-    public static EpisodeContent WithImages(string url) => WithImages(new[] { url });
+    public static EpisodeContent NotFound(Episode episode) => new() { Episode = episode, IsPublished = true };
 
-    public static EpisodeContent WithImages(IEnumerable<string> urls)
-    {
-        return WithFigures(urls.Select(u => new Figure(u)));
-    }
+    public static EpisodeContent NotPublished(Episode episode) => new() { Episode = episode };
 
-    public static EpisodeContent WithFigures(IEnumerable<Figure> figures) => new()
+    public static EpisodeContent WithImage(Episode episode, string url) => WithImages(episode, [url]);
+
+    public static EpisodeContent WithImages(Episode episode, IEnumerable<string> urls) =>
+        WithFigures(episode, urls.Select(u => new Figure(u)));
+
+    public static EpisodeContent WithFigures(Episode episode, IEnumerable<Figure> figures) => new()
     {
+        Episode = episode,
         IsPublished = true,
         WasFound = true,
         Figures = figures,
