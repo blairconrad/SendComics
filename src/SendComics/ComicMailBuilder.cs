@@ -62,11 +62,23 @@ public class ComicMailBuilder(
                 <section class="comics">
                 """);
 
-            foreach (var episode in subscriber.GetEpisodesFor(now))
+            var episodeContentsForNow = subscriber
+                .GetEpisodesFor(now)
+                .Select(e => episodesContentMap[e])
+                .ToList();
+
+            foreach (var episodeContent in episodeContentsForNow.Where(e => e.IsPublished))
             {
-                log.Info($"  Adding {episode}…");
-                WriteEpisode(mailContent, episodesContentMap[episode]);
-                log.Info($"  Added  {episode}");
+                log.Info($"  Adding {episodeContent.Episode}…");
+                WriteEpisode(mailContent, episodeContent);
+                log.Info($"  Added  {episodeContent.Episode}");
+            }
+
+            foreach (var episodeContent in episodeContentsForNow.Where(e => !e.IsPublished))
+            {
+                log.Info($"  Adding {episodeContent.Episode}…");
+                WriteEpisode(mailContent, episodeContent);
+                log.Info($"  Added  {episodeContent.Episode}");
             }
 
             mailContent.AppendLine("""
