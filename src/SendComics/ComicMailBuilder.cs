@@ -31,30 +31,35 @@ public class ComicMailBuilder(
                 <head>
                   <style>
                     .comics {
-                        background-color: lightgoldenrodyellow;
-                        padding-bottom: 1em;
-                        padding-top: 1em;
+                      background-color: lightgoldenrodyellow;
                     }
+
                     article {
-                        margin-left: 1em;
+                      clear: both;
+                      text-align: center;
                     }
-                    figure {
-                        background-color: white;
-                        margin-top: 1em;
-                        margin-bottom: 1em;
-                        margin-left: 0px;
-                        margin-right: 0px;
-                        padding: 1em;
-                        width: min-content;
-                    }
+
                     img {
-                      max-height: 600px;
-                      max-width: 900px;
+                      margin: auto;
+                      max-height: 800px;
+                      max-width: 100%;
                     }
+
+                    figure {
+                      background-color: white;
+                      box-sizing: border-box;
+                      display: inline-block;
+                      margin-left: 1em;
+                      margin-right: 1em;
+                      padding: 1em;
+                    }
+
                     figcaption {
                       font-size: 150%;
                       font-style: italic;
-                      text-align: center;
+                      margin-left: auto;
+                      margin-right: auto;
+                      max-width: 50ch;
                     }
                   </style>
                 </head>
