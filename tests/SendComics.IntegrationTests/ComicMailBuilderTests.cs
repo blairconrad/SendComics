@@ -183,6 +183,41 @@ public static class ComicMailBuilderTests
     }
 
     [Fact]
+    public static void TwoSubscribersOneWithSpaceBeforeComic_BuildsTwoMailsEachWithOneComic()
+    {
+        IList<SendGridMessage> mails = null;
+
+        using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                   () => new WebComicFetcher(),
+                   new XmlFileRecordedCallRepository("../../../RecordedCalls/TwoSubscribersOneCommentedOut_BuildsOneMailForNonCommented.xml")))
+        {
+            var target = new ComicMailBuilder(
+                DateTime.Now,
+                new ConfigurationParser("""
+                                        blair.conrad@gmail.com: 9chickweedlane
+                                        anyone@mail.org:  9chickweedlane
+
+                                        """),
+                fakeComicFetcher.Object,
+                A.Dummy<ILogger>());
+
+            mails = target.CreateMailMessage().ToList();
+        }
+
+        mails.Should().HaveCount(2);
+
+        mails[0].From.Email.Should().Be("comics@blairconrad.com");
+        mails[0].Personalizations[0].Tos.Should().HaveCount(1);
+        mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
+        mails[0].HtmlContent.Should().Contain(ChickweedLaneUrl);
+
+        mails[1].From.Email.Should().Be("comics@blairconrad.com");
+        mails[1].Personalizations[0].Tos.Should().HaveCount(1);
+        mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
+        mails[1].HtmlContent.Should().Contain(ChickweedLaneUrl);
+    }
+
+    [Fact]
     public static void TwoSubscribersOneCommentedOut_BuildsOneMailForNonCommented()
     {
         IList<SendGridMessage> mails = null;
