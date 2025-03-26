@@ -43,7 +43,7 @@ internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comi
     /// </summary>
     /// <returns>The regular expression.</returns>
     [GeneratedRegex(
-        """img data-src="https://assets.amuniversal.com/[^"]+.*?<div class="card-footer""",
+        """img data-src="https://\S+.amuniversal.com/[^"]+.*?<div class="card-footer""",
         RegexOptions.Singleline)]
     private static partial Regex FigureRegex();
 
@@ -52,7 +52,7 @@ internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comi
     /// </summary>
     /// <returns>The regular expression.</returns>
     [GeneratedRegex("""
-        img data-src="(https://assets.amuniversal.com/[^"]+)
+        img data-src="(https://\S+.amuniversal.com/[^"]+)
         """)]
     private static partial Regex ImageRegex();
 

@@ -48,7 +48,7 @@ public partial class ConfigurationParser(string configurationString) : IConfigur
             var colonIndex = subscriberString.IndexOf(": ", StringComparison.Ordinal);
             var email = subscriberString.Substring(0, colonIndex);
             var subscriptions = comicSplitter
-                .Split(subscriberString.Substring(colonIndex + 2))
+                .Split(subscriberString.Substring(colonIndex + 2).Trim())
                 .Select(CreateSubscription)
                 .ToArray();
 
@@ -60,7 +60,7 @@ public partial class ConfigurationParser(string configurationString) : IConfigur
 
     private static Subscription CreateSubscription(string subscriptionString)
     {
-        var nameAndAcceleration = subscriptionString.Split('*');
+        var nameAndAcceleration = subscriptionString.Trim().Split('*');
         var comicName = nameAndAcceleration[0];
         if (nameAndAcceleration.Length == 1)
         {
