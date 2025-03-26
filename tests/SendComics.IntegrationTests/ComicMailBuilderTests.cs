@@ -515,7 +515,7 @@ public static class ComicMailBuilderTests
                    new XmlFileRecordedCallRepository("../../../RecordedCalls/TheFarSideFiveImageDay_BuildsOneMailWithFiveComics.xml")))
         {
             var target = new ComicMailBuilder(
-                new DateTime(2024, 11, 14),
+                new DateTime(2025, 3, 26),
                 new ConfigurationParser("blair.conrad@gmail.com: thefarside"),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
@@ -525,10 +525,10 @@ public static class ComicMailBuilderTests
 
         var expectedEmailBits = new[]
         {
-            "https://assets.amuniversal.com/399c6d30e85b0137cedf005056a9545d",
-            "“... And please let Mom, Dad, Rex, Ginger, Tucker, me, and all the rest of the family see color.”",
-            "https://assets.amuniversal.com/1a9d11e0d0f70137c652005056a9545d",
-            "School for the Mechanically Declined",
+            "https://contentassets.amuniversal.com/assets/9a0ff2e0963101395e72005056a9545d",
+            "“It’s no use. … We’ve just got to get ourselves a real damsel.”",
+            "https://contentassets.amuniversal.com/assets/9eb3dcf0d7410137c8a6005056a9545d",
+            "With Roger out of the way, it was Sidney’s big chance.",
         };
 
         mails.Should().HaveCount(1);
@@ -547,7 +547,7 @@ public static class ComicMailBuilderTests
                    new XmlFileRecordedCallRepository("../../../RecordedCalls/TheFarSideMultipleImageDayButOneHasNoCaption_BuildsOneMailThatLinesUpCaptions.xml")))
         {
             var target = new ComicMailBuilder(
-                new DateTime(2024, 11, 14),
+                new DateTime(2025, 3, 26),
                 new ConfigurationParser("blair.conrad@gmail.com: thefarside"),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
@@ -557,15 +557,14 @@ public static class ComicMailBuilderTests
 
         var expectedEmailBits = new[]
         {
-            "https://assets.amuniversal.com/71fe3b90cdd20137c56b005056a9545d",
-            "https://assets.amuniversal.com/076982f0e4860137cda5005056a9545d",
-            "“Bobby, please jiggle Grandpa’s rat so it looks alive.”",
-            "https://assets.amuniversal.com/f27b1060e9ef0137cf93005056a9545d",
-            "It was no place for yellow squash.",
-            "https://assets.amuniversal.com/30e5bef0e3ae0137cd49005056a9545d",
-            "“Make your move, Bart—if you’re feelin’ lucky, that is.”",
-            "https://assets.amuniversal.com/43bffa90e92e0137cf47005056a9545d",
-            "Beeswax lunches",
+            "https://contentassets.amuniversal.com/assets/3639a2e0cdd40137c56b005056a9545d",
+            "On the air with <i>Snake Talk",
+            "https://contentassets.amuniversal.com/assets/f9f87130e4790137cd9d005056a9545d",
+            "Whale dust baths",
+            "https://contentassets.amuniversal.com/assets/9a0ff2e0963101395e72005056a9545d",
+            "“It’s no use. … We’ve just got to get ourselves a real damsel.”",
+            "https://contentassets.amuniversal.com/assets/9eb3dcf0d7410137c8a6005056a9545d",
+            "With Roger out of the way, it was Sidney’s big chance.",
         };
 
         mails.Should().HaveCount(1);
