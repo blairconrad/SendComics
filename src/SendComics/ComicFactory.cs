@@ -11,6 +11,8 @@ internal static class ComicFactory
             "blondie" or "rhymes-with-orange" or "bizarro" => new ComicsKingdomComic(name, comicFetcher),
             "thefarside" => new TheFarSideComic(comicFetcher),
             "schlockmercenary" => new SchlockMercenaryComic(comicFetcher),
+            "dinosaur-comics" => new DinosaurComics(comicFetcher),
+            "foxtrot" => new FoxTrot(comicFetcher),
             _ => new GoComic(name, comicFetcher),
         };
 }
