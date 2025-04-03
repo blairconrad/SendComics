@@ -327,27 +327,25 @@ public static class ComicMailBuilderTests
     [InlineData(DayOfWeek.Sunday)]
     public static void DinosaurComicOnAWeekend_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
     {
-        IList<SendGridMessage> mails = null;
-
         var dateToCheck = MostRecent(dayOfWeek);
-        using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
-                   () => new WebComicFetcher(),
-                   new XmlFileRecordedCallRepository("../../../RecordedCalls/DinosaurComicsOn" + dayOfWeek + ".xml")))
-        {
-            var target = new ComicMailBuilder(
-                dateToCheck,
-                new ConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
-                fakeComicFetcher.Object,
-                A.Dummy<ILogger>());
+        var fakeComicFetcher = A.Fake<IComicFetcher>();
+        var target = new ComicMailBuilder(
+            dateToCheck,
+            new ConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
+            fakeComicFetcher,
+            A.Dummy<ILogger>());
 
-            mails = target.CreateMailMessage().ToList();
-        }
+        var mails = target.CreateMailMessage().ToList();
 
         mails.Should().HaveCount(1);
 
         mails[0].HtmlContent.Should()
             .NotContain("Couldn't find comic for dinosaur-comics", "it should not have looked for the comic").And
-            .Contain($"No published comic for dinosaur-comics on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.", "it should tell the reader why there's no comic");
+            .Contain(
+                $"No published comic for dinosaur-comics on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.",
+                "it should tell the reader why there's no comic");
+
+        A.CallTo(fakeComicFetcher).MustNotHaveHappened();
     }
 
     [Theory]
@@ -390,27 +388,25 @@ public static class ComicMailBuilderTests
     [InlineData(DayOfWeek.Saturday)]
     public static void FoxtrotOnAnythingButSunday_MailIndicatesComicNotPublishedToday(DayOfWeek dayOfWeek)
     {
-        IList<SendGridMessage> mails = null;
-
         var dateToCheck = MostRecent(dayOfWeek);
-        using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
-                   () => new WebComicFetcher(),
-                   new XmlFileRecordedCallRepository("../../../RecordedCalls/FoxTrotOn" + dayOfWeek + ".xml")))
-        {
-            var target = new ComicMailBuilder(
-                dateToCheck,
-                new ConfigurationParser("blair.conrad@gmail.com: foxtrot"),
-                fakeComicFetcher.Object,
-                A.Dummy<ILogger>());
+        var fakeComicFetcher = A.Fake<IComicFetcher>();
+        var target = new ComicMailBuilder(
+            dateToCheck,
+            new ConfigurationParser("blair.conrad@gmail.com: foxtrot"),
+            fakeComicFetcher,
+            A.Dummy<ILogger>());
 
-            mails = target.CreateMailMessage().ToList();
-        }
+        var mails = target.CreateMailMessage().ToList();
 
         mails.Should().HaveCount(1);
 
         mails[0].HtmlContent.Should()
             .NotContain("Couldn't find comic for foxtrot", "it should not have looked for the comic").And
-            .Contain($"No published comic for foxtrot on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.", "it should tell the reader why there's no comic");
+            .Contain(
+                $"No published comic for foxtrot on {dateToCheck.ToString("dd MMMM yyyy", CultureInfo.InvariantCulture)}.",
+                "it should tell the reader why there's no comic");
+
+        A.CallTo(fakeComicFetcher).MustNotHaveHappened();
     }
 
     [Fact]
