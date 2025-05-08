@@ -29,6 +29,6 @@ internal partial class GoComic(string name, IComicFetcher comicFetcher) : Comic(
     /// Regular expression matches an image URL. Generated at compile-time.
     /// </summary>
     /// <returns>The regular expression.</returns>
-    [GeneratedRegex("""<link rel="preload" as="image" imageSrcSet="(https://featureassets.gocomics.com/assets/[a-f0-9]+)""")]
+    [GeneratedRegex("""<meta property="og:image" content="(https://featureassets.gocomics.com/assets/[a-f0-9]+)""")]
     private static partial Regex ImageRegex();
 }

@@ -14,11 +14,11 @@ using Xunit;
 
 public static class ComicMailBuilderTests
 {
-    private const string ArloAndJanisUrl = "https://featureassets.gocomics.com/assets/a1a2cac0ebbf013d982b005056a9545d";
-    private const string PeanutsUrl = "https://featureassets.gocomics.com/assets/d6fb6760e705013d970a005056a9545d";
+    private const string ArloAndJanisUrl = "https://featureassets.gocomics.com/assets/de774c000757013e9d47005056a9545d";
+    private const string PeanutsUrl = "https://featureassets.gocomics.com/assets/3513e420073f013e9d47005056a9545d";
     private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmxvbmRpZS8yMDIzLzAyL0Jsb25kaWUuMjAyMzAyMjdfMTUzNi5naWY=";
     private const string RhymesWithOrangeUrl = "ttps://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDIzLzAyL1JoeW1lc193aXRoX09yYW5nZS4yMDIzMDIyN18xNTM2LmdpZg==";
-    private const string CalvinAndHobbesSundayUrl = "https://featureassets.gocomics.com/assets/bfee0f90b6b9013d8a1e005056a9545d";
+    private const string CalvinAndHobbesSundayUrl = "https://featureassets.gocomics.com/assets/b7f786c0d7ba013d93a4005056a9545d";
     private const string FirstBreakingCatNewsImageUrl = "https://featureassets.gocomics.com/assets/d3ffe4e0e8d9013d97a1005056a9545d";
     private const string SecondBreakingCatNewsImageUrl = "https://featureassets.gocomics.com/assets/d6af6220e8d9013d97a1005056a9545d";
     private const string SchlockMercenary20000612Url = "https://www.schlockmercenary.com/strip/1/0/schlock20000612.jpg?v=1443894882526";
@@ -469,10 +469,10 @@ public static class ComicMailBuilderTests
         var fakeComicFetcher = A.Fake<IComicFetcher>();
         A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
             .Throws(new WebException("Bad Request"));
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/arloandjanis/2025/04/02/")))
-            .Returns($"""<link rel="preload" as="image" imageSrcSet="{ArloAndJanisUrl}?optimizer=image&amp;width=16&amp;quality=85 16w""");
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/arloandjanis/2025/05/08/")))
+            .Returns($"""<meta property="og:image" content="{ArloAndJanisUrl}?optimizer=image&amp;width=16&amp;quality=85 16w""");
 
-        var now = new DateTime(2025, 4, 2);
+        var now = new DateTime(2025, 5, 8);
         var target = new ComicMailBuilder(
             now,
             new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, arloandjanis"),
