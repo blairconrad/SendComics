@@ -28,7 +28,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -55,7 +55,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void OneSubscriberOneComicTwiceAsFast_BuildsOneMailWithBothEpisodes()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -119,7 +119,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TwoSubscribersOneComicEach_BuildsTwoMailsEachWithOneComic()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -150,7 +150,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TwoSubscribersOnSeparateLinesOneComicEach_BuildsTwoMailsEachWithOneComic()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -185,7 +185,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TwoSubscribersOneWithSpaceBeforeComic_BuildsTwoMailsEachWithOneComic()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -220,7 +220,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TwoSubscribersOneCommentedOut_BuildsOneMailForNonCommented()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -250,7 +250,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TwoSubscribersOneEmphatic_BuildsOneMailForEmphatic()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -280,7 +280,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -356,7 +356,7 @@ public static class ComicMailBuilderTests
     [InlineData(DayOfWeek.Friday)]
     public static void DinosaurComicOnAWeekday_MailIncludesComic(DayOfWeek dayOfWeek)
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         var dateToCheck = MostRecent(dayOfWeek);
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
@@ -412,7 +412,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void FoxtrotOnSunday_MailIncludesComic()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         var dateToCheck = MostRecent(DayOfWeek.Sunday);
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
@@ -438,7 +438,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void CalvinAndHobbesOnSunday_MailIncludesComic()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -464,7 +464,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TwoComicsOneThrowsWhenFetched_BuildsOneMailWithOneComicOneError()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         var fakeComicFetcher = A.Fake<IComicFetcher>();
         A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
@@ -490,7 +490,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void SubscribesToSchlockMercenary_BuildsOneMailWithOneComics()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -514,7 +514,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void SchlockMercenaryTwoImageDay_BuildsOneMailWithTwoComics()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -539,7 +539,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TheFarSideMultipleImageDay_BuildsOneMailWithMultipleComics()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
@@ -571,7 +571,7 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void TheFarSideMultipleImageDayButOneHasNoCaption_BuildsOneMailThatLinesUpCaptions()
     {
-        IList<SendGridMessage> mails = null;
+        List<SendGridMessage> mails = null;
 
         using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
                    () => new WebComicFetcher(),
