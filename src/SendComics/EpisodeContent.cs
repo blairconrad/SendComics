@@ -1,5 +1,6 @@
 namespace SendComics;
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,6 +12,8 @@ internal sealed class EpisodeContent
 
     public Episode Episode { get; private init; }
 
+    public Uri Uri { get; private init; }
+
     public bool IsPublished { get; private init; }
 
     public bool WasFound { get; private init; }
@@ -18,6 +21,8 @@ internal sealed class EpisodeContent
     public IEnumerable<Figure> Figures { get; private init; }
 
     public static EpisodeContent NotFound(Episode episode) => new() { Episode = episode, IsPublished = true };
+
+    public static EpisodeContent NotFound(Episode episode, Uri uri) => new() { Episode = episode, Uri = uri, IsPublished = true };
 
     public static EpisodeContent NotPublished(Episode episode) => new() { Episode = episode };
 

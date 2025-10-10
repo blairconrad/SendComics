@@ -18,13 +18,13 @@ internal sealed partial class SchlockMercenaryComic(IComicFetcher comicFetcher) 
     public override EpisodeContent GetContent(DateTime now)
     {
         var episode = new Episode("schlockmercenary", now);
-        var comicContent = this.GetContent(
-            new Uri($"{BaseUrl}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}"));
+        var uri = new Uri($"{BaseUrl}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}");
+        var comicContent = this.GetContent(uri);
 
         var imageMatches = ImageRegex().Matches(comicContent);
         return imageMatches.Count > 0
             ? EpisodeContent.WithImages(episode, imageMatches.Select(match => BaseUrl + match.Groups[1].Value))
-            : EpisodeContent.NotFound(episode);
+            : EpisodeContent.NotFound(episode, uri);
     }
 
     /// <summary>
