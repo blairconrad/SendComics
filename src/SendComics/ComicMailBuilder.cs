@@ -116,7 +116,18 @@ public class ComicMailBuilder(
         }
         else if (!episodeContent.WasFound)
         {
-            sink.Append("  Couldn't find comic for ").Append(episodeContent.Episode).Append('.');
+            if (episodeContent.Uri is null)
+            {
+                sink.Append("  Couldn't find comic for ").Append(episodeContent.Episode).Append('.');
+            }
+            else
+            {
+                sink.Append("  Couldn't find comic for <a href='")
+                    .Append(episodeContent.Uri)
+                    .Append("'>")
+                    .Append(episodeContent.Episode)
+                    .Append("</a>. Try it yourself.");
+            }
         }
         else
         {

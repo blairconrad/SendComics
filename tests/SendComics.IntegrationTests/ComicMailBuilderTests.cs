@@ -484,7 +484,7 @@ public static class ComicMailBuilderTests
         mails.Should().HaveCount(1);
 
         mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
-        mails[0].HtmlContent.Should().Contain("Couldn't find comic for rhymeswithorange");
+        mails[0].HtmlContent.Should().Contain("Couldn't find comic for <a href='https://www.gocomics.com/rhymeswithorange/2025/05/08/'>rhymeswithorange on 08 May 2025</a>. Try it yourself.</article>");
     }
 
     [Fact]
