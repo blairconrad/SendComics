@@ -11,9 +11,15 @@ jobs:
     env:
       SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
       SUBSCRIBER_CONFIGURATION_LOCATION: ${{ secrets.SUBSCRIBER_CONFIGURATION_LOCATION }}
+      DOTNET_VERSION: '10.0'
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '10.0.x' # SDK Version to use; x means "latest"
-      - run: dotnet run --project src/SendComics
+          dotnet-version: '${{ env.DOTNET_VERSION }}.x' # SDK Version to use; x means "latest"
+      - name: Build
+        run: dotnet build
+      - name: Install Playwright browsers
+        run: src/SendComics/bin/Debug/net${{ env.DOTNET_VERSION }}/playwright.ps1 install --with-deps chromium
+      - name: Run
+        run: dotnet run --no-build --project src/SendComics
