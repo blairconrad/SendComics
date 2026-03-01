@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using SendGrid.Helpers.Mail;
 
-public class ComicMailBuilder(
+internal sealed class ComicMailBuilder(
     DateTime now,
     IConfigurationSource configurationSource,
     IComicFetcher comicFetcher,

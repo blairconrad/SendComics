@@ -2,7 +2,7 @@ namespace SendComics;
 
 using System;
 
-public interface IComicFetcher
+internal interface IComicFetcher
 {
     string GetContent(Uri url);
 }

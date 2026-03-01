@@ -3,7 +3,7 @@ namespace SendComics;
 using System;
 using System.Globalization;
 
-public class Logger : ILogger
+internal sealed class Logger : ILogger
 {
     public void Info(string message)
     {

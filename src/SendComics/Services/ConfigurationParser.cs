@@ -21,7 +21,7 @@ using System.Text.RegularExpressions;
 /// <remarks>
 /// Partial because the regular expressions are generated at compile-time.
 /// </remarks>
-public partial class ConfigurationParser(string configurationString) : IConfigurationSource
+internal sealed partial class ConfigurationParser(string configurationString) : IConfigurationSource
 {
     public Configuration GetConfiguration()
     {
