@@ -12,9 +12,16 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      DOTNET_VERSION: '10.0'
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '8.0.x' # SDK Version to use; x means "latest"
-      - run: dotnet test
+          dotnet-version: '${{ env.DOTNET_VERSION }}.x' # SDK Version to use; x means "latest"
+      - name: Build
+        run: dotnet build
+      - name: Install Playwright browsers
+        run: src/SendComics/bin/Debug/net${{ env.DOTNET_VERSION }}/playwright.ps1 install --with-deps chromium
+      - name: Test
+        run: dotnet test --no-build

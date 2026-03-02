@@ -1,6 +1,6 @@
 namespace SendComics;
 
-public record Figure(string ImageLocation)
+internal sealed record Figure(string ImageLocation)
 {
     public string Caption { get; init; }
 

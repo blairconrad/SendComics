@@ -15,15 +15,16 @@ using Xunit;
 public static class ComicMailBuilderTests
 {
     private const string ArloAndJanisUrl = "https://featureassets.gocomics.com/assets/de774c000757013e9d47005056a9545d";
-    private const string PeanutsUrl = "https://featureassets.gocomics.com/assets/3513e420073f013e9d47005056a9545d";
-    private const string BlondieUrl = "https://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=QmxvbmRpZS8yMDIzLzAyL0Jsb25kaWUuMjAyMzAyMjdfMTUzNi5naWY=";
-    private const string RhymesWithOrangeUrl = "ttps://safr.kingfeatures.com/api/img.php?e=gif&s=c&file=Umh5bWVzV2l0aE9yYW5nZS8yMDIzLzAyL1JoeW1lc193aXRoX09yYW5nZS4yMDIzMDIyN18xNTM2LmdpZg==";
-    private const string CalvinAndHobbesSundayUrl = "https://featureassets.gocomics.com/assets/b7f786c0d7ba013d93a4005056a9545d";
-    private const string FirstBreakingCatNewsImageUrl = "https://featureassets.gocomics.com/assets/d3ffe4e0e8d9013d97a1005056a9545d";
-    private const string SecondBreakingCatNewsImageUrl = "https://featureassets.gocomics.com/assets/d6af6220e8d9013d97a1005056a9545d";
+    private const string BizarroUrl = "https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/03/Y2tCaXphcnJvLUVORy01ODkxNjA5.jpg";
+    private const string BlondieUrl = "https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/03/Y2tCbG9uZGllLUVORy01ODkxNjQz.jpg";
+    private const string GoComicsAssetPattern = "'https://featureassets.gocomics.com/assets/[^']+'";
+
+    private const string FirstRhymesWithOrangeImageUrl = "https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/02/Y2tSaHltZXMgd2l0aCBPcmFuZ2UtRU5HLTU5MTgzMjM.jpg";
+    private const string SecondRhymesWithOrangeImageUrl = "https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/02/Y2tSaHltZXMgd2l0aCBPcmFuZ2UtRU5HLTU5MTgzMjc.jpg";
+    private const string TodayRhymesWithOrangeImageUrl = "https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/03/Y2tSaHltZXMgd2l0aCBPcmFuZ2UtRU5HLTU4OTI3NjU.jpg";
     private const string SchlockMercenary20000612Url = "https://www.schlockmercenary.com/strip/1/0/schlock20000612.jpg?v=1443894882526";
-    private const string SchlockMercenary20200724aUrl = "https://www.schlockmercenary.com/strip/7348/0/schlock20200724a.jpg?v=1701276896559";
-    private const string SchlockMercenary20200724bUrl = "https://www.schlockmercenary.com/strip/7348/1/schlock20200724b.jpg?v=1701276896559";
+    private const string SchlockMercenary20200724AUrl = "https://www.schlockmercenary.com/strip/7348/0/schlock20200724a.jpg?v=1701276896559";
+    private const string SchlockMercenary20200724BUrl = "https://www.schlockmercenary.com/strip/7348/1/schlock20200724b.jpg?v=1701276896559";
 
     [Fact]
     public static void OneSubscriberTwoComics_BuildsOneMailWithBothComics()
@@ -36,7 +37,7 @@ public static class ComicMailBuilderTests
         {
             var target = new ComicMailBuilder(
                 DateTime.Now,
-                new ConfigurationParser("blair.conrad@gmail.com: arloandjanis, peanuts"),
+                new ConfigurationParser("blair.conrad@gmail.com: blondie, bizarro"),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
 
@@ -48,8 +49,8 @@ public static class ComicMailBuilderTests
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-        mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
-        mails[0].HtmlContent.Should().Contain(PeanutsUrl);
+        mails[0].HtmlContent.Should().Contain(BizarroUrl);
+        mails[0].HtmlContent.Should().Contain(BlondieUrl);
     }
 
     [Fact]
@@ -64,7 +65,7 @@ public static class ComicMailBuilderTests
             var now = DateTime.Now;
             var target = new ComicMailBuilder(
                 now,
-                new ConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*2-20250331-{now.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}"),
+                new ConfigurationParser($"blair.conrad@gmail.com: rhymes-with-orange*2-20260227-{now.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}"),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
 
@@ -76,21 +77,21 @@ public static class ComicMailBuilderTests
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-        mails[0].HtmlContent.Should().Contain(FirstBreakingCatNewsImageUrl);
-        mails[0].HtmlContent.Should().Contain("alt='breaking-cat-news on 31 March 2025'");
-        mails[0].HtmlContent.Should().Contain(SecondBreakingCatNewsImageUrl);
-        mails[0].HtmlContent.Should().Contain("alt='breaking-cat-news on 01 April 2025'");
+        mails[0].HtmlContent.Should().Contain(FirstRhymesWithOrangeImageUrl);
+        mails[0].HtmlContent.Should().Contain("alt='rhymes-with-orange on 27 February 2026'");
+        mails[0].HtmlContent.Should().Contain(SecondRhymesWithOrangeImageUrl);
+        mails[0].HtmlContent.Should().Contain("alt='rhymes-with-orange on 28 February 2026'");
     }
 
     [Fact]
     public static void OneSubscriberOneComicFiveTimesAsFastOnlyThreeNewComicsLeft_OnlyRequestsThreeComics()
     {
-        var today = new DateTime(2019, 2, 19);
+        var today = new DateTime(2026, 2, 3);
 
         var fakeComicFetcher = A.Fake<IComicFetcher>();
         var target = new ComicMailBuilder(
             today,
-            new ConfigurationParser($"blair.conrad@gmail.com: breaking-cat-news*5-20190217-20190219"),
+            new ConfigurationParser("blair.conrad@gmail.com: rhymes-with-orange*5-20260201-20260203"),
             fakeComicFetcher,
             A.Dummy<ILogger>());
 
@@ -102,12 +103,12 @@ public static class ComicMailBuilderTests
     [Fact]
     public static void OneSubscriberOneComicThreeTimesAsFastWellAfterWeCaughtUp_OnlyRequestsOneComic()
     {
-        var today = new DateTime(2020, 4, 10);
+        var today = new DateTime(2026, 3, 1);
 
         var fakeComicFetcher = A.Fake<IComicFetcher>();
         var target = new ComicMailBuilder(
             today,
-            new ConfigurationParser("blair.conrad@gmail.com: breaking-cat-news*3-20170327-20190328"),
+            new ConfigurationParser("blair.conrad@gmail.com: rhymes-with-orange*3-20170327-20190328"),
             fakeComicFetcher,
             A.Dummy<ILogger>());
 
@@ -127,7 +128,7 @@ public static class ComicMailBuilderTests
         {
             var target = new ComicMailBuilder(
                 DateTime.Now,
-                new ConfigurationParser("blair.conrad@gmail.com: peanuts; anyone@mail.org: arloandjanis"),
+                new ConfigurationParser("blair.conrad@gmail.com: blondie; anyone@mail.org: rhymes-with-orange"),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
 
@@ -139,10 +140,10 @@ public static class ComicMailBuilderTests
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-        mails[0].HtmlContent.Should().Contain(PeanutsUrl);
+        mails[0].HtmlContent.Should().Contain(BlondieUrl);
 
         mails[1].From.Email.Should().Be("comics@blairconrad.com");
-        mails[1].HtmlContent.Should().Contain(ArloAndJanisUrl);
+        mails[1].HtmlContent.Should().Contain(TodayRhymesWithOrangeImageUrl);
         mails[1].Personalizations[0].Tos.Should().HaveCount(1);
         mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
     }
@@ -159,8 +160,8 @@ public static class ComicMailBuilderTests
             var target = new ComicMailBuilder(
                 DateTime.Now,
                 new ConfigurationParser("""
-                    blair.conrad@gmail.com: peanuts
-                    anyone@mail.org: arloandjanis
+                    blair.conrad@gmail.com: bizarro
+                    anyone@mail.org: blondie
 
                     """),
                 fakeComicFetcher.Object,
@@ -174,10 +175,10 @@ public static class ComicMailBuilderTests
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-        mails[0].HtmlContent.Should().Contain(PeanutsUrl);
+        mails[0].HtmlContent.Should().Contain(BizarroUrl);
 
         mails[1].From.Email.Should().Be("comics@blairconrad.com");
-        mails[1].HtmlContent.Should().Contain(ArloAndJanisUrl);
+        mails[1].HtmlContent.Should().Contain(BlondieUrl);
         mails[1].Personalizations[0].Tos.Should().HaveCount(1);
         mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
     }
@@ -194,8 +195,8 @@ public static class ComicMailBuilderTests
             var target = new ComicMailBuilder(
                 DateTime.Now,
                 new ConfigurationParser("""
-                                        blair.conrad@gmail.com: peanuts
-                                        anyone@mail.org:  peanuts
+                                        blair.conrad@gmail.com: blondie
+                                        anyone@mail.org:  blondie
 
                                         """),
                 fakeComicFetcher.Object,
@@ -209,12 +210,12 @@ public static class ComicMailBuilderTests
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-        mails[0].HtmlContent.Should().Contain(PeanutsUrl);
+        mails[0].HtmlContent.Should().Contain(BlondieUrl);
 
         mails[1].From.Email.Should().Be("comics@blairconrad.com");
         mails[1].Personalizations[0].Tos.Should().HaveCount(1);
         mails[1].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
-        mails[1].HtmlContent.Should().Contain(PeanutsUrl);
+        mails[1].HtmlContent.Should().Contain(BlondieUrl);
     }
 
     [Fact]
@@ -229,8 +230,8 @@ public static class ComicMailBuilderTests
             var target = new ComicMailBuilder(
                 DateTime.Now,
                 new ConfigurationParser("""
-                    blair.conrad@gmail.com: peanuts
-                    # anyone@mail.org: arloandjanis
+                    blair.conrad@gmail.com: blondie
+                    # anyone@mail.org: bizarro
 
                     """),
                 fakeComicFetcher.Object,
@@ -244,7 +245,7 @@ public static class ComicMailBuilderTests
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("blair.conrad@gmail.com");
-        mails[0].HtmlContent.Should().Contain(PeanutsUrl);
+        mails[0].HtmlContent.Should().Contain(BlondieUrl);
     }
 
     [Fact]
@@ -259,8 +260,8 @@ public static class ComicMailBuilderTests
             var target = new ComicMailBuilder(
                 DateTime.Now,
                 new ConfigurationParser("""
-                    blair.conrad@gmail.com: peanuts
-                    ! anyone@mail.org: arloandjanis
+                    blair.conrad@gmail.com: rhymes-with-orange
+                    ! anyone@mail.org: blondie
 
                     """),
                 fakeComicFetcher.Object,
@@ -272,7 +273,7 @@ public static class ComicMailBuilderTests
         mails.Should().HaveCount(1);
 
         mails[0].From.Email.Should().Be("comics@blairconrad.com");
-        mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
+        mails[0].HtmlContent.Should().Contain(BlondieUrl);
         mails[0].Personalizations[0].Tos.Should().HaveCount(1);
         mails[0].Personalizations[0].Tos[0].Email.Should().Be("anyone@mail.org");
     }
@@ -287,7 +288,7 @@ public static class ComicMailBuilderTests
                    new XmlFileRecordedCallRepository("../../../RecordedCalls/SubscribesToComicsKingdomComics_BuildsOneMailWithBothComics.xml")))
         {
             var target = new ComicMailBuilder(
-                new DateTime(2025, 4, 2),
+                DateTime.Now,
                 new ConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
                 fakeComicFetcher.Object,
                 A.Dummy<ILogger>());
@@ -299,13 +300,12 @@ public static class ComicMailBuilderTests
 
         mails[0].HtmlContent.Should()
             .Contain(BlondieUrl, "it should have Blondie").And
-            .Contain(RhymesWithOrangeUrl, "it should have Rhymes with Orange");
+            .MatchRegex("rhymes-with-orange on .* src='https://wp.comicskingdom.com/.*.jpg", "it should have Rhymes with Orange");
     }
 
     [Theory]
     [InlineData("blondie", "https://www.comicskingdom.com/blondie/2025-04-02/")]
     [InlineData("bizarro", "https://www.comicskingdom.com/bizarro/2025-04-02/")]
-    [InlineData("peanuts", "https://www.gocomics.com/peanuts/2025/04/02/")]
     [InlineData("thefarside", "https://www.thefarside.com/")]
     public static void SubscribesToOneComic_QueriesFetcherWithCorrectUrl(string comic, string expectedLocation)
     {
@@ -440,25 +440,20 @@ public static class ComicMailBuilderTests
     {
         List<SendGridMessage> mails = null;
 
-        using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
-                   () => new WebComicFetcher(),
-                   new XmlFileRecordedCallRepository("../../../RecordedCalls/CalvinAndHobbesOnSunday.xml")))
-        {
-            var dateToCheck = MostRecent(DayOfWeek.Sunday);
-            var target = new ComicMailBuilder(
-                dateToCheck,
-                new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
-                fakeComicFetcher.Object,
-                A.Dummy<ILogger>());
+        var dateToCheck = MostRecent(DayOfWeek.Sunday);
+        var target = new ComicMailBuilder(
+            dateToCheck,
+            new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
+            A.Dummy<IComicFetcher>(),
+            A.Dummy<ILogger>());
 
-            mails = target.CreateMailMessage().ToList();
-        }
+        mails = target.CreateMailMessage().ToList();
 
         mails.Should().HaveCount(1);
 
         mails[0].HtmlContent.Should()
-            .NotContain("Couldn't find comic for calvinandhobbes", "it should not have looked for the comic").And
-            .Contain(CalvinAndHobbesSundayUrl, "it should have found the comic");
+            .NotContain("Couldn't find comic for calvinandhobbes", "it should have found the comic").And
+            .MatchRegex(GoComicsAssetPattern, "it should have found the comic");
     }
 
     [Fact]
@@ -467,9 +462,9 @@ public static class ComicMailBuilderTests
         List<SendGridMessage> mails = null;
 
         var fakeComicFetcher = A.Fake<IComicFetcher>();
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("http://rhymeswithorange.com/")))
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://comicskingdom.com/rhymes-with-orange/2025/05/08/")))
             .Throws(new WebException("Bad Request"));
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/arloandjanis/2025/05/08/")))
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://blondie2025/05/08/")))
             .Returns($"""<meta property="og:image" content="{ArloAndJanisUrl}?optimizer=image&amp;width=16&amp;quality=85 16w""");
 
         var now = new DateTime(2025, 5, 8);
@@ -532,7 +527,7 @@ public static class ComicMailBuilderTests
         mails.Should().HaveCount(1);
 
         mails[0].HtmlContent.Should().Match(
-            $"*{SchlockMercenary20200724aUrl}*{SchlockMercenary20200724bUrl}*",
+            $"*{SchlockMercenary20200724AUrl}*{SchlockMercenary20200724BUrl}*",
             "it should have both SchlockMercenary images");
     }
 

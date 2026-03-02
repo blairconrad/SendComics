@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-public class Subscriber(string email, IEnumerable<Subscription> subscriptions)
+internal sealed class Subscriber(string email, IEnumerable<Subscription> subscriptions)
 {
     public string Email { get; } = email;
 

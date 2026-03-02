@@ -3,7 +3,7 @@ namespace SendComics;
 using System;
 using System.Collections.Generic;
 
-public class Subscription
+internal sealed class Subscription
 {
     private readonly string comicName;
     private readonly int comicsToDeliverPerDay;

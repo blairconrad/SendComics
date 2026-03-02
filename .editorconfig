@@ -1,4 +1,4 @@
-﻿# EditorConfig is awesome: http://EditorConfig.org
+﻿﻿# EditorConfig is awesome: http://EditorConfig.org
 
 # Top-most EditorConfig file
 root = true
@@ -33,3 +33,33 @@ charset = utf-8-bom
 [*.json]
 # 2-column space indentation
 indent_size = 2
+
+# C# code analysis rules
+[*.cs]
+
+# CS1591: Missing XML comment for publicly visible type or member
+dotnet_diagnostic.CS1591.severity = none
+
+# StyleCop Analyzers
+# SA1124: Do not use regions
+dotnet_diagnostic.SA1124.severity = warning
+
+# SA1135: Using directive for namespace should be qualified
+dotnet_diagnostic.SA1135.severity = none
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
+
+# SA1628: Documentation text should begin with a capital letter
+dotnet_diagnostic.SA1628.severity = warning
+
+# SA1629: Documentation text should end with a period
+dotnet_diagnostic.SA1629.severity = warning
+
+# SA1633: The file header is missing or not located at the top of the file
+dotnet_diagnostic.SA1633.severity = none
+
+# CA1707: Remove the underscores from member name (disabled for test projects)
+# This will be overridden in tests/.editorconfig
+dotnet_diagnostic.CA1707.severity = warning
+

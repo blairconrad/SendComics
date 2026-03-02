@@ -3,7 +3,7 @@ namespace SendComics;
 using System;
 using System.Globalization;
 
-public class Episode(string comicName, DateTime date)
+internal sealed class Episode(string comicName, DateTime date)
 {
     public string ComicName { get; } = comicName;
 

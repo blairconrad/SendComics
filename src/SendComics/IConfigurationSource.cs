@@ -1,6 +1,6 @@
 ﻿namespace SendComics;
 
-public interface IConfigurationSource
+internal interface IConfigurationSource
 {
     Configuration GetConfiguration();
 }
