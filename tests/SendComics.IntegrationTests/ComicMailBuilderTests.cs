@@ -39,6 +39,7 @@ public static class ComicMailBuilderTests
                 DateTime.Now,
                 new ConfigurationParser("blair.conrad@gmail.com: blondie, bizarro"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -67,6 +68,7 @@ public static class ComicMailBuilderTests
                 now,
                 new ConfigurationParser($"blair.conrad@gmail.com: rhymes-with-orange*2-20260227-{now.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -93,6 +95,7 @@ public static class ComicMailBuilderTests
             today,
             new ConfigurationParser("blair.conrad@gmail.com: rhymes-with-orange*5-20260201-20260203"),
             fakeComicFetcher,
+            A.Dummy<PlaywrightBrowserService>(),
             A.Dummy<ILogger>());
 
         var mailMessages = target.CreateMailMessage().ToList();
@@ -110,6 +113,7 @@ public static class ComicMailBuilderTests
             today,
             new ConfigurationParser("blair.conrad@gmail.com: rhymes-with-orange*3-20170327-20190328"),
             fakeComicFetcher,
+            A.Dummy<PlaywrightBrowserService>(),
             A.Dummy<ILogger>());
 
         var mailMessages = target.CreateMailMessage().ToList();
@@ -130,6 +134,7 @@ public static class ComicMailBuilderTests
                 DateTime.Now,
                 new ConfigurationParser("blair.conrad@gmail.com: blondie; anyone@mail.org: rhymes-with-orange"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -165,6 +170,7 @@ public static class ComicMailBuilderTests
 
                     """),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -200,6 +206,7 @@ public static class ComicMailBuilderTests
 
                                         """),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -235,6 +242,7 @@ public static class ComicMailBuilderTests
 
                     """),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -265,6 +273,7 @@ public static class ComicMailBuilderTests
 
                     """),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -291,6 +300,7 @@ public static class ComicMailBuilderTests
                 DateTime.Now,
                 new ConfigurationParser("blair.conrad@gmail.com: blondie, rhymes-with-orange"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -315,6 +325,7 @@ public static class ComicMailBuilderTests
             new DateTime(2025, 4, 02),
             new ConfigurationParser($"blair.conrad@gmail.com: {comic}"),
             fakeComicFetcher,
+            A.Dummy<PlaywrightBrowserService>(),
             A.Dummy<ILogger>());
 
         var mailMessages = target.CreateMailMessage().ToList();
@@ -333,6 +344,7 @@ public static class ComicMailBuilderTests
             dateToCheck,
             new ConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
             fakeComicFetcher,
+            A.Dummy<PlaywrightBrowserService>(),
             A.Dummy<ILogger>());
 
         var mails = target.CreateMailMessage().ToList();
@@ -367,6 +379,7 @@ public static class ComicMailBuilderTests
                 dateToCheck,
                 new ConfigurationParser("blair.conrad@gmail.com: dinosaur-comics"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -394,6 +407,7 @@ public static class ComicMailBuilderTests
             dateToCheck,
             new ConfigurationParser("blair.conrad@gmail.com: foxtrot"),
             fakeComicFetcher,
+            A.Dummy<PlaywrightBrowserService>(),
             A.Dummy<ILogger>());
 
         var mails = target.CreateMailMessage().ToList();
@@ -423,6 +437,7 @@ public static class ComicMailBuilderTests
                 dateToCheck,
                 new ConfigurationParser("blair.conrad@gmail.com: foxtrot"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -441,13 +456,22 @@ public static class ComicMailBuilderTests
         List<SendGridMessage> mails = null;
 
         var dateToCheck = MostRecent(DayOfWeek.Sunday);
-        var target = new ComicMailBuilder(
-            dateToCheck,
-            new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
-            A.Dummy<IComicFetcher>(),
-            A.Dummy<ILogger>());
+        var browserService = new PlaywrightBrowserService();
+        try
+        {
+            var target = new ComicMailBuilder(
+                dateToCheck,
+                new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
+                new WebComicFetcher(),
+                browserService,
+                A.Dummy<ILogger>());
 
-        mails = target.CreateMailMessage().ToList();
+            mails = target.CreateMailMessage().ToList();
+        }
+        finally
+        {
+            browserService.DisposeAsync().AsTask().Wait();
+        }
 
         mails.Should().HaveCount(1);
 
@@ -462,19 +486,28 @@ public static class ComicMailBuilderTests
         List<SendGridMessage> mails = null;
 
         var fakeComicFetcher = A.Fake<IComicFetcher>();
+
+        // rhymeswithorange is ComicsKingdom, not GoComics, so it uses IComicFetcher
         A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://comicskingdom.com/rhymes-with-orange/2025/05/08/")))
             .Throws(new WebException("Bad Request"));
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://blondie2025/05/08/")))
-            .Returns($"""<meta property="og:image" content="{ArloAndJanisUrl}?optimizer=image&amp;width=16&amp;quality=85 16w""");
 
-        var now = new DateTime(2025, 5, 8);
-        var target = new ComicMailBuilder(
-            now,
-            new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, arloandjanis"),
-            fakeComicFetcher,
-            A.Dummy<ILogger>());
+        var browserService = new PlaywrightBrowserService();
+        try
+        {
+            var now = new DateTime(2025, 5, 8);
+            var target = new ComicMailBuilder(
+                now,
+                new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, arloandjanis"),
+                fakeComicFetcher,
+                browserService,
+                A.Dummy<ILogger>());
 
-        mails = target.CreateMailMessage().ToList();
+            mails = target.CreateMailMessage().ToList();
+        }
+        finally
+        {
+            browserService.DisposeAsync().AsTask().Wait();
+        }
 
         mails.Should().HaveCount(1);
 
@@ -495,6 +528,7 @@ public static class ComicMailBuilderTests
                 new DateTime(2000, 06, 12),
                 new ConfigurationParser("blair.conrad@gmail.com: schlockmercenary"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -519,6 +553,7 @@ public static class ComicMailBuilderTests
                 new DateTime(2020, 07, 24),
                 new ConfigurationParser("blair.conrad@gmail.com: schlockmercenary"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -544,6 +579,7 @@ public static class ComicMailBuilderTests
                 new DateTime(2025, 3, 26),
                 new ConfigurationParser("blair.conrad@gmail.com: thefarside"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();
@@ -576,6 +612,7 @@ public static class ComicMailBuilderTests
                 new DateTime(2025, 3, 26),
                 new ConfigurationParser("blair.conrad@gmail.com: thefarside"),
                 fakeComicFetcher.Object,
+                A.Dummy<PlaywrightBrowserService>(),
                 A.Dummy<ILogger>());
 
             mails = target.CreateMailMessage().ToList();

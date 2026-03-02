@@ -25,19 +25,28 @@ internal static class SendComics
             ? DateTime.Parse(args[0], CultureInfo.InvariantCulture)
             : DateTime.Now.Date;
 
-        var comicMailBuilder = new ComicMailBuilder(
-            date,
-            new ConfigurationParser(configurationString),
-            new WebComicFetcher(),
-            log);
-
-        var mailer = new SendGridMailer();
-        foreach (var mailMessage in comicMailBuilder.CreateMailMessage())
+        var browserService = new PlaywrightBrowserService();
+        try
         {
-            mailer.SendEmailAsync(mailMessage).Wait();
-        }
+            var comicMailBuilder = new ComicMailBuilder(
+                date,
+                new ConfigurationParser(configurationString),
+                new WebComicFetcher(),
+                browserService,
+                log);
 
-        log.Info("Finished execution");
+            var mailer = new SendGridMailer();
+            foreach (var mailMessage in comicMailBuilder.CreateMailMessage())
+            {
+                mailer.SendEmailAsync(mailMessage).Wait();
+            }
+
+            log.Info("Finished execution");
+        }
+        finally
+        {
+            browserService.DisposeAsync().AsTask().Wait();
+        }
     }
 
     private static string DownloadConfigurationString(string configurationLocation)

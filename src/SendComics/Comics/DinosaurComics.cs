@@ -8,7 +8,7 @@ using Services;
 /// <summary>
 /// A Dinosaur Comics Comic.
 /// </summary>
-internal sealed class DinosaurComics(IComicFetcher comicFetcher) : GoComic(Name, comicFetcher)
+internal sealed class DinosaurComics(IComicFetcher comicFetcher, PlaywrightBrowserService browserService) : GoComic(Name, comicFetcher, browserService)
 {
     private const string Name = "dinosaur-comics";
 

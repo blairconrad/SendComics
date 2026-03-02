@@ -7,11 +7,13 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using SendGrid.Helpers.Mail;
+using Services;
 
 internal sealed class ComicMailBuilder(
     DateTime now,
     IConfigurationSource configurationSource,
     IComicFetcher comicFetcher,
+    PlaywrightBrowserService browserService,
     ILogger log)
 {
     public IEnumerable<SendGridMessage> CreateMailMessage()
@@ -162,7 +164,7 @@ internal sealed class ComicMailBuilder(
         log.Info($"Getting content for {episode}…");
         try
         {
-            var comic = ComicFactory.GetComic(episode.ComicName, comicFetcher);
+            var comic = ComicFactory.GetComic(episode.ComicName, comicFetcher, browserService);
             return comic.GetContent(episode.Date);
         }
         catch (Exception e)
