@@ -36,7 +36,7 @@ internal partial class GoComic(string name, IComicFetcher comicFetcher) : Comic(
     {
         var playwright = await Playwright.CreateAsync().ConfigureAwait(false);
 #pragma warning disable CA2007
-        await using var browser = await playwright.Chromium.LaunchAsync(new() { Headless = true }).ConfigureAwait(false);
+        await using var browser = await playwright.Chromium.LaunchAsync(new() { Headless = false }).ConfigureAwait(false);
         await using var context = await browser.NewContextAsync().ConfigureAwait(false);
 #pragma warning restore CA2007
         var page = await context.NewPageAsync().ConfigureAwait(false);
