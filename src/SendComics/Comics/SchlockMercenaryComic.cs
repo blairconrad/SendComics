@@ -19,7 +19,7 @@ internal sealed partial class SchlockMercenaryComic(IComicFetcher comicFetcher) 
     {
         var episode = new Episode("schlockmercenary", now);
         var uri = new Uri($"{BaseUrl}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}");
-        var comicContent = this.GetContent(uri);
+        var comicContent = this.GetContent(uri, content => ImageRegex().IsMatch(content));
 
         var imageMatches = ImageRegex().Matches(comicContent);
         return imageMatches.Count > 0

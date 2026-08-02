@@ -17,7 +17,7 @@ internal sealed partial class TheFarSideComic(IComicFetcher comicFetcher) : Comi
     public override EpisodeContent GetContent(DateTime now)
     {
         var episode = new Episode("thefarside", now);
-        var comicContent = this.GetContent(Url);
+        var comicContent = this.GetContent(Url, content => FigureRegex().IsMatch(content));
 
         var figureMatches = FigureRegex().Matches(comicContent);
 

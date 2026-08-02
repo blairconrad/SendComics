@@ -97,7 +97,7 @@ public static class ComicMailBuilderTests
 
         var mailMessages = target.CreateMailMessage().ToList();
 
-        A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._)).MustHaveHappened(3, Times.Exactly);
+        A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._, A<Func<string, bool>>._)).MustHaveHappened(3, Times.Exactly);
     }
 
     [Fact]
@@ -114,7 +114,7 @@ public static class ComicMailBuilderTests
 
         var mailMessages = target.CreateMailMessage().ToList();
 
-        A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._)).MustHaveHappened(1, Times.Exactly);
+        A.CallTo(() => fakeComicFetcher.GetContent(A<Uri>._, A<Func<string, bool>>._)).MustHaveHappened(1, Times.Exactly);
     }
 
     [Fact]
@@ -319,7 +319,7 @@ public static class ComicMailBuilderTests
 
         var mailMessages = target.CreateMailMessage().ToList();
 
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri(expectedLocation))).MustHaveHappened();
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri(expectedLocation), A<Func<string, bool>>._)).MustHaveHappened();
     }
 
     [Theory]
@@ -440,14 +440,19 @@ public static class ComicMailBuilderTests
     {
         List<SendGridMessage> mails = null;
 
-        var dateToCheck = MostRecent(DayOfWeek.Sunday);
-        var target = new ComicMailBuilder(
-            dateToCheck,
-            new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
-            A.Dummy<IComicFetcher>(),
-            A.Dummy<ILogger>());
+        using (var fakeComicFetcher = SelfInitializingFake<IComicFetcher>.For(
+                   () => new WebComicFetcher(),
+                   new XmlFileRecordedCallRepository("../../../RecordedCalls/CalvinAndHobbesOnSunday.xml")))
+        {
+            var dateToCheck = MostRecent(DayOfWeek.Sunday);
+            var target = new ComicMailBuilder(
+                dateToCheck,
+                new ConfigurationParser("blair.conrad@gmail.com: calvinandhobbes"),
+                fakeComicFetcher.Object,
+                A.Dummy<ILogger>());
 
-        mails = target.CreateMailMessage().ToList();
+            mails = target.CreateMailMessage().ToList();
+        }
 
         mails.Should().HaveCount(1);
 
@@ -462,15 +467,15 @@ public static class ComicMailBuilderTests
         List<SendGridMessage> mails = null;
 
         var fakeComicFetcher = A.Fake<IComicFetcher>();
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://comicskingdom.com/rhymes-with-orange/2025/05/08/")))
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/rhymeswithorange/2025/05/08/"), A<Func<string, bool>>._))
             .Throws(new WebException("Bad Request"));
-        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://blondie2025/05/08/")))
+        A.CallTo(() => fakeComicFetcher.GetContent(new Uri("https://www.gocomics.com/arloandjanis/2025/05/08/"), A<Func<string, bool>>._))
             .Returns($"""<meta property="og:image" content="{ArloAndJanisUrl}?optimizer=image&amp;width=16&amp;quality=85 16w""");
 
         var now = new DateTime(2025, 5, 8);
         var target = new ComicMailBuilder(
             now,
-            new ConfigurationParser("blair.conrad@gmail.com: rhymeswithorange, arloandjanis"),
+            new ConfigurationParser("blair.conrad@gmail.com: rhymes-with-orange, arloandjanis"),
             fakeComicFetcher,
             A.Dummy<ILogger>());
 
@@ -479,7 +484,7 @@ public static class ComicMailBuilderTests
         mails.Should().HaveCount(1);
 
         mails[0].HtmlContent.Should().Contain(ArloAndJanisUrl);
-        mails[0].HtmlContent.Should().Contain("Couldn't find comic for <a href='https://www.gocomics.com/rhymeswithorange/2025/05/08/'>rhymeswithorange on 08 May 2025</a>. Try it yourself.</article>");
+        mails[0].HtmlContent.Should().Contain("Couldn't find comic for <a href='https://www.comicskingdom.com/rhymes-with-orange/2025-05-08/'>rhymes-with-orange on 08 May 2025</a>. Try it yourself.</article>");
     }
 
     [Fact]
