@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfRecordedCall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RecordedCall>
-    <Method>System.String GetContent(System.Uri)</Method>
+    <Method>System.String GetContent(System.Uri, System.Func`2[System.String,System.Boolean])</Method>
     <ReturnValue xsi:type="xsd:string">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"

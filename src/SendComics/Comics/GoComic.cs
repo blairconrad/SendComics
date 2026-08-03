@@ -3,8 +3,6 @@ namespace SendComics.Comics;
 using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Microsoft.Playwright;
 using Services;
 
 /// <summary>
@@ -19,30 +17,12 @@ internal partial class GoComic(string name, IComicFetcher comicFetcher) : Comic(
     {
         var episode = new Episode(name, now);
         var uri = new Uri($"https://www.gocomics.com/{name}/{now.ToString("yyyy'/'MM'/'dd", CultureInfo.InvariantCulture)}/");
-        var comicContent = GetContentWithBrowser(uri).Result;
+        var comicContent = this.GetContent(uri, content => ImageRegex().IsMatch(content));
 
         var imageMatch = ImageRegex().Match(comicContent);
         return imageMatch.Success
             ? EpisodeContent.WithImage(episode, imageMatch.Groups[1].Value)
             : EpisodeContent.NotFound(episode, uri);
-    }
-
-    /// <summary>
-    /// Fetches content from a URL using a headless browser.
-    /// </summary>
-    /// <param name="uri">The URI to fetch.</param>
-    /// <returns>The HTML content of the page.</returns>
-    private static async Task<string> GetContentWithBrowser(Uri uri)
-    {
-        var playwright = await Playwright.CreateAsync().ConfigureAwait(false);
-#pragma warning disable CA2007
-        await using var browser = await playwright.Chromium.LaunchAsync(new() { Headless = true }).ConfigureAwait(false);
-        await using var context = await browser.NewContextAsync().ConfigureAwait(false);
-#pragma warning restore CA2007
-        var page = await context.NewPageAsync().ConfigureAwait(false);
-        await page.GotoAsync(uri.AbsoluteUri).ConfigureAwait(false);
-        var content = await page.ContentAsync().ConfigureAwait(false);
-        return content;
     }
 
     /// <summary>

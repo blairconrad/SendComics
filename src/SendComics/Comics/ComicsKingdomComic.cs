@@ -17,7 +17,7 @@ internal sealed partial class ComicsKingdomComic(string name, IComicFetcher comi
     {
         var episode = new Episode(name, now);
         var uri = new Uri($"https://www.comicskingdom.com/{name}/{now.ToString("yyyy'-'MM'-'dd", CultureInfo.InvariantCulture)}/");
-        var comicContent = this.GetContent(uri);
+        var comicContent = this.GetContent(uri, content => ImageRegex().IsMatch(content));
         var match = ImageRegex().Match(comicContent);
         return match.Success
             ? EpisodeContent.WithImage(episode, match.Groups[1].Value)
